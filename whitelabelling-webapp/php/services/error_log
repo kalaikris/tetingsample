@@ -1,0 +1,279 @@
+[02-Nov-2022 15:42:24 Asia/Kolkata] PHP Warning:  Attempt to read property "journey_array" on null in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 7
+[02-Nov-2022 15:42:24 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: sizeof(): Argument #1 ($value) must be of type Countable|array, null given in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 10
+[02-Nov-2022 15:53:36 Asia/Kolkata] PHP Warning:  Attempt to read property "journey_array" on null in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 7
+[02-Nov-2022 15:53:36 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: sizeof(): Argument #1 ($value) must be of type Countable|array, null given in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 10
+[02-Nov-2022 15:53:41 Asia/Kolkata] PHP Warning:  Attempt to read property "journey_array" on null in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 7
+[02-Nov-2022 15:53:41 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: sizeof(): Argument #1 ($value) must be of type Countable|array, null given in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 10
+[02-Nov-2022 15:53:42 Asia/Kolkata] PHP Warning:  Attempt to read property "journey_array" on null in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 7
+[02-Nov-2022 15:53:42 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: sizeof(): Argument #1 ($value) must be of type Countable|array, null given in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 10
+[02-Nov-2022 15:53:51 Asia/Kolkata] PHP Warning:  Attempt to read property "journey_array" on null in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 7
+[02-Nov-2022 15:53:51 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: sizeof(): Argument #1 ($value) must be of type Countable|array, null given in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 10
+[02-Nov-2022 15:53:58 Asia/Kolkata] PHP Warning:  Attempt to read property "journey_array" on null in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 7
+[02-Nov-2022 15:53:58 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: sizeof(): Argument #1 ($value) must be of type Countable|array, null given in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 10
+[02-Nov-2022 15:54:01 Asia/Kolkata] PHP Warning:  Attempt to read property "journey_array" on null in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 7
+[02-Nov-2022 15:54:01 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: sizeof(): Argument #1 ($value) must be of type Countable|array, null given in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 10
+[02-Nov-2022 15:54:02 Asia/Kolkata] PHP Warning:  Attempt to read property "journey_array" on null in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 7
+[02-Nov-2022 15:54:02 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: sizeof(): Argument #1 ($value) must be of type Countable|array, null given in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 10
+[02-Nov-2022 15:54:02 Asia/Kolkata] PHP Warning:  Attempt to read property "journey_array" on null in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 7
+[02-Nov-2022 15:54:02 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: sizeof(): Argument #1 ($value) must be of type Countable|array, null given in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 10
+[02-Nov-2022 16:05:47 Asia/Kolkata] PHP Warning:  Attempt to read property "journey_array" on null in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 7
+[02-Nov-2022 16:05:47 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: sizeof(): Argument #1 ($value) must be of type Countable|array, null given in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 10
+[02-Nov-2022 16:06:19 Asia/Kolkata] PHP Warning:  Attempt to read property "journey_array" on null in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 7
+[02-Nov-2022 16:06:19 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: sizeof(): Argument #1 ($value) must be of type Countable|array, null given in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 10
+[02-Nov-2022 16:06:20 Asia/Kolkata] PHP Warning:  Attempt to read property "journey_array" on null in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 7
+[02-Nov-2022 16:06:20 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: sizeof(): Argument #1 ($value) must be of type Countable|array, null given in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 10
+[02-Nov-2022 16:06:20 Asia/Kolkata] PHP Warning:  Attempt to read property "journey_array" on null in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 7
+[02-Nov-2022 16:06:20 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: sizeof(): Argument #1 ($value) must be of type Countable|array, null given in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 10
+[02-Nov-2022 16:06:23 Asia/Kolkata] PHP Warning:  Attempt to read property "journey_array" on null in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 7
+[02-Nov-2022 16:06:23 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: sizeof(): Argument #1 ($value) must be of type Countable|array, null given in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 10
+[07-Nov-2022 21:12:57 Asia/Kolkata] PHP Warning:  Undefined array key 0 in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 164
+[07-Nov-2022 21:12:57 Asia/Kolkata] PHP Warning:  Attempt to read property "ttr_token" on null in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 138
+[07-Nov-2022 21:12:57 Asia/Kolkata] PHP Warning:  Attempt to read property "airport_code" on null in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 141
+[07-Nov-2022 21:12:57 Asia/Kolkata] PHP Warning:  Attempt to read property "airport_name" on null in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 142
+[07-Nov-2022 21:12:57 Asia/Kolkata] PHP Warning:  Attempt to read property "terminal_name" on null in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 143
+[07-Nov-2022 21:12:57 Asia/Kolkata] PHP Warning:  Attempt to read property "city_name" on null in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 146
+[07-Nov-2022 21:12:57 Asia/Kolkata] PHP Warning:  Attempt to read property "country_code" on null in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 147
+[07-Nov-2022 21:12:57 Asia/Kolkata] PHP Warning:  Attempt to read property "airport_token" on null in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 149
+[07-Nov-2022 21:12:57 Asia/Kolkata] PHP Warning:  Attempt to read property "terminal_token" on null in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 150
+[07-Nov-2022 21:12:57 Asia/Kolkata] PHP Warning:  Undefined array key 0 in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 173
+[07-Nov-2022 21:12:57 Asia/Kolkata] PHP Warning:  Attempt to read property "ttr_token" on null in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 138
+[07-Nov-2022 21:12:57 Asia/Kolkata] PHP Warning:  Attempt to read property "airport_code" on null in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 141
+[07-Nov-2022 21:12:57 Asia/Kolkata] PHP Warning:  Attempt to read property "airport_name" on null in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 142
+[07-Nov-2022 21:12:57 Asia/Kolkata] PHP Warning:  Attempt to read property "terminal_name" on null in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 143
+[07-Nov-2022 21:12:57 Asia/Kolkata] PHP Warning:  Attempt to read property "city_name" on null in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 146
+[07-Nov-2022 21:12:57 Asia/Kolkata] PHP Warning:  Attempt to read property "country_code" on null in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 147
+[07-Nov-2022 21:12:57 Asia/Kolkata] PHP Warning:  Attempt to read property "airport_token" on null in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 149
+[07-Nov-2022 21:12:57 Asia/Kolkata] PHP Warning:  Attempt to read property "terminal_token" on null in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 150
+[07-Nov-2022 21:13:10 Asia/Kolkata] PHP Warning:  Undefined array key 0 in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 164
+[07-Nov-2022 21:13:10 Asia/Kolkata] PHP Warning:  Attempt to read property "ttr_token" on null in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 138
+[07-Nov-2022 21:13:10 Asia/Kolkata] PHP Warning:  Attempt to read property "airport_code" on null in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 141
+[07-Nov-2022 21:13:10 Asia/Kolkata] PHP Warning:  Attempt to read property "airport_name" on null in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 142
+[07-Nov-2022 21:13:10 Asia/Kolkata] PHP Warning:  Attempt to read property "terminal_name" on null in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 143
+[07-Nov-2022 21:13:10 Asia/Kolkata] PHP Warning:  Attempt to read property "city_name" on null in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 146
+[07-Nov-2022 21:13:10 Asia/Kolkata] PHP Warning:  Attempt to read property "country_code" on null in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 147
+[07-Nov-2022 21:13:10 Asia/Kolkata] PHP Warning:  Attempt to read property "airport_token" on null in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 149
+[07-Nov-2022 21:13:10 Asia/Kolkata] PHP Warning:  Attempt to read property "terminal_token" on null in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 150
+[07-Nov-2022 21:13:10 Asia/Kolkata] PHP Warning:  Undefined array key 0 in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 173
+[07-Nov-2022 21:13:10 Asia/Kolkata] PHP Warning:  Attempt to read property "ttr_token" on null in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 138
+[07-Nov-2022 21:13:10 Asia/Kolkata] PHP Warning:  Attempt to read property "airport_code" on null in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 141
+[07-Nov-2022 21:13:10 Asia/Kolkata] PHP Warning:  Attempt to read property "airport_name" on null in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 142
+[07-Nov-2022 21:13:10 Asia/Kolkata] PHP Warning:  Attempt to read property "terminal_name" on null in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 143
+[07-Nov-2022 21:13:10 Asia/Kolkata] PHP Warning:  Attempt to read property "city_name" on null in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 146
+[07-Nov-2022 21:13:10 Asia/Kolkata] PHP Warning:  Attempt to read property "country_code" on null in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 147
+[07-Nov-2022 21:13:10 Asia/Kolkata] PHP Warning:  Attempt to read property "airport_token" on null in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 149
+[07-Nov-2022 21:13:10 Asia/Kolkata] PHP Warning:  Attempt to read property "terminal_token" on null in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 150
+[01-Dec-2022 11:11:57 Asia/Kolkata] PHP Warning:  Undefined array key 0 in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 164
+[01-Dec-2022 11:11:57 Asia/Kolkata] PHP Warning:  Attempt to read property "ttr_token" on null in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 138
+[01-Dec-2022 11:11:57 Asia/Kolkata] PHP Warning:  Attempt to read property "airport_code" on null in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 141
+[01-Dec-2022 11:11:57 Asia/Kolkata] PHP Warning:  Attempt to read property "airport_name" on null in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 142
+[01-Dec-2022 11:11:57 Asia/Kolkata] PHP Warning:  Attempt to read property "terminal_name" on null in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 143
+[01-Dec-2022 11:11:57 Asia/Kolkata] PHP Warning:  Attempt to read property "city_name" on null in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 146
+[01-Dec-2022 11:11:57 Asia/Kolkata] PHP Warning:  Attempt to read property "country_code" on null in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 147
+[01-Dec-2022 11:11:57 Asia/Kolkata] PHP Warning:  Attempt to read property "airport_token" on null in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 149
+[01-Dec-2022 11:11:57 Asia/Kolkata] PHP Warning:  Attempt to read property "terminal_token" on null in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 150
+[01-Dec-2022 11:11:57 Asia/Kolkata] PHP Warning:  Undefined array key 0 in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 173
+[01-Dec-2022 11:11:57 Asia/Kolkata] PHP Warning:  Attempt to read property "ttr_token" on null in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 138
+[01-Dec-2022 11:11:57 Asia/Kolkata] PHP Warning:  Attempt to read property "airport_code" on null in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 141
+[01-Dec-2022 11:11:57 Asia/Kolkata] PHP Warning:  Attempt to read property "airport_name" on null in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 142
+[01-Dec-2022 11:11:57 Asia/Kolkata] PHP Warning:  Attempt to read property "terminal_name" on null in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 143
+[01-Dec-2022 11:11:57 Asia/Kolkata] PHP Warning:  Attempt to read property "city_name" on null in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 146
+[01-Dec-2022 11:11:57 Asia/Kolkata] PHP Warning:  Attempt to read property "country_code" on null in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 147
+[01-Dec-2022 11:11:57 Asia/Kolkata] PHP Warning:  Attempt to read property "airport_token" on null in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 149
+[01-Dec-2022 11:11:57 Asia/Kolkata] PHP Warning:  Attempt to read property "terminal_token" on null in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 150
+[01-Dec-2022 12:49:02 Asia/Kolkata] PHP Warning:  Undefined array key 0 in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 164
+[01-Dec-2022 12:49:02 Asia/Kolkata] PHP Warning:  Attempt to read property "ttr_token" on null in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 138
+[01-Dec-2022 12:49:02 Asia/Kolkata] PHP Warning:  Attempt to read property "airport_code" on null in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 141
+[01-Dec-2022 12:49:02 Asia/Kolkata] PHP Warning:  Attempt to read property "airport_name" on null in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 142
+[01-Dec-2022 12:49:02 Asia/Kolkata] PHP Warning:  Attempt to read property "terminal_name" on null in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 143
+[01-Dec-2022 12:49:02 Asia/Kolkata] PHP Warning:  Attempt to read property "city_name" on null in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 146
+[01-Dec-2022 12:49:02 Asia/Kolkata] PHP Warning:  Attempt to read property "country_code" on null in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 147
+[01-Dec-2022 12:49:02 Asia/Kolkata] PHP Warning:  Attempt to read property "airport_token" on null in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 149
+[01-Dec-2022 12:49:02 Asia/Kolkata] PHP Warning:  Attempt to read property "terminal_token" on null in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 150
+[01-Dec-2022 12:49:02 Asia/Kolkata] PHP Warning:  Undefined array key 0 in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 173
+[01-Dec-2022 12:49:02 Asia/Kolkata] PHP Warning:  Attempt to read property "ttr_token" on null in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 138
+[01-Dec-2022 12:49:02 Asia/Kolkata] PHP Warning:  Attempt to read property "airport_code" on null in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 141
+[01-Dec-2022 12:49:02 Asia/Kolkata] PHP Warning:  Attempt to read property "airport_name" on null in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 142
+[01-Dec-2022 12:49:02 Asia/Kolkata] PHP Warning:  Attempt to read property "terminal_name" on null in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 143
+[01-Dec-2022 12:49:02 Asia/Kolkata] PHP Warning:  Attempt to read property "city_name" on null in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 146
+[01-Dec-2022 12:49:02 Asia/Kolkata] PHP Warning:  Attempt to read property "country_code" on null in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 147
+[01-Dec-2022 12:49:02 Asia/Kolkata] PHP Warning:  Attempt to read property "airport_token" on null in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 149
+[01-Dec-2022 12:49:02 Asia/Kolkata] PHP Warning:  Attempt to read property "terminal_token" on null in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 150
+[01-Dec-2022 12:49:25 Asia/Kolkata] PHP Warning:  Undefined array key 0 in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 164
+[01-Dec-2022 12:49:25 Asia/Kolkata] PHP Warning:  Attempt to read property "ttr_token" on null in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 138
+[01-Dec-2022 12:49:25 Asia/Kolkata] PHP Warning:  Attempt to read property "airport_code" on null in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 141
+[01-Dec-2022 12:49:25 Asia/Kolkata] PHP Warning:  Attempt to read property "airport_name" on null in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 142
+[01-Dec-2022 12:49:25 Asia/Kolkata] PHP Warning:  Attempt to read property "terminal_name" on null in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 143
+[01-Dec-2022 12:49:25 Asia/Kolkata] PHP Warning:  Attempt to read property "city_name" on null in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 146
+[01-Dec-2022 12:49:25 Asia/Kolkata] PHP Warning:  Attempt to read property "country_code" on null in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 147
+[01-Dec-2022 12:49:25 Asia/Kolkata] PHP Warning:  Attempt to read property "airport_token" on null in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 149
+[01-Dec-2022 12:49:25 Asia/Kolkata] PHP Warning:  Attempt to read property "terminal_token" on null in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 150
+[01-Dec-2022 12:49:25 Asia/Kolkata] PHP Warning:  Undefined array key 0 in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 173
+[01-Dec-2022 12:49:25 Asia/Kolkata] PHP Warning:  Attempt to read property "ttr_token" on null in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 138
+[01-Dec-2022 12:49:25 Asia/Kolkata] PHP Warning:  Attempt to read property "airport_code" on null in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 141
+[01-Dec-2022 12:49:25 Asia/Kolkata] PHP Warning:  Attempt to read property "airport_name" on null in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 142
+[01-Dec-2022 12:49:25 Asia/Kolkata] PHP Warning:  Attempt to read property "terminal_name" on null in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 143
+[01-Dec-2022 12:49:25 Asia/Kolkata] PHP Warning:  Attempt to read property "city_name" on null in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 146
+[01-Dec-2022 12:49:25 Asia/Kolkata] PHP Warning:  Attempt to read property "country_code" on null in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 147
+[01-Dec-2022 12:49:25 Asia/Kolkata] PHP Warning:  Attempt to read property "airport_token" on null in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 149
+[01-Dec-2022 12:49:25 Asia/Kolkata] PHP Warning:  Attempt to read property "terminal_token" on null in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 150
+[02-Dec-2022 15:32:41 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function getCommissionForServiceProvider() in /home/airportzostage/public_html/whitelabelling-webapp/php/objects/service-location.php:185
+Stack trace:
+#0 /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php(259): ServiceLocation->makeView()
+#1 /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php(24): serviceCollectionForStation(Array, Object(AirportTTR), Object(AirportCategory), Object(AirportType), Object(ServiceLocation), 1, false, 0)
+#2 {main}
+  thrown in /home/airportzostage/public_html/whitelabelling-webapp/php/objects/service-location.php on line 185
+[02-Dec-2022 15:33:49 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function getCommissionForServiceProvider() in /home/airportzostage/public_html/whitelabelling-webapp/php/objects/service-location.php:185
+Stack trace:
+#0 /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php(259): ServiceLocation->makeView()
+#1 /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php(24): serviceCollectionForStation(Array, Object(AirportTTR), Object(AirportCategory), Object(AirportType), Object(ServiceLocation), 1, false, 0)
+#2 {main}
+  thrown in /home/airportzostage/public_html/whitelabelling-webapp/php/objects/service-location.php on line 185
+[02-Dec-2022 15:34:38 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function getCommissionForServiceProvider() in /home/airportzostage/public_html/whitelabelling-webapp/php/objects/service-location.php:185
+Stack trace:
+#0 /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php(259): ServiceLocation->makeView()
+#1 /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php(24): serviceCollectionForStation(Array, Object(AirportTTR), Object(AirportCategory), Object(AirportType), Object(ServiceLocation), 1, false, 0)
+#2 {main}
+  thrown in /home/airportzostage/public_html/whitelabelling-webapp/php/objects/service-location.php on line 185
+[02-Dec-2022 15:34:39 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function getCommissionForServiceProvider() in /home/airportzostage/public_html/whitelabelling-webapp/php/objects/service-location.php:185
+Stack trace:
+#0 /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php(259): ServiceLocation->makeView()
+#1 /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php(24): serviceCollectionForStation(Array, Object(AirportTTR), Object(AirportCategory), Object(AirportType), Object(ServiceLocation), 1, false, 0)
+#2 {main}
+  thrown in /home/airportzostage/public_html/whitelabelling-webapp/php/objects/service-location.php on line 185
+[02-Dec-2022 16:20:51 Asia/Kolkata] PHP Fatal error:  Constant expression contains invalid operations in /home/airportzostage/public_html/whitelabelling-webapp/php/objects/service-location.php on line 33
+[02-Dec-2022 16:21:05 Asia/Kolkata] PHP Fatal error:  Constant expression contains invalid operations in /home/airportzostage/public_html/whitelabelling-webapp/php/objects/service-location.php on line 33
+[02-Dec-2022 16:21:06 Asia/Kolkata] PHP Fatal error:  Constant expression contains invalid operations in /home/airportzostage/public_html/whitelabelling-webapp/php/objects/service-location.php on line 33
+[02-Dec-2022 16:21:06 Asia/Kolkata] PHP Fatal error:  Constant expression contains invalid operations in /home/airportzostage/public_html/whitelabelling-webapp/php/objects/service-location.php on line 33
+[02-Dec-2022 16:21:10 Asia/Kolkata] PHP Warning:  Attempt to read property "journey_array" on null in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 9
+[02-Dec-2022 16:21:10 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: sizeof(): Argument #1 ($value) must be of type Countable|array, null given in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 12
+[02-Dec-2022 16:21:13 Asia/Kolkata] PHP Fatal error:  Constant expression contains invalid operations in /home/airportzostage/public_html/whitelabelling-webapp/php/objects/service-location.php on line 33
+[02-Dec-2022 16:21:16 Asia/Kolkata] PHP Fatal error:  Constant expression contains invalid operations in /home/airportzostage/public_html/whitelabelling-webapp/php/objects/service-location.php on line 33
+[02-Dec-2022 16:24:04 Asia/Kolkata] PHP Fatal error:  Constant expression contains invalid operations in /home/airportzostage/public_html/whitelabelling-webapp/php/objects/service-location.php on line 33
+[02-Dec-2022 16:25:08 Asia/Kolkata] PHP Warning:  Undefined variable $site_name in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 257
+[02-Dec-2022 16:25:08 Asia/Kolkata] PHP Warning:  Undefined variable $site_name in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 257
+[02-Dec-2022 16:31:25 Asia/Kolkata] PHP Warning:  Undefined variable $site_name in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 257
+[02-Dec-2022 16:31:25 Asia/Kolkata] PHP Warning:  Undefined variable $site_name in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 257
+[02-Dec-2022 16:33:29 Asia/Kolkata] PHP Warning:  Undefined variable $site_name in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 257
+[02-Dec-2022 16:33:29 Asia/Kolkata] PHP Warning:  Undefined variable $site_name in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 257
+[02-Dec-2022 16:38:19 Asia/Kolkata] PHP Fatal error:  Constant expression contains invalid operations in /home/airportzostage/public_html/whitelabelling-webapp/php/objects/service-location.php on line 34
+[02-Dec-2022 16:38:35 Asia/Kolkata] PHP Fatal error:  Constant expression contains invalid operations in /home/airportzostage/public_html/whitelabelling-webapp/php/objects/service-location.php on line 34
+[02-Dec-2022 16:38:36 Asia/Kolkata] PHP Fatal error:  Constant expression contains invalid operations in /home/airportzostage/public_html/whitelabelling-webapp/php/objects/service-location.php on line 34
+[02-Dec-2022 16:38:37 Asia/Kolkata] PHP Fatal error:  Constant expression contains invalid operations in /home/airportzostage/public_html/whitelabelling-webapp/php/objects/service-location.php on line 34
+[02-Dec-2022 16:38:37 Asia/Kolkata] PHP Fatal error:  Constant expression contains invalid operations in /home/airportzostage/public_html/whitelabelling-webapp/php/objects/service-location.php on line 34
+[02-Dec-2022 16:42:47 Asia/Kolkata] PHP Warning:  Undefined variable $site_name in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 257
+[02-Dec-2022 16:42:47 Asia/Kolkata] PHP Warning:  Undefined variable $site_name in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 257
+[02-Dec-2022 16:42:51 Asia/Kolkata] PHP Warning:  Undefined variable $site_name in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 257
+[02-Dec-2022 16:42:51 Asia/Kolkata] PHP Warning:  Undefined variable $site_name in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 257
+[02-Dec-2022 16:51:20 Asia/Kolkata] PHP Warning:  Undefined variable $site_name in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 257
+[02-Dec-2022 16:51:20 Asia/Kolkata] PHP Warning:  Undefined variable $site_name in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 257
+[02-Dec-2022 16:53:30 Asia/Kolkata] PHP Warning:  Undefined variable $site_name in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 257
+[02-Dec-2022 16:53:30 Asia/Kolkata] PHP Warning:  Undefined variable $site_name in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 257
+[02-Dec-2022 16:53:39 Asia/Kolkata] PHP Warning:  Undefined variable $site_name in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 257
+[02-Dec-2022 16:53:39 Asia/Kolkata] PHP Warning:  Undefined variable $site_name in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 257
+[02-Dec-2022 16:53:44 Asia/Kolkata] PHP Warning:  Undefined variable $site_name in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 257
+[02-Dec-2022 16:53:44 Asia/Kolkata] PHP Warning:  Undefined variable $site_name in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 257
+[02-Dec-2022 16:55:05 Asia/Kolkata] PHP Warning:  Undefined variable $site_name in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 257
+[02-Dec-2022 16:55:05 Asia/Kolkata] PHP Warning:  Undefined variable $site_name in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 257
+[02-Dec-2022 17:02:53 Asia/Kolkata] PHP Warning:  Undefined variable $site_name in /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php on line 257
+[22-Dec-2022 11:34:24 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM
+                `users__booking_detail`
+            INNER JOIN `users__book' at line 10 in /home/airportzostage/public_html/whitelabelling-webapp/php/objects/users-booking-detail.php:330
+Stack trace:
+#0 /home/airportzostage/public_html/whitelabelling-webapp/php/objects/users-booking-detail.php(330): PDOStatement->execute()
+#1 /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php(88): UsersBookingDetail->readReviews()
+#2 {main}
+  thrown in /home/airportzostage/public_html/whitelabelling-webapp/php/objects/users-booking-detail.php on line 330
+[22-Dec-2022 11:34:27 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM
+                `users__booking_detail`
+            INNER JOIN `users__book' at line 10 in /home/airportzostage/public_html/whitelabelling-webapp/php/objects/users-booking-detail.php:330
+Stack trace:
+#0 /home/airportzostage/public_html/whitelabelling-webapp/php/objects/users-booking-detail.php(330): PDOStatement->execute()
+#1 /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php(88): UsersBookingDetail->readReviews()
+#2 {main}
+  thrown in /home/airportzostage/public_html/whitelabelling-webapp/php/objects/users-booking-detail.php on line 330
+[22-Dec-2022 11:34:38 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM
+                `users__booking_detail`
+            INNER JOIN `users__book' at line 10 in /home/airportzostage/public_html/whitelabelling-webapp/php/objects/users-booking-detail.php:330
+Stack trace:
+#0 /home/airportzostage/public_html/whitelabelling-webapp/php/objects/users-booking-detail.php(330): PDOStatement->execute()
+#1 /home/airportzostage/public_html/whitelabelling-webapp/php/services/read-for-journeys.php(88): UsersBookingDetail->readReviews()
+#2 {main}
+  thrown in /home/airportzostage/public_html/whitelabelling-webapp/php/objects/users-booking-detail.php on line 330
+[23-Dec-2022 13:10:13 Asia/Kolkata] PHP Warning:  Undefined variable $journey_array in /home/airportzostage/public_html/whitelabelling-webapp/php/services/testing.php on line 9
+[23-Dec-2022 13:10:13 Asia/Kolkata] PHP Warning:  foreach() argument must be of type array|object, null given in /home/airportzostage/public_html/whitelabelling-webapp/php/services/testing.php on line 9
+[23-Dec-2022 13:13:52 Asia/Kolkata] PHP Warning:  Attempt to read property "student_token" on array in /home/airportzostage/public_html/whitelabelling-webapp/php/services/testing.php on line 10
+[23-Dec-2022 13:14:26 Asia/Kolkata] PHP Warning:  Attempt to read property "student_token" on array in /home/airportzostage/public_html/whitelabelling-webapp/php/services/testing.php on line 10
+[23-Dec-2022 13:15:02 Asia/Kolkata] PHP Warning:  Attempt to read property "student_token" on array in /home/airportzostage/public_html/whitelabelling-webapp/php/services/testing.php on line 10
+[23-Dec-2022 13:15:02 Asia/Kolkata] PHP Warning:  Array to string conversion in /home/airportzostage/public_html/whitelabelling-webapp/php/services/testing.php on line 11
+[23-Dec-2022 13:15:02 Asia/Kolkata] PHP Warning:  Attempt to read property "Array" on array in /home/airportzostage/public_html/whitelabelling-webapp/php/services/testing.php on line 11
+[23-Dec-2022 13:15:02 Asia/Kolkata] PHP Warning:  Attempt to read property "student_token" on null in /home/airportzostage/public_html/whitelabelling-webapp/php/services/testing.php on line 11
+[23-Dec-2022 13:15:14 Asia/Kolkata] PHP Warning:  Attempt to read property "student_token" on array in /home/airportzostage/public_html/whitelabelling-webapp/php/services/testing.php on line 10
+[23-Dec-2022 13:15:14 Asia/Kolkata] PHP Warning:  Array to string conversion in /home/airportzostage/public_html/whitelabelling-webapp/php/services/testing.php on line 11
+[23-Dec-2022 13:15:14 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$Array in /home/airportzostage/public_html/whitelabelling-webapp/php/services/testing.php on line 11
+[23-Dec-2022 13:15:14 Asia/Kolkata] PHP Warning:  Attempt to read property "student_token" on null in /home/airportzostage/public_html/whitelabelling-webapp/php/services/testing.php on line 11
+[23-Dec-2022 13:15:15 Asia/Kolkata] PHP Warning:  Attempt to read property "student_token" on array in /home/airportzostage/public_html/whitelabelling-webapp/php/services/testing.php on line 10
+[23-Dec-2022 13:15:15 Asia/Kolkata] PHP Warning:  Array to string conversion in /home/airportzostage/public_html/whitelabelling-webapp/php/services/testing.php on line 11
+[23-Dec-2022 13:15:15 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$Array in /home/airportzostage/public_html/whitelabelling-webapp/php/services/testing.php on line 11
+[23-Dec-2022 13:15:15 Asia/Kolkata] PHP Warning:  Attempt to read property "student_token" on null in /home/airportzostage/public_html/whitelabelling-webapp/php/services/testing.php on line 11
+[23-Dec-2022 13:15:16 Asia/Kolkata] PHP Warning:  Attempt to read property "student_token" on array in /home/airportzostage/public_html/whitelabelling-webapp/php/services/testing.php on line 10
+[23-Dec-2022 13:15:16 Asia/Kolkata] PHP Warning:  Array to string conversion in /home/airportzostage/public_html/whitelabelling-webapp/php/services/testing.php on line 11
+[23-Dec-2022 13:15:16 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$Array in /home/airportzostage/public_html/whitelabelling-webapp/php/services/testing.php on line 11
+[23-Dec-2022 13:15:16 Asia/Kolkata] PHP Warning:  Attempt to read property "student_token" on null in /home/airportzostage/public_html/whitelabelling-webapp/php/services/testing.php on line 11
+[23-Dec-2022 13:15:32 Asia/Kolkata] PHP Warning:  Attempt to read property "student_token" on array in /home/airportzostage/public_html/whitelabelling-webapp/php/services/testing.php on line 10
+[23-Dec-2022 13:15:32 Asia/Kolkata] PHP Warning:  Array to string conversion in /home/airportzostage/public_html/whitelabelling-webapp/php/services/testing.php on line 11
+[23-Dec-2022 13:15:32 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$Array in /home/airportzostage/public_html/whitelabelling-webapp/php/services/testing.php on line 11
+[23-Dec-2022 13:15:33 Asia/Kolkata] PHP Warning:  Attempt to read property "student_token" on array in /home/airportzostage/public_html/whitelabelling-webapp/php/services/testing.php on line 10
+[23-Dec-2022 13:15:33 Asia/Kolkata] PHP Warning:  Array to string conversion in /home/airportzostage/public_html/whitelabelling-webapp/php/services/testing.php on line 11
+[23-Dec-2022 13:15:33 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$Array in /home/airportzostage/public_html/whitelabelling-webapp/php/services/testing.php on line 11
+[23-Dec-2022 13:15:34 Asia/Kolkata] PHP Warning:  Attempt to read property "student_token" on array in /home/airportzostage/public_html/whitelabelling-webapp/php/services/testing.php on line 10
+[23-Dec-2022 13:15:34 Asia/Kolkata] PHP Warning:  Array to string conversion in /home/airportzostage/public_html/whitelabelling-webapp/php/services/testing.php on line 11
+[23-Dec-2022 13:15:34 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$Array in /home/airportzostage/public_html/whitelabelling-webapp/php/services/testing.php on line 11
+[23-Dec-2022 13:15:44 Asia/Kolkata] PHP Warning:  Attempt to read property "student_token" on array in /home/airportzostage/public_html/whitelabelling-webapp/php/services/testing.php on line 10
+[23-Dec-2022 13:16:31 Asia/Kolkata] PHP Warning:  Attempt to read property "student_token" on array in /home/airportzostage/public_html/whitelabelling-webapp/php/services/testing.php on line 11
+[23-Dec-2022 13:17:10 Asia/Kolkata] PHP Warning:  Array to string conversion in /home/airportzostage/public_html/whitelabelling-webapp/php/services/testing.php on line 11
+[23-Dec-2022 13:17:10 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$Array in /home/airportzostage/public_html/whitelabelling-webapp/php/services/testing.php on line 11

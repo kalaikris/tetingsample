@@ -1,0 +1,190 @@
+[12-Jan-2023 15:12:31 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/web-app/php/objects/coupon.php on line 39
+[12-Jan-2023 15:12:31 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/web-app/php/objects/coupon.php on line 40
+[12-Jan-2023 15:12:31 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/web-app/php/objects/coupon.php on line 41
+[12-Jan-2023 15:16:47 Asia/Kolkata] PHP Warning:  Array to string conversion in /home/airportzostage/public_html/web-app/php/users-booking/coupon.php on line 20
+[12-Jan-2023 15:17:04 Asia/Kolkata] PHP Warning:  Attempt to read property "business_token" on array in /home/airportzostage/public_html/web-app/php/users-booking/coupon.php on line 20
+[12-Jan-2023 15:17:53 Asia/Kolkata] PHP Warning:  Attempt to read property "business_token" on array in /home/airportzostage/public_html/web-app/php/users-booking/coupon.php on line 20
+[12-Jan-2023 15:17:55 Asia/Kolkata] PHP Warning:  Attempt to read property "business_token" on array in /home/airportzostage/public_html/web-app/php/users-booking/coupon.php on line 20
+[12-Jan-2023 15:18:13 Asia/Kolkata] PHP Warning:  Array to string conversion in /home/airportzostage/public_html/web-app/php/users-booking/coupon.php on line 20
+[12-Jan-2023 15:24:35 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Object of class stdClass could not be converted to string in /home/airportzostage/public_html/web-app/php/users-booking/coupon.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/airportzostage/public_html/web-app/php/users-booking/coupon.php on line 20
+[12-Jan-2023 15:26:53 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Object of class stdClass could not be converted to string in /home/airportzostage/public_html/web-app/php/users-booking/coupon.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/airportzostage/public_html/web-app/php/users-booking/coupon.php on line 20
+[12-Jan-2023 15:27:07 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Object of class stdClass could not be converted to string in /home/airportzostage/public_html/web-app/php/users-booking/coupon.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/airportzostage/public_html/web-app/php/users-booking/coupon.php on line 20
+[12-Jan-2023 15:27:07 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Object of class stdClass could not be converted to string in /home/airportzostage/public_html/web-app/php/users-booking/coupon.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/airportzostage/public_html/web-app/php/users-booking/coupon.php on line 20
+[12-Jan-2023 15:27:26 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Object of class stdClass could not be converted to string in /home/airportzostage/public_html/web-app/php/users-booking/coupon.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/airportzostage/public_html/web-app/php/users-booking/coupon.php on line 20
+[12-Jan-2023 15:27:28 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Object of class stdClass could not be converted to string in /home/airportzostage/public_html/web-app/php/users-booking/coupon.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/airportzostage/public_html/web-app/php/users-booking/coupon.php on line 20
+[12-Jan-2023 15:27:57 Asia/Kolkata] PHP Warning:  Undefined property: UserCoupon::$business_token in /home/airportzostage/public_html/web-app/php/objects/coupon.php on line 19
+[12-Jan-2023 15:29:00 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined method stdClass::readCategoryCoupon() in /home/airportzostage/public_html/web-app/php/users-booking/coupon.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/airportzostage/public_html/web-app/php/users-booking/coupon.php on line 21
+[12-Jan-2023 15:29:18 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined method stdClass::readCategoryCoupon() in /home/airportzostage/public_html/web-app/php/users-booking/coupon.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/airportzostage/public_html/web-app/php/users-booking/coupon.php on line 21
+[12-Jan-2023 15:29:42 Asia/Kolkata] PHP Warning:  Undefined property: UserCoupon::$business_token in /home/airportzostage/public_html/web-app/php/objects/coupon.php on line 19
+[12-Jan-2023 15:50:02 Asia/Kolkata] PHP Warning:  Undefined property: UserCoupon::$business_token in /home/airportzostage/public_html/web-app/php/objects/coupon.php on line 17
+[12-Jan-2023 15:50:25 Asia/Kolkata] PHP Warning:  Undefined property: UserCoupon::$business_token in /home/airportzostage/public_html/web-app/php/objects/coupon.php on line 17
+[12-Jan-2023 15:50:55 Asia/Kolkata] PHP Warning:  Undefined property: UserCoupon::$business_token in /home/airportzostage/public_html/web-app/php/objects/coupon.php on line 18
+[12-Jan-2023 15:51:59 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home/airportzostage/public_html/web-app/php/objects/coupon.php:18
+Stack trace:
+#0 /home/airportzostage/public_html/web-app/php/objects/coupon.php(18): PDOStatement->execute()
+#1 /home/airportzostage/public_html/web-app/php/users-booking/coupon.php(20): UserCoupon->readCategoryCoupon('6767676767,9876...')
+#2 {main}
+  thrown in /home/airportzostage/public_html/web-app/php/objects/coupon.php on line 18
+[12-Jan-2023 15:52:13 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '6767676767,9876543210 AND `coupon`.`code`='RCBVTN100' AND `coupon__applicable`.`' at line 7 in /home/airportzostage/public_html/web-app/php/objects/coupon.php:18
+Stack trace:
+#0 /home/airportzostage/public_html/web-app/php/objects/coupon.php(18): PDOStatement->execute()
+#1 /home/airportzostage/public_html/web-app/php/users-booking/coupon.php(20): UserCoupon->readCategoryCoupon('6767676767,9876...')
+#2 {main}
+  thrown in /home/airportzostage/public_html/web-app/php/objects/coupon.php on line 18
+[12-Jan-2023 15:52:15 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '6767676767,9876543210 AND `coupon`.`code`='RCBVTN100' AND `coupon__applicable`.`' at line 7 in /home/airportzostage/public_html/web-app/php/objects/coupon.php:18
+Stack trace:
+#0 /home/airportzostage/public_html/web-app/php/objects/coupon.php(18): PDOStatement->execute()
+#1 /home/airportzostage/public_html/web-app/php/users-booking/coupon.php(20): UserCoupon->readCategoryCoupon('6767676767,9876...')
+#2 {main}
+  thrown in /home/airportzostage/public_html/web-app/php/objects/coupon.php on line 18
+[12-Jan-2023 15:52:45 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home/airportzostage/public_html/web-app/php/objects/coupon.php:18
+Stack trace:
+#0 /home/airportzostage/public_html/web-app/php/objects/coupon.php(18): PDOStatement->execute()
+#1 /home/airportzostage/public_html/web-app/php/users-booking/coupon.php(20): UserCoupon->readCategoryCoupon('6767676767,9876...')
+#2 {main}
+  thrown in /home/airportzostage/public_html/web-app/php/objects/coupon.php on line 18
+[12-Jan-2023 15:55:05 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/web-app/php/objects/coupon.php on line 38
+[12-Jan-2023 15:55:05 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/web-app/php/objects/coupon.php on line 39
+[12-Jan-2023 15:55:05 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/web-app/php/objects/coupon.php on line 40
+[12-Jan-2023 15:55:26 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/web-app/php/objects/coupon.php on line 38
+[12-Jan-2023 15:55:26 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/web-app/php/objects/coupon.php on line 39
+[12-Jan-2023 15:55:26 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/web-app/php/objects/coupon.php on line 40
+[12-Jan-2023 15:55:38 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/web-app/php/objects/coupon.php on line 38
+[12-Jan-2023 15:55:38 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/web-app/php/objects/coupon.php on line 39
+[12-Jan-2023 15:55:38 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/web-app/php/objects/coupon.php on line 40
+[12-Jan-2023 15:55:53 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/web-app/php/objects/coupon.php on line 55
+[12-Jan-2023 16:13:04 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'PZXF6VMTJ1' in 'where clause' in /home/airportzostage/public_html/web-app/php/objects/coupon.php:20
+Stack trace:
+#0 /home/airportzostage/public_html/web-app/php/objects/coupon.php(20): PDOStatement->execute()
+#1 /home/airportzostage/public_html/web-app/php/users-booking/coupon.php(20): UserCoupon->readCategoryCoupon('6767676761,6767...')
+#2 {main}
+  thrown in /home/airportzostage/public_html/web-app/php/objects/coupon.php on line 20
+[12-Jan-2023 16:21:42 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'PZXF6VMTJ1' in 'where clause' in /home/airportzostage/public_html/web-app/php/objects/coupon.php:20
+Stack trace:
+#0 /home/airportzostage/public_html/web-app/php/objects/coupon.php(20): PDOStatement->execute()
+#1 /home/airportzostage/public_html/web-app/php/users-booking/coupon.php(20): UserCoupon->readCategoryCoupon('6767676761,6767...')
+#2 {main}
+  thrown in /home/airportzostage/public_html/web-app/php/objects/coupon.php on line 20
+[12-Jan-2023 16:21:51 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'PZXF6VMTJ1' in 'where clause' in /home/airportzostage/public_html/web-app/php/objects/coupon.php:20
+Stack trace:
+#0 /home/airportzostage/public_html/web-app/php/objects/coupon.php(20): PDOStatement->execute()
+#1 /home/airportzostage/public_html/web-app/php/users-booking/coupon.php(20): UserCoupon->readCategoryCoupon('6767676761,6767...')
+#2 {main}
+  thrown in /home/airportzostage/public_html/web-app/php/objects/coupon.php on line 20
+[12-Jan-2023 16:21:52 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'PZXF6VMTJ1' in 'where clause' in /home/airportzostage/public_html/web-app/php/objects/coupon.php:20
+Stack trace:
+#0 /home/airportzostage/public_html/web-app/php/objects/coupon.php(20): PDOStatement->execute()
+#1 /home/airportzostage/public_html/web-app/php/users-booking/coupon.php(20): UserCoupon->readCategoryCoupon('6767676761,6767...')
+#2 {main}
+  thrown in /home/airportzostage/public_html/web-app/php/objects/coupon.php on line 20
+[12-Jan-2023 16:32:21 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$business_token in /home/airportzostage/public_html/web-app/php/users-booking/coupon.php on line 20
+[12-Jan-2023 16:39:13 Asia/Kolkata] PHP Parse error:  syntax error, unexpected identifier "business_token" in /home/airportzostage/public_html/web-app/php/objects/coupon.php on line 76
+[12-Jan-2023 16:39:15 Asia/Kolkata] PHP Parse error:  syntax error, unexpected identifier "business_token" in /home/airportzostage/public_html/web-app/php/objects/coupon.php on line 76
+[12-Jan-2023 16:39:16 Asia/Kolkata] PHP Parse error:  syntax error, unexpected identifier "business_token" in /home/airportzostage/public_html/web-app/php/objects/coupon.php on line 76
+[12-Jan-2023 16:39:16 Asia/Kolkata] PHP Parse error:  syntax error, unexpected identifier "business_token" in /home/airportzostage/public_html/web-app/php/objects/coupon.php on line 76
+[12-Jan-2023 16:39:17 Asia/Kolkata] PHP Parse error:  syntax error, unexpected identifier "business_token" in /home/airportzostage/public_html/web-app/php/objects/coupon.php on line 76
+[12-Jan-2023 16:40:24 Asia/Kolkata] PHP Parse error:  syntax error, unexpected identifier "business_token" in /home/airportzostage/public_html/web-app/php/objects/coupon.php on line 76
+[12-Jan-2023 16:41:27 Asia/Kolkata] PHP Parse error:  syntax error, unexpected identifier "business_token" in /home/airportzostage/public_html/web-app/php/objects/coupon.php on line 76
+[12-Jan-2023 16:41:29 Asia/Kolkata] PHP Parse error:  syntax error, unexpected identifier "business_token" in /home/airportzostage/public_html/web-app/php/objects/coupon.php on line 76
+[12-Jan-2023 16:41:43 Asia/Kolkata] PHP Parse error:  syntax error, unexpected identifier "business_token" in /home/airportzostage/public_html/web-app/php/objects/coupon.php on line 76
+[12-Jan-2023 17:04:40 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/web-app/php/objects/coupon.php on line 42
+[12-Jan-2023 17:04:40 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/web-app/php/objects/coupon.php on line 43
+[12-Jan-2023 17:04:40 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/web-app/php/objects/coupon.php on line 44
+[12-Jan-2023 17:08:13 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/web-app/php/objects/coupon.php on line 42
+[12-Jan-2023 17:08:13 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/web-app/php/objects/coupon.php on line 43
+[12-Jan-2023 17:08:13 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/web-app/php/objects/coupon.php on line 44
+[12-Jan-2023 11:42:43 UTC] PHP Parse error:  syntax error, unexpected token "if" in /home/airportzostage/public_html/web-app/php/users-booking/coupon.php on line 22
+[12-Jan-2023 19:52:06 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/web-app/php/objects/coupon.php on line 60
+[13-Jan-2023 09:18:56 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/web-app/php/objects/coupon.php on line 60
+[13-Jan-2023 09:19:02 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/web-app/php/objects/coupon.php on line 60
+[13-Jan-2023 10:36:32 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/web-app/php/objects/coupon.php on line 43
+[13-Jan-2023 10:36:32 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/web-app/php/objects/coupon.php on line 44
+[13-Jan-2023 10:36:32 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/web-app/php/objects/coupon.php on line 45
+[13-Jan-2023 16:28:07 Asia/Kolkata] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/airportzostage/public_html/web-app/php/objects/users.php:267) in /home/airportzostage/public_html/config/core.php on line 19
+[13-Jan-2023 16:28:07 Asia/Kolkata] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/airportzostage/public_html/web-app/php/objects/users.php:267) in /home/airportzostage/public_html/config/core.php on line 20
+[13-Jan-2023 16:28:07 Asia/Kolkata] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/airportzostage/public_html/web-app/php/objects/users.php:267) in /home/airportzostage/public_html/config/core.php on line 21
+[13-Jan-2023 16:28:07 Asia/Kolkata] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/airportzostage/public_html/web-app/php/objects/users.php:267) in /home/airportzostage/public_html/config/core.php on line 22
+[13-Jan-2023 16:28:07 Asia/Kolkata] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/airportzostage/public_html/web-app/php/objects/users.php:267) in /home/airportzostage/public_html/config/core.php on line 23
+[13-Jan-2023 16:28:08 Asia/Kolkata] PHP Warning:  Undefined variable $serviceExclGst in /home/airportzostage/public_html/web-app/php/users-booking/create.php on line 110
+[13-Jan-2023 16:28:12 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/airportzostage/public_html/TCPDF-main/tcpdf.php on line 2468
+[13-Jan-2023 16:28:12 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/airportzostage/public_html/TCPDF-main/tcpdf.php on line 2468
+[13-Jan-2023 16:28:12 Asia/Kolkata] PHP Warning:  Undefined array key "endy" in /home/airportzostage/public_html/TCPDF-main/tcpdf.php on line 18619
+[13-Jan-2023 16:28:12 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/airportzostage/public_html/TCPDF-main/tcpdf.php on line 2468
+[13-Jan-2023 16:28:12 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/airportzostage/public_html/TCPDF-main/tcpdf.php on line 2468
+[13-Jan-2023 16:28:12 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/airportzostage/public_html/TCPDF-main/tcpdf.php on line 7442
+[13-Jan-2023 16:28:12 Asia/Kolkata] PHP Warning:  Undefined array key "startcolumn" in /home/airportzostage/public_html/TCPDF-main/tcpdf.php on line 19649
+[13-Jan-2023 16:28:12 Asia/Kolkata] PHP Warning:  Undefined array key "startx" in /home/airportzostage/public_html/TCPDF-main/tcpdf.php on line 19650
+[13-Jan-2023 16:28:12 Asia/Kolkata] PHP Warning:  Undefined array key "startpage" in /home/airportzostage/public_html/TCPDF-main/tcpdf.php on line 19653
+[13-Jan-2023 16:28:12 Asia/Kolkata] PHP Warning:  Undefined array key "startpage" in /home/airportzostage/public_html/TCPDF-main/tcpdf.php on line 19656
+[13-Jan-2023 16:28:12 Asia/Kolkata] PHP Warning:  Undefined array key "" in /home/airportzostage/public_html/TCPDF-main/tcpdf.php on line 19656
+[13-Jan-2023 16:28:12 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/airportzostage/public_html/TCPDF-main/tcpdf.php on line 19656
+[13-Jan-2023 16:28:12 Asia/Kolkata] PHP Warning:  Undefined array key "startpage" in /home/airportzostage/public_html/TCPDF-main/tcpdf.php on line 19657
+[13-Jan-2023 16:28:12 Asia/Kolkata] PHP Warning:  Undefined array key "" in /home/airportzostage/public_html/TCPDF-main/tcpdf.php on line 19657
+[13-Jan-2023 16:28:12 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/airportzostage/public_html/TCPDF-main/tcpdf.php on line 19657
+[13-Jan-2023 16:28:12 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/airportzostage/public_html/TCPDF-main/tcpdf.php on line 2468
+[13-Jan-2023 16:28:12 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/airportzostage/public_html/TCPDF-main/tcpdf.php on line 2468
+[13-Jan-2023 16:28:12 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/airportzostage/public_html/TCPDF-main/tcpdf.php on line 2468
+[13-Jan-2023 16:28:12 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/airportzostage/public_html/TCPDF-main/tcpdf.php on line 2468
+[13-Jan-2023 16:28:12 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/airportzostage/public_html/TCPDF-main/tcpdf.php on line 2468
+[13-Jan-2023 16:28:12 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/airportzostage/public_html/TCPDF-main/tcpdf.php on line 2468
+[13-Jan-2023 16:28:12 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/airportzostage/public_html/TCPDF-main/tcpdf.php on line 2468
+[13-Jan-2023 16:28:12 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/airportzostage/public_html/TCPDF-main/tcpdf.php on line 2468
+[13-Jan-2023 16:28:12 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/airportzostage/public_html/TCPDF-main/tcpdf.php on line 2468
+[13-Jan-2023 16:28:12 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/airportzostage/public_html/TCPDF-main/tcpdf.php on line 2468
+[13-Jan-2023 16:28:12 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/airportzostage/public_html/TCPDF-main/tcpdf.php on line 7442
+[13-Jan-2023 16:28:12 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/airportzostage/public_html/TCPDF-main/tcpdf.php on line 2468
+[13-Jan-2023 16:28:12 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/airportzostage/public_html/TCPDF-main/tcpdf.php on line 2468
+[13-Jan-2023 16:28:12 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/airportzostage/public_html/TCPDF-main/tcpdf.php on line 2468
+[13-Jan-2023 16:28:12 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/airportzostage/public_html/TCPDF-main/tcpdf.php on line 2468
+[13-Jan-2023 16:28:12 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/airportzostage/public_html/TCPDF-main/tcpdf.php on line 2468
+[13-Jan-2023 16:28:12 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/airportzostage/public_html/TCPDF-main/tcpdf.php on line 2468
+[13-Jan-2023 16:28:12 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/airportzostage/public_html/TCPDF-main/tcpdf.php on line 2468
+[13-Jan-2023 16:28:12 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/airportzostage/public_html/TCPDF-main/tcpdf.php on line 2468
+[13-Jan-2023 16:28:12 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/airportzostage/public_html/TCPDF-main/tcpdf.php on line 2468
+[13-Jan-2023 16:28:12 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/airportzostage/public_html/TCPDF-main/tcpdf.php on line 2468
+[13-Jan-2023 16:28:12 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/airportzostage/public_html/TCPDF-main/tcpdf.php on line 7442
+[13-Jan-2023 16:28:12 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/airportzostage/public_html/TCPDF-main/tcpdf.php on line 2468
+[13-Jan-2023 16:28:12 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/airportzostage/public_html/TCPDF-main/tcpdf.php on line 2468
+[13-Jan-2023 16:28:12 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/airportzostage/public_html/TCPDF-main/tcpdf.php on line 2468
+[13-Jan-2023 16:28:12 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/airportzostage/public_html/TCPDF-main/tcpdf.php on line 2468
+[13-Jan-2023 16:28:12 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/airportzostage/public_html/TCPDF-main/tcpdf.php on line 2468
+[13-Jan-2023 16:28:12 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/airportzostage/public_html/TCPDF-main/tcpdf.php on line 2468
+[13-Jan-2023 16:28:16 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/airportzostage/public_html/TCPDF-main/tcpdf.php on line 2468
+[13-Jan-2023 16:28:16 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/airportzostage/public_html/TCPDF-main/tcpdf.php on line 2468
+[13-Jan-2023 16:28:16 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/airportzostage/public_html/TCPDF-main/tcpdf.php on line 2468
+[13-Jan-2023 16:28:16 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/airportzostage/public_html/TCPDF-main/tcpdf.php on line 2468
+[13-Jan-2023 16:28:16 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/airportzostage/public_html/TCPDF-main/tcpdf.php on line 7442
+[13-Jan-2023 16:28:16 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/airportzostage/public_html/TCPDF-main/tcpdf.php on line 2468
+[13-Jan-2023 16:28:16 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/airportzostage/public_html/TCPDF-main/tcpdf.php on line 2468
+[13-Jan-2023 16:28:16 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/airportzostage/public_html/TCPDF-main/tcpdf.php on line 2468
+[13-Jan-2023 16:28:16 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/airportzostage/public_html/TCPDF-main/tcpdf.php on line 2468
+[13-Jan-2023 16:28:16 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/airportzostage/public_html/TCPDF-main/tcpdf.php on line 2468
+[13-Jan-2023 16:28:16 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type null in /home/airportzostage/public_html/TCPDF-main/tcpdf.php on line 2468
+[18-Jan-2023 09:08:54 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/web-app/php/objects/coupon.php on line 60
+[18-Jan-2023 11:21:16 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/web-app/php/objects/coupon.php on line 43
+[18-Jan-2023 11:21:16 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/web-app/php/objects/coupon.php on line 44
+[18-Jan-2023 11:21:16 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/web-app/php/objects/coupon.php on line 45

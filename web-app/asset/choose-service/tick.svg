@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>tick</title>
+    <g id="tick" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-30" transform="translate(2.000000, 2.000000)">
+            <circle id="Oval" fill="#0FB3D4" cx="8" cy="8" r="8"></circle>
+            <g id="3162599_check_good_approve_success_tick_icon" transform="translate(4.000000, 5.142857)" fill="#FFFFFF" fill-rule="nonzero" stroke="#FFFFFF" stroke-width="0.571428571">
+                <polygon id="_Compound_Path_" points="0 3.20382053 0.628928571 2.51164436 2.28535714 4.33111255 7.37107143 0 8 0.692176169 2.28535714 5.71428571"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

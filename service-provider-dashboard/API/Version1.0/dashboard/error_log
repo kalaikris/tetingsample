@@ -1,0 +1,225 @@
+[03-Oct-2022 20:37:45 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'users__booking.user_token' in 'on clause' in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/dashboard.php:141
+Stack trace:
+#0 /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/dashboard.php(141): PDOStatement->execute()
+#1 /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/dashboard/dashboardRecentReviews.php(10): dashboard->recentReviews()
+#2 {main}
+  thrown in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/dashboard.php on line 141
+[03-Oct-2022 21:02:00 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$serviceProviderLocationtoken in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/dashboard/dashboardHeader.php on line 9
+[03-Oct-2022 21:02:00 Asia/Kolkata] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/dashboard.php:74
+Stack trace:
+#0 /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/dashboard/dashboardHeader.php(51): dashboard->starPercentage(5, '0')
+#1 {main}
+  thrown in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/dashboard.php on line 74
+[03-Oct-2022 21:10:54 Asia/Kolkata] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/dashboard.php:74
+Stack trace:
+#0 /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/dashboard/dashboardHeader.php(51): dashboard->starPercentage(5, '0')
+#1 {main}
+  thrown in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/dashboard.php on line 74
+[03-Oct-2022 21:10:58 Asia/Kolkata] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/dashboard.php:74
+Stack trace:
+#0 /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/dashboard/dashboardHeader.php(51): dashboard->starPercentage(5, '0')
+#1 {main}
+  thrown in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/dashboard.php on line 74
+[03-Oct-2022 21:11:01 Asia/Kolkata] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/dashboard.php:74
+Stack trace:
+#0 /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/dashboard/dashboardHeader.php(51): dashboard->starPercentage(5, '0')
+#1 {main}
+  thrown in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/dashboard.php on line 74
+[03-Oct-2022 21:11:07 Asia/Kolkata] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/dashboard.php:74
+Stack trace:
+#0 /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/dashboard/dashboardHeader.php(51): dashboard->starPercentage(5, '0')
+#1 {main}
+  thrown in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/dashboard.php on line 74
+[03-Oct-2022 21:12:24 Asia/Kolkata] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/dashboard.php:74
+Stack trace:
+#0 /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/dashboard/dashboardHeader.php(51): dashboard->starPercentage(5, '0')
+#1 {main}
+  thrown in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/dashboard.php on line 74
+[03-Oct-2022 21:14:04 Asia/Kolkata] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/dashboard.php:74
+Stack trace:
+#0 /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/dashboard/dashboardHeader.php(51): dashboard->starPercentage(5, '0')
+#1 {main}
+  thrown in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/dashboard.php on line 74
+[03-Oct-2022 21:14:15 Asia/Kolkata] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/dashboard.php:74
+Stack trace:
+#0 /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/dashboard/dashboardHeader.php(51): dashboard->starPercentage(5, '0')
+#1 {main}
+  thrown in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/dashboard.php on line 74
+[03-Oct-2022 21:15:08 Asia/Kolkata] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/dashboard.php:74
+Stack trace:
+#0 /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/dashboard/dashboardHeader.php(51): dashboard->starPercentage(5, '0')
+#1 {main}
+  thrown in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/dashboard.php on line 74
+[03-Oct-2022 21:16:44 Asia/Kolkata] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/dashboard.php:74
+Stack trace:
+#0 /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/dashboard/dashboardHeader.php(51): dashboard->starPercentage(5, '0')
+#1 {main}
+  thrown in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/dashboard.php on line 74
+[03-Oct-2022 21:17:28 Asia/Kolkata] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/dashboard.php:74
+Stack trace:
+#0 /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/dashboard/dashboardHeader.php(51): dashboard->starPercentage(5, '0')
+#1 {main}
+  thrown in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/dashboard.php on line 74
+[03-Oct-2022 21:20:44 Asia/Kolkata] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/dashboard.php:74
+Stack trace:
+#0 /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/dashboard/dashboardHeader.php(51): dashboard->starPercentage(5, '0')
+#1 {main}
+  thrown in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/dashboard.php on line 74
+[03-Oct-2022 21:20:58 Asia/Kolkata] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/dashboard.php:74
+Stack trace:
+#0 /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/dashboard/dashboardHeader.php(51): dashboard->starPercentage(5, '0')
+#1 {main}
+  thrown in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/dashboard.php on line 74
+[03-Oct-2022 21:21:19 Asia/Kolkata] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/dashboard.php:74
+Stack trace:
+#0 /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/dashboard/dashboardHeader.php(51): dashboard->starPercentage(5, '0')
+#1 {main}
+  thrown in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/dashboard.php on line 74
+[03-Oct-2022 21:22:05 Asia/Kolkata] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/dashboard.php:74
+Stack trace:
+#0 /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/dashboard/dashboardHeader.php(51): dashboard->starPercentage(5, '0')
+#1 {main}
+  thrown in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/dashboard.php on line 74
+[03-Oct-2022 21:24:02 Asia/Kolkata] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/dashboard.php:74
+Stack trace:
+#0 /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/dashboard/dashboardHeader.php(51): dashboard->starPercentage(5, '0')
+#1 {main}
+  thrown in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/dashboard.php on line 74
+[03-Oct-2022 21:24:39 Asia/Kolkata] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/dashboard.php:74
+Stack trace:
+#0 /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/dashboard/dashboardHeader.php(51): dashboard->starPercentage(5, '0')
+#1 {main}
+  thrown in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/dashboard.php on line 74
+[03-Oct-2022 21:25:27 Asia/Kolkata] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/dashboard.php:74
+Stack trace:
+#0 /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/dashboard/dashboardHeader.php(51): dashboard->starPercentage(5, '0')
+#1 {main}
+  thrown in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/dashboard.php on line 74
+[03-Oct-2022 21:27:26 Asia/Kolkata] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/dashboard.php:74
+Stack trace:
+#0 /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/dashboard/dashboardHeader.php(51): dashboard->starPercentage(5, '0')
+#1 {main}
+  thrown in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/dashboard.php on line 74
+[03-Oct-2022 21:27:33 Asia/Kolkata] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/dashboard.php:74
+Stack trace:
+#0 /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/dashboard/dashboardHeader.php(51): dashboard->starPercentage(5, '0')
+#1 {main}
+  thrown in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/dashboard.php on line 74
+[03-Oct-2022 21:28:01 Asia/Kolkata] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/dashboard.php:74
+Stack trace:
+#0 /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/dashboard/dashboardHeader.php(51): dashboard->starPercentage(5, '0')
+#1 {main}
+  thrown in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/dashboard.php on line 74
+[03-Oct-2022 21:29:08 Asia/Kolkata] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/dashboard.php:74
+Stack trace:
+#0 /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/dashboard/dashboardHeader.php(51): dashboard->starPercentage(5, '0')
+#1 {main}
+  thrown in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/dashboard.php on line 74
+[03-Oct-2022 21:29:37 Asia/Kolkata] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/dashboard.php:74
+Stack trace:
+#0 /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/dashboard/dashboardHeader.php(51): dashboard->starPercentage(5, '0')
+#1 {main}
+  thrown in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/dashboard.php on line 74
+[03-Oct-2022 21:30:36 Asia/Kolkata] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/dashboard.php:74
+Stack trace:
+#0 /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/dashboard/dashboardHeader.php(51): dashboard->starPercentage(5, '0')
+#1 {main}
+  thrown in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/dashboard.php on line 74
+[03-Oct-2022 21:31:08 Asia/Kolkata] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/dashboard.php:74
+Stack trace:
+#0 /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/dashboard/dashboardHeader.php(51): dashboard->starPercentage(5, '0')
+#1 {main}
+  thrown in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/dashboard.php on line 74
+[03-Oct-2022 21:32:01 Asia/Kolkata] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/dashboard.php:74
+Stack trace:
+#0 /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/dashboard/dashboardHeader.php(51): dashboard->starPercentage(5, '0')
+#1 {main}
+  thrown in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/dashboard.php on line 74
+[03-Oct-2022 21:32:38 Asia/Kolkata] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/dashboard.php:74
+Stack trace:
+#0 /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/dashboard/dashboardHeader.php(51): dashboard->starPercentage(5, '0')
+#1 {main}
+  thrown in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/dashboard.php on line 74
+[03-Oct-2022 21:33:19 Asia/Kolkata] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/dashboard.php:74
+Stack trace:
+#0 /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/dashboard/dashboardHeader.php(51): dashboard->starPercentage(5, '0')
+#1 {main}
+  thrown in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/dashboard.php on line 74
+[03-Oct-2022 21:33:51 Asia/Kolkata] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/dashboard.php:74
+Stack trace:
+#0 /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/dashboard/dashboardHeader.php(51): dashboard->starPercentage(5, '0')
+#1 {main}
+  thrown in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/dashboard.php on line 74
+[03-Oct-2022 21:35:15 Asia/Kolkata] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/dashboard.php:74
+Stack trace:
+#0 /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/dashboard/dashboardHeader.php(51): dashboard->starPercentage(5, '0')
+#1 {main}
+  thrown in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/dashboard.php on line 74
+[03-Oct-2022 21:36:24 Asia/Kolkata] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/dashboard.php:74
+Stack trace:
+#0 /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/dashboard/dashboardHeader.php(51): dashboard->starPercentage(5, '0')
+#1 {main}
+  thrown in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/dashboard.php on line 74
+[03-Oct-2022 21:39:55 Asia/Kolkata] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/dashboard.php:74
+Stack trace:
+#0 /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/dashboard/dashboardHeader.php(51): dashboard->starPercentage(5, '0')
+#1 {main}
+  thrown in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/dashboard.php on line 74
+[05-Oct-2022 11:01:04 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$serviceProviderLocationtoken in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/dashboard/dashboardHeader.php on line 9
+[05-Oct-2022 11:01:04 Asia/Kolkata] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/dashboard.php:74
+Stack trace:
+#0 /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/dashboard/dashboardHeader.php(51): dashboard->starPercentage(5, '0')
+#1 {main}
+  thrown in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/dashboard.php on line 74
+[05-Oct-2022 11:48:16 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceProviderLocationtoken" on null in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/dashboard/dashboardRecentBooking.php on line 9
+[05-Oct-2022 12:59:55 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$year in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/dashboard/dashboardChart.php on line 10
+[05-Oct-2022 15:36:37 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$type in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/dashboard/dashboardRecentReviews.php on line 10
+[05-Oct-2022 15:36:41 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$type in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/dashboard/dashboardRecentReviews.php on line 10
+[05-Oct-2022 15:37:25 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$type in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/dashboard/dashboardRecentReviews.php on line 10
+[05-Oct-2022 15:37:31 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$type in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/dashboard/dashboardRecentReviews.php on line 10
+[05-Oct-2022 17:31:57 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$type in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/dashboard/dashboardRecentReviews.php on line 10
+[05-Oct-2022 17:32:17 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$type in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/dashboard/dashboardRecentReviews.php on line 10
+[05-Oct-2022 18:35:16 Asia/Kolkata] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/dashboard.php:74
+Stack trace:
+#0 /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/dashboard/dashboardHeader.php(51): dashboard->starPercentage(5, '0')
+#1 {main}
+  thrown in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/dashboard.php on line 74
+[05-Oct-2022 18:39:01 Asia/Kolkata] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/dashboard.php:74
+Stack trace:
+#0 /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/dashboard/dashboardHeader.php(51): dashboard->starPercentage(5, '0')
+#1 {main}
+  thrown in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/dashboard.php on line 74
+[05-Oct-2022 18:42:04 Asia/Kolkata] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/dashboard.php:74
+Stack trace:
+#0 /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/dashboard/dashboardHeader.php(51): dashboard->starPercentage(5, '0')
+#1 {main}
+  thrown in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/dashboard.php on line 74
+[05-Oct-2022 18:42:51 Asia/Kolkata] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/dashboard.php:74
+Stack trace:
+#0 /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/dashboard/dashboardHeader.php(51): dashboard->starPercentage(5, '0')
+#1 {main}
+  thrown in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/dashboard.php on line 74
+[05-Oct-2022 18:45:37 Asia/Kolkata] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/dashboard.php:79
+Stack trace:
+#0 /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/dashboard/dashboardHeader.php(51): dashboard->starPercentage(5, '0')
+#1 {main}
+  thrown in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/dashboard.php on line 79
+[07-Oct-2022 12:56:58 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$serviceProviderLocationtoken in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/dashboard/dashboardRecentBooking.php on line 9
+[07-Oct-2022 12:56:58 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$serviceProviderLocationtoken in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/dashboard/dashboardHeader.php on line 9
+[10-Oct-2022 07:12:09 UTC] PHP Parse error:  syntax error, unexpected double-quote mark in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/dashboard/dashboardHeader.php on line 40
+[05-Jan-2023 15:00:20 Asia/Kolkata] PHP Warning:  Undefined variable $ranges in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/dashboard/dashboardChart.php on line 15
+[05-Jan-2023 15:00:20 Asia/Kolkata] PHP Warning:  foreach() argument must be of type array|object, null given in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/dashboard/dashboardChart.php on line 15
+[05-Jan-2023 15:00:21 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$ranges in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/dashboard/dashboardChart.php on line 10
+[05-Jan-2023 15:00:21 Asia/Kolkata] PHP Warning:  Undefined variable $ranges in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/dashboard/dashboardChart.php on line 15
+[05-Jan-2023 15:00:21 Asia/Kolkata] PHP Warning:  foreach() argument must be of type array|object, null given in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/dashboard/dashboardChart.php on line 15
+[05-Jan-2023 15:02:19 Asia/Kolkata] PHP Warning:  Undefined variable $ranges in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/dashboard/dashboardChart.php on line 15
+[05-Jan-2023 15:02:19 Asia/Kolkata] PHP Warning:  foreach() argument must be of type array|object, null given in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/dashboard/dashboardChart.php on line 15
+[05-Jan-2023 15:03:54 Asia/Kolkata] PHP Warning:  Undefined variable $ranges in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/dashboard/dashboardChart.php on line 15
+[05-Jan-2023 15:03:54 Asia/Kolkata] PHP Warning:  foreach() argument must be of type array|object, null given in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/dashboard/dashboardChart.php on line 15
+[05-Jan-2023 15:04:31 Asia/Kolkata] PHP Warning:  Undefined property: dashboard::$year in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/dashboard.php on line 178
+[05-Jan-2023 15:04:31 Asia/Kolkata] PHP Warning:  Undefined property: dashboard::$year in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/dashboard.php on line 178
+[05-Jan-2023 15:04:31 Asia/Kolkata] PHP Warning:  Undefined property: dashboard::$year in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/dashboard.php on line 178
+[05-Jan-2023 15:04:31 Asia/Kolkata] PHP Warning:  Undefined property: dashboard::$year in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/dashboard.php on line 178
+[05-Jan-2023 15:04:31 Asia/Kolkata] PHP Warning:  Undefined property: dashboard::$year in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/dashboard.php on line 178
+[05-Jan-2023 15:06:40 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$ranges in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/dashboard/dashboardChart.php on line 10
+[05-Jan-2023 15:06:40 Asia/Kolkata] PHP Warning:  foreach() argument must be of type array|object, null given in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/dashboard/dashboardChart.php on line 15

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>airport</title>
+    <g id="airport" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="7406141_airport_terminal_plane_flight_building_icon" transform="translate(2.000000, 4.000000)" stroke="#FFFFFF" stroke-width="1.6">
+            <line x1="42.8867054" y1="41.7024231" x2="45" y2="41.7024231" id="Path" stroke-linecap="round"></line>
+            <line x1="1.12913575" y1="41.7024231" x2="40.0689793" y2="41.7024231" id="Path" stroke-linecap="round" stroke-linejoin="round"></line>
+            <polygon id="Path" stroke-linecap="round" stroke-linejoin="round" points="17.3755765 17.8909168 20.4471626 9.82598838 17.3755765 5.67955222 3.07098456 5.67955222 0 9.82598838 3.07098456 17.8909168"></polygon>
+            <line x1="20.0862242" y1="10.2235511" x2="3.54200922" y2="10.2235511" id="Path" stroke-linecap="round" stroke-linejoin="round"></line>
+            <g id="Group" transform="translate(6.979948, 12.579170)" stroke-linejoin="round">
+                <line x1="0" y1="0" x2="0.70864247" y2="5.18855038" id="Path"></line>
+                <line x1="6.48726689" y1="0" x2="5.77982755" y2="5.18855038" id="Path"></line>
+            </g>
+            <line x1="6.49929818" y1="5.39566388" x2="6.49929818" y2="0" id="Path" stroke-linecap="round" stroke-linejoin="round"></line>
+            <g id="Group" transform="translate(6.019250, 18.080771)" stroke-linejoin="round">
+                <line x1="0.300782033" y1="0" x2="0.300782033" y2="20.9386992" id="Path"></line>
+                <line x1="8.10848205" y1="0" x2="8.10848205" y2="23.3056256" id="Path"></line>
+            </g>
+            <polyline id="Path" stroke-linejoin="round" points="16.6121917 27.8305796 38.6486866 27.8305796 38.6486866 32.3739833 19.1297373 32.3739833 19.1297373 41.5351849"></polyline>
+            <line x1="36.7543613" y1="32.3739833" x2="36.7543613" y2="41.461981" id="Path" stroke-linejoin="round"></line>
+            <line x1="32.3533186" y1="32.3739833" x2="32.3533186" y2="41.461981" id="Path" stroke-linejoin="round"></line>
+            <line x1="27.9510728" y1="32.3739833" x2="27.9510728" y2="41.461981" id="Path" stroke-linejoin="round"></line>
+            <line x1="23.5494285" y1="32.3739833" x2="23.5494285" y2="41.461981" id="Path" stroke-linejoin="round"></line>
+            <line x1="19.2368157" y1="37.0322517" x2="36.6394626" y2="37.0322517" id="Path" stroke-linejoin="round"></line>
+            <g id="Group" transform="translate(25.348105, 17.370157)" stroke-linecap="round" stroke-linejoin="round">
+                <polyline id="Path" points="0 3.07694488 1.31622218 4.26070568 8.97052336 1.420632"></polyline>
+                <line x1="5.14397433" y1="2.72223324" x2="1.67475436" y2="0" id="Path"></line>
+            </g>
+        </g>
+    </g>
+</svg>

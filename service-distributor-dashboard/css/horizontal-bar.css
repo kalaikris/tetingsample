@@ -1,0 +1,73 @@
+.details_list {
+  margin: 26px 0;
+  display: flex;
+  justify-content: center;
+  min-width: 35rem;
+}
+.details_list ul {
+  display: flex;
+}
+.details_list ul li {
+  position: relative;
+  color: #000;
+  width: 13rem;
+  cursor: pointer;
+}
+.details_list ul li::before {
+  content: "";
+  position: absolute;
+  top: -18px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #d6d6d6;
+  transform: scale(2);
+  z-index: 1;
+  transition: 0.2s;
+}
+.details_list ul li.active::before {
+  background-color: #fff;
+  border: 2px solid #0ab5d6;
+  transform: scale(3);
+  box-shadow: 0 0 0 1.5px #c7edf7;
+}
+.details_list ul li.completed::before {
+  background-color: #0ab5d6;
+  transform: scale(3);
+}
+.details_list ul li:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  top: -15px;
+  height: 1px;
+  width: 100%;
+  border: 1px dashed #ececec;
+}
+.details_list ul li.completed:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  top: -15px;
+  height: 1px;
+  width: 100%;
+  border: 1px solid #0ab5d6;
+}
+.details_list ul li.completed .tick {
+  position: absolute;
+  left: 1px;
+  top: -20px;
+  border-width: 0 2px 2px 0;
+  border-style: solid;
+  border-color: #fff;
+  width: 4px;
+  height: 9px;
+  transform: rotate(45deg);
+  z-index: 2;
+}
+.details_list ul li:last-child {
+  padding-right: 0;
+}
+.shop_staus-name {
+  position: relative;
+  left: -19%;
+  font-size: 15px;
+}

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>verified</title>
+    <g id="verified" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle id="Oval" fill="#85BB5E" cx="8" cy="8" r="6"></circle>
+        <polygon id="_Compound_Path_" stroke="#FFFFFF" stroke-width="0.5" fill="#FFFFFF" fill-rule="nonzero" points="5 8.26000825 5.47169643 7.74087613 6.71401786 9.10547727 10.5283036 5.85714286 11 6.37627498 6.71401786 10.1428571"></polygon>
+    </g>
+</svg>

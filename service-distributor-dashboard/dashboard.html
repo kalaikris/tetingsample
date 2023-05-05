@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>airportzo</title>
+        <link rel="icon" type="image/png" href="./asset/img/airportzo-icon.png">
+        <!-- modal-popap-css -->
+        <link rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+            integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+            crossorigin="anonymous">
+        <!--  data table CSS only -->
+        <link rel="stylesheet" href="./js/data-table-css/bootstrap.css">
+        <!-- custm css -->
+        <link rel="stylesheet" href="./css/header-sidemenu.css" />
+        <!-- <link rel="stylesheet" href="./css/booklist.css" /> -->
+        <!-- fonts famaly -->
+        <link rel="stylesheet" href="./css/fonts.css">
+        <link rel="stylesheet" href="./css/dashboard.css">
+        <link rel="stylesheet" href="./css/custom.css">
+
+
+
+    </head>
+      <!-- page loader -->
+ 
+    <body id="page">
+        <div id="loading"></div>
+        <header id="header">
+
+        </header>
+        <main>
+            <div class="flex-main-set">
+                <div class="slider-set" id="sidebar">
+
+                </div>
+                <div class="slider-desc-set">
+                    <div class="dashboard-set">
+
+
+
+                        <div class="dashboard-box">
+                            <div class="dashboard-box-set">
+                                <div class="booking-set">
+                                    <div class="booking-inner">
+                                        <h5 class="total-bookin-tital">Realized
+                                            revenue</h5>
+                                        <h1 class="total-booking-count"><span>₹1,74,863</span></h1>
+                                    </div>
+                                    <img class="b-2" src="./asset/img/b-4.png"
+                                        alt=""
+                                        srcset="">
+                                </div>
+                                <div class="booking-set">
+                                    <div class="booking-inner">
+                                        <h5 class="total-bookin-tital">Unrealized
+                                            revenue</h5>
+                                        <h1 class="total-booking-count"><span>₹2,74,863</span></h1>
+                                    </div>
+                                </div>
+
+                                <div class="booking-set">
+                                    <div class="booking-inner">
+                                        <h5 class="total-bookin-tital">Booking
+                                            revenue</h5>
+                                        <h1 class="total-booking-count"><span>₹2,74,863</span></h1>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="dashboard-box">
+                            <div class="dashboard-box-set">
+                                <div class="booking-set-f">
+                                    <div class="booking-inner">
+                                        <h5 class="total-bookin-tital">Total
+                                            bookings</h5>
+                                        <h1 class="total-booking-count"><span>348</span></h1>
+                                    </div>
+                                    <img class="b-1" src="./asset/img/b-1.png"
+                                        alt=""
+                                        srcset="">
+                                </div>
+                                <div class="month-booking">
+                                    <ul class="month-set">
+                                        <li class="month-cap">This month</li>
+                                        <li class="month-cap">last month</li>
+                                        <li class="month-cap">past 6 months</li>
+                                        <li class="month-cap">Last year</li>
+                                    </ul>
+                                    <ul class="month-booking-set">
+                                        <li class="booking-cap"><span
+                                                class="month-booking-count">28
+                                                bookings</span></li>
+                                        <li class="booking-cap"><span
+                                                class="month-booking-count">53
+                                                bookings</span></li>
+                                        <li class="booking-cap"><span
+                                                class="month-booking-count">272
+                                                bookings</span></li>
+                                        <li class="booking-cap"><span
+                                                class="month-booking-count">18
+                                                bookings</span></li>
+
+                                    </ul>
+
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="dashboard-box">
+                            <div class="dashboard-box-set">
+                                <div class="booking-set-1">
+                                    <div class="booking-inner">
+                                        <h5 class="total-bookin-tital">Total
+                                            Outstanding</h5>
+                                        <p class="from-airport">From Airportzo</p>
+                                        <h1 class="total-booking-count"><span>+
+                                                ₹2,74,863</span></h1>
+                                    </div>
+                                    <img class="b-2" src="./asset/img/hand.png"
+                                        alt=""
+                                        srcset="">
+                                </div>
+                                <div class="booking-set-2">
+                                    <div class="booking-inner">
+                                        <p class="from-airport">To agents</p>
+                                        <h1 class="total-booking-count"><span>+
+                                                ₹2,74,863</span></h1>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- chart analytics section -->
+                    <div class="booking-analytics-set">
+                        <div class="booking-overview">
+                            <div class="booking-head">
+                                <h5 class="overview-cont">Booking Overview</h5>
+                                <select class="overview-left" name="" id="">
+                                    <option value="thisyear">This year</option>
+                                    <option value="thisyear">Last year</option>
+                                </select>
+                            </div>
+                            <div id="chartContainer" style="height: 360px;
+                                width: 100%;"></div>
+                            <div class="hide"></div>
+                        </div>
+                        <div class="popular-solt">
+                            <div class="over-head">
+                                <h5 class="overview-cont">Popular Slot</h5>
+                                <select class="overview-left" name="" id="">
+                                    <option value="thisyear">This year</option>
+                                    <option value="thisyear">Last year</option>
+                                </select>
+                            </div>
+                            <div id="container" style="height: 360px; width:
+                                100%;"></div>
+                            <div class="hide2"></div>
+                        </div>
+
+                    </div>
+
+                    <div class="view-table-set">
+                        <div class="view-table-lefet">
+                            <div class="viwe-cont-lefet">
+                                <h5 class="overview-cont">Recent
+                                    Reviews</h5>
+                                <a href="#"
+                                    class="nav-link">View
+                                    all ></a>
+                            </div>
+                            <div class="table-section-set">
+
+                                <table class="td-style">
+                                    <tbody class="table-body-set">
+                                        <tr>
+                                            <td class="td-bule"><span
+                                                    class="bule-color">W9767</span><br>
+                                                <span>Alejandro Cain</span><br/>
+                                                    <small>2Adults | 1 child</small>
+                                                </td>
+                                                <td>
+                                                    04 Jul,2022<br />
+                                                    <small>05:00 PM</small>
+                                                </td>
+
+                                                <td><div class="lable-alert"><div
+                                                            class="controle-lable">
+                                                            <span
+                                                                class="upcoming"><img
+                                                                    src="./asset/img/up.png">Upcoming</span></div>
+                                                        <span>2 Services</span>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="td-bule"><span
+                                                        class="bule-color">W9767</span><br>
+                                                    <span>Alejandro Cain</span><br/>
+                                                        <small>2Adults | 1 child</small>
+                                                    </td>
+                                                    <td>
+                                                        04 Jul,2022<br />
+                                                        <small>05:00 PM</small>
+                                                    </td>
+
+                                                    <td><div
+                                                            class="lable-alert"><div
+                                                                class="controle-lable"><span
+                                                                    class="ongoing"><img
+                                                                        src="./asset/img/ong.png">Ongoing</span></div>
+                                                            <span>3 Services</span></div></td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="td-bule"><span
+                                                            class="bule-color">W9767</span><br>
+                                                        <span>Alejandro Cain</span><br/>
+                                                            <small>2Adults | 1
+                                                                child</small>
+                                                        </td>
+                                                        <td>
+                                                            04 Jul,2022<br />
+                                                            <small>05:00 PM</small>
+                                                        </td>
+
+                                                        <td><div
+                                                                class="lable-alert"><div
+                                                                    class="controle-lable"><span
+                                                                        class="accepted"><img
+                                                                            src="./asset/img/acp.png">completed</span></div>
+                                                                <span>1 Services</span></div></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="td-bule"><span
+                                                                class="bule-color">W9767</span><br>
+                                                            <span>Alejandro
+                                                                Cain</span><br/>
+                                                                <small>2Adults
+                                                                    |
+                                                                    1
+                                                                    child</small>
+                                                            </td>
+                                                            <td>
+                                                                04 Jul,2022<br
+                                                                    />
+                                                                <small>05:00
+                                                                    PM</small>
+                                                            </td>
+
+                                                            <td><div
+                                                                    class="lable-alert"><div
+                                                                        class="controle-lable">
+                                                                        <span
+                                                                            class="rejected"><img
+                                                                                src="./asset/img/rej.png">Rejected</span>
+                                                                        <span>
+                                                                        </div>5
+                                                                        Services</span></div></td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                        <div class="view-table-rghit">
+                                            <div class="box1">
+                                                <div class="viwe-cont">
+                                                    <h5
+                                                        class="overview-cont">Top
+                                                        performing agents</h5>
+                                                    <a href="#"
+                                                        class="nav-link">View
+                                                        all ></a>
+                                                </div>
+                                                <tbody>
+                                                    <div class="display-flex">
+                                                        <td class="td-bule">
+                                                            <li><img
+                                                                    src="./asset/nam1.png"
+                                                                    alt="andrew"></li></td>
+                                                        <td>
+                                                            <ul
+                                                                class="table-image">
+                                                                <a
+                                                                    href="javascript:void(0);"
+                                                                    class="assignd-order">W9727</a>
+                                                                <li>Alejandro
+                                                                    Cain</li>
+                                                            </ul>
+                                                        </td>
+
+                                                        <td>
+                                                            <p>sevice booked<br><span>465</span></p></td>
+                                                    </div>
+
+                                                    <div class="display-flex">
+                                                        <td class="td-bule">
+                                                            <li><img
+                                                                    src="./asset/nam1.png"
+                                                                    alt="andrew"></li></td>
+                                                        <td>
+                                                            <ul
+                                                                class="table-image">
+                                                                <a
+                                                                    href="javascript:void(0);"
+                                                                    class="assignd-order">W9727</a>
+                                                                <li>Alejandro
+                                                                    Cain</li>
+                                                            </ul>
+                                                        </td>
+
+                                                        <td>
+                                                            <p>sevice booked<br><span>465</span></p></td>
+                                                    </div>
+                                                    <div class="display-flex">
+                                                        <td class="td-bule">
+                                                            <li><img
+                                                                    src="./asset/nam1.png"
+                                                                    alt="andrew"></li></td>
+                                                        <td>
+                                                            <ul
+                                                                class="table-image">
+                                                                <a
+                                                                    href="javascript:void(0);"
+                                                                    class="assignd-order">W9727</a>
+                                                                <li>Alejandro
+                                                                    Cain</li>
+                                                            </ul>
+                                                        </td>
+
+                                                        <td>
+                                                            <p>sevice booked<br><span>465</span></p></td>
+                                                    </div>
+                                                    <div class="display-flex">
+                                                        <td class="td-bule">
+                                                            <li><img
+                                                                    src="./asset/nam1.png"
+                                                                    alt="andrew"></li></td>
+                                                        <td>
+                                                            <ul
+                                                                class="table-image">
+                                                                <a
+                                                                    href="javascript:void(0);"
+                                                                    class="assignd-order">W9727</a>
+                                                                <li>Alejandro
+                                                                    Cain</li>
+                                                            </ul>
+                                                        </td>
+
+                                                        <td>
+                                                            <p>sevice booked<br><span>465</span></p></td>
+                                                    </div>
+                                                    <div class="display-flex">
+                                                        <td class="td-bule">
+                                                            <li><img
+                                                                    src="./asset/nam1.png"
+                                                                    alt="andrew"></li></td>
+                                                        <td>
+                                                            <ul
+                                                                class="table-image">
+                                                                <a
+                                                                    href="javascript:void(0);"
+                                                                    class="assignd-order">W9727</a>
+                                                                <li>Alejandro
+                                                                    Cain</li>
+                                                            </ul>
+                                                        </td>
+
+                                                        <td>
+                                                            <p>sevice booked<br><span>465</span></p></td>
+                                                    </div>
+
+
+                                                </tbody>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </main>
+
+
+            <!-- jquery -->
+            <script src="./js/jquery-3.6.0.js"></script>
+
+            <!-- sidebar-heder -->
+            <script src="./js/heder-sidebar.js"></script>
+            <!-- convas -->
+            <script src="./js/jquery.canvasjs.min.js"></script>
+            <script src="./js/chart-style.js"></script>
+            <script
+                src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+                integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+                crossorigin="anonymous"></script>
+            <script
+                src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+                integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+                crossorigin="anonymous"></script>
+            <script>
+    $(document).ready(()=>{
+        $('#dashboard').addClass('actives');
+      
+    });
+</script>
+            <script>
+             window.onload = function () {
+                 CanvasJS.addColorSet("greenShades",
+                [//colorSet Array
+
+                "#53c78c",
+                 "#fc7637",
+                "#52c1ee",
+                "#a07dea",
+               
+                        
+                ]);
+    var chart = new CanvasJS.Chart("container", {
+         colorSet: "greenShades",
+          height:380,
+          Width:50,
+	title:{
+		text: "₹ 85,476",
+		verticalAlign: "center",
+		dockInsidePlotArea: true
+	},
+	legend: {
+	maxHeight: 200,
+    maxWidth: 300,
+     margin: 30
+        
+	},
+	data: [{
+		type: "doughnut",
+        innerRadius: "80%",
+         radius: "60%", 
+         legendMarkerType: "square",
+		showInLegend: true,
+        legendText: "{name} #percent%",
+        // legend:"square",
+		dataPoints: [
+			{y: 64, name: "1 hour slot"},
+			{y: 28, name: "2 hour slot"},
+			{y: 8, name: "3 hour slot"},
+            {y: 16, name: "4 hour slot"}
+		]
+	}]
+});
+
+chart.render();
+             }
+</script>
+            <script>
+        $(".box").click(function () {
+            $(".content").slideToggle("slow");
+        });
+
+        $(document).ready(()=>{
+        $('#dashboard').addClass('actives');
+      
+    });
+        
+    </script>
+        </body>
+    </html>

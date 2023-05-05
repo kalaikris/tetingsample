@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inventory</title>
+       <link rel="icon" type="image/png" href="./asset/img/airportzo-icon.png">
+    <!-- boostrap-Modal-popup-link-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
+    <!-- boostrap-Modal-popup-link-->
+    <link rel="stylesheet" href="./js/data-table-css/jquery.dataTables.min.css" />
+    <link rel="stylesheet" href="./js/data-table-css/searchBuilder.dataTables.min.css" />
+    <link rel="stylesheet" href="./js/data-table-css/dataTables.dateTime.min.css" />
+    <link rel="stylesheet" href="./css/header-sidemenu.css" />
+    <link rel="stylesheet" href="./css/commen.css">
+    <link rel="stylesheet" href="./css/inventory.css">
+    <link rel="stylesheet" href="./css/fonts.css">
+
+    <!-- font -->
+</head>
+
+<body>
+    <header id="header">
+
+    </header>
+    <main>
+        <div class="flex-main-set">
+            <div class="slider-set" id="sidebar">
+
+            </div>
+            <div class="slider-desc-set">
+                <!-- <div class="underline"></div> -->
+                <div class="header-common">
+                    <div class="inventor-header">
+                        <h1>Manage inventory</h1>
+                        <p>Total Products-14</p>
+                    </div>
+                    <div class="nee-product">
+                        <button type="button" class="neet-btn">Add new product </button>
+                        <!-- <p>Add new product</p> -->
+
+                    </div>
+
+                </div>
+                <table id="example" class="" style="width: 100%;">
+                    <thead>
+                        <tr>
+                            <th>Item code</th>
+                            <th>Product name</th>
+                            <th>Price</th>
+                            <th>stock</th>
+                            <th>Status</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="td-bule">W9768</td>
+                            <td>
+                                <ul class="table-data-inner-value">
+                                    <li><img src="./asset/flower.png" alt=""></li>
+                                    <li>Mixed Tulip Bouquet</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul class="table-data-inner-value-rupee">
+                                    <li><img src="./asset/rupee.png" alt=""></li>
+                                    <li>350</li>
+                                </ul>
+                            </td>
+                            <td>250</td>
+                            <td><span class="table-data-innertext">Active</span></td>
+                            <td>
+                                <ul class="manage">
+                                    <li><button type="button" class="manage-text" data-toggle="modal"
+                                            data-target="#exampleModalCenter">Manage stock</button></li>
+                                    <li><img src="./asset/edit.png" alt="" data-toggle="modal"
+                                            data-target="#exampleModal"></li>
+                                    <li><img src="./asset/delete.png" alt=""></li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="td-bule">W8352</td>
+                            <td>
+                                <ul class="table-data-inner-value">
+                                    <li><img src="./asset/red.png" alt=""></li>
+                                    <li>Red Rose Bouquet</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul class="table-data-inner-value-rupee">
+                                    <li><img src="./asset/rupee.png" alt=""></li>
+                                    <li>500</li>
+                                </ul>
+                            </td>
+                            <td>420</td>
+                            <td><span class="table-data-innertext">Active</span></td>
+                            <td>
+                                <ul class="manage">
+                                    <li><button type="button" class="manage-text" data-toggle="modal"
+                                            data-target="#exampleModalCenter">Manage stock</button></li>
+                                    <li><img src="./asset/edit.png" alt="" data-toggle="modal"
+                                            data-target="#exampleModal"></li>
+                                    <li><img src="./asset/delete.png" alt=""></li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="td-bule">W7253</td>
+                            <td>
+                                <ul class="table-data-inner-value">
+                                    <li><img src="./asset/yellow.png" alt=""></li>
+                                    <li>Yellow Rose Bouquet</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul class="table-data-inner-value-rupee">
+                                    <li><img src="./asset/rupee.png" alt=""></li>
+                                    <li>350</li>
+                                </ul>
+                            </td>
+                            <td>146</td>
+                            <td><span class="table-data-innertext">Active</span></td>
+                            <td>
+                                <ul class="manage">
+                                    <li><button type="button" class="manage-text" data-toggle="modal"
+                                            data-target="#exampleModalCenter">Manage stock</button></li>
+                                    <li><img src="./asset/edit.png" alt="" data-toggle="modal"
+                                            data-target="#exampleModal"></li>
+                                    <li><img src="./asset/delete.png" alt=""></li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="td-bule">W0927</td>
+                            <td>
+                                <ul class="table-data-inner-value">
+                                    <li><img src="./asset/vilot.png" alt=""></li>
+                                    <li>Purple orchid Bouquet</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul class="table-data-inner-value-rupee">
+                                    <li><img src="./asset/rupee.png" alt=""></li>
+                                    <li>740</li>
+                                </ul>
+                            </td>
+                            <td>327</td>
+                            <td><span class="table-data-innertext">Active</span></td>
+                            <td>
+                                <ul class="manage">
+                                    <li><button type="button" class="manage-text" data-toggle="modal"
+                                            data-target="#exampleModalCenter">Manage stock</button></li>
+                                    <li><img src="./asset/edit.png" alt="" data-toggle="modal"
+                                            data-target="#exampleModal"></li>
+                                    <li><img src="./asset/delete.png" alt=""></li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="td-bule">W8725</td>
+                            <td>
+                                <ul class="table-data-inner-value">
+                                    <li><img src="./asset/Mulitiple.png" alt=""></li>
+                                    <li>Mixed Tulip Bouquet</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul class="table-data-inner-value-rupee">
+                                    <li><img src="./asset/rupee.png" alt=""></li>
+                                    <li>350</li>
+                                </ul>
+                            </td>
+                            <td>0</td>
+                            <td><span class="table-data-innertext-out">Out Of Stock</span></td>
+                            <td>
+                                <ul class="manage">
+                                    <li><button type="button" class="manage-text" data-toggle="modal"
+                                            data-target="#exampleModalCenter">Manage stock</button></li>
+                                    <li><img src="./asset/edit.png" alt="" data-toggle="modal"
+                                            data-target="#exampleModal"></li>
+                                    <li><img src="./asset/delete.png" alt=""></li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="td-bule">W0927</td>
+                            <td>
+                                <ul class="table-data-inner-value">
+                                    <li><img src="./asset/red.png" alt=""></li>
+                                    <li>Red Rose Bouquet</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul class="table-data-inner-value-rupee">
+                                    <li><img src="./asset/rupee.png" alt=""></li>
+                                    <li>500</li>
+                                </ul>
+                            </td>
+                            <td>420</td>
+                            <td><span class="table-data-innertext">Active</span></td>
+                            <td>
+                                <ul class="manage">
+                                    <li><button type="button" class="manage-text" data-toggle="modal"
+                                            data-target="#exampleModalCenter">Manage stock</button></li>
+                                    <li><img src="./asset/edit.png" alt="" data-toggle="modal"
+                                            data-target="#exampleModal"></li>
+                                    <li><img src="./asset/delete.png" alt=""></li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="td-bule">W8725</td>
+                            <td>
+                                <ul class="table-data-inner-value">
+                                    <li><img src="./asset/yellow.png" alt=""></li>
+                                    <li>Yellow Rose Bouquet</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul class="table-data-inner-value-rupee">
+                                    <li><img src="./asset/rupee.png" alt=""></li>
+                                    <li>350</li>
+                                </ul>
+                            </td>
+                            <td>146</td>
+                            <td><span class="table-data-innertext">Active</span></td>
+                            <td>
+                                <ul class="manage">
+                                    <li><button type="button" class="manage-text" data-toggle="modal"
+                                            data-target="#exampleModalCenter">Manage stock</button></li>
+                                    <li><img src="./asset/edit.png" alt="" data-toggle="modal"
+                                            data-target="#exampleModal"></li>
+                                    <li><img src="./asset/delete.png" alt=""></li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+                aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLongTitle">Manage stock</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="modal-body-inner">
+                                <div class="modal-body-inner-common">
+                                    <div class="popup-capture">
+                                        <img src="./asset/flower.png" alt="">
+                                    </div>
+                                    <div class="popup-text-set">
+                                        <p>Product name</p>
+                                        <h4>Mixed Tulip Bouquet</h4>
+                                    </div>
+                                </div>
+                                <div class="popup-stock-common">
+                                    <div class="popup-stock-inner">
+                                        <p>current stock</p>
+                                        <h4>250</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="formfield">
+                                <p>stock quentity</p>
+                                <input type="text" name="firstname" id="firstname" placeholder="1,286">
+                            </div>
+                            <div class="popup-update">
+                                <button type="button" class="update-button">update stock</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog another_one" role="document">
+                    <div class="modal-content another_two">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Edit Product</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body ">
+                            <div class="upload-image">
+                                <label class="popup_lab" for="upload_image">
+                                    <input type="file" accept="image" id="upload_image" style="display:none;">
+                                    <div class="popup_b_img">
+                                        <img src="./asset/addimg.png" alt="">
+                                    </div>
+                                </label>
+                            </div>
+                            <div class="formfield-popup">
+                                <p>Product Name</p>
+                                <input type="text" name="firstname" id="firstname" placeholder="Mixed Tulip Bouquet">
+                            </div>
+                            <div class="product-popup-price">
+                                <div class="popup-rupee">
+                                    <img src="./asset/rupee.png" alt="">
+                                </div>
+                                <div class="formfield-popup-price">
+                                    <p>price</p>
+                                    <input type="text" name="firstname" id="firstname" placeholder="250">
+                                </div>
+                            </div>
+                            <div class="popup-update-another-one">
+                                <button type="button" class="update-button">update stock</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+    </main>
+    <!-- boostrap-Modal-popup-link -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"></script>
+    <!-- boostrap-Modal=popup-link -->
+    <script src="./js/jquery-3.6.0.js"></script>
+    <script src="./js/data-table-js/jquery.dataTables.min.js"></script>
+    <script src="./js/data-table-js/dataTables.searchBuilder.min.js"></script>
+    <script src="./js/data-table-js/dataTables.dateTime.min.js"></script>
+
+    <!-- sidebar-heder -->
+    <script src="./js/heder-sidebar.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#example").DataTable({
+                language: {
+                    search: '<img class="b_img" src="./asset/svg/search@2x.png">',
+                    searchPlaceholder: "Search...",
+                },
+                buttons: [
+                    {
+                        extend: "searchBuilder",
+                        config: {
+                            depthLimit: 2,
+                        },
+                    },
+                ],
+                dom: "Bfrtip",
+                columnDefs: [
+                    {
+                        type: "unknownType",
+                        targets: [3],
+                    },
+                ],
+            });
+        });
+    </script>
+
+    <script>
+        $(document).ready(() => {
+            $('#management-inventory').addClass('actives');
+
+        });
+    </script>
+</body>
+
+</html>

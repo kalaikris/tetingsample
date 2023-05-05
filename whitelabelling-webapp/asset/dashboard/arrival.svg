@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="32px" viewBox="0 0 40 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>arrival</title>
+    <g id="arrival" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="3151242_airport_atention_landing_plane_sign_icon-copy" transform="translate(1.000000, 1.000000)" stroke="#8F8F8F" stroke-width="1.62">
+            <line x1="0" y1="28.1714286" x2="25.73913" y2="28.1714286" id="Path"></line>
+            <path d="M1.6086957,0.828571429 L4.02173924,0 L6.70865969,5.47491149 L34.7560872,10.8611639 C35.0622251,10.9199538 35.356427,11.0319424 35.626116,11.1923377 L35.6261191,11.1923394 C36.9399224,11.9737208 37.3900576,13.7042753 36.6315232,15.0576465 L36.5818314,15.1463039 C35.9906598,16.2010712 34.8106054,16.7478192 33.6522752,16.5036403 L25.73913,14.9142857 L14.4210448,21.5428571 L9.65217386,20.7142857 L17.6956532,13.2571429 L2.41304403,9.11428571 L1.6086957,0.828571429 Z" id="Path"></path>
+        </g>
+    </g>
+</svg>

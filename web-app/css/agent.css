@@ -1,0 +1,377 @@
+
+.become-agent-container section{
+	margin-bottom: 50px;
+}
+/* ========= BANNER SECTION ========= */
+.banner__section{
+	padding: 44px 0 32px;
+	background-image: linear-gradient(to bottom, #dff6e5, #fff);
+}
+.banner-desc-box{
+	width: 80%;
+	margin: 18px 0 40px;
+}
+.banner-desc-box h1{
+	font: 40px var(--font-primary);
+    letter-spacing: -1.25px;
+    margin-bottom: 12px;
+    color: rgba(0, 0, 0, 0.85);
+}
+.banner-desc-box p{
+	font-size: 18px;
+}
+.become_agent-btn,.become_agent-btn:hover{
+	display: inline-block;
+	padding: 18px 24px;
+	border-radius: 12px;
+	border:none;
+	background-color: #84BC42;
+	font: 20px var(--font-secondary);
+	color: #fff;
+	text-decoration: none;
+}
+
+/* ========= COMMISSION CARD SECTION ========= */
+.commission_card-sec {
+	padding: 32px 0 0;
+}
+.commission_card {
+	display: flex;
+	flex-wrap: wrap;
+    justify-content: space-evenly;
+	background-image:linear-gradient(to right, #c9f7ff, #dbf3ff);
+	padding:32px 40px 24px;
+	border-radius: 24px;
+}
+.commission_card .img-box img{
+	max-width: 100%;
+}
+.commission__desc {
+	position: relative;
+}
+.commission__desc h1 {
+	position: relative;
+	background: linear-gradient(to bottom, #ffb572, #fe7ea1);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-size: 135px;
+	filter: drop-shadow(-3px 4px 0px #c25854);
+}
+.commission__desc p {
+    font-size: 28px;
+    width: 95%;
+    line-height: 32px;
+}
+.commission__desc img{
+	width: 127px;
+	position: absolute;
+	top: -38%;
+	right: 0;
+}
+.commission__desc::before{
+	content: "";
+	background: url(../asset/agent/bolt.svg) no-repeat top right;
+
+}
+
+/* ========= WHY AIRPORTZO SECTION ========= */
+.why-az-content{
+	display: grid;
+	grid-template-columns: auto auto;
+	justify-content: center;
+	margin-top: 16px;
+}
+.why-az-content-box{
+	display: flex;
+	padding: 40px 80px;
+}
+.why-az-content-box .b-header-set{
+	text-align: left;
+}
+.why-az-content-box .b-header-set h1{
+	padding-bottom: 6px;
+	font-size: 48px;
+}
+.why-az-content-box img{
+	width: 60px;
+	margin-right: 24px;
+}
+.why-az-content-box p{
+	font-size: 20px;
+}
+
+
+/* ========= HOW IT WORKS SECTION ========= */
+.how-it-works-sec{
+	padding: 16px 0;
+}
+.how-it-works-box{
+	position: relative;
+    padding: 32px;
+    background: #2b192c url(../asset/agent/how-shape.svg) no-repeat top left;
+    border-radius: 24px;
+}
+.how-it-works-box .heading-set h2{
+   	color: #fff;
+   	margin-bottom: 24px;
+}
+.how-it-works-box .steps_container{
+	display: flex;
+	justify-content: center;
+}
+.how-it-works-box img{
+	max-width: 100%;
+}
+.how-it-works-box .steps li{
+	position: relative;
+	padding-left: 32px;
+	padding-bottom: 32px;
+}
+.how-it-works-box .steps li:last-child{
+	padding-bottom: 16px;
+}
+.how-it-works-box .steps li:before{
+	content: '';
+	position: absolute;
+	top: 5px;
+	left: 0;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background-color: #9c919e;
+	z-index: 1;
+}
+.how-it-works-box .steps li:not(:last-child):after{
+	content: '';
+	position: absolute;
+	top: 5px;
+	left: 3px;
+	width: 2px;
+	height: 100%;
+	background-color: #756778;
+}
+.how-it-works-box .steps li p:first-child{
+	text-transform: uppercase;
+    color: #f5d95c;
+    font-weight: bold;
+}
+.how-it-works-box .steps li p:nth-child(2){
+	color: #fff;
+	font-size: 18px;
+}
+
+/* ========= AGENT STORY SECTION ========= */
+.agent-story-sec .aboutus-owl{
+	margin-top: 0;
+}
+
+/* ========= BECOME AN AGENT FORM SECTION ========= */
+.become-agent-form-section .heading-set{
+	margin-bottom: 32px;
+}
+.become-agent-form-section .heading-set p{
+	font-size: 20px;
+}
+.become-agent-form-section .stepwizard-row{
+	width: 25%;
+}
+.upload__image-container{
+	margin-bottom: 32px;
+}
+.upload__image-container label{
+	display: block;
+	margin-top: 10px;
+	color: var(--color-primary);
+	cursor: pointer;
+}
+.upload__image-container > svg{
+	margin: 0 auto;
+}
+.upload__image-container > img {
+	margin: auto;
+	border-radius: 50%;
+	max-width: 125px;
+    aspect-ratio: 1;
+    object-fit: cover;
+    object-position: top;
+}
+.become-agent-form-section .add__passenger-form{
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+.become-agent-form-section .login-input-group{
+	margin-bottom: 20px;
+}
+.become-agent-form-section .dob-input label.bg-date{
+	opacity: 1;
+	margin-right: 10px;
+}
+.form-divider{
+	border-bottom: 1px solid #ececec;
+	margin:24px 0; 
+}
+.side-header-set{
+	margin-bottom: 24px;
+}
+.side-header-set h3{
+	font-family: var(--font-primary);
+	margin-bottom: 4px;
+}
+.side-header-set p,
+.bank-branch{
+	font: 16px var(--font-default);
+    letter-spacing: -.47px;
+    opacity: .5;
+}
+.input-box-set select{
+	background-color: transparent;
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 16px;
+}
+.nex-arrow-set{
+	position: relative;
+    right: 15%;
+    box-shadow: 0 15px 35px 6px #d6d6d6;
+}
+.bank-branch{
+	margin-left: 5px;
+}
+.upload__docs-container{
+	margin-bottom: 32px;
+}
+.upload__doc-box{
+	display: flex;
+	justify-content: space-between;
+	padding: 15px 8px;
+	border-bottom: 1px solid #ececec;
+}
+.upload__doc-box:last-child{
+	border-bottom: none;
+}
+.upload__doc-box label{
+	font:16px var(--font-primary);
+	color: var(--color-primary);
+	text-transform: capitalize;
+	cursor: pointer;
+}
+.uploaded-box span{
+    margin-right: 10px;
+}
+.uploaded-box span:nth-child(2){
+	font:16px var(--font-primary);
+}
+.uploaded-box img{
+	width: 18px;
+	cursor: pointer;
+	vertical-align: text-bottom;
+}
+.uploaded-box .step-btn{
+	cursor: default;
+	vertical-align: text-top;
+}
+.become-agent-form-section .become_agent-btn{
+	max-width: 100%;
+}
+.other-details-form .nex-arrow-set img{
+	transform: rotate(180deg);
+}
+
+
+
+
+@media screen and (min-width: 576px){
+	.why-az-content-box:nth-child(odd){
+		border-right: 1px solid #dcdcdc;
+	}
+	.why-az-content-box:nth-child(1),
+	.why-az-content-box:nth-child(2){
+		border-bottom: 1px solid #dcdcdc;
+	}
+	.steps{
+		width: 50%;
+	}
+}
+@media screen and (min-width: 992px){
+	.how-it-works-box img{
+		position: absolute;
+		right: 0;
+		bottom: 0;
+		width: 25%;
+	}
+}
+
+@media screen and (max-width: 1024px){
+	.why-az-content-box{
+	    padding: 32px 50px;
+	}
+
+}
+@media screen and (max-width: 991px){
+	.banner-desc-box{
+		width: 100%;
+		margin: 0px 0 32px;
+	}
+	.banner-desc-box h1{
+		font-size: 32px;
+	}
+	.landing__image-box img{
+		max-width: 100%;
+		margin-top: 16px;
+	}
+	.commission_card {
+		flex-direction: column-reverse;
+	}
+	.commission__desc h1,.commission__desc p,.commission_card .img-box{
+        text-align: center; 
+	}
+	.commission__desc p{
+		width: 100%;
+		margin-bottom: 16px;
+	}
+	.become-agent-form-section .stepwizard-row{
+		width: 50%;
+	}
+}
+@media screen and (max-width: 767px){
+	.why-az-content-box{
+	    padding: 32px;
+	}
+	.why-az-content-box .b-header-set h1{
+		font-size: 36px;
+	}
+
+}
+@media screen and (max-width: 575px){
+	.why-az-content{
+		grid-template-columns: auto;
+	}
+	.why-az-content-box{
+	    padding: 32px;
+	}
+	.why-az-content-box .b-header-set h1{
+		font-size: 36px;
+	}
+	.commission__desc h1{
+		font-size: 92px;
+	}
+	.commission__desc img{
+		width: 94px;
+	}
+	.become-agent-form-section .stepwizard-row{
+		width: 75%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+

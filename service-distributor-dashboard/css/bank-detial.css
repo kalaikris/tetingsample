@@ -1,0 +1,129 @@
+/* Bank Details-form */
+.bank_detail_fullbox {
+  width: 85%;
+  margin: auto;
+}
+
+.your_bank_title {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.your_bank_title h4 {
+  color: #000;
+  font-family: "Rubik-SemiBold";
+  font-size: 25px;
+}
+
+.your_bank_title p {
+  color: #abaaaa;
+  font-family: "Rubik-Regular";
+  font-size: 20px;
+}
+.Contact_boxs3 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.account_info {
+  border: 1px solid #e1e1e1;
+  padding: 6px 19px;
+  height: fit-content;
+  border-radius: 16px;
+  /* display: flex; */
+  align-items: center;
+  gap: 0px;
+  width: 415px;
+  flex-wrap: wrap;
+}
+.account_conts p {
+  margin: 0px;
+  color: #abaaaa;
+  padding-bottom: 6px;
+  font-family: "Rubik-Regular";
+  font-size: 17px;
+}
+.number_text {
+  outline: none;
+  border: none;
+  background: transparent;
+  width: 260px;
+}
+.numer-acc {
+  padding-top: 10px;
+}
+.numer-acc img {
+  width: 15px;
+  height: 15px;
+}
+.account_mactched {
+  color: #e64c48;
+  display: flex;
+  gap: 5px;
+  font-size: 12px;
+}
+.reject {
+  border: 1px solid #e64c48;
+}
+.reject .account_conts p,
+.reject .account_conts input {
+  color: #e84c71;
+}
+
+input.number_text {
+  font-family: "Rubik-Regular";
+}
+input.number_text::placeholder {
+  color: #000;
+}
+input.alert_text.reject_input {
+  outline: none;
+  border: none;
+  background: transparent;
+  width: 260px;
+}
+
+input.alert_text.reject_input {
+  font-family: "Rubik-Regular";
+  font-size: 18px;
+}
+input.number_branch_text {
+  outline: none;
+  border: none;
+  background: transparent;
+  width: 260px;
+}
+.number_branch_text {
+  font-family: "Rubik-Regular";
+  font-size: 18px;
+}
+.number_branch_text::placeholder {
+  color: #abaaaa;
+}
+.Contact_boxs4 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.Contact_boxs5 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.account_info-branch {
+  border: 1px solid #e1e1e1;
+  padding: 6px 19px;
+  height: fit-content;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  gap: 0px;
+  width: 415px;
+  flex-wrap: wrap;
+  background: #f6f6f6;
+}
+.account_conts input {
+  width: 100%;
+}

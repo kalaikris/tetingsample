@@ -1,0 +1,346 @@
+.profile-sec{
+    padding: 50px 0px;
+}
+.profile-set{
+    display: flex;
+}
+.profileleft-set{
+    /* width: 40%; */
+    background-color: var(--color-primary); /* For browsers that do not support gradients */
+    /*background: linear-gradient(#07B3D2, #07D2A6);*/
+    border-radius: 24px;
+    overflow: hidden;
+}
+.profile-card {
+    width: 350px;
+    min-height: 300px;
+    padding: 24px 20px;
+    background-image: url(../asset/profile/map-bg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.profile-edit-set{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.edit-icon{
+    width: 18px;
+    margin-right: 5px;
+}
+.profile-edit-set p{
+    font: 14px/16px var(--font-default);
+    letter-spacing: -0.28px;
+    color: #fff;
+}
+.profile-desc-set{
+    width: 80%;
+    margin: auto;
+}
+.profile-pic-set{
+    margin-bottom: 30px;
+}
+.profile-small{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 0 0 4px rgb(255 255 255 / 34%);
+    object-position: top;
+}
+.profile-big{
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    object-position: top;
+}
+.profile-info-set{
+    margin-bottom: 20px;
+}
+.profile-info-set h3{
+    font: 22px/26px var(--font-default);
+    letter-spacing: -0.69px;
+    color: #fff;
+}
+.profile-info-set p{
+    font: 16px/25px var(--font-default);
+    letter-spacing: -0.5px;
+    color: #fffc;
+}
+.earn-coin-set{
+    background: #FDF7E3;
+    border-radius: 8px;
+    padding: 6px 12px;
+    width: 165px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+.flight-icon{
+    width: 20px;
+    margin-right: 5px;
+}
+.earn-coin-set p{
+    font: 15px/20px var(--font-default);
+    letter-spacing: -0.428571px;
+    color: #907416;
+}
+.coin-count{
+    font-family: var(--font-primary);
+}
+.gst-set{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    margin-top: 0;
+    display: block;
+}
+.gst-header-set{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #F2F2F2;
+}
+.gst-header-set h2{
+    font: 20px/23px var(--font-primary);
+    letter-spacing: -0.63px;
+}
+.gst-header-set a{
+    font: 14px/18px var(--font-primary);
+    letter-spacing: -0.63px;
+    color: #0FB3D4;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.gst-input-group{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+.gst-input-group > div:not(:first-child){
+    width: 100%;
+}
+.gst-input-group .login-input-group{
+    margin-bottom: 0;
+}
+
+.input-form-group-item {
+    width: 48.5%;
+    border: 1px solid #EAEAEA;
+    border-radius: 14px;
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.input-box-sets {
+    width: 100%;
+}
+.input-box-sets p {
+    font: 13px/20px var(--font-default);
+    letter-spacing: -.47px;
+    white-space: nowrap;
+    width: 90%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    opacity: .5;
+}
+.input-box-sets .input-lable p{
+    font-size: 15px;
+    opacity: 1;
+}
+.input-lable{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.input-box-sets .input-data {
+    font: 15px/20px var(--font-default);
+    letter-spacing: -0.47px;
+    width: 100%;
+    opacity: .5;
+}
+
+
+.edit-cancel-set{
+    display: flex;
+}
+.input-edit-icon{
+    width:20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.input-cancel-icon{
+    width:16px;
+    cursor: pointer;
+}
+.list-of-images
+{
+    margin-right: 20px;
+}
+.list-content
+{
+    margin-top: 24px;
+}
+.list-content li{
+    float: unset;
+
+}
+.Setting-title .nav-tabs > li > a{
+    border-bottom: 1px solid #EAEAEA;
+    color: #262626;
+    padding-left: 50px;
+}
+.Setting-title .nav-tabs > li.active > a, 
+.Setting-title .nav-tabs > li.active > a:focus, 
+.Setting-title .nav-tabs > li.active > a:hover{
+    color: #000;
+    background-color: #f7f9f8;
+    border:none;
+    border-radius: 0;
+    border-right: 3px solid var(--secondary-color);
+    border-bottom: 1px solid #EAEAEA;
+    font-family: var(--font-primary);
+}
+
+.user_name {
+    border: 1px solid #cacaca;
+    padding: 6px 20px;
+    height: fit-content;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    width: 360px;
+    margin-bottom: 30px;
+}
+select {
+    border: none;
+    outline: none;
+}
+.input_cont {
+    border-left: 1px solid #000;
+    padding-left: 20px;
+}
+.input_cont p {
+    margin: 0px;
+    color: #c5c5c5 !important;
+    padding-bottom: 6px;
+}
+
+.title_box {
+    border: 1px solid #cacaca;
+    padding: 6px 20px;
+    height: fit-content;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    gap: 0px;
+    width: 360px;
+    margin-bottom: 30px;
+}
+.update-profile
+{
+    display: none;
+}
+.box_2
+{
+    width: 100%;
+}
+.cont-file
+{
+    display: flex;
+    justify-content: center;
+}
+
+.update-btn
+{
+    padding: 14px 18px;
+    width: 360px;
+    border: none;
+    border-radius: 12px;
+    background: var(--color-primary);
+    margin-top: 20px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+}
+.content
+{
+    padding-bottom: 30px;
+    text-align: center;
+}
+.content label{
+    color: var(--secondary-color);
+    margin-top: 8px;
+    cursor: pointer;
+}
+.user-svg-big{
+    width: 120px;
+    height: 120px;
+}
+.user-svg-small{
+    width: 80px;
+    height: 80px;
+}
+
+.gst-group{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.btn-gst,.add_btn{
+    width: 52%;
+    padding: 12px 0px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+@media screen and (min-width:1024px){
+    /*.gst-contct{
+        position: relative;
+        top: 160px;
+    }*/
+}
+
+@media screen and (max-width:991px){
+    .profile-set{
+        flex-wrap: wrap;
+    } 
+    .gst-set{
+        width: 100%;
+        margin-top: 30px;
+    }
+}
+@media screen and (max-width:667px){
+    .profile-set{
+        width: 95%;
+        margin: auto;
+    }
+}
+@media screen and (max-width:550px){
+    .profile-sec {
+        padding: 30px 0px;
+    }
+    .input-form-group-item {
+        width: 48%;
+    }
+}
+@media screen and (max-width:500px){
+    .input-form-group-item{
+        width: 100%;
+    }
+    .profileleft-set{
+        width: 100%;
+    }
+    .profile-card{
+        width: 100%;
+        min-height: 350px;
+    }
+}

@@ -1,0 +1,202 @@
+a {
+  text-decoration: none !important;
+}
+.slider-desc-set {
+  /* width: 77%; */
+  min-width: 400px;
+  max-width: 77%;
+  margin-inline: auto;
+  background: #f9fafc;
+  font-family: var(--font-rgular);
+  overflow: hidden;
+}
+.order-titel-header {
+  display: flex;
+  justify-content: space-between;
+  width: 99%;
+}
+h2.order-titel {
+  font-family: var(--font-bold);
+}
+.p-set {
+  display: flex;
+  width: 39rem;
+  justify-content: space-between;
+}
+p.p1 {
+  color: #1f1e1e;
+}
+.cont-head-row {
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  margin-inline: auto;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #d5d5d5;
+  margin-bottom: 1rem;
+}
+.order-contant-all {
+  /* width: 100%; */
+  max-width: 100%;
+  min-width: 500px;
+  margin-inline: auto;
+  margin-top: 12px;
+  border-radius: 16px;
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+  background-color: white !important;
+}
+.rows {
+  display: flex;
+  gap: 12px;
+}
+img.img-at {
+  width: 50px;
+}
+img.imge-h2 {
+  width: 47px;
+}
+h3.bold-tex {
+  font-family: var(--font-bold);
+  font-size: 19px;
+}
+/* date picker */
+.arriving-input-set {
+  position: relative;
+}
+.bg-date {
+  background-image: url(../asset/img/calendar.svg);
+  background-repeat: no-repeat;
+  background-size: 41px;
+  background-position: 0px;
+  padding: 0px;
+  background-color: #ffffff;
+  border: none;
+  cursor: pointer;
+  width: 58px;
+  text-align: center;
+  z-index: 1;
+  height: 42px;
+  margin: auto;
+}
+.bg-time {
+  background-image: url(../asset/img/time.svg);
+  background-repeat: no-repeat;
+  background-size: 35px;
+  background-position: 0px;
+  padding: 0px;
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
+  width: 54px;
+  text-align: center;
+  z-index: 1;
+  height: 42px;
+  margin: auto;
+}
+.arriving-input-set label {
+  font: 12px/14px var(--fond-regular);
+  color: rgba(0, 0, 0, 0.3);
+  letter-spacing: -0.38px;
+  white-space: nowrap;
+  text-align: center;
+  margin-top: 0px;
+  padding: 0;
+  z-index: 2;
+}
+.date-con {
+  width: 145px;
+}
+.b-input {
+  letter-spacing: -0.47px;
+  color: black !important;
+  font-family: var(--font-bold);
+  width: 200px;
+  border: none;
+  border-radius: 0px;
+  padding: 0px;
+  background-color: transparent;
+  outline: none;
+  appearance: none;
+  -webkit-appearance: none;
+}
+.arriving-input-set:nth-child(3) {
+  width: 12%;
+}
+input#arrive_time_input {
+  height: 86px;
+  position: absolute;
+  left: 56px;
+}
+.b-input::placeholder {
+  color: black !important;
+}
+
+/* heder section compled */
+
+.flex-set {
+  display: flex;
+  justify-content: space-between;
+  max-width: 93%;
+  min-width: 54rem;
+}
+.passenger-details {
+  padding-bottom: 2.5rem;
+}
+.main-cont-set {
+  margin-inline: auto;
+  width: 95%;
+}
+p.p-titel-set {
+  color: black;
+  font-size: 1.1rem;
+  font-family: var(--font-semi-bold);
+  padding-bottom: 0.5rem;
+}
+p.name-pass {
+  color: black;
+}
+/* second */
+.flex-set2 {
+  display: flex;
+  justify-content: space-between;
+  max-width: 43%;
+  min-width: 31rem;
+}
+.set-cont {
+  width: 45%;
+}
+.set-cont2 {
+  width: 17.5rem;
+}
+.notes-width {
+  width: 41rem;
+}
+p.last-cont-note {
+  color: black;
+}
+.line {
+  border-bottom: 1px solid #dddbdb;
+}
+
+button.accept {
+  padding: 15px 43px 15px 43px;
+  outline: none;
+  border: none;
+  background: var(--clr-neutral-900);
+  color: var(--clr-neutral-100);
+  border-radius: 12px;
+  cursor: pointer;
+}
+button.reject {
+  padding: 15px 43px 15px 43px;
+  outline: none;
+  border: none;
+  background-color: #f4f4f4;
+  border-radius: 12px;
+  margin-left: 1rem;
+  cursor: pointer;
+}
+.button-groub {
+  padding: 37px 0px 30px 0px;
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>logout</title>
+    <g id="logout" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="9044574_logout_icon" transform="translate(4.000000, 4.000000)">
+            <path d="M3,15 L9,15 C9.55202204,14.9993663 9.99936627,14.552022 10,14 L10,12.5 L9,12.5 L9,14 L3,14 L3,2 L9,2 L9,3.5 L10,3.5 L10,2 C9.99936627,1.44797796 9.55202204,1.00063373 9,1 L3,1 C2.44797796,1.00063373 2.00063373,1.44797796 2,2 L2,14 C2.00063373,14.552022 2.44797796,14.9993663 3,15 Z" id="Path" stroke="#E84B4B" stroke-width="0.2" fill="#E84B4B" fill-rule="nonzero"></path>
+            <polygon id="Path" stroke="#E84B4B" stroke-width="0.2" fill="#E84B4B" fill-rule="nonzero" points="10.293 10.293 12.086 8.5 5 8.5 5 7.5 12.086 7.5 10.293 5.707 11 5 14 8 11 11"></polygon>
+            <rect id="_Transparent_Rectangle_" x="0" y="0" width="16" height="16"></rect>
+        </g>
+    </g>
+</svg>

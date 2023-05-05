@@ -1,0 +1,83 @@
+Terminal,Type (International or Domestic),Category (Arrival or Departure),Service Type,Package,Service,Packages Description,Service Included,Currency,Price_Adult,Price_Child,Additional_Adult_Price,Additional_Child_Price
+Terminal,Domestic,Arrival,Individual,Domestic-Arrival-Porter,Porter,"- Assistance from Baggage belt area
+- Porter Assistance( max.3 bags per person)
+- Coordination with Receiving Party
+- Assistance up to Car parking",Porter,INR,300,300,300,300
+Terminal,Domestic,Departure,Individual,Domestic-Departure-Porter,Porter,"- Assistance from Curb Side (Drop off Point)
+- Porter Assistance( max.3 bags per person)
+- Assistance at Check-In Counters",Porter,INR,300,300,300,300
+Terminal,International,Arrival,Individual,International-Arrival-Porter,Porter,"- Assistance from Baggage belt area
+- Porter Assistance( max.3 bags per person)
+- Coordination with Receiving Party
+- Assistance up to Car parking",Porter,INR,400,400,400,400
+Terminal,International,Departure,Individual,International-Departure-Porter,Porter,"- Assistance from Curb Side (Drop off Point)
+- Porter Assistance( max.3 bags per person)
+- Assistance at Check-In Counters",Porter,INR,400,400,400,400
+Terminal,International – Domestic,Transit,Individual,International-Domestic-Transit-Porter,Porter,"- Porter will receive the guest at the baggage belt post immigration with the placard.
+- Baggage assistance (up to 3 bags per passenger)
+- Porter will escort the guest to the departure hall through the transfer gate.
+- Assistance in Baggage check-in.",Porter,INR,700,700,700,700
+Terminal,Domestic – International,Transit,Individual,Domestic-International-Transit-Porter,Porter,"- Porter will receive the guest at the baggage belt post immigration with the placard.
+- Baggage assistance (up to 3 bags per passenger)
+- Porter will escort the guest to the departure hall through the transfer gate.
+- Assistance in Baggage check-in.",Porter,INR,700,700,700,700
+Terminal,Domestic – Domestic,Transit,Individual,Domestic-Domestic-Transit-Porter,Porter,"- Porter will receive the guest at the baggage belt post immigration with the placard.
+- Baggage assistance (up to 3 bags per passenger)
+- Porter will escort the guest to the departure hall through the transfer gate.
+- Assistance in Baggage check-in.",Porter,INR,700,700,700,700
+Terminal,International – International,Transit,Individual,International-International-Transit-Porter,Porter,"- Porter will receive the guest at the baggage belt post immigration with the placard.
+- Baggage assistance (up to 3 bags per passenger)
+- Porter will escort the guest to the departure hall through the transfer gate.
+- Assistance in Baggage check-in.",Porter,INR,700,700,700,700
+Terminal,Domestic,Arrival,Bundled,Domestic-Arrival-Silver (Without Lounge),Meet and Greet,"- Greeter will receive the passenger at the arrival gate with the placard. 
+- Baggage assistance (up to 3 bags per passenger). 
+- Drop off till vehicle pick-up point.","-MAAS
+-Porter",INR,2950,2950,2950,2950
+Terminal,Domestic,Departure,Bundled,Domestic-Departure-Silver (Without Lounge),Meet and Greet,"- Greeter will meet the guest at the airport drop-off point (kerbside).
+- Baggage assistance (up to 3 bags per passenger).
+- Assistance at check-in.
+- Assistance at SHA (Security Hold Area).
+- Drop off at the boarding gate","-MAAS
+-Porter",INR,2950,2950,2950,2950
+Terminal,International,Arrival,Bundled,International-Arrival-Silver (Without Lounge),Meet and Greet,"- Greeter will receive the passenger at the arrival gate with the placard. 
+- Baggage assistance (up to 3 bags per passenger). 
+- Drop off till vehicle pick-up point.","-MAAS
+-Porter",INR,2950,2950,2950,2950
+Terminal,International,Departure,Bundled,International-Departure-Silver (Without Lounge),Meet and Greet,"- Greeter will meet the guest at the airport drop-off point (kerbside). 
+- Baggage assistance (up to 3 bags per passenger). 
+- Assistance at check-in. 
+- Assistance at SHA (Security Hold Area). 
+- Drop off at the boarding gate","-MAAS
+-Porter",INR,2950,2950,2950,2950
+Terminal,International-International,Transit,Bundled,International-International-Transit-Silver (Without Lounge),Meet and Greet,"- Greeter will receive the passenger at arrival gate post immigration with the placard.
+- Baggage assistance (up to 3 bags per passenger).
+- Greeter will escort the guest to the departure hall through transfer gate
+- Baggage check-in (If any)
+- Assistance in immigration
+- Assistance in customs
+- Assistance at SHA (Security Hold Area)
+- Drop off to the boarding gate","-MAAS
+-Porter",INR,5900,5900,5900,5900
+Terminal,International-Domestic,Transit,Bundled,International-Domestic-Transit-Silver (Without Lounge),Meet and Greet,"- Greeter will receive the passenger at arrival gate post immigration with the placard.
+- Baggage assistance (up to 3 bags per passenger).
+- Greeter will escort the guest to the departure hall through transfer gate
+- Baggage check-in (If any)
+- Assistance at SHA (Security Hold Area)
+- Drop off to the boarding gate","-MAAS
+-Porter",INR,5310,5310,5310,5310
+Terminal,Domestic-International,Transit,Bundled,Domestic-International-Transit-Silver (Without Lounge),Meet and Greet,"- Greeter will receive the passenger at arrival gate with the placard.
+- Baggage assistance (up to 3 bags per passenger).
+- Greeter will escort the guest to the departure hall through transfer gate
+- Baggage check-in (If any)
+- Assistance in immigration
+- Assistance in customs
+- Assistance at SHA (Security Hold Area)
+- Drop off to the boarding gate","-MAAS
+-Porter",INR,5310,5310,5310,5310
+Terminal,Domestic-Domestic,Transit,Bundled,Domestic-Domestic-Transit-Silver (Without Lounge),Meet and Greet,"- Greeter will receive the passenger at arrival gate with the placard.
+- Baggage assistance (up to 3 bags per passenger).
+- Greeter will escort the guest to the departure hall through transfer gate
+- Baggage check-in (If any)
+- Assistance at SHA (Security Hold Area)
+- Drop off to the boarding gate","-MAAS
+-Porter",INR,3540,3540,3540,3540

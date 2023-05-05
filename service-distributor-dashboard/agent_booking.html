@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ajent_booking</title>
+    <link rel="shortcut icon" href="./asset/airportzo-icon.png">
+    <!-- boostrap-popup-link-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
+    <!-- boostrap-popup-link-->
+    <link rel="stylesheet" href="./js/data-table-css/jquery.dataTables.min.css" />
+    <link rel="stylesheet" href="./js/data-table-css/searchBuilder.dataTables.min.css" />
+    <link rel="stylesheet" href="./js/data-table-css/dataTables.dateTime.min.css" />
+    <link rel="stylesheet" href="./css/header-sidemenu.css" />
+    <link rel="stylesheet" href="./css/custom.css">
+    <link rel="stylesheet" href="./css/agent_booking.css">
+    <link rel="stylesheet" href="./css/fonts.css">
+    <!-- datepicker style -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/bootstrap-icons.css">
+    <link rel="stylesheet" href='./css/bootstrap-datetimepicker.css'>
+    <!-- datepicker style-end -->
+</head>
+
+<body>
+    
+    <header id="header">
+    </header>
+    <main>
+        <div class="flex-main-set">
+            <div class="slider-set" id="sidebar">
+            </div>
+            <div class="slider-desc-set">
+                <div class="header-common-down">
+                    <div class="alejan">
+                        <img src="./asset/alegan.png" alt="">
+                        <div class="alenjandro">
+                            <h1>Alejandro Cain</h1>
+                            <p>W9768</p>
+
+                        </div>
+                    </div>
+                    <div class="pay-button">
+                        <a href=""> <button type="button" class="pay-btn"> pay ₹ 19,476</button></a>
+                    </div>
+
+
+                </div>
+                <div class="join-email-common">
+                    <div class="join">
+                        <p> Joined on </p>
+                        <h1>o4 Jul,20222</h1>
+                    </div>
+                    <div class="join">
+                        <p> Email Address </p>
+                        <h1>Wegho@maguvupi.com</h1>
+                    </div>
+                    <div class="join">
+                        <p> Mobile Number </p>
+                        <h1>+962575772234</h1>
+                    </div>
+
+
+                </div>
+                <hr>
+                <div class="credit-common">
+                    <div class="credit">
+                        <div class="credit-inner">
+                            <h1>₹ 3,74,276</h1>
+                            <p>Booked Revenue</p>
+                        </div>
+
+                    </div>
+
+                    <div class="total-credit">
+                        <div class="total-credit-inner">
+                            <h1>₹ 1,56,387</h1>
+                            <p>Realized Revenue</p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="unrealized">
+                        <div class="unrealized-inner">
+                            <h1>₹ 1,74,276</h1>
+                            <p>Unrealized Revenue</p>
+                        </div>
+
+                    </div>
+
+                    <div class="outstanding">
+                        <div class="outstanding-inner">
+                            <h1>₹ 47,387</h1>
+                            <p>Outstanding Balance</p>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="common-input-field">
+                    <div class="inner-input-field">
+                        <div class='arriving-input-set input-group' id='from_date'>
+                            <span class="input-group-addon bg-date">
+                            </span>
+                            <div class="date-con">
+                                <label for="arrive_date">From Date</label><br>
+                                <input type='text' class="b-input
+                              datepicker" id="arrive_date_input" placeholder="DD-MM-YYYY" readonly />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="inner-input-field">
+                        <div class='arriving-input-set input-group' id='to_date'>
+                            <span class="input-group-addon bg-date">
+                            </span>
+                            <div class="date-con">
+                                <label for="arrive_date">To Date</label><br>
+                                <input type='text' class="b-input
+                              datepicker" id="arrive_date_input" placeholder="DD-MM-YYYY" readonly />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="inner-input-field">
+                        <button type="button" class="btn-pr"> <img src="./asset/dropdown.png" alt=""> <label
+                                for="Download">Download us</label>
+                            <select name="pdf" id="pdf">
+                                <option value="png"></option>
+                                <option value="svg">svg</option>
+                                <option value="gif">gif</option>
+
+                            </select></button>
+                    </div>
+                    
+                </div>
+                <table id="example" class="" style="width: 100%;">
+                    <thead>
+                        <tr>
+                            <th>Order ID</th>
+                            <th>Booking Cost</th>
+                            <th>Commision %</th>
+                            <th>Commision Cost</th>
+                            <th>Total Cost</th>
+                            <th>Cancellation Change</th>
+                            <th>Refund Amount</th>
+                            <th>Payment Status</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="order-data">W9768</td>
+                            <td>
+                                <ul class="service-cost">
+                                    <li> ₹ 4,780 </li>
+                                </ul>
+                            </td>
+                            <td> 5%</td>
+
+
+                            <td>
+                                <ul class="total-commision-cost">
+                                    <li>-</li>
+                                    <li> ₹ 3,950</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul class="credit-balance">
+
+                                    <li> ₹ 3,72,375</li>
+                                </ul>
+                            </td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td> <span class="payment">complete</span> </td>
+                            <td>-</td>
+                        </tr>
+                    
+                        <tr>
+                            <td class="order-data">W8352</td>
+                            <td>
+                                <ul class="service-cost">
+                                    <li>₹ 4,780 </li>
+                                </ul>
+                            </td>
+                            <td> 5%</td>
+                            <td>
+                                <ul class="total-commision-cost">
+                                    <li>-</li>
+                                    <li> ₹ 5,286</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul class="credit-balance">
+
+                                    <li>₹ 3,950</li>
+                                </ul>
+                            </td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td><span class="payment">complete</span></td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <td class="order-data">W7253</td>
+                            <td>
+                                <ul class="service-cost">
+                                    <li>₹ 4,780 </li>
+                                </ul>
+                            </td>
+                            <td> 5%</td>
+                            <td>
+                                <ul class="total-commision-cost">
+                                    <li>-</li>
+                                    <li> ₹ 1,937</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul class="credit-balance">
+
+                                    <li>₹ 5,286</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul class="total">
+                                    <li> ₹ 937</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul class="total">
+                                    <li> ₹ 1,947</li>
+                                </ul>
+                            </td>
+                            <td> <span class="Refund">Refunded</span> </td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <td class="order-data">W0927</td>
+                            <td>
+                                <ul class="service-cost">
+                                    <li>₹ 4,780 </li>
+                                </ul>
+                            </td>
+                            <td> 5%</td>
+                            <td>
+                                <ul class="total-commision-cost">
+                                    <li>-</li>
+                                    <li>₹ 1,744</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul class="credit-balance">
+
+                                    <li>₹ 1,937</li>
+                                </ul>
+                            </td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td> <span class="payment">complete</span> </td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <td class="order-data">W8725</td>
+                            <td>
+                                <ul class="service-cost">
+                                    <li>₹ 4,780 </li>
+                                </ul>
+                            </td>
+                            <td> 5%</td>
+                            <td>
+                                <ul class="total-commision-cost">
+                                    <li>-</li>
+                                    <li>₹ 290</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul class="credit-balance">
+
+                                    <li>₹ 1,744</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul class="total">
+                                    <li> ₹ 290</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul class="total">
+                                    <li>₹ 290</li>
+                                </ul>
+                            </td>
+                            <td> <span class="Pending">Pending</span> </td>
+                            <td><button type="button" class="initiate">initiate payment</button></td>
+                        </tr>
+                        <tr>
+                            <td class="order-data">W8725</td>
+                            <td>
+                                <ul class="service-cost">
+                                    <li>₹ 4,780 </li>
+                                </ul>
+                            </td>
+                            <td> 5%</td>
+                            <td>
+                                <ul class="total-commision-cost">
+                                    <li>-</li>
+                                    <li>₹ 290</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul class="credit-balance">
+
+                                    <li>₹ 290</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul class="total">
+                                    <li>₹ 290</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul class="total">
+                                    <li>₹ 290</li>
+                                </ul>
+                            </td>
+                            <td> <span class="Pending">Pending</span> </td>
+                            <td><button type="button" class="initiate">initiate payment</button></td>
+                        </tr>
+                        <tr>
+                            <td class="order-data">W8725</td>
+                            <td>
+                                <ul class="service-cost">
+                                    <li>₹ 4,780 </li>
+                                </ul>
+                            </td>
+                            <td> 5%</td>
+                            <td>
+                                <ul class="total-commision-cost">
+                                    <li>-</li>
+                                    <li>₹ 290</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul class="credit-balance">
+
+                                    <li>₹ 7,386</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul class="total">
+                                    <li>₹ 290</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul class="total">
+                                    <li>₹ 290</li>
+                                </ul>
+                            </td>
+                            <td> <span class="Pending">Pending</span> </td>
+                            <td><button type="button" class="initiate">initiate payment</button></td>
+                        </tr>
+
+
+
+
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        </div>
+        </div>
+    </main>
+    <!-- boostrap-popup-link -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"></script>
+    <!-- boostrap-popup-link -->
+    <!-- <script src="./js/jquery-3.6.0.js"></script> -->
+    <script src='./js/jquery.min.js'></script>
+    <script src="./js/data-table-js/jquery.dataTables.min.js"></script>
+    <script src="./js/data-table-js/dataTables.searchBuilder.min.js"></script>
+    <script src="./js/data-table-js/dataTables.dateTime.min.js"></script>
+    <!-- sidebar-heder -->
+    <script src="./js/heder-sidebar.js"></script>
+    <!-- date picker -->
+    <script src='./js/moment-with-locales.js'></script>
+    <script src='./js/bootstrap-datetimepicker.js'></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#example").DataTable({
+                language: {
+                    search: '<img class="b_img" src="./asset/svg/search@2x.png">',
+                    searchPlaceholder: "Search...",
+                },
+                buttons: [
+                    {
+                        extend: "searchBuilder",
+                        config: {
+                            depthLimit: 2,
+                        },
+                    },
+                ],
+                dom: "Bfrtip",
+                columnDefs: [
+                    {
+                        type: "unknownType",
+                        targets: [3],
+                    },
+                ],
+            });
+        });
+
+
+
+    </script>
+    <script>
+        $(document).ready(() => {
+            $('#Manage-finance').addClass('actives');
+
+        });
+    </script>
+    <script>
+        $(function () {
+            $('#from_date').datetimepicker({
+                ignoreReadonly: true,
+                format: 'DD-MM-YYYY'
+            });
+            $('#to_date').datetimepicker({
+                ignoreReadonly: true,
+                format: 'DD-MM-YYYY'
+            });
+
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="32px" viewBox="0 0 40 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>flight number</title>
+    <g id="flight-number" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M35,22 L35,19 L22.3684211,11.5 L22.3684211,3.25 C22.3684211,2.005 21.3105263,1 20,1 C18.6894737,1 17.6315789,2.005 17.6315789,3.25 L17.6315789,11.5 L5,19 L5,22 L17.6315789,18.25 L17.6315789,26.5 L14.4736842,28.75 L14.4736842,31 L20,29.5 L25.5263158,31 L25.5263158,28.75 L22.3684211,26.5 L22.3684211,18.25 L35,22 Z" id="Path-Copy-5" stroke="#8F8F8F" stroke-width="1.7" fill-rule="nonzero"></path>
+    </g>
+</svg>

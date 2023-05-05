@@ -1,0 +1,35 @@
+
+.dashboard-content-box .ser-ab-review-tab {
+    border-bottom: none;
+    padding: 0;
+    padding-bottom: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: #f9fbfc;
+}
+.ser-ab-review-tab > li.active > a, 
+.ser-ab-review-tab > li.active > a:focus, 
+.ser-ab-review-tab > li.active > a:hover{
+	border-bottom: 2px solid var(--secondary-color);
+}
+.dashboard-content-box .ser-ab-review-tab >li.active>a{
+	background-color: transparent;
+}
+.total-booking-box .booking-set{
+	padding-bottom: 52px;
+}
+.commission-box .booking-set{
+    border-bottom: none;
+    padding-bottom: 5px;
+}
+.total-booking-box .total-booking-count > span,
+.commission-box .total-booking-count > span{
+	font-size: 44px;
+}
+.commission-box .total-booking-count{
+	font-size: 16px;
+}
+.commission-box .total-booking-count > span{
+	font-family: var(--font-secondary);
+}

@@ -1,0 +1,39 @@
+[06-Oct-2022 10:47:33 Asia/Kolkata] PHP Warning:  Undefined variable $distributor in /home/airportzostage/public_html/admin_dashboard_new/API/Version1.0/admin/addUser.php on line 45
+[06-Oct-2022 10:47:33 Asia/Kolkata] PHP Warning:  Attempt to read property "name" on null in /home/airportzostage/public_html/admin_dashboard_new/API/Version1.0/admin/addUser.php on line 45
+[06-Oct-2022 10:50:42 Asia/Kolkata] PHP Warning:  Undefined variable $distributor in /home/airportzostage/public_html/admin_dashboard_new/API/Version1.0/admin/addUser.php on line 45
+[06-Oct-2022 10:50:42 Asia/Kolkata] PHP Warning:  Attempt to read property "name" on null in /home/airportzostage/public_html/admin_dashboard_new/API/Version1.0/admin/addUser.php on line 45
+[06-Oct-2022 10:57:20 Asia/Kolkata] PHP Warning:  Undefined variable $distributor in /home/airportzostage/public_html/admin_dashboard_new/API/Version1.0/admin/addUser.php on line 45
+[06-Oct-2022 10:57:20 Asia/Kolkata] PHP Warning:  Attempt to read property "name" on null in /home/airportzostage/public_html/admin_dashboard_new/API/Version1.0/admin/addUser.php on line 45
+[07-Oct-2022 23:26:33 Asia/Kolkata] PHP Warning:  Undefined variable $distributor in /home/airportzostage/public_html/admin_dashboard_new/API/Version1.0/admin/addUser.php on line 45
+[07-Oct-2022 23:26:33 Asia/Kolkata] PHP Warning:  Attempt to read property "name" on null in /home/airportzostage/public_html/admin_dashboard_new/API/Version1.0/admin/addUser.php on line 45
+[10-Oct-2022 22:58:31 Asia/Kolkata] PHP Warning:  Undefined variable $distributor in /home/airportzostage/public_html/admin_dashboard_new/API/Version1.0/admin/addUser.php on line 45
+[10-Oct-2022 22:58:31 Asia/Kolkata] PHP Warning:  Attempt to read property "name" on null in /home/airportzostage/public_html/admin_dashboard_new/API/Version1.0/admin/addUser.php on line 45
+[17-Oct-2022 15:01:44 Asia/Kolkata] PHP Warning:  Undefined variable $distributor in /home/airportzostage/public_html/admin_dashboard_new/API/Version1.0/admin/addUser.php on line 45
+[17-Oct-2022 15:01:44 Asia/Kolkata] PHP Warning:  Attempt to read property "name" on null in /home/airportzostage/public_html/admin_dashboard_new/API/Version1.0/admin/addUser.php on line 45
+[17-Oct-2022 15:07:03 Asia/Kolkata] PHP Warning:  Undefined variable $distributor in /home/airportzostage/public_html/admin_dashboard_new/API/Version1.0/admin/addUser.php on line 45
+[17-Oct-2022 15:07:03 Asia/Kolkata] PHP Warning:  Attempt to read property "name" on null in /home/airportzostage/public_html/admin_dashboard_new/API/Version1.0/admin/addUser.php on line 45
+[18-Nov-2022 10:44:20 Asia/Kolkata] PHP Warning:  Undefined variable $distributor in /home/airportzostage/public_html/admin_dashboard_new/API/Version1.0/admin/addUser.php on line 45
+[18-Nov-2022 10:44:20 Asia/Kolkata] PHP Warning:  Attempt to read property "name" on null in /home/airportzostage/public_html/admin_dashboard_new/API/Version1.0/admin/addUser.php on line 45
+[23-Nov-2022 16:29:26 Asia/Kolkata] PHP Warning:  Undefined variable $stmt in /home/airportzostage/public_html/admin_dashboard_new/API/Version1.0/objects/admin.php on line 202
+[23-Nov-2022 16:29:26 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: array_push(): Argument #1 ($array) must be of type array, null given in /home/airportzostage/public_html/admin_dashboard_new/API/Version1.0/admin/forgotPassword.php:27
+Stack trace:
+#0 /home/airportzostage/public_html/admin_dashboard_new/API/Version1.0/admin/forgotPassword.php(27): array_push(NULL, 'user')
+#1 {main}
+  thrown in /home/airportzostage/public_html/admin_dashboard_new/API/Version1.0/admin/forgotPassword.php on line 27
+[23-Nov-2022 16:30:51 Asia/Kolkata] PHP Warning:  Undefined variable $stmt in /home/airportzostage/public_html/admin_dashboard_new/API/Version1.0/objects/admin.php on line 202
+[23-Nov-2022 16:30:51 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: array_push(): Argument #1 ($array) must be of type array, null given in /home/airportzostage/public_html/admin_dashboard_new/API/Version1.0/admin/forgotPassword.php:30
+Stack trace:
+#0 /home/airportzostage/public_html/admin_dashboard_new/API/Version1.0/admin/forgotPassword.php(30): array_push(NULL, 'user')
+#1 {main}
+  thrown in /home/airportzostage/public_html/admin_dashboard_new/API/Version1.0/admin/forgotPassword.php on line 30
+[23-Nov-2022 19:48:58 Asia/Kolkata] PHP Warning:  Undefined property: stdClass::$emailAddress in /home/airportzostage/public_html/admin_dashboard_new/API/Version1.0/admin/forgotPassword.php on line 12
+[25-Nov-2022 17:43:23 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function updateAdminNewPassword() in /home/airportzostage/public_html/admin_dashboard_new/API/Version1.0/admin/adminUpdatePassword.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/airportzostage/public_html/admin_dashboard_new/API/Version1.0/admin/adminUpdatePassword.php on line 15
+[25-Nov-2022 17:44:38 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function updateAdminNewPassword() in /home/airportzostage/public_html/admin_dashboard_new/API/Version1.0/admin/adminUpdatePassword.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/airportzostage/public_html/admin_dashboard_new/API/Version1.0/admin/adminUpdatePassword.php on line 18
+[04-Jan-2023 13:30:52 Asia/Kolkata] PHP Warning:  Undefined variable $distributor in /home/airportzostage/public_html/admin_dashboard/API/Version1.0/admin/addUser.php on line 45
+[04-Jan-2023 13:30:52 Asia/Kolkata] PHP Warning:  Attempt to read property "name" on null in /home/airportzostage/public_html/admin_dashboard/API/Version1.0/admin/addUser.php on line 45

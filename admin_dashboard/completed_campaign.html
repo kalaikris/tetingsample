@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Completed Campaign</title>
+    <link rel="shortcut icon" href="assets_new/header/logo 2.png">
+
+    <!-- bootstrap css  -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <!-- css files -->
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/custom-table.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/mediaquery.css">
+    <link rel="stylesheet" href="css/completed_campaign.css">
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/datatables.min.js"></script>
+    <!-- js file -->
+    <script src="js/header.js"></script>
+    <script src="js/sidebar.js"></script>
+
+</head>
+
+<body>
+    <header id="main-dash-header" class="dash-header">
+    </header>
+
+    <!-- sidebar -->
+    <input type="checkbox" id="sidebar-toggle">
+    <div class="sidebar" id="sidebar2"></div>
+
+    <!-- main-contents -->
+    <main class="main-contents">
+
+
+        <section class="bg-white brad-4 full-height" id="toggle7">
+            <div class="product_header_container">
+                <div class="header-details ">
+                    <h1 class="header_main">New Campaign Request</h1>
+                    <p class="order-right-content"><a href="#">Total Completed Campaigns  -  34</a></p>
+                </div>
+            </div>
+
+
+
+
+
+            <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane active fade show" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                    <table class="custom-table" id="dataTables_filter">
+                        <thead>
+                            <tr>
+                                <th>SI.No</th>
+                                <th>Campaign Name</th>
+                                <th>Campaign Category</th>
+                                <th>Cause Volunteer</th>
+                                <th>Raised Amount</th>
+                                <th>Created Date</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td><img src="./assets_new/main/Image 1.png" alt="">Donate to oldage home of 20 poor
+                                    oldage people in India</td>
+                                <td>Women</td>
+                                <td>Corey Frazier</td>
+                                <td>$ 300.00</td>
+                                <td>22 Mar 2022</td>
+                                <td><a href="javascript:void(0)" class="view_link" onclick="showmodal5()">View Detail</a></td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td><img src="./assets_new/main/Image 2.png" alt="">Help 1 Year Old Lavanya To Recover
+                                    from Bone Marrow Failure Syndrome</td>
+                                <td>Health</td>
+                                <td>Corey Frazier</td>
+                                <td>$ 300.00</td>
+                                <td>21 Mar 2022</td>
+                                <td><a href="javascript:void(0)" class="view_link" onclick="showmodal5()">View Detail</a></td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td><img src="./assets_new/main/Image 3.png" alt="">Help Hruitvik Reach Higher World
+                                    Ranking in Badminton</td>
+                                <td>Sports</td>
+                                <td>Corey Frazier</td>
+                                <td>$ 300.00</td>
+                                <td>28 Jul 2022</td>
+                                <td><a href="javascript:void(0)" class="view_link" onclick="showmodal5()">View Detail</a></td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td><img src="./assets_new/main/Image 4.png" alt="">Donate to oldage home of 20 poor
+                                    oldage people in India</td>
+                                <td>Women</td>
+                                <td>Corey Frazier</td>
+                                <td>$ 300.00</td>
+                                <td>22 Mar 2022</td>
+                                <td><a href="javascript:void(0)" class="view_link" onclick="showmodal5()">View Detail</a></td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td><img src="./assets_new/main/Image 5.png" alt="">Help 1 Year Old Lavanya To Recover
+                                    from Bone Marrow Failure Syndrome</td>
+                                <td>Health</td>
+                                <td>Corey Frazier</td>
+                                <td>$ 300.00</td>
+                                <td>21 Mar 2022</td>
+                                <td><a href="javascript:void(0)" class="view_link" onclick="showmodal5()">View Detail</a></td>
+                            </tr>
+                            <tr>
+                                <td>6</td>
+                                <td><img src="./assets_new/main/Image 3.png" alt="">Help Hruitvik Reach Higher World
+                                    Ranking in Badminton</td>
+                                <td>Sports</td>
+                                <td>Corey Frazier</td>
+                                <td>$ 300.00</td>
+                                <td>28 Jul 2022</td>
+                                <td><a href="javascript:void(0)" class="view_link" onclick="showmodal5()">View Detail</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+
+        </section>
+
+
+        <section class="bg-white brad-4 full-height twoback" id="toggle8" style="display: none;">
+            <div class="back_arrow_img_Section">
+                <img src="assets_new/main/Back arrow.png" onclick="hidemodal1()" alt="" class="backword">
+                <!-- <a href="javascript:void(0)" class="view_link" data-toggle="modal" data-target="#myModal">Block
+                    User</a> -->
+            </div>
+            <div class="completed_successfuly">
+                <img src="./assets_new/main/Verified.png" alt="">
+                <p class="green-text">Campaign completed successfully!</p>
+            </div>
+            <div class="campaign_top_section">
+                <div class="campaign_top_img_section">
+                    <img class="campaign_img" src="./assets_new/main/Image 5.png" alt="">
+                </div>
+                <div class="campaign_top_content_section">
+                    <h1 class="header_main header_main_h1">Help 1 Year Old Lavanya To Recover from Bone Marrow Failure
+                        Syndrome</h1>
+                        <div class="details-top-div" style="text-align: start; margin-left: 0 !important;">
+                            <p class="top_p_color">Created Date</p>
+                            <p>02 Feb 2022</p>
+                        </div>
+                    <div class="details-top-section">
+
+                        <div class="details-top-div">
+                            <p class="top_p_color">Campaign Category</p>
+                            <p>Health</p>
+                        </div>
+                        <div class="details-top-div">
+                            <p class="top_p_color">Cause Volunteer</p>
+                            <p>Corey Frazier</p>
+                        </div>
+                        <div class="details-top-div">
+                            <p class="top_p_color">Beneficiary</p>
+                            <p>Peter Garrett</p>
+                        </div>
+                    </div>
+                    <div class="details-top-section">
+                        <div class="details-top-div">
+                            <p class="top_p_color">Pledged Amount</p>
+                            <p>Health</p>
+                        </div>
+                        <div class="details-top-div">
+                            <p class="top_p_color">Raised Amount</p>
+                            <p>$ 40200.00</p>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="manage_campaign_content">
+                <div class="describtion_section">
+                    <h1 class="header_main_sm">Description</h1>
+                    <p>
+                        My name is Bharti and I am here to raise funds for my daughter Lavanya who is 1 year old.
+                        Lavanya lives with family, in Raipur, Chhattisgarh.
+                    </p>
+                    <p>
+                        Lavanya is suffering from Bone Marrow Failure Syndromes (IBMFS) since the age of 2 months. She
+                        is going for Medication at Private children's Hospital at Raipur, Chhattisgarh . My baby is
+                        requiring blood transfusion every month, So far we have done so many consultation in a private
+                        hospital at Bengaluru, Karnataka . Currently she is admitted and need Bone Marrow
+                        Transplantation.
+                    </p>
+                    <p>
+                        I am a housewife and my Husband Vijayendra Kumar Sao working in Private Sector It is impossible
+                        for us to finance daughter's Treatment in these circumstances. Therefore I am looking to raise a
+                        Fund.
+                    </p>
+                    <p>
+                        Until now, we have spent about Rs.5,00,000/-. we have arranged amount from loans. In next few
+                        days we need Rs.35,00,000/- more for Further Treatment. Please come forward to support my cause.
+                    </p>
+                </div>
+                <div class="document_view_section">
+                    <h1 class="header_main_sm">Documents</h1>
+                    <div class="document_flex_container">
+                        <div class="document_info">
+                            <img src="./assets_new/main/Document image.png" alt="">
+                            <a href="javascript:void(0)" class="view_link" onclick="">View Document</a>
+                        </div>
+                        <div class="document_info">
+                            <img src="./assets_new/main/Document image.png" alt="">
+                            <a href="javascript:void(0)" class="view_link" onclick="">View Document</a>
+                        </div>
+                        <div class="document_info">
+                            <img src="./assets_new/main/Document image.png" alt="">
+                            <a href="javascript:void(0)" class="view_link" onclick="">View Document</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+            <!-- <div class="campaign_bottom_btn_section">
+                <button class="verify_btn">Verify</button>
+                <a href="javascript:void(0)">Reject Campaign</a>
+            </div> -->
+            <div class="table-box">
+                <h1 class="header_main_sm">Donors List</h1>
+                <table class="custom-table" id="dataTables_filter">
+                    <thead>
+                        <tr>
+                            <th>SI.No</th>
+                            <th>Donor Name</th>
+                            <th>Mobile Number</th>
+                            <th>Email Address</th>
+                            <th>City</th>
+                            <th>Donated Amount</th>
+                            <th>Donated Date</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td><a href="javascript:void(0)" class="view_link" onclick="">Mae McDonald</a></td>
+                            <td>(945) 438-3564</td>
+                            <td>zigavbat@folsevel.com</td>
+                            <td>Washington</td>
+                            <td>$ 300.00</td>
+                            <td>26 Sep 2022</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td><a href="javascript:void(0)" class="view_link" onclick="">Donald Ortega</a></td>
+                            <td>(945) 438-3564</td>
+                            <td>zigavbat@folsevel.com</td>
+                            <td>Washington</td>
+                            <td>$ 300.00</td>
+                            <td>26 Sep 2022</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td><a href="javascript:void(0)" class="view_link" onclick="">Martin Willis</a></td>
+                            <td>(945) 438-3564</td>
+                            <td>zigavbat@folsevel.com</td>
+                            <td>Washington</td>
+                            <td>$ 300.00</td>
+                            <td>26 Sep 2022</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td><a href="javascript:void(0)" class="view_link" onclick="">Donald Ortega</a></td>
+                            <td>(945) 438-3564</td>
+                            <td>zigavbat@folsevel.com</td>
+                            <td>Washington</td>
+                            <td>$ 300.00</td>
+                            <td>26 Sep 2022</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td><a href="javascript:void(0)" class="view_link" onclick="">Martin Willis</a></td>
+                            <td>(945) 438-3564</td>
+                            <td>zigavbat@folsevel.com</td>
+                            <td>Washington</td>
+                            <td>$ 300.00</td>
+                            <td>26 Sep 2022</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- The Modal Block User -->
+        <div class="modal" id="myModal">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+                <div class="modal-content">
+
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title text-center">Block Reason</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <textarea name="" id="" placeholder="Enter block reason…"></textarea>
+                        <p><a href="javascript:void(0)"><img src="./assets_new/main/Attachment.png" alt="" type="file">
+                                Add Attachment</a></p>
+                    </div>
+
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                        <a href="javascript:void(0)" class="" data-dismiss="modal">Cancel</a>
+                        <button type="button" class="btn btn-danger">Block</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </main>
+    <script>
+        $(".custom-table").DataTable({
+            dom: 'Bfrtip',
+            buttons: [
+                // {
+                //     extend: 'csvHtml5',
+                //     title: 'Project Management'
+                // },
+                // {
+                //     extend: 'pdfHtml5',
+                //     orientation: 'landscape',
+                //     pageSize: 'LEGAL',
+                //     title: 'Project Management'
+                // }
+            ],
+            language: {
+                search: '<img src="./assets_new/main/Search.png">',
+                searchPlaceholder: "Search",
+                paginate: {
+                    next: '<img src="https://www.aloro.io/stage/dashboard/assets/svg/Right_arrow_icon.svg">', // or '→'
+                    previous: '<img src="https://www.aloro.io/stage/dashboard/assets/svg/Left_arrow_icon.svg">' // or '←'  <img src="path/to/arrow.png">'
+                }
+            }
+        });
+        /* Radion button box */
+        $('.ratio-btn-selecter').on('click', function () {
+            debugger
+            var quickcheck = $(this).attr('data-value');
+            if (quickcheck == "image") {
+                $('input[name=radio_btn_option][value="image"]').attr('checked', 'checked');
+                $('.popup-image-box').removeClass('hidden');
+                $('.popup-video-box').addClass('hidden');
+            } else {
+                $('input[name=radio_btn_option][value="video"]').attr('checked', 'checked');
+                $('.popup-image-box ').addClass('hidden');
+                $('.popup-video-box').removeClass('hidden');
+            }
+        })
+    </script>
+
+    <script src="js/function.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

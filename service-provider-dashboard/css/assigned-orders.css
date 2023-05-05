@@ -1,0 +1,68 @@
+/* search */
+
+label {
+    position: relative;
+   
+}
+
+/* profile-header */
+
+.profile-tital {
+    width: 45%;
+    min-width: 574px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+img.darrell {
+    width: 68px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.name h3 {
+    font-weight: 700;
+    font-size: 26px;
+}
+.name p {
+    color: gray;
+    font-size: 19px;
+    opacity: 0.9;
+}
+
+.cell-num num {
+    color: black;
+}
+
+.single-line {
+    border-bottom: 1px solid #d7dadb;
+    padding: 10px;
+}
+.assigned {
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+.assigned h2 {
+    font-family: revert;
+    font-weight: 700;
+}
+
+/* table */
+
+table.dataTable.no-footer {
+    box-shadow: 0 0 1px 0 grey;
+}
+.small,
+small {
+    font-size: 95%;
+    font-weight: 400;
+    color: gray;
+}
+
+/* stars */
+
+img.stars {
+    width: 101px;
+}
+

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="25px" viewBox="0 0 22 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>7853741_logout_kashifarif_exit_out_close_icon</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="1-Personal-Info--Copy" transform="translate(-58.000000, -962.000000)" stroke="#FFFFFF" stroke-width="1.5">
+            <g id="7853741_logout_kashifarif_exit_out_close_icon" transform="translate(59.000000, 963.000000)">
+                <line x1="5.6" y1="11.2" x2="20" y2="11.2" id="Path"></line>
+                <path d="M9.9,0 L2.5,0 C1.1,0 0,1.1 0,2.4 L0,19.9 C0,21.3 1.1,22.4 2.5,22.4 L9.9,22.4" id="Path"></path>
+                <polyline id="Path" points="16.2 7.4 20 11.2 16.2 15"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>

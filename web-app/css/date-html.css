@@ -1,0 +1,68 @@
+label {
+    display: block;
+    margin: 0px;
+}
+
+input {
+    border: none;
+    border-radius: 0px;
+    padding: 0px;
+    background-color: transparent;
+    outline: none;
+    appearance: none;
+    -webkit-appearance: none;
+}
+
+.arriving-input-set:nth-child(2) {
+    width: 15%;
+}
+
+.arriving-input-set {
+    position: relative;
+}
+
+.bg-date {
+    background-image: url(images/calendar.svg);
+    background-repeat: no-repeat;
+    background-size: 24px;
+    background-position: 15px;
+    padding: 0px;
+    background-color: #fff;
+    border: none;
+    border-left: 1px solid #EAEAEA;
+    cursor: pointer;
+    width: 50px;
+    text-align: center;
+}
+
+.arriving-input-set label {
+    font: 12px/14px var(--font-default);
+    color: rgba(0, 0, 0, 0.3);
+    letter-spacing: -0.38px;
+    white-space: nowrap;
+}
+
+.b-input {
+    letter-spacing: -0.47px;
+    color: rgba(0, 0, 0, 0.85);
+    font: 15px/22px var(--font-secondary);
+    width: 100%;
+}
+
+.arriving-input-set:nth-child(3) {
+    width: 12%;
+}
+
+.bg-time {
+    background-image: url(images/time.svg);
+    background-repeat: no-repeat;
+    background-size: 24px;
+    background-position: 15px;
+    padding: 0px;
+    background-color: #fff;
+    border: none;
+    border-left: 1px solid #EAEAEA;
+    cursor: pointer;
+    width: 50px;
+    text-align: center;
+}

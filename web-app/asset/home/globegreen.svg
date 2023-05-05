@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>globe green</title>
+    <g id="globe-green" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="605504_earth_globe_internet_map_network_icon" transform="translate(5.000000, 5.000000)" stroke="#84BC42" stroke-width="1.75">
+            <line x1="30" y1="15" x2="0" y2="15" id="Path"></line>
+            <line x1="15" y1="0" x2="15" y2="30" id="Path"></line>
+            <circle id="Oval" cx="15" cy="15" r="15"></circle>
+            <path d="M15,30 C11.9460231,30 6.47727273,23.2842714 6.47727273,15 C6.47727273,6.71572858 11.8892045,0 15,0" id="Path"></path>
+            <path d="M15,30 C18.0539781,30 23.5227273,23.2842714 23.5227273,15 C23.5227273,6.71572858 18.1107955,0 15,0" id="Path"></path>
+            <path d="M15,0 C23.2842714,0 30,6.71572858 30,15 C30,23.2842714 23.2842714,30 15,30" id="Path"></path>
+        </g>
+    </g>
+</svg>

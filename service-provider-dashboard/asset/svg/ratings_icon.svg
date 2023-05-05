@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="19px" height="19px" viewBox="0 0 19 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>ratings_icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="ratings_icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="star-fill" transform="translate(1.000000, 1.000000)">
+            <polygon id="Path" points="0 0 17 0 17 17 0 17"></polygon>
+            <polygon id="Path" fill="#FAE704" fill-rule="nonzero" points="8.5 12.9341667 3.504125 15.7306667 4.61975 10.115 0.415791667 6.22766667 6.10158333 5.55333333 8.5 0.354166667 10.8984167 5.55333333 16.5842083 6.22766667 12.38025 10.115 13.495875 15.7306667"></polygon>
+        </g>
+    </g>
+</svg>

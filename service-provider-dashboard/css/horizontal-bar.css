@@ -1,0 +1,96 @@
+.details_list {
+  margin: 26px 0;
+  display: flex;
+  justify-content: center;
+  /* min-width: 35rem; */
+}
+.details_list ul {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  flex-wrap: wrap;
+  position: relative;
+  padding-bottom: 30px;
+}
+/*.details_list ul:after{
+  content: '';
+  width: 66%;
+  top: 2px;
+  left: 17%;
+  border: 1px dashed #ececec;
+  position: absolute;
+}*/
+.details_list ul li {
+  position: relative;
+  color: var(--color-default);
+  height: 30px;
+  width: 33.33%;
+}
+.details_list ul li.active p{
+  font-family: var(--font-medium);
+}
+.details_list ul li::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #d6d6d6;
+  transform: scale(1);
+  z-index: 2;
+  transition: 0.2s;
+}
+.details_list ul li.active::before {
+  background-color: #fff;
+  border: 2px solid #0ab5d6;
+  transform: scale(4);
+  box-shadow: 0 0 0 1.2px #c7edf7;
+}
+.details_list ul li.completed::before {
+  background-color: #0ab5d6;
+  transform: scale(3);
+  height: 7px;
+  width: 7px;
+}
+.details_list ul li:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 50%;
+  height: 1px;
+  width: 100%;
+  border: 1px dashed #ececec; 
+  z-index: 1;
+}
+.details_list ul li.completed:not(:last-child)::after {
+  border: 1px solid #0ab5d6;
+  
+}
+.details_list ul li.completed .tick {
+  position: absolute;
+  left: calc(50% - -1px);
+  top: -2px;
+  border-width: 0 2px 2px 0;
+  border-style: solid;
+  border-color: #fff;
+  width: 4px;
+  height: 9px;
+  transform: rotate(45deg);
+  z-index: 2;
+}
+.details_list ul li:last-child {
+  padding-right: 0;
+}
+.shop_staus-name {
+  position: absolute;
+  top: 25px;
+  left: 0%;
+  font-size: 15px;
+  display: block;
+  text-align: center;
+  width: 100%;
+}
+
+/* text time */

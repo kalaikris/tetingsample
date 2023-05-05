@@ -1,0 +1,120 @@
+.custom-table {
+  width: 100% !important;
+}
+.dataTables_scrollBody::-webkit-scrollbar {
+  display: block;
+  height: 8px;
+  background-color: #dee2e6;
+}
+.dataTables_scrollBody::-webkit-scrollbar-thumb {
+  background: #00b9f5;
+}
+.custom-table thead tr th {
+  font: 16px var(--bold-font);
+  color: #6c7a86;
+  background-color: #f6f8fa;
+  border-top: 1px solid #ddecef;
+  border-bottom: 1px solid #ddecef;
+  padding: 10px 20px;
+}
+.custom-table tbody span {
+  padding: 2px;
+  color: #6c7a86;
+  display: block;
+}
+.custom-table tbody tr td {
+  font: 16px var(--regular-font);
+  color: #000000;
+  /* padding: 10px 20px; */
+  padding: 30px 20px;
+  letter-spacing: -0.5px;
+}
+.custom-table tbody tr td a {
+  margin-right: 10px;
+}
+.custom-table.dataTable.no-footer {
+  border-bottom: 1px solid #ddecef;
+}
+.custom-table tbody tr:nth-of-type(odd) {
+  background-color: #fbfcfd;
+}
+.dataTables_info,
+.dataTables_wrapper .dataTables_length {
+  padding-left: 20px;
+  width: 90%;
+  display: inline-flex;
+  float: left;
+  padding-top: 10px;
+}
+.dataTables_filter {
+  padding: 0 20px;
+  position: relative;
+}
+.dataTables_paginate {
+  padding-right: 20px;
+  padding-top: 10px !important;
+}
+.dataTables_filter label {
+  display: flex;
+  font: 16px var(--regular-font);
+  letter-spacing: -0.4375px;
+  color: #9c9c9c;
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+}
+div.dataTables_wrapper div.dataTables_filter {
+  float: right;
+}
+.dataTables_filter .form-control {
+  background-color: #fff;
+  color: #9c9c9c;
+  display: inline-block;
+  border: none;
+  margin: 0 !important;
+  width: 90%;
+  outline: none !important;
+  box-shadow: none;
+}
+.page-link {
+  color: #000000;
+  outline: none;
+  box-shadow: none !important;
+}
+.page-item.active .page-link {
+  color: #000000;
+  background-color: #dee2e6;
+  border-color: #dee2e6;
+  box-shadow: none !important;
+}
+.container-fluid {
+  padding: 0 !important;
+}
+th,
+td {
+  white-space: nowrap;
+}
+td img {
+  height: 75px;
+  object-fit: contain;
+  border-radius: 6px;
+  object-position: top;
+  white-space: normal;
+  max-width: 150px;
+}
+td iframe {
+  max-width: 150px;
+}
+td.center-img-col {
+  text-align: center;
+}
+
+div#pills-tabContent {
+  width: 100%;
+}
+
+div#pills-homes {
+  width: 100%;
+  overflow-x: scroll;
+}

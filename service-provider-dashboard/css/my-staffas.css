@@ -1,0 +1,412 @@
+/* search-box */
+
+
+/* table-header-line */
+table.dataTable thead > tr > th.sorting,
+table.dataTable thead > tr > th.sorting_asc,
+table.dataTable thead > tr > th.sorting_desc,
+table.dataTable thead > tr > th.sorting_asc_disabled,
+table.dataTable thead > tr > th.sorting_desc_disabled,
+table.dataTable thead > tr > td.sorting,
+table.dataTable thead > tr > td.sorting_asc,
+table.dataTable thead > tr > td.sorting_desc,
+table.dataTable thead > tr > td.sorting_asc_disabled,
+table.dataTable thead > tr > td.sorting_desc_disabled {
+    cursor: pointer;
+    position: relative;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid rgb(183 180 180 / 30%);
+}
+table.dataTable.no-footer {
+    border-bottom: none;
+    background-color: var(--clr-neutral-100);
+    padding: 25px;
+    border-radius: 25px;
+    box-shadow: 0px 0px 1px 0px grey;
+}
+/* table-header-line-end */
+
+/* .dataTables_wrapper .dataTables_filter {
+    float: right;
+    text-align: center;
+    width: 198px;
+    position: relative;
+    right: 26rem;
+    padding-bottom: 0.8rem;
+} */
+.dataTables_wrapper .dataTables_filter input
+{
+    padding: 14px 0px 12px 48px;
+}
+ul.table-image {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+li {
+    list-style: none;
+    font-family: 'Rubik-Regular';
+}
+
+/* text */
+
+h1.mystaff-text {
+    font-family: 'Rubik-SemiBold';
+    font-size: 25px;
+}
+
+/* boutton */
+input.new-emp {
+    padding: 12px;
+    width: 165px;
+    background: #0fb4d4;
+    border-radius: 10px;
+    color: white;
+    outline: none;
+    border: unset;
+    font-family: 'Rubik-Regular';
+}
+.upload {
+    /* align-items: center;
+    display: flex;
+    padding: 12px;
+    width: 165px;
+    background: #3bc17a;
+    border-radius: 10px;
+    color: white;
+    outline: none;
+    border: unset; */
+}
+button.upl-csv {
+    background: #3bc17a;
+    color: white;
+    font-family: 'Rubik-Regular';
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.left-buttons {
+    display: flex;
+    position: absolute;
+    right: 5px;
+    /* gap: 12px; */
+    z-index: 10;
+}
+/* .top-set {
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} */
+.rghit-cont {
+    width: 200px;
+    /* margin: -19px; */
+}
+.top-set {
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 4rem;
+}
+
+button.close {
+    font-family: auto;
+    font-size: 35px;
+}
+
+.top-set {
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    margin-bottom: 12px;
+}
+.employee {
+    margin-right: 10px;
+}
+/* .dataTables_wrapper {
+    position: relative;
+    clear: both;
+    bottom: 3.5rem;
+} */
+
+/* pup pop  style*/
+h5#exampleModalLabel {
+    text-align: center;
+    font-size: 25px;
+    margin-left: 49px;
+    font-family: 'Rubik-SemiBold';
+}
+.modal_heder {
+    width: 94%;
+}
+.file {
+    text-align: center;
+    height: 227px;
+}
+img.avatar {
+    width: 192px;
+}
+.user_name {
+    border: 1px solid #cacaca;
+    padding: 1px 20px;
+    height: fit-content;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    width: 360px;
+    margin: auto;
+    margin-bottom: 35px;
+    position: relative;
+}
+.emp_modal_number{
+
+}
+.login-input-group.phone label {
+    padding-left: 60px;
+}
+.login-input-group label {
+    font: 13px/20px var(--font-regular);
+    letter-spacing: -.47px;
+    opacity: .5;
+    display: block;
+    margin-bottom: 0px;
+}
+.login-input-group.phone .login-input-box {
+    padding-left: 60px !important;
+}
+select {
+    border: none;
+    outline: none;
+}
+.cust-form-group{
+    width: 60%;
+    margin: auto;
+}
+.add-emp-btn-set{
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+}
+.cust-width{
+    width: auto !important;
+    appearance: auto !important;
+}
+.input_cont {
+    padding-left: 0px;
+    width: 328px;
+}
+select.option-set {
+    border-right: 1px solid #cacaca;
+    padding: 0.3rem 0;
+}
+.input_cont p {
+    margin: 0px;
+    color: #9d9d9d !important;
+    font-family: 'Rubik-Regular';
+    font-size: 14px;
+    margin-top: 6px;
+}
+.admin-list {
+    border: 1px solid #cacaca;
+    padding: 18px 20px;
+    height: fit-content;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    width: 360px;
+    margin: auto;
+    margin-bottom: 25px;
+}
+.admin-list {
+    border: 1px solid #cacaca;
+    padding: 18px 20px;
+    height: fit-content;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    width: 360px;
+    margin: auto;
+    margin-bottom: 25px;
+}
+.iti__selected-flag {
+    border-right: 1px solid #EAEAEA;
+    padding: 0px;
+}
+.modal-footer {
+    justify-content: center;
+    width: 59%;
+    margin: auto;
+    border-top: none;
+}
+.btn:not(:disabled):not(.disabled) {
+    width: 100%;
+    padding: 12px 22px;
+    border-radius: 11px;
+    background: #84bc41;
+    border: none;
+    font-family: 'Rubik-Regular';
+    font-size: 17px;
+}
+/* pup pop */
+.modal-content {
+    width: 90% !important;
+    outline: 0;
+    padding: 34px 0px;
+    border-radius: 2.3rem !important;
+    margin-inline: auto;
+}
+.modal-dialog {
+    max-width: 53rem !important;
+    margin: 5.75rem auto !important;
+    border-radius: 12px;
+}
+div.modal-header {
+    justify-content: space-between !important;
+    padding: 1rem;
+    border-bottom: 2px solid #e9ecef !important;
+    border-top-left-radius: 0.3rem;
+    border-top-right-radius: 0.3rem;
+    width: 90% !important;
+    margin-inline: auto;
+}
+.border-none {
+    outline: none;
+    border: none;
+}
+.close {
+    float: right;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    opacity: 0.5;
+    outline: none !important;
+}
+.modal-footer {
+    border: none !important;
+}
+input#file {
+    position: absolute;
+    top: 158px;
+    z-index: -1;
+    display: none;
+}
+input {
+    border: none;
+    outline: none;
+}
+.login-input-group .iti--allow-dropdown {
+    width: 100%;
+}
+.iti--allow-dropdown .iti__flag-container,
+.iti--separate-dial-code .iti__flag-container {
+    right: auto !important;
+    left: 0 !important;
+}
+.iti--separate-dial-code .iti__selected-flag {
+    background-color: transparent;
+}
+.iti__flag-box,
+.iti__country-name {
+    margin-right: 31px !important;
+}
+.iti__flag-container {
+    top: -20px;
+    width: 45px;
+}
+label.phone-number {
+    position: absolute;
+    top: 7px;
+    left: 6rem;
+    z-index: 10;
+    color: #9d9d9d;
+    font-size: 14px;
+}
+
+.input_cont {
+    padding-left: 0px;
+    width: 328px;
+  }
+
+.terminal_title {
+
+    border: 1px solid #cacaca;
+    padding: 1px 20px;
+    height: fit-content;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    width: 360px;
+    margin: auto;
+    margin-bottom: 35px;
+    position: relative;
+}
+
+/* .Shop_title 
+{
+    display: none;
+} */
+
+.select-box {
+    border: none;
+    outline: none;
+    width: 295px;
+    appearance: none;
+    background: transparent;
+    cursor: pointer;
+}
+.input-box-set .chosen-container-single .chosen-single{
+    border-radius: 0;
+    height: unset;
+}
+
+.btn-primary:hover {
+    color: unset !important;
+    background-color:#84bc41 !important;
+    border-color:unset !important;
+}
+.btn-primary.focus, .btn-primary:focus {
+    box-shadow: unset !important;
+}
+/* mediya query */
+
+@media screen and (max-width: 1440px) {
+    table#example {
+        width: 95%;
+    }
+    .left-buttons {
+        right: 32px;
+    }
+}
+div#example_info {
+    padding-top: 5.6rem;
+    padding-top: min(7rem);
+    padding-left: 32px;
+}
+div#example_paginate {
+    padding-top: 6.6rem;
+    padding-right: 27px;
+}
+.dataTables_filter label img
+{
+position: absolute;
+    left: 17px;
+    top: 20px;
+    right: 0px;
+    width: 20px;
+}

@@ -1,0 +1,653 @@
+[07-Sep-2022 19:35:21 Asia/Kolkata] PHP Warning:  Invalid argument supplied for foreach() in /home/airportzo/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php on line 31
+[07-Sep-2022 19:35:21 Asia/Kolkata] PHP Warning:  implode(): Invalid arguments passed in /home/airportzo/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php on line 44
+[15-Nov-2022 10:26:43 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceDistributorToken" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 10
+[15-Nov-2022 10:26:43 Asia/Kolkata] PHP Warning:  Attempt to read property "userRoleName" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 11
+[15-Nov-2022 10:26:43 Asia/Kolkata] PHP Warning:  Attempt to read property "modulesTokenArray" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 14
+[15-Nov-2022 10:26:43 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'service_distributor_token' cannot be null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php:26
+Stack trace:
+#0 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php(26): PDOStatement->execute()
+#1 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php(17): userRole->addUserRole()
+#2 {main}
+  thrown in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php on line 26
+[15-Nov-2022 10:26:43 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceDistributorToken" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 10
+[15-Nov-2022 10:26:43 Asia/Kolkata] PHP Warning:  Attempt to read property "userRoleName" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 11
+[15-Nov-2022 10:26:43 Asia/Kolkata] PHP Warning:  Attempt to read property "modulesTokenArray" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 14
+[15-Nov-2022 10:26:43 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'service_distributor_token' cannot be null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php:26
+Stack trace:
+#0 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php(26): PDOStatement->execute()
+#1 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php(17): userRole->addUserRole()
+#2 {main}
+  thrown in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php on line 26
+[15-Nov-2022 10:26:44 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceDistributorToken" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 10
+[15-Nov-2022 10:26:44 Asia/Kolkata] PHP Warning:  Attempt to read property "userRoleName" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 11
+[15-Nov-2022 10:26:44 Asia/Kolkata] PHP Warning:  Attempt to read property "modulesTokenArray" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 14
+[15-Nov-2022 10:26:44 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'service_distributor_token' cannot be null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php:26
+Stack trace:
+#0 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php(26): PDOStatement->execute()
+#1 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php(17): userRole->addUserRole()
+#2 {main}
+  thrown in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php on line 26
+[15-Nov-2022 10:26:44 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceDistributorToken" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 10
+[15-Nov-2022 10:26:44 Asia/Kolkata] PHP Warning:  Attempt to read property "userRoleName" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 11
+[15-Nov-2022 10:26:44 Asia/Kolkata] PHP Warning:  Attempt to read property "modulesTokenArray" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 14
+[15-Nov-2022 10:26:44 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'service_distributor_token' cannot be null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php:26
+Stack trace:
+#0 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php(26): PDOStatement->execute()
+#1 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php(17): userRole->addUserRole()
+#2 {main}
+  thrown in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php on line 26
+[15-Nov-2022 10:26:44 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceDistributorToken" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 10
+[15-Nov-2022 10:26:44 Asia/Kolkata] PHP Warning:  Attempt to read property "userRoleName" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 11
+[15-Nov-2022 10:26:44 Asia/Kolkata] PHP Warning:  Attempt to read property "modulesTokenArray" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 14
+[15-Nov-2022 10:26:44 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'service_distributor_token' cannot be null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php:26
+Stack trace:
+#0 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php(26): PDOStatement->execute()
+#1 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php(17): userRole->addUserRole()
+#2 {main}
+  thrown in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php on line 26
+[15-Nov-2022 10:26:45 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceDistributorToken" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 10
+[15-Nov-2022 10:26:45 Asia/Kolkata] PHP Warning:  Attempt to read property "userRoleName" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 11
+[15-Nov-2022 10:26:45 Asia/Kolkata] PHP Warning:  Attempt to read property "modulesTokenArray" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 14
+[15-Nov-2022 10:26:45 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'service_distributor_token' cannot be null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php:26
+Stack trace:
+#0 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php(26): PDOStatement->execute()
+#1 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php(17): userRole->addUserRole()
+#2 {main}
+  thrown in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php on line 26
+[15-Nov-2022 10:26:45 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceDistributorToken" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 10
+[15-Nov-2022 10:26:45 Asia/Kolkata] PHP Warning:  Attempt to read property "userRoleName" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 11
+[15-Nov-2022 10:26:45 Asia/Kolkata] PHP Warning:  Attempt to read property "modulesTokenArray" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 14
+[15-Nov-2022 10:26:45 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'service_distributor_token' cannot be null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php:26
+Stack trace:
+#0 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php(26): PDOStatement->execute()
+#1 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php(17): userRole->addUserRole()
+#2 {main}
+  thrown in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php on line 26
+[15-Nov-2022 10:26:45 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceDistributorToken" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 10
+[15-Nov-2022 10:26:45 Asia/Kolkata] PHP Warning:  Attempt to read property "userRoleName" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 11
+[15-Nov-2022 10:26:45 Asia/Kolkata] PHP Warning:  Attempt to read property "modulesTokenArray" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 14
+[15-Nov-2022 10:26:45 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'service_distributor_token' cannot be null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php:26
+Stack trace:
+#0 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php(26): PDOStatement->execute()
+#1 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php(17): userRole->addUserRole()
+#2 {main}
+  thrown in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php on line 26
+[15-Nov-2022 10:26:45 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceDistributorToken" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 10
+[15-Nov-2022 10:26:45 Asia/Kolkata] PHP Warning:  Attempt to read property "userRoleName" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 11
+[15-Nov-2022 10:26:45 Asia/Kolkata] PHP Warning:  Attempt to read property "modulesTokenArray" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 14
+[15-Nov-2022 10:26:45 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'service_distributor_token' cannot be null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php:26
+Stack trace:
+#0 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php(26): PDOStatement->execute()
+#1 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php(17): userRole->addUserRole()
+#2 {main}
+  thrown in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php on line 26
+[15-Nov-2022 10:26:46 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceDistributorToken" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 10
+[15-Nov-2022 10:26:46 Asia/Kolkata] PHP Warning:  Attempt to read property "userRoleName" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 11
+[15-Nov-2022 10:26:46 Asia/Kolkata] PHP Warning:  Attempt to read property "modulesTokenArray" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 14
+[15-Nov-2022 10:26:46 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'service_distributor_token' cannot be null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php:26
+Stack trace:
+#0 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php(26): PDOStatement->execute()
+#1 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php(17): userRole->addUserRole()
+#2 {main}
+  thrown in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php on line 26
+[15-Nov-2022 10:26:46 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceDistributorToken" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 10
+[15-Nov-2022 10:26:46 Asia/Kolkata] PHP Warning:  Attempt to read property "userRoleName" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 11
+[15-Nov-2022 10:26:46 Asia/Kolkata] PHP Warning:  Attempt to read property "modulesTokenArray" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 14
+[15-Nov-2022 10:26:46 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'service_distributor_token' cannot be null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php:26
+Stack trace:
+#0 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php(26): PDOStatement->execute()
+#1 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php(17): userRole->addUserRole()
+#2 {main}
+  thrown in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php on line 26
+[15-Nov-2022 10:26:47 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceDistributorToken" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 10
+[15-Nov-2022 10:26:47 Asia/Kolkata] PHP Warning:  Attempt to read property "userRoleName" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 11
+[15-Nov-2022 10:26:47 Asia/Kolkata] PHP Warning:  Attempt to read property "modulesTokenArray" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 14
+[15-Nov-2022 10:26:47 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'service_distributor_token' cannot be null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php:26
+Stack trace:
+#0 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php(26): PDOStatement->execute()
+#1 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php(17): userRole->addUserRole()
+#2 {main}
+  thrown in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php on line 26
+[15-Nov-2022 10:26:47 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceDistributorToken" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 10
+[15-Nov-2022 10:26:47 Asia/Kolkata] PHP Warning:  Attempt to read property "userRoleName" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 11
+[15-Nov-2022 10:26:47 Asia/Kolkata] PHP Warning:  Attempt to read property "modulesTokenArray" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 14
+[15-Nov-2022 10:26:47 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'service_distributor_token' cannot be null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php:26
+Stack trace:
+#0 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php(26): PDOStatement->execute()
+#1 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php(17): userRole->addUserRole()
+#2 {main}
+  thrown in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php on line 26
+[15-Nov-2022 10:26:47 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceDistributorToken" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 10
+[15-Nov-2022 10:26:47 Asia/Kolkata] PHP Warning:  Attempt to read property "userRoleName" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 11
+[15-Nov-2022 10:26:47 Asia/Kolkata] PHP Warning:  Attempt to read property "modulesTokenArray" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 14
+[15-Nov-2022 10:26:47 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'service_distributor_token' cannot be null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php:26
+Stack trace:
+#0 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php(26): PDOStatement->execute()
+#1 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php(17): userRole->addUserRole()
+#2 {main}
+  thrown in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php on line 26
+[15-Nov-2022 10:26:48 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceDistributorToken" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/userRoleList.php on line 8
+[15-Nov-2022 10:26:48 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceDistributorToken" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 10
+[15-Nov-2022 10:26:48 Asia/Kolkata] PHP Warning:  Attempt to read property "userRoleName" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 11
+[15-Nov-2022 10:26:48 Asia/Kolkata] PHP Warning:  Attempt to read property "modulesTokenArray" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 14
+[15-Nov-2022 10:26:48 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'service_distributor_token' cannot be null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php:26
+Stack trace:
+#0 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php(26): PDOStatement->execute()
+#1 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php(17): userRole->addUserRole()
+#2 {main}
+  thrown in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php on line 26
+[15-Nov-2022 10:26:48 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceDistributorToken" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/userRoleList.php on line 8
+[15-Nov-2022 10:26:48 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceDistributorToken" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 10
+[15-Nov-2022 10:26:48 Asia/Kolkata] PHP Warning:  Attempt to read property "userRoleName" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 11
+[15-Nov-2022 10:26:48 Asia/Kolkata] PHP Warning:  Attempt to read property "modulesTokenArray" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 14
+[15-Nov-2022 10:26:48 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'service_distributor_token' cannot be null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php:26
+Stack trace:
+#0 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php(26): PDOStatement->execute()
+#1 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php(17): userRole->addUserRole()
+#2 {main}
+  thrown in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php on line 26
+[15-Nov-2022 10:26:48 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceDistributorToken" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/userRoleList.php on line 8
+[15-Nov-2022 10:26:48 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceDistributorToken" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 10
+[15-Nov-2022 10:26:48 Asia/Kolkata] PHP Warning:  Attempt to read property "userRoleName" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 11
+[15-Nov-2022 10:26:48 Asia/Kolkata] PHP Warning:  Attempt to read property "modulesTokenArray" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 14
+[15-Nov-2022 10:26:48 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'service_distributor_token' cannot be null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php:26
+Stack trace:
+#0 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php(26): PDOStatement->execute()
+#1 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php(17): userRole->addUserRole()
+#2 {main}
+  thrown in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php on line 26
+[15-Nov-2022 10:26:48 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceDistributorToken" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/userRoleList.php on line 8
+[15-Nov-2022 10:26:49 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceDistributorToken" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 10
+[15-Nov-2022 10:26:49 Asia/Kolkata] PHP Warning:  Attempt to read property "userRoleName" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 11
+[15-Nov-2022 10:26:49 Asia/Kolkata] PHP Warning:  Attempt to read property "modulesTokenArray" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 14
+[15-Nov-2022 10:26:49 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'service_distributor_token' cannot be null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php:26
+Stack trace:
+#0 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php(26): PDOStatement->execute()
+#1 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php(17): userRole->addUserRole()
+#2 {main}
+  thrown in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php on line 26
+[15-Nov-2022 10:26:49 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceDistributorToken" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/userRoleList.php on line 8
+[15-Nov-2022 10:26:49 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceDistributorToken" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 10
+[15-Nov-2022 10:26:49 Asia/Kolkata] PHP Warning:  Attempt to read property "userRoleName" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 11
+[15-Nov-2022 10:26:49 Asia/Kolkata] PHP Warning:  Attempt to read property "modulesTokenArray" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 14
+[15-Nov-2022 10:26:49 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'service_distributor_token' cannot be null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php:26
+Stack trace:
+#0 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php(26): PDOStatement->execute()
+#1 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php(17): userRole->addUserRole()
+#2 {main}
+  thrown in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php on line 26
+[15-Nov-2022 10:26:49 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceDistributorToken" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/userRoleList.php on line 8
+[15-Nov-2022 10:26:49 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceDistributorToken" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 10
+[15-Nov-2022 10:26:49 Asia/Kolkata] PHP Warning:  Attempt to read property "userRoleName" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 11
+[15-Nov-2022 10:26:49 Asia/Kolkata] PHP Warning:  Attempt to read property "modulesTokenArray" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 14
+[15-Nov-2022 10:26:49 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'service_distributor_token' cannot be null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php:26
+Stack trace:
+#0 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php(26): PDOStatement->execute()
+#1 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php(17): userRole->addUserRole()
+#2 {main}
+  thrown in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php on line 26
+[15-Nov-2022 10:26:50 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceDistributorToken" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/userRoleList.php on line 8
+[15-Nov-2022 10:26:50 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceDistributorToken" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 10
+[15-Nov-2022 10:26:50 Asia/Kolkata] PHP Warning:  Attempt to read property "userRoleName" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 11
+[15-Nov-2022 10:26:50 Asia/Kolkata] PHP Warning:  Attempt to read property "modulesTokenArray" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 14
+[15-Nov-2022 10:26:50 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'service_distributor_token' cannot be null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php:26
+Stack trace:
+#0 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php(26): PDOStatement->execute()
+#1 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php(17): userRole->addUserRole()
+#2 {main}
+  thrown in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php on line 26
+[15-Nov-2022 10:26:50 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceDistributorToken" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/userRoleList.php on line 8
+[15-Nov-2022 10:26:50 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceDistributorToken" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 10
+[15-Nov-2022 10:26:50 Asia/Kolkata] PHP Warning:  Attempt to read property "userRoleName" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 11
+[15-Nov-2022 10:26:50 Asia/Kolkata] PHP Warning:  Attempt to read property "modulesTokenArray" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 14
+[15-Nov-2022 10:26:50 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'service_distributor_token' cannot be null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php:26
+Stack trace:
+#0 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php(26): PDOStatement->execute()
+#1 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php(17): userRole->addUserRole()
+#2 {main}
+  thrown in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php on line 26
+[15-Nov-2022 10:26:50 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceDistributorToken" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/userRoleList.php on line 8
+[15-Nov-2022 10:26:50 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceDistributorToken" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 10
+[15-Nov-2022 10:26:50 Asia/Kolkata] PHP Warning:  Attempt to read property "userRoleName" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 11
+[15-Nov-2022 10:26:50 Asia/Kolkata] PHP Warning:  Attempt to read property "modulesTokenArray" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 14
+[15-Nov-2022 10:26:50 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'service_distributor_token' cannot be null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php:26
+Stack trace:
+#0 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php(26): PDOStatement->execute()
+#1 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php(17): userRole->addUserRole()
+#2 {main}
+  thrown in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php on line 26
+[15-Nov-2022 10:26:51 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceDistributorToken" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 10
+[15-Nov-2022 10:26:51 Asia/Kolkata] PHP Warning:  Attempt to read property "userRoleName" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 11
+[15-Nov-2022 10:26:51 Asia/Kolkata] PHP Warning:  Attempt to read property "modulesTokenArray" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 14
+[15-Nov-2022 10:26:51 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'service_distributor_token' cannot be null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php:26
+Stack trace:
+#0 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php(26): PDOStatement->execute()
+#1 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php(17): userRole->addUserRole()
+#2 {main}
+  thrown in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php on line 26
+[15-Nov-2022 10:26:51 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceDistributorToken" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/userRoleList.php on line 8
+[15-Nov-2022 10:26:51 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceDistributorToken" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 10
+[15-Nov-2022 10:26:51 Asia/Kolkata] PHP Warning:  Attempt to read property "userRoleName" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 11
+[15-Nov-2022 10:26:51 Asia/Kolkata] PHP Warning:  Attempt to read property "modulesTokenArray" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 14
+[15-Nov-2022 10:26:51 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'service_distributor_token' cannot be null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php:26
+Stack trace:
+#0 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php(26): PDOStatement->execute()
+#1 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php(17): userRole->addUserRole()
+#2 {main}
+  thrown in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php on line 26
+[15-Nov-2022 10:26:51 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceDistributorToken" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/userRoleList.php on line 8
+[15-Nov-2022 10:26:52 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceDistributorToken" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 10
+[15-Nov-2022 10:26:52 Asia/Kolkata] PHP Warning:  Attempt to read property "userRoleName" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 11
+[15-Nov-2022 10:26:52 Asia/Kolkata] PHP Warning:  Attempt to read property "modulesTokenArray" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 14
+[15-Nov-2022 10:26:52 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'service_distributor_token' cannot be null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php:26
+Stack trace:
+#0 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php(26): PDOStatement->execute()
+#1 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php(17): userRole->addUserRole()
+#2 {main}
+  thrown in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php on line 26
+[15-Nov-2022 10:26:52 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceDistributorToken" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/userRoleList.php on line 8
+[15-Nov-2022 10:26:52 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceDistributorToken" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 10
+[15-Nov-2022 10:26:52 Asia/Kolkata] PHP Warning:  Attempt to read property "userRoleName" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 11
+[15-Nov-2022 10:26:52 Asia/Kolkata] PHP Warning:  Attempt to read property "modulesTokenArray" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 14
+[15-Nov-2022 10:26:52 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'service_distributor_token' cannot be null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php:26
+Stack trace:
+#0 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php(26): PDOStatement->execute()
+#1 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php(17): userRole->addUserRole()
+#2 {main}
+  thrown in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php on line 26
+[15-Nov-2022 10:26:52 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceDistributorToken" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/userRoleList.php on line 8
+[15-Nov-2022 10:26:52 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceDistributorToken" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 10
+[15-Nov-2022 10:26:52 Asia/Kolkata] PHP Warning:  Attempt to read property "userRoleName" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 11
+[15-Nov-2022 10:26:52 Asia/Kolkata] PHP Warning:  Attempt to read property "modulesTokenArray" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 14
+[15-Nov-2022 10:26:52 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'service_distributor_token' cannot be null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php:26
+Stack trace:
+#0 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php(26): PDOStatement->execute()
+#1 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php(17): userRole->addUserRole()
+#2 {main}
+  thrown in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php on line 26
+[15-Nov-2022 10:26:52 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceDistributorToken" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/userRoleList.php on line 8
+[15-Nov-2022 10:26:53 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceDistributorToken" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 10
+[15-Nov-2022 10:26:53 Asia/Kolkata] PHP Warning:  Attempt to read property "userRoleName" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 11
+[15-Nov-2022 10:26:53 Asia/Kolkata] PHP Warning:  Attempt to read property "modulesTokenArray" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 14
+[15-Nov-2022 10:26:53 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'service_distributor_token' cannot be null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php:26
+Stack trace:
+#0 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php(26): PDOStatement->execute()
+#1 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php(17): userRole->addUserRole()
+#2 {main}
+  thrown in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php on line 26
+[15-Nov-2022 10:26:53 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceDistributorToken" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/userRoleList.php on line 8
+[15-Nov-2022 10:26:53 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceDistributorToken" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 10
+[15-Nov-2022 10:26:53 Asia/Kolkata] PHP Warning:  Attempt to read property "userRoleName" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 11
+[15-Nov-2022 10:26:53 Asia/Kolkata] PHP Warning:  Attempt to read property "modulesTokenArray" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 14
+[15-Nov-2022 10:26:53 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'service_distributor_token' cannot be null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php:26
+Stack trace:
+#0 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php(26): PDOStatement->execute()
+#1 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php(17): userRole->addUserRole()
+#2 {main}
+  thrown in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php on line 26
+[15-Nov-2022 10:26:53 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceDistributorToken" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/userRoleList.php on line 8
+[15-Nov-2022 10:26:53 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceDistributorToken" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 10
+[15-Nov-2022 10:26:53 Asia/Kolkata] PHP Warning:  Attempt to read property "userRoleName" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 11
+[15-Nov-2022 10:26:53 Asia/Kolkata] PHP Warning:  Attempt to read property "modulesTokenArray" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 14
+[15-Nov-2022 10:26:53 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'service_distributor_token' cannot be null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php:26
+Stack trace:
+#0 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php(26): PDOStatement->execute()
+#1 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php(17): userRole->addUserRole()
+#2 {main}
+  thrown in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php on line 26
+[15-Nov-2022 10:26:54 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceDistributorToken" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/userRoleList.php on line 8
+[15-Nov-2022 10:26:54 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceDistributorToken" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/userRoleList.php on line 8
+[15-Nov-2022 10:26:54 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceDistributorToken" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/userRoleList.php on line 8
+[15-Nov-2022 10:26:54 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceDistributorToken" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/userRoleList.php on line 8
+[15-Nov-2022 10:26:55 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceDistributorToken" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 10
+[15-Nov-2022 10:26:55 Asia/Kolkata] PHP Warning:  Attempt to read property "userRoleName" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 11
+[15-Nov-2022 10:26:55 Asia/Kolkata] PHP Warning:  Attempt to read property "modulesTokenArray" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 14
+[15-Nov-2022 10:26:55 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'service_distributor_token' cannot be null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php:26
+Stack trace:
+#0 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php(26): PDOStatement->execute()
+#1 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php(17): userRole->addUserRole()
+#2 {main}
+  thrown in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php on line 26
+[15-Nov-2022 10:26:55 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceDistributorToken" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/userRoleList.php on line 8
+[15-Nov-2022 10:26:55 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceDistributorToken" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 10
+[15-Nov-2022 10:26:55 Asia/Kolkata] PHP Warning:  Attempt to read property "userRoleName" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 11
+[15-Nov-2022 10:26:55 Asia/Kolkata] PHP Warning:  Attempt to read property "modulesTokenArray" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 14
+[15-Nov-2022 10:26:55 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'service_distributor_token' cannot be null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php:26
+Stack trace:
+#0 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php(26): PDOStatement->execute()
+#1 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php(17): userRole->addUserRole()
+#2 {main}
+  thrown in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php on line 26
+[15-Nov-2022 10:26:55 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceDistributorToken" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/userRoleList.php on line 8
+[15-Nov-2022 10:26:55 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceDistributorToken" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 10
+[15-Nov-2022 10:26:55 Asia/Kolkata] PHP Warning:  Attempt to read property "userRoleName" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 11
+[15-Nov-2022 10:26:55 Asia/Kolkata] PHP Warning:  Attempt to read property "modulesTokenArray" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 14
+[15-Nov-2022 10:26:55 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'service_distributor_token' cannot be null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php:26
+Stack trace:
+#0 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php(26): PDOStatement->execute()
+#1 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php(17): userRole->addUserRole()
+#2 {main}
+  thrown in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php on line 26
+[15-Nov-2022 10:26:55 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceDistributorToken" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/userRoleList.php on line 8
+[15-Nov-2022 10:26:56 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceDistributorToken" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 10
+[15-Nov-2022 10:26:56 Asia/Kolkata] PHP Warning:  Attempt to read property "userRoleName" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 11
+[15-Nov-2022 10:26:56 Asia/Kolkata] PHP Warning:  Attempt to read property "modulesTokenArray" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 14
+[15-Nov-2022 10:26:56 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'service_distributor_token' cannot be null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php:26
+Stack trace:
+#0 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php(26): PDOStatement->execute()
+#1 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php(17): userRole->addUserRole()
+#2 {main}
+  thrown in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php on line 26
+[15-Nov-2022 10:26:56 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceDistributorToken" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/userRoleList.php on line 8
+[15-Nov-2022 10:26:56 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceDistributorToken" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 10
+[15-Nov-2022 10:26:56 Asia/Kolkata] PHP Warning:  Attempt to read property "userRoleName" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 11
+[15-Nov-2022 10:26:56 Asia/Kolkata] PHP Warning:  Attempt to read property "modulesTokenArray" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 14
+[15-Nov-2022 10:26:56 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'service_distributor_token' cannot be null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php:26
+Stack trace:
+#0 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php(26): PDOStatement->execute()
+#1 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php(17): userRole->addUserRole()
+#2 {main}
+  thrown in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php on line 26
+[15-Nov-2022 10:26:56 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceDistributorToken" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/userRoleList.php on line 8
+[15-Nov-2022 10:26:56 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceDistributorToken" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 10
+[15-Nov-2022 10:26:56 Asia/Kolkata] PHP Warning:  Attempt to read property "userRoleName" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 11
+[15-Nov-2022 10:26:56 Asia/Kolkata] PHP Warning:  Attempt to read property "modulesTokenArray" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 14
+[15-Nov-2022 10:26:56 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'service_distributor_token' cannot be null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php:26
+Stack trace:
+#0 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php(26): PDOStatement->execute()
+#1 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php(17): userRole->addUserRole()
+#2 {main}
+  thrown in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php on line 26
+[15-Nov-2022 10:26:57 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceDistributorToken" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 10
+[15-Nov-2022 10:26:57 Asia/Kolkata] PHP Warning:  Attempt to read property "userRoleName" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 11
+[15-Nov-2022 10:26:57 Asia/Kolkata] PHP Warning:  Attempt to read property "modulesTokenArray" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 14
+[15-Nov-2022 10:26:57 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'service_distributor_token' cannot be null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php:26
+Stack trace:
+#0 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php(26): PDOStatement->execute()
+#1 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php(17): userRole->addUserRole()
+#2 {main}
+  thrown in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php on line 26
+[15-Nov-2022 10:26:57 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceDistributorToken" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/userRoleList.php on line 8
+[15-Nov-2022 10:26:57 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceDistributorToken" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 10
+[15-Nov-2022 10:26:57 Asia/Kolkata] PHP Warning:  Attempt to read property "userRoleName" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 11
+[15-Nov-2022 10:26:57 Asia/Kolkata] PHP Warning:  Attempt to read property "modulesTokenArray" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 14
+[15-Nov-2022 10:26:57 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'service_distributor_token' cannot be null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php:26
+Stack trace:
+#0 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php(26): PDOStatement->execute()
+#1 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php(17): userRole->addUserRole()
+#2 {main}
+  thrown in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php on line 26
+[15-Nov-2022 10:26:57 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceDistributorToken" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/userRoleList.php on line 8
+[15-Nov-2022 10:26:57 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceDistributorToken" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 10
+[15-Nov-2022 10:26:57 Asia/Kolkata] PHP Warning:  Attempt to read property "userRoleName" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 11
+[15-Nov-2022 10:26:57 Asia/Kolkata] PHP Warning:  Attempt to read property "modulesTokenArray" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 14
+[15-Nov-2022 10:26:57 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'service_distributor_token' cannot be null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php:26
+Stack trace:
+#0 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php(26): PDOStatement->execute()
+#1 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php(17): userRole->addUserRole()
+#2 {main}
+  thrown in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php on line 26
+[15-Nov-2022 10:26:58 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceDistributorToken" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/userRoleList.php on line 8
+[15-Nov-2022 10:26:58 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceDistributorToken" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 10
+[15-Nov-2022 10:26:58 Asia/Kolkata] PHP Warning:  Attempt to read property "userRoleName" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 11
+[15-Nov-2022 10:26:58 Asia/Kolkata] PHP Warning:  Attempt to read property "modulesTokenArray" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 14
+[15-Nov-2022 10:26:58 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'service_distributor_token' cannot be null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php:26
+Stack trace:
+#0 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php(26): PDOStatement->execute()
+#1 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php(17): userRole->addUserRole()
+#2 {main}
+  thrown in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php on line 26
+[15-Nov-2022 10:26:58 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceDistributorToken" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/userRoleList.php on line 8
+[15-Nov-2022 10:26:58 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceDistributorToken" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 10
+[15-Nov-2022 10:26:58 Asia/Kolkata] PHP Warning:  Attempt to read property "userRoleName" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 11
+[15-Nov-2022 10:26:58 Asia/Kolkata] PHP Warning:  Attempt to read property "modulesTokenArray" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 14
+[15-Nov-2022 10:26:58 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'service_distributor_token' cannot be null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php:26
+Stack trace:
+#0 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php(26): PDOStatement->execute()
+#1 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php(17): userRole->addUserRole()
+#2 {main}
+  thrown in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php on line 26
+[15-Nov-2022 10:26:58 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceDistributorToken" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/userRoleList.php on line 8
+[15-Nov-2022 10:26:58 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceDistributorToken" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 10
+[15-Nov-2022 10:26:58 Asia/Kolkata] PHP Warning:  Attempt to read property "userRoleName" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 11
+[15-Nov-2022 10:26:58 Asia/Kolkata] PHP Warning:  Attempt to read property "modulesTokenArray" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 14
+[15-Nov-2022 10:26:58 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'service_distributor_token' cannot be null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php:26
+Stack trace:
+#0 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php(26): PDOStatement->execute()
+#1 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php(17): userRole->addUserRole()
+#2 {main}
+  thrown in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php on line 26
+[15-Nov-2022 10:26:58 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceDistributorToken" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/userRoleList.php on line 8
+[15-Nov-2022 10:26:58 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceDistributorToken" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 10
+[15-Nov-2022 10:26:58 Asia/Kolkata] PHP Warning:  Attempt to read property "userRoleName" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 11
+[15-Nov-2022 10:26:58 Asia/Kolkata] PHP Warning:  Attempt to read property "modulesTokenArray" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 14
+[15-Nov-2022 10:26:58 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'service_distributor_token' cannot be null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php:26
+Stack trace:
+#0 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php(26): PDOStatement->execute()
+#1 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php(17): userRole->addUserRole()
+#2 {main}
+  thrown in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php on line 26
+[15-Nov-2022 10:26:59 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceDistributorToken" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/userRoleList.php on line 8
+[15-Nov-2022 10:26:59 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceDistributorToken" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 10
+[15-Nov-2022 10:26:59 Asia/Kolkata] PHP Warning:  Attempt to read property "userRoleName" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 11
+[15-Nov-2022 10:26:59 Asia/Kolkata] PHP Warning:  Attempt to read property "modulesTokenArray" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 14
+[15-Nov-2022 10:26:59 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'service_distributor_token' cannot be null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php:26
+Stack trace:
+#0 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php(26): PDOStatement->execute()
+#1 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php(17): userRole->addUserRole()
+#2 {main}
+  thrown in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php on line 26
+[15-Nov-2022 10:26:59 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceDistributorToken" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/userRoleList.php on line 8
+[15-Nov-2022 10:26:59 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceDistributorToken" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 10
+[15-Nov-2022 10:26:59 Asia/Kolkata] PHP Warning:  Attempt to read property "userRoleName" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 11
+[15-Nov-2022 10:26:59 Asia/Kolkata] PHP Warning:  Attempt to read property "modulesTokenArray" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 14
+[15-Nov-2022 10:26:59 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'service_distributor_token' cannot be null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php:26
+Stack trace:
+#0 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php(26): PDOStatement->execute()
+#1 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php(17): userRole->addUserRole()
+#2 {main}
+  thrown in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php on line 26
+[15-Nov-2022 10:26:59 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceDistributorToken" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/userRoleList.php on line 8
+[15-Nov-2022 10:27:00 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceDistributorToken" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 10
+[15-Nov-2022 10:27:00 Asia/Kolkata] PHP Warning:  Attempt to read property "userRoleName" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 11
+[15-Nov-2022 10:27:00 Asia/Kolkata] PHP Warning:  Attempt to read property "modulesTokenArray" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 14
+[15-Nov-2022 10:27:00 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'service_distributor_token' cannot be null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php:26
+Stack trace:
+#0 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php(26): PDOStatement->execute()
+#1 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php(17): userRole->addUserRole()
+#2 {main}
+  thrown in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php on line 26
+[15-Nov-2022 10:27:00 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceDistributorToken" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/userRoleList.php on line 8
+[15-Nov-2022 10:27:00 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceDistributorToken" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 10
+[15-Nov-2022 10:27:00 Asia/Kolkata] PHP Warning:  Attempt to read property "userRoleName" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 11
+[15-Nov-2022 10:27:00 Asia/Kolkata] PHP Warning:  Attempt to read property "modulesTokenArray" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 14
+[15-Nov-2022 10:27:00 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'service_distributor_token' cannot be null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php:26
+Stack trace:
+#0 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php(26): PDOStatement->execute()
+#1 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php(17): userRole->addUserRole()
+#2 {main}
+  thrown in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php on line 26
+[15-Nov-2022 10:27:00 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceDistributorToken" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/userRoleList.php on line 8
+[15-Nov-2022 10:27:00 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceDistributorToken" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 10
+[15-Nov-2022 10:27:00 Asia/Kolkata] PHP Warning:  Attempt to read property "userRoleName" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 11
+[15-Nov-2022 10:27:00 Asia/Kolkata] PHP Warning:  Attempt to read property "modulesTokenArray" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 14
+[15-Nov-2022 10:27:00 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'service_distributor_token' cannot be null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php:26
+Stack trace:
+#0 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php(26): PDOStatement->execute()
+#1 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php(17): userRole->addUserRole()
+#2 {main}
+  thrown in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php on line 26
+[15-Nov-2022 10:27:00 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceDistributorToken" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 10
+[15-Nov-2022 10:27:00 Asia/Kolkata] PHP Warning:  Attempt to read property "userRoleName" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 11
+[15-Nov-2022 10:27:00 Asia/Kolkata] PHP Warning:  Attempt to read property "modulesTokenArray" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 14
+[15-Nov-2022 10:27:00 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'service_distributor_token' cannot be null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php:26
+Stack trace:
+#0 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php(26): PDOStatement->execute()
+#1 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php(17): userRole->addUserRole()
+#2 {main}
+  thrown in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php on line 26
+[15-Nov-2022 10:27:01 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceDistributorToken" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/userRoleList.php on line 8
+[15-Nov-2022 10:27:01 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceDistributorToken" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 10
+[15-Nov-2022 10:27:01 Asia/Kolkata] PHP Warning:  Attempt to read property "userRoleName" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 11
+[15-Nov-2022 10:27:01 Asia/Kolkata] PHP Warning:  Attempt to read property "modulesTokenArray" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 14
+[15-Nov-2022 10:27:01 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'service_distributor_token' cannot be null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php:26
+Stack trace:
+#0 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php(26): PDOStatement->execute()
+#1 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php(17): userRole->addUserRole()
+#2 {main}
+  thrown in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php on line 26
+[15-Nov-2022 10:27:01 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceDistributorToken" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/userRoleList.php on line 8
+[15-Nov-2022 10:27:01 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceDistributorToken" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 10
+[15-Nov-2022 10:27:01 Asia/Kolkata] PHP Warning:  Attempt to read property "userRoleName" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 11
+[15-Nov-2022 10:27:01 Asia/Kolkata] PHP Warning:  Attempt to read property "modulesTokenArray" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 14
+[15-Nov-2022 10:27:01 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'service_distributor_token' cannot be null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php:26
+Stack trace:
+#0 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php(26): PDOStatement->execute()
+#1 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php(17): userRole->addUserRole()
+#2 {main}
+  thrown in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php on line 26
+[15-Nov-2022 10:27:01 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceDistributorToken" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/userRoleList.php on line 8
+[15-Nov-2022 10:27:01 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceDistributorToken" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 10
+[15-Nov-2022 10:27:01 Asia/Kolkata] PHP Warning:  Attempt to read property "userRoleName" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 11
+[15-Nov-2022 10:27:01 Asia/Kolkata] PHP Warning:  Attempt to read property "modulesTokenArray" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 14
+[15-Nov-2022 10:27:01 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'service_distributor_token' cannot be null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php:26
+Stack trace:
+#0 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php(26): PDOStatement->execute()
+#1 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php(17): userRole->addUserRole()
+#2 {main}
+  thrown in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php on line 26
+[15-Nov-2022 10:27:01 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceDistributorToken" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/userRoleList.php on line 8
+[15-Nov-2022 10:27:03 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceDistributorToken" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 10
+[15-Nov-2022 10:27:03 Asia/Kolkata] PHP Warning:  Attempt to read property "userRoleName" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 11
+[15-Nov-2022 10:27:03 Asia/Kolkata] PHP Warning:  Attempt to read property "modulesTokenArray" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 14
+[15-Nov-2022 10:27:03 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'service_distributor_token' cannot be null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php:26
+Stack trace:
+#0 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php(26): PDOStatement->execute()
+#1 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php(17): userRole->addUserRole()
+#2 {main}
+  thrown in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php on line 26
+[15-Nov-2022 10:27:03 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceDistributorToken" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/userRoleList.php on line 8
+[15-Nov-2022 10:27:03 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceDistributorToken" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 10
+[15-Nov-2022 10:27:03 Asia/Kolkata] PHP Warning:  Attempt to read property "userRoleName" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 11
+[15-Nov-2022 10:27:03 Asia/Kolkata] PHP Warning:  Attempt to read property "modulesTokenArray" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 14
+[15-Nov-2022 10:27:03 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'service_distributor_token' cannot be null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php:26
+Stack trace:
+#0 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php(26): PDOStatement->execute()
+#1 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php(17): userRole->addUserRole()
+#2 {main}
+  thrown in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php on line 26
+[15-Nov-2022 10:27:03 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceDistributorToken" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/userRoleList.php on line 8
+[15-Nov-2022 10:27:03 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceDistributorToken" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 10
+[15-Nov-2022 10:27:03 Asia/Kolkata] PHP Warning:  Attempt to read property "userRoleName" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 11
+[15-Nov-2022 10:27:03 Asia/Kolkata] PHP Warning:  Attempt to read property "modulesTokenArray" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 14
+[15-Nov-2022 10:27:03 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'service_distributor_token' cannot be null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php:26
+Stack trace:
+#0 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php(26): PDOStatement->execute()
+#1 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php(17): userRole->addUserRole()
+#2 {main}
+  thrown in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php on line 26
+[15-Nov-2022 10:27:03 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceDistributorToken" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/userRoleList.php on line 8
+[15-Nov-2022 10:27:04 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceDistributorToken" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 10
+[15-Nov-2022 10:27:04 Asia/Kolkata] PHP Warning:  Attempt to read property "userRoleName" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 11
+[15-Nov-2022 10:27:04 Asia/Kolkata] PHP Warning:  Attempt to read property "modulesTokenArray" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 14
+[15-Nov-2022 10:27:04 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'service_distributor_token' cannot be null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php:26
+Stack trace:
+#0 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php(26): PDOStatement->execute()
+#1 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php(17): userRole->addUserRole()
+#2 {main}
+  thrown in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php on line 26
+[15-Nov-2022 10:27:04 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceDistributorToken" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/userRoleList.php on line 8
+[15-Nov-2022 10:27:04 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceDistributorToken" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 10
+[15-Nov-2022 10:27:04 Asia/Kolkata] PHP Warning:  Attempt to read property "userRoleName" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 11
+[15-Nov-2022 10:27:04 Asia/Kolkata] PHP Warning:  Attempt to read property "modulesTokenArray" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 14
+[15-Nov-2022 10:27:04 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'service_distributor_token' cannot be null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php:26
+Stack trace:
+#0 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php(26): PDOStatement->execute()
+#1 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php(17): userRole->addUserRole()
+#2 {main}
+  thrown in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php on line 26
+[15-Nov-2022 10:27:04 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceDistributorToken" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/userRoleList.php on line 8
+[15-Nov-2022 10:27:04 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceDistributorToken" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/userRoleList.php on line 8
+[15-Nov-2022 10:27:04 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceDistributorToken" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 10
+[15-Nov-2022 10:27:04 Asia/Kolkata] PHP Warning:  Attempt to read property "userRoleName" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 11
+[15-Nov-2022 10:27:04 Asia/Kolkata] PHP Warning:  Attempt to read property "modulesTokenArray" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 14
+[15-Nov-2022 10:27:04 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'service_distributor_token' cannot be null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php:26
+Stack trace:
+#0 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php(26): PDOStatement->execute()
+#1 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php(17): userRole->addUserRole()
+#2 {main}
+  thrown in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php on line 26
+[15-Nov-2022 10:27:06 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceDistributorToken" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/userRoleList.php on line 8
+[15-Nov-2022 10:27:06 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceDistributorToken" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 10
+[15-Nov-2022 10:27:06 Asia/Kolkata] PHP Warning:  Attempt to read property "userRoleName" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 11
+[15-Nov-2022 10:27:06 Asia/Kolkata] PHP Warning:  Attempt to read property "modulesTokenArray" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 14
+[15-Nov-2022 10:27:06 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'service_distributor_token' cannot be null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php:26
+Stack trace:
+#0 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php(26): PDOStatement->execute()
+#1 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php(17): userRole->addUserRole()
+#2 {main}
+  thrown in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php on line 26
+[15-Nov-2022 10:27:06 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceDistributorToken" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/userRoleList.php on line 8
+[15-Nov-2022 10:27:06 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceDistributorToken" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 10
+[15-Nov-2022 10:27:06 Asia/Kolkata] PHP Warning:  Attempt to read property "userRoleName" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 11
+[15-Nov-2022 10:27:06 Asia/Kolkata] PHP Warning:  Attempt to read property "modulesTokenArray" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 14
+[15-Nov-2022 10:27:06 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'service_distributor_token' cannot be null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php:26
+Stack trace:
+#0 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php(26): PDOStatement->execute()
+#1 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php(17): userRole->addUserRole()
+#2 {main}
+  thrown in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php on line 26
+[15-Nov-2022 10:27:06 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceDistributorToken" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/userRoleList.php on line 8
+[15-Nov-2022 10:27:07 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceDistributorToken" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 10
+[15-Nov-2022 10:27:07 Asia/Kolkata] PHP Warning:  Attempt to read property "userRoleName" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 11
+[15-Nov-2022 10:27:07 Asia/Kolkata] PHP Warning:  Attempt to read property "modulesTokenArray" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 14
+[15-Nov-2022 10:27:07 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'service_distributor_token' cannot be null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php:26
+Stack trace:
+#0 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php(26): PDOStatement->execute()
+#1 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php(17): userRole->addUserRole()
+#2 {main}
+  thrown in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php on line 26
+[15-Nov-2022 10:27:07 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceDistributorToken" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 10
+[15-Nov-2022 10:27:07 Asia/Kolkata] PHP Warning:  Attempt to read property "userRoleName" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 11
+[15-Nov-2022 10:27:07 Asia/Kolkata] PHP Warning:  Attempt to read property "modulesTokenArray" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 14
+[15-Nov-2022 10:27:07 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'service_distributor_token' cannot be null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php:26
+Stack trace:
+#0 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php(26): PDOStatement->execute()
+#1 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php(17): userRole->addUserRole()
+#2 {main}
+  thrown in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php on line 26
+[15-Nov-2022 10:27:07 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceDistributorToken" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/userRoleList.php on line 8
+[15-Nov-2022 10:27:07 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceDistributorToken" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/userRoleList.php on line 8
+[15-Nov-2022 10:27:08 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceDistributorToken" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/userRoleList.php on line 8
+[15-Nov-2022 10:27:08 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceDistributorToken" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/userRoleList.php on line 8
+[15-Nov-2022 10:27:08 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceDistributorToken" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/userRoleList.php on line 8
+[15-Nov-2022 10:30:05 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceDistributorToken" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 10
+[15-Nov-2022 10:30:05 Asia/Kolkata] PHP Warning:  Attempt to read property "userRoleName" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 11
+[15-Nov-2022 10:30:05 Asia/Kolkata] PHP Warning:  Attempt to read property "modulesTokenArray" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 14
+[15-Nov-2022 10:30:05 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'service_distributor_token' cannot be null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php:26
+Stack trace:
+#0 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php(26): PDOStatement->execute()
+#1 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php(17): userRole->addUserRole()
+#2 {main}
+  thrown in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php on line 26
+[15-Nov-2022 10:30:05 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceDistributorToken" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/userRoleList.php on line 8
+[15-Nov-2022 10:35:12 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceDistributorToken" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 10
+[15-Nov-2022 10:35:12 Asia/Kolkata] PHP Warning:  Attempt to read property "userRoleName" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 11
+[15-Nov-2022 10:35:12 Asia/Kolkata] PHP Warning:  Attempt to read property "modulesTokenArray" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 14
+[15-Nov-2022 10:35:12 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'service_distributor_token' cannot be null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php:26
+Stack trace:
+#0 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php(26): PDOStatement->execute()
+#1 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php(17): userRole->addUserRole()
+#2 {main}
+  thrown in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php on line 26
+[15-Nov-2022 10:35:12 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceDistributorToken" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 10
+[15-Nov-2022 10:35:12 Asia/Kolkata] PHP Warning:  Attempt to read property "userRoleName" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 11
+[15-Nov-2022 10:35:12 Asia/Kolkata] PHP Warning:  Attempt to read property "modulesTokenArray" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php on line 14
+[15-Nov-2022 10:35:12 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'service_distributor_token' cannot be null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php:26
+Stack trace:
+#0 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php(26): PDOStatement->execute()
+#1 /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/addUserRole.php(17): userRole->addUserRole()
+#2 {main}
+  thrown in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/objects/userRole.php on line 26
+[15-Nov-2022 10:35:12 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceDistributorToken" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/userRoleList.php on line 8
+[15-Nov-2022 10:35:12 Asia/Kolkata] PHP Warning:  Attempt to read property "serviceDistributorToken" on null in /home/airportzostage/public_html/service-distributor-dashboard/API/Version1.0/roles/userRoleList.php on line 8

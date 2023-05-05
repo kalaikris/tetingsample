@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>24/7 </title>
+    <g id="24/7-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linejoin="round">
+        <g id="8324197_ui_essential_app_support_help_icon-copy" transform="translate(7.000000, 8.000000)" stroke="#0FB3D4" stroke-width="2.772">
+            <path d="M9,35.4098361 L7.5,35.4098361 C3.3585,35.4098361 0,32.1063934 0,28.0327869 L0,28.0327869 C0,23.9591803 3.3585,20.6557377 7.5,20.6557377 L9,20.6557377 L9,35.4098361 Z" id="Path"></path>
+            <path d="M37.5,35.4098361 L36,35.4098361 L36,20.6557377 L37.5,20.6557377 C41.6415,20.6557377 45,23.9591803 45,28.0327869 L45,28.0327869 C45,32.1063934 41.6415,35.4098361 37.5,35.4098361 Z" id="Path"></path>
+            <path d="M6,20.6557377 L6,16.2295082 C6,7.26639344 13.3875,0 22.5,0 L22.5,0 C31.6125,0 39,7.26639344 39,16.2295082 L39,20.6557377" id="Path"></path>
+            <path d="M39,35.4098361 L39,41.3114754 C39,42.9418033 37.6575,44.2622951 36,44.2622951 L31.5,44.2622951" id="Path"></path>
+            <line x1="25.5" y1="44.2622951" x2="28.5" y2="44.2622951" id="Path"></line>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,44 @@
+.button-groub2 {
+    display: flex;
+    justify-content: space-between;
+    width: 38rem;
+    margin-top: 30px;
+}
+button.assign {
+    width: 9rem;
+    height: 63px;
+    margin-top: 2rem;
+    border: none;
+    outline: none;
+    border-radius: 12px;
+    background-color: #84bc41;
+    color: var(--clr-neutral-100);
+    cursor: pointer;
+}
+.form {
+    width: 24rem;
+    height: 63px;
+    position: relative;
+}
+.form select {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: 1px solid #969696;
+    border-radius: 16px;
+    outline: none;
+    padding: 0px 17px;
+    font-size: 15px;
+    color: #a3a3a3;
+    cursor: pointer;
+}
+.form label {
+    position: absolute;
+    top: -3px;
+    left: 19px;
+    color: #969696;
+    font-size: 14px;
+    transition: top 0.3s;
+    padding: 6px;
+    color: black;
+}

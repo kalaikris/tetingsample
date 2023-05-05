@@ -1,0 +1,2478 @@
+{
+	"info": {
+		"_postman_id": "9ec3b6b0-62d5-4399-8729-bcce97ff9428",
+		"name": "Airportzo Ext-Services API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "18355647"
+	},
+	"item": [
+		{
+			"name": "Services",
+			"item": [
+				{
+					"name": "Get Service Types",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": {
+								"password": "",
+								"username": ""
+							}
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"journey_array\": [\n        {\n            \"departure_airport\": \"BLR\",\n            \"departure_terminal\": \"Terminal\",\n            \"departure_datetime\": \"2023-04-11 09:30:00\",\n            \"arrival_airport\": \"GAU\",\n            \"arrival_terminal\": \"Terminal 2\",\n            \"arrival_datetime\": \"2023-04-14 09:30:00\",\n            \"flight_number\": \"CB1232\"\n        },\n        {\n            \"departure_airport\": \"GAU\",\n            \"departure_terminal\": \"Terminal 2\",\n            \"departure_datetime\": \"2023-04-14 17:30:00\",\n            \"arrival_airport\": \"BOM\",\n            \"arrival_terminal\": \"Terminal 2\",\n            \"arrival_datetime\": \"2023-04-15 19:30:00\",\n            \"flight_number\": \"BI1232\"\n        }\n    ]\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{extServiceUrl}}/services/get-business.php"
+					},
+					"response": [
+						{
+							"name": "Success - Source and Destination",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"journey_array\": [\n        {\n            \"departure_airport\": \"CJB\",\n            \"departure_terminal\": \"Terminal 1\",\n            \"departure_datetime\": \"2022-11-13 09:30:00\",\n            \"arrival_airport\": \"BLR\",\n            \"arrival_terminal\": \"Terminal 1\",\n            \"arrival_datetime\": \"2022-11-14 09:30:00\",\n            \"flight_number\": \"CB1232\"\n        }\n    ]\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "{{baseUrl}}/services/get-business.php"
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Mon, 07 Nov 2022 07:18:32 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=UTF-8"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Access-Control-Allow-Methods",
+									"value": "POST"
+								},
+								{
+									"key": "Access-Control-Max-Age",
+									"value": "3600"
+								},
+								{
+									"key": "Access-Control-Allow-Headers",
+									"value": "Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With"
+								},
+								{
+									"key": "CF-Cache-Status",
+									"value": "DYNAMIC"
+								},
+								{
+									"key": "Report-To",
+									"value": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=vAPwlHzzcuZGdDxj%2FbZ0jR3TUMmmV%2FAd%2FlhXutqIQ07EPa7Mi1sw0aJVyKGIVCGfyY6uEN6NYfj%2BTg1HlO60gX4C3uOgWRf6TVtLJLfmLy5VHYA%2BlTr44k15EjBYdBOqWXespA%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}"
+								},
+								{
+									"key": "NEL",
+									"value": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}"
+								},
+								{
+									"key": "Strict-Transport-Security",
+									"value": "max-age=31536000; includeSubDomains; preload"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "Server",
+									"value": "cloudflare"
+								},
+								{
+									"key": "CF-RAY",
+									"value": "76644ba21d264aba-SIN"
+								},
+								{
+									"key": "Content-Encoding",
+									"value": "br"
+								},
+								{
+									"key": "alt-svc",
+									"value": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"journey_token\": \"6791229414\",\n    \"data\": [\n        {\n            \"airport_code\": \"BLR\",\n            \"airport_name\": \"Kempegowda International Airport\",\n            \"category_name\": \"Departure\",\n            \"country_code\": \"IN\",\n            \"terminal_name\": \"Terminal\",\n            \"type_name\": \"Domestic\",\n            \"service_collection\": [\n                {\n                    \"token\": \"9876543210\",\n                    \"name\": \"Meet and Greet\"\n                },\n                {\n                    \"token\": \"ZQL5ICSP21\",\n                    \"name\": \"Car SPA\"\n                },\n                {\n                    \"token\": \"KTVQHR09EU\",\n                    \"name\": \"Baggage Wrapping\"\n                },\n                {\n                    \"token\": \"6767676666\",\n                    \"name\": \"Flower Bouquet\"\n                },\n                {\n                    \"token\": \"6767676767\",\n                    \"name\": \"Porter\"\n                },\n                {\n                    \"token\": \"6767676764\",\n                    \"name\": \"Limousine\"\n                }\n            ]\n        },\n        {\n            \"airport_code\": \"GAU\",\n            \"airport_name\": \"Lokpriya Gopinath Bordoloi International Airport\",\n            \"category_name\": \"Transit\",\n            \"country_code\": \"IN\",\n            \"terminal_name\": \"Terminal 2\",\n            \"type_name\": \"Domestic-Domestic\",\n            \"service_collection\": [\n                {\n                    \"token\": \"9876543210\",\n                    \"name\": \"Meet and Greet\"\n                },\n                {\n                    \"token\": \"6767676767\",\n                    \"name\": \"Porter\"\n                }\n            ]\n        },\n        {\n            \"airport_code\": \"BOM\",\n            \"airport_name\": \"Chhatrapati Shivaji Maharaj International Airport\",\n            \"category_name\": \"Arrival\",\n            \"country_code\": \"IN\",\n            \"terminal_name\": \"Terminal 2\",\n            \"type_name\": \"Domestic\",\n            \"service_collection\": [\n                {\n                    \"token\": \"9876543210\",\n                    \"name\": \"Meet and Greet\"\n                },\n                {\n                    \"token\": \"6767676767\",\n                    \"name\": \"Porter\"\n                }\n            ]\n        }\n    ]\n}"
+						},
+						{
+							"name": "Success - Source, Transit and Destination",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"journey_array\": [\n        {\n            \"departure_airport\": \"CJB\",\n            \"departure_terminal\": \"Terminal 1\",\n            \"departure_datetime\": \"2022-11-13 09:30:00\",\n            \"arrival_airport\": \"BLR\",\n            \"arrival_terminal\": \"Terminal 1\",\n            \"arrival_datetime\": \"2022-11-14 09:30:00\",\n            \"flight_number\": \"CB1232\"\n        },\n        {\n            \"departure_airport\": \"BLR\",\n            \"departure_terminal\": \"Terminal 1\",\n            \"departure_datetime\": \"2022-11-14 17:30:00\",\n            \"arrival_airport\": \"IXM\",\n            \"arrival_terminal\": \"Terminal 1\",\n            \"arrival_datetime\": \"2022-11-14 19:30:00\",\n            \"flight_number\": \"BI1232\"\n        }\n    ]\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "{{baseUrl}}/services/get-business.php"
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Mon, 07 Nov 2022 07:17:09 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=UTF-8"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Access-Control-Allow-Methods",
+									"value": "POST"
+								},
+								{
+									"key": "Access-Control-Max-Age",
+									"value": "3600"
+								},
+								{
+									"key": "Access-Control-Allow-Headers",
+									"value": "Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With"
+								},
+								{
+									"key": "CF-Cache-Status",
+									"value": "DYNAMIC"
+								},
+								{
+									"key": "Report-To",
+									"value": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=lRJ%2BRgwi%2Fz2z4q6UZXDbctXyZiEU3k80KsPeA6AhzXXmzCtMwfJ0MV8oVjIbV%2FftrE1Ay3fxIsnnWwivGw5yZRWg95ZT%2FenHvdpaD5wxRx5eYkX88Fv4Z8lOP7abScczbHijxg%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}"
+								},
+								{
+									"key": "NEL",
+									"value": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}"
+								},
+								{
+									"key": "Strict-Transport-Security",
+									"value": "max-age=31536000; includeSubDomains; preload"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "Server",
+									"value": "cloudflare"
+								},
+								{
+									"key": "CF-RAY",
+									"value": "7664499ec9884aba-SIN"
+								},
+								{
+									"key": "Content-Encoding",
+									"value": "br"
+								},
+								{
+									"key": "alt-svc",
+									"value": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"journey_token\": \"6160934183\",\n    \"data\": [\n        {\n            \"airport_code\": \"CJB\",\n            \"airport_name\": \"Coimbatore International Airport\",\n            \"category_name\": \"Departure\",\n            \"country_code\": \"IN\",\n            \"terminal_name\": \"Terminal 1\",\n            \"type_name\": \"Domestic\",\n            \"service_collection\": [\n                {\n                    \"token\": \"6767676767\",\n                    \"name\": \"Porter\"\n                },\n                {\n                    \"token\": \"6767676764\",\n                    \"name\": \"Limousine\"\n                },\n                {\n                    \"token\": \"6767676761\",\n                    \"name\": \"Lounge\"\n                },\n                {\n                    \"token\": \"9876543210\",\n                    \"name\": \"Meet and Greet\"\n                }\n            ]\n        },\n        {\n            \"airport_code\": \"BLR\",\n            \"airport_name\": \"Kempegowda International Airport\",\n            \"category_name\": \"Transit\",\n            \"country_code\": \"IN\",\n            \"terminal_name\": \"Terminal 1\",\n            \"type_name\": \"Domestic-Domestic\",\n            \"service_collection\": [\n                {\n                    \"token\": \"9876543210\",\n                    \"name\": \"Meet and Greet\"\n                },\n                {\n                    \"token\": \"6767676767\",\n                    \"name\": \"Porter\"\n                }\n            ]\n        },\n        {\n            \"airport_code\": \"IXM\",\n            \"airport_name\": \"Madurai international Airport\",\n            \"category_name\": \"Arrival\",\n            \"country_code\": \"IN\",\n            \"terminal_name\": \"Terminal 1\",\n            \"type_name\": \"Domestic\",\n            \"service_collection\": [\n                {\n                    \"token\": \"6767676767\",\n                    \"name\": \"Porter\"\n                }\n            ]\n        }\n    ]\n}"
+						},
+						{
+							"name": "Failure 401",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"journey_array\": [\n        {\n            \"departure_airport\": \"CJB\",\n            \"departure_terminal\": \"Terminal 1\",\n            \"departure_datetime\": \"2022-11-13 09:30:00\",\n            \"arrival_airport\": \"BLR\",\n            \"arrival_terminal\": \"Terminal 1\",\n            \"arrival_datetime\": \"2022-11-14 09:30:00\",\n            \"flight_number\": \"CB1232\"\n        }\n    ]\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "{{baseUrl}}/services/get-business.php"
+							},
+							"status": "Unauthorized",
+							"code": 401,
+							"_postman_previewlanguage": "html",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Mon, 07 Nov 2022 07:23:13 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "text/html; charset=UTF-8"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "CF-Cache-Status",
+									"value": "DYNAMIC"
+								},
+								{
+									"key": "Report-To",
+									"value": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=UN2Qo1isDCo1nbwTWIsWMa2PJGAsV3WHQBLM6J3exA4sDWLvwOnCPIc16LOjQPhPKVepuIa0xO9UbVyERR2%2BV74jgH4ZT74FgIt8cJaTkXlcx%2FFNSwyVYbAgl2KdpICNTLOEEA%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}"
+								},
+								{
+									"key": "NEL",
+									"value": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}"
+								},
+								{
+									"key": "Strict-Transport-Security",
+									"value": "max-age=31536000; includeSubDomains; preload"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "Server",
+									"value": "cloudflare"
+								},
+								{
+									"key": "CF-RAY",
+									"value": "7664528049354aba-SIN"
+								},
+								{
+									"key": "alt-svc",
+									"value": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400"
+								}
+							],
+							"cookie": [],
+							"body": ""
+						},
+						{
+							"name": "Failure 400",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"journey_array\": [\n        {\n            \"departure_airport\": \"\",\n            \"departure_terminal\": \"Terminal 1\",\n            \"departure_datetime\": \"2022-11-13 09:30:00\",\n            \"arrival_airport\": \"BLR\",\n            \"arrival_terminal\": \"Terminal 1\",\n            \"arrival_datetime\": \"2022-11-14 09:30:00\",\n            \"flight_number\": \"CB1232\"\n        }\n    ]\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "{{baseUrl}}/services/get-business.php"
+							},
+							"status": "Bad Request",
+							"code": 400,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Mon, 07 Nov 2022 07:24:42 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=UTF-8"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Access-Control-Allow-Methods",
+									"value": "POST"
+								},
+								{
+									"key": "Access-Control-Max-Age",
+									"value": "3600"
+								},
+								{
+									"key": "Access-Control-Allow-Headers",
+									"value": "Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With"
+								},
+								{
+									"key": "CF-Cache-Status",
+									"value": "DYNAMIC"
+								},
+								{
+									"key": "Report-To",
+									"value": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=M%2FV6TDdwzxzfK0kwyyAzvq61fFfgIbxQH%2Fqh0QchAwkC0CyR7cnXxKwDGzuJC4cKCfrPHpjzyPn41%2Bxcsc64FNx4UU2N6S3%2BdovwKz1%2FowU3DngKtwFLVpaRmvFqj%2F9eHTytug%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}"
+								},
+								{
+									"key": "NEL",
+									"value": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}"
+								},
+								{
+									"key": "Strict-Transport-Security",
+									"value": "max-age=31536000; includeSubDomains; preload"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "Server",
+									"value": "cloudflare"
+								},
+								{
+									"key": "CF-RAY",
+									"value": "766454ab9e0c4aba-SIN"
+								},
+								{
+									"key": "alt-svc",
+									"value": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400"
+								}
+							],
+							"cookie": [],
+							"body": ""
+						},
+						{
+							"name": "Failure 204",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"journey_array\": [\n        {\n            \"departure_airport\": \"IXM\",\n            \"departure_terminal\": \"Terminal\",\n            \"departure_datetime\": \"2022-11-13 09:30:00\",\n            \"arrival_airport\": \"CJB\",\n            \"arrival_terminal\": \"Terminal 2\",\n            \"arrival_datetime\": \"2022-11-14 09:30:00\",\n            \"flight_number\": \"CB1232\"\n        }\n    ]\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "{{baseUrl}}/services/get-business.php"
+							},
+							"status": "No Content",
+							"code": 204,
+							"_postman_previewlanguage": "plain",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Mon, 07 Nov 2022 07:27:31 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Access-Control-Allow-Methods",
+									"value": "POST"
+								},
+								{
+									"key": "Access-Control-Max-Age",
+									"value": "3600"
+								},
+								{
+									"key": "Access-Control-Allow-Headers",
+									"value": "Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With"
+								},
+								{
+									"key": "CF-Cache-Status",
+									"value": "DYNAMIC"
+								},
+								{
+									"key": "Report-To",
+									"value": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=H5wWwNXXESYb6XPIlxgt89bRJgl3z11kBGTRF5qeLh%2BpHcqo1gUSbnkHzd%2BndYsyhKJrbqpvWNEhFNet4rC2BMw0EABx67%2BbjMXfYSGqubmrpIYagQA7qNzC0PHxx3itnDWkqA%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}"
+								},
+								{
+									"key": "NEL",
+									"value": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}"
+								},
+								{
+									"key": "Strict-Transport-Security",
+									"value": "max-age=31536000; includeSubDomains; preload"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "Server",
+									"value": "cloudflare"
+								},
+								{
+									"key": "CF-RAY",
+									"value": "766458cb09044aba-SIN"
+								},
+								{
+									"key": "alt-svc",
+									"value": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400"
+								}
+							],
+							"cookie": [],
+							"body": ""
+						}
+					]
+				},
+				{
+					"name": "Pull Services",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": {
+								"password": "",
+								"username": ""
+							}
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"journey_token\": \"6791229414\",\n    \"currency\": \"INR\",\n    \"service_collection\": [\n        {\n            \"airport_code\": \"BLR\",\n            \"category_name\": \"Departure\",\n            \"services\": [\n                \"9876543210\",\n                \"6767676767\"\n            ]\n        },\n        {\n            \"airport_code\": \"GAU\",\n            \"category_name\": \"Transit\",\n            \"services\": [\n                \"9876543210\"\n            ]\n        },\n        {\n            \"airport_code\": \"BOM\",\n            \"category_name\": \"Arrival\",\n            \"services\": [\n                \"6767676767\"\n            ]\n        }\n    ]\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{extServiceUrl}}/services/pull-services.php"
+					},
+					"response": [
+						{
+							"name": "Success",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"journey_token\": \"6160934183\",\n    \"currency\": \"INR\",\n    \"service_collection\": [\n        {\n            \"airport_code\": \"CJB\",\n            \"category_name\": \"Departure\",\n            \"services\": [\n                \"6767676767\",\n                \"6767676761\"\n            ]\n        },\n        {\n            \"airport_code\": \"BLR\",\n            \"category_name\": \"Transit\",\n            \"services\": [\n                \"9876543210\"\n            ]\n        },\n        {\n            \"airport_code\": \"IXM\",\n            \"category_name\": \"Arrival\",\n            \"services\": [\n                \"6767676767\"\n            ]\n        }\n    ]\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "{{baseUrl}}/services/pull-services.php"
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Mon, 07 Nov 2022 13:42:45 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=UTF-8"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Access-Control-Allow-Methods",
+									"value": "POST"
+								},
+								{
+									"key": "Access-Control-Max-Age",
+									"value": "3600"
+								},
+								{
+									"key": "Access-Control-Allow-Headers",
+									"value": "Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With"
+								},
+								{
+									"key": "CF-Cache-Status",
+									"value": "DYNAMIC"
+								},
+								{
+									"key": "Report-To",
+									"value": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=02G%2FsIxXTa6EdARbTH8yx4rpmhJr1oe%2B3sKaorv8bhUASXZ1Em2S2JJVZQV6qX8xPqIscwtC5ofZzYgOe6k5TwOh5jgXUSpvkdqMGgzFy2kbW4nzaw%2FrfiXNpDJ03s%2BX5tC1UQ%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}"
+								},
+								{
+									"key": "NEL",
+									"value": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}"
+								},
+								{
+									"key": "Strict-Transport-Security",
+									"value": "max-age=31536000; includeSubDomains; preload"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "Server",
+									"value": "cloudflare"
+								},
+								{
+									"key": "CF-RAY",
+									"value": "76667e78cb1385e5-BOM"
+								},
+								{
+									"key": "Content-Encoding",
+									"value": "br"
+								},
+								{
+									"key": "alt-svc",
+									"value": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"journey_token\": \"6791229414\",\n    \"currency\": \"INR\",\n    \"markup_type\": \"Percentage\",\n    \"markup_value\": \"5%\",\n    \"station_data\": [\n        {\n            \"airport_token\": \"0RW4CEOGBA\",\n            \"airport_code\": \"BLR\",\n            \"airport_name\": \"Kempegowda International Airport\",\n            \"category_name\": \"Departure\",\n            \"country_code\": \"IN\",\n            \"terminal_name\": \"Terminal\",\n            \"type_name\": \"Domestic\",\n            \"service_collection\": [\n                {\n                    \"service__location_token\": \"6MOEVFPNCD\",\n                    \"package_type\": \"Bundle\",\n                    \"service_provider_name\": \"CarebyBLR-Domestic\",\n                    \"service_provider_logo\": \"https://d1xqjehqvi7b4u.cloudfront.net/service_provider_company/documents/1681355627687.png\",\n                    \"service_token\": \"DEFZSC2O5A\",\n                    \"service_name\": \"Domestic-Departure-Silver (Without Lounge)\",\n                    \"gst_percentage\": \"18%\",\n                    \"links\": {\n                        \"terms_conditions\": \"https://airportzo.com/docs/terms.php?a=0RW4CEOGBA&c=2385530508\",\n                        \"privacy_policy\": \"https://airportzo.com/docs/privacy.php?a=0RW4CEOGBA&c=2385530508\",\n                        \"cancellation_policy\": \"https://airportzo.com/docs/cancellation.php?a=0RW4CEOGBA&c=2385530508\"\n                    },\n                    \"business_names\": [\n                        \"Porter\",\n                        \"Meet and Greet\"\n                    ],\n                    \"service_features\": [\n                        \"Greeter will meet the guest at the airport drop-off point (kerbside).\",\n                        \"Baggage assistance (up to 3 bags per passenger).\",\n                        \"Assistance at check-in.\",\n                        \"Assistance at SHA (Security Hold Area).\",\n                        \"Drop off at the boarding gate\"\n                    ],\n                    \"adult_amount\": 2500,\n                    \"adult_markup_amount\": 125,\n                    \"adult_gst_amount\": 473,\n                    \"price_adult\": 3098,\n                    \"children_amount\": 2500,\n                    \"children_markup_amount\": 125,\n                    \"children_gst_amount\": 473,\n                    \"price_children\": 3098,\n                    \"additional_adult_amount\": 2500,\n                    \"additional_adult_markup_amount\": 125,\n                    \"additional_adult_gst_amount\": 473,\n                    \"additional_price_adult\": 3098,\n                    \"additional_children_amount\": 2500,\n                    \"additional_children_markup_amount\": 125,\n                    \"additional_children_gst_amount\": 473,\n                    \"additional_price_children\": 3098,\n                    \"reschedule_policy\": \"To reschedule your booking, kindly reach out to AirportZo Support Centre (+91 861-072-5198 / support@airportzo.com) at least 48 hours prior to your service.\\nNote: Rescheduling charges will be applicable as per the package selected and the time of the request.\",\n                    \"cancellation_policy_detail\": [\n                        {\n                            \"cancellation_hours_before\": 48,\n                            \"cancellation_fee_percentage\": 0\n                        },\n                        {\n                            \"cancellation_hours_before\": 24,\n                            \"cancellation_fee_percentage\": 50\n                        }\n                    ]\n                },\n                {\n                    \"service__location_token\": \"SCYWV8J4UT\",\n                    \"package_type\": \"Individual\",\n                    \"service_provider_name\": \"Porter\",\n                    \"service_provider_logo\": \"https://d1xqjehqvi7b4u.cloudfront.net/service_provider_company/documents/1673244737958.png\",\n                    \"service_token\": \"QC71NS2B0D\",\n                    \"service_name\": \"Domestic-Departure-Porter\",\n                    \"gst_percentage\": \"18%\",\n                    \"links\": {\n                        \"terms_conditions\": \"https://airportzo.com/docs/terms.php?a=0RW4CEOGBA&c=6286412608\",\n                        \"privacy_policy\": \"https://airportzo.com/docs/privacy.php?a=0RW4CEOGBA&c=6286412608\",\n                        \"cancellation_policy\": \"https://airportzo.com/docs/cancellation.php?a=0RW4CEOGBA&c=6286412608\"\n                    },\n                    \"business_names\": [\n                        \"Porter\"\n                    ],\n                    \"service_features\": [\n                        \"Assistance from Curb Side (Drop off Point)\",\n                        \"Porter Assistance( max.3 bags per person)\",\n                        \"Assistance at Check-In Counters\"\n                    ],\n                    \"adult_amount\": 635,\n                    \"adult_markup_amount\": 31,\n                    \"adult_gst_amount\": 120,\n                    \"price_adult\": 786,\n                    \"children_amount\": 635,\n                    \"children_markup_amount\": 31,\n                    \"children_gst_amount\": 120,\n                    \"price_children\": 786,\n                    \"additional_adult_amount\": 635,\n                    \"additional_adult_markup_amount\": 31,\n                    \"additional_adult_gst_amount\": 120,\n                    \"additional_price_adult\": 786,\n                    \"additional_children_amount\": 635,\n                    \"additional_children_markup_amount\": 31,\n                    \"additional_children_gst_amount\": 120,\n                    \"additional_price_children\": 786,\n                    \"reschedule_policy\": \"To reschedule your booking, kindly reach out to AirportZo Support Centre (+91 861-072-5198 / support@airportzo.com) at least 48 hours prior to your service.\\nNote: Rescheduling charges will be applicable as per the package selected and the time of the request.\",\n                    \"cancellation_policy_detail\": [\n                        {\n                            \"cancellation_hours_before\": 48,\n                            \"cancellation_fee_percentage\": 0\n                        },\n                        {\n                            \"cancellation_hours_before\": 24,\n                            \"cancellation_fee_percentage\": 50\n                        }\n                    ]\n                }\n            ]\n        },\n        {\n            \"airport_token\": \"DMF2IZ9UVY\",\n            \"airport_code\": \"GAU\",\n            \"airport_name\": \"Lokpriya Gopinath Bordoloi International Airport\",\n            \"category_name\": \"Transit\",\n            \"country_code\": \"IN\",\n            \"terminal_name\": \"Terminal 2\",\n            \"type_name\": \"Domestic-Domestic\",\n            \"service_collection\": [\n                {\n                    \"service__location_token\": \"MHIR245NY7\",\n                    \"package_type\": \"Bundle\",\n                    \"service_provider_name\": \"Pranaam\",\n                    \"service_provider_logo\": \"https://d1xqjehqvi7b4u.cloudfront.net/service_provider_company/documents/1667467911519.png\",\n                    \"service_token\": \"NGVJF7QO6P\",\n                    \"service_name\": \"Domestic-Domestic-Transit-Platinum (Without Lounge)\",\n                    \"gst_percentage\": \"18%\",\n                    \"links\": {\n                        \"terms_conditions\": \"https://airportzo.com/docs/terms.php?a=DMF2IZ9UVY&c=8943957134\",\n                        \"privacy_policy\": \"https://airportzo.com/docs/privacy.php?a=DMF2IZ9UVY&c=8943957134\",\n                        \"cancellation_policy\": \"https://airportzo.com/docs/cancellation.php?a=DMF2IZ9UVY&c=8943957134\"\n                    },\n                    \"business_names\": [\n                        \"Porter\",\n                        \"Meet and Greet\"\n                    ],\n                    \"service_features\": [\n                        \"Greeter will receive the passenger at arrival gate with the placard.\",\n                        \"Baggage assistance (up to 3 bags per passenger).\",\n                        \"Greeter will escort the guest to the departure hall through transfer gate\",\n                        \"Baggage check-in (If any)\",\n                        \"Assistance at SHA (Security Hold Area)\",\n                        \"Assist until the boarding gate\"\n                    ],\n                    \"adult_amount\": 3216,\n                    \"adult_markup_amount\": 160,\n                    \"adult_gst_amount\": 608,\n                    \"price_adult\": 3984,\n                    \"children_amount\": 3216,\n                    \"children_markup_amount\": 160,\n                    \"children_gst_amount\": 608,\n                    \"price_children\": 3984,\n                    \"additional_adult_amount\": 3216,\n                    \"additional_adult_markup_amount\": 160,\n                    \"additional_adult_gst_amount\": 608,\n                    \"additional_price_adult\": 3984,\n                    \"additional_children_amount\": 3216,\n                    \"additional_children_markup_amount\": 160,\n                    \"additional_children_gst_amount\": 608,\n                    \"additional_price_children\": 3984,\n                    \"reschedule_policy\": \"To reschedule your booking, kindly reach out to AirportZo Support Centre (+91 861-072-5198 / support@airportzo.com) at least 48 hours prior to your service.\\nNote: Rescheduling charges will be applicable as per the package selected and the time of the request.\",\n                    \"cancellation_policy_detail\": [\n                        {\n                            \"cancellation_hours_before\": 72,\n                            \"cancellation_fee_percentage\": 3\n                        },\n                        {\n                            \"cancellation_hours_before\": 48,\n                            \"cancellation_fee_percentage\": 10\n                        },\n                        {\n                            \"cancellation_hours_before\": 24,\n                            \"cancellation_fee_percentage\": 50\n                        }\n                    ]\n                }\n            ]\n        },\n        {\n            \"airport_token\": \"H4DQ5WXJGB\",\n            \"airport_code\": \"BOM\",\n            \"airport_name\": \"Chhatrapati Shivaji Maharaj International Airport\",\n            \"category_name\": \"Arrival\",\n            \"country_code\": \"IN\",\n            \"terminal_name\": \"Terminal 2\",\n            \"type_name\": \"Domestic\",\n            \"service_collection\": [\n                {\n                    \"service__location_token\": \"N308ZVESTI\",\n                    \"package_type\": \"Bundle\",\n                    \"service_provider_name\": \"Pranaam\",\n                    \"service_provider_logo\": \"https://d1xqjehqvi7b4u.cloudfront.net/service_provider_company/documents/1667454436765.png\",\n                    \"service_token\": \"F5JEWX2MSA\",\n                    \"service_name\": \"Domestic-Arrival-Platinum (Without Lounge)\",\n                    \"gst_percentage\": \"18%\",\n                    \"links\": {\n                        \"terms_conditions\": \"https://airportzo.com/docs/terms.php?a=H4DQ5WXJGB&c=5836705015\",\n                        \"privacy_policy\": \"https://airportzo.com/docs/privacy.php?a=H4DQ5WXJGB&c=5836705015\",\n                        \"cancellation_policy\": \"https://airportzo.com/docs/cancellation.php?a=H4DQ5WXJGB&c=5836705015\"\n                    },\n                    \"business_names\": [\n                        \"Porter\",\n                        \"Buggy Transfer\",\n                        \"Meet and Greet\"\n                    ],\n                    \"service_features\": [\n                        \"Greeting with welcome placard at the Arrivals gate\",\n                        \"Assist transfer from the Arrivals gate to the immigration area\",\n                        \"Buggy Transfer (Subject Availability)\",\n                        \"Escort to the baggage area and assist with baggage collection ( max.3 bags per person)\",\n                        \"Escort to the transportation pick-up point\"\n                    ],\n                    \"adult_amount\": 2436,\n                    \"adult_markup_amount\": 121,\n                    \"adult_gst_amount\": 460,\n                    \"price_adult\": 3017,\n                    \"children_amount\": 2436,\n                    \"children_markup_amount\": 121,\n                    \"children_gst_amount\": 460,\n                    \"price_children\": 3017,\n                    \"additional_adult_amount\": 2436,\n                    \"additional_adult_markup_amount\": 121,\n                    \"additional_adult_gst_amount\": 460,\n                    \"additional_price_adult\": 3017,\n                    \"additional_children_amount\": 2436,\n                    \"additional_children_markup_amount\": 121,\n                    \"additional_children_gst_amount\": 460,\n                    \"additional_price_children\": 3017,\n                    \"reschedule_policy\": \"To reschedule your booking, kindly reach out to AirportZo Support Centre (+91 861-072-5198 / support@airportzo.com) at least 48 hours prior to your service.\\n\\n\\nNote: Rescheduling charges will be applicable as per the package selected and the time of the request.\",\n                    \"cancellation_policy_detail\": [\n                        {\n                            \"cancellation_hours_before\": 72,\n                            \"cancellation_fee_percentage\": 3\n                        },\n                        {\n                            \"cancellation_hours_before\": 48,\n                            \"cancellation_fee_percentage\": 10\n                        },\n                        {\n                            \"cancellation_hours_before\": 24,\n                            \"cancellation_fee_percentage\": 50\n                        }\n                    ]\n                },\n                {\n                    \"service__location_token\": \"CUYODPKNGX\",\n                    \"package_type\": \"Bundle\",\n                    \"service_provider_name\": \"Pranaam\",\n                    \"service_provider_logo\": \"https://d1xqjehqvi7b4u.cloudfront.net/service_provider_company/documents/1667454436765.png\",\n                    \"service_token\": \"89GCJSZEWQ\",\n                    \"service_name\": \"Domestic-Arrival-Elite (Without Lounge)\",\n                    \"gst_percentage\": \"18%\",\n                    \"links\": {\n                        \"terms_conditions\": \"https://airportzo.com/docs/terms.php?a=H4DQ5WXJGB&c=5836705015\",\n                        \"privacy_policy\": \"https://airportzo.com/docs/privacy.php?a=H4DQ5WXJGB&c=5836705015\",\n                        \"cancellation_policy\": \"https://airportzo.com/docs/cancellation.php?a=H4DQ5WXJGB&c=5836705015\"\n                    },\n                    \"business_names\": [\n                        \"Porter\",\n                        \"Buggy Transfer\",\n                        \"Meet and Greet\"\n                    ],\n                    \"service_features\": [\n                        \"Greeting with welcome placard at the Arrivals gate\",\n                        \"Assist transfer from the Arrivals gate to the immigration area\",\n                        \"Buggy Transfer (Subject Availability)\",\n                        \"Escort to the baggage area and assist with baggage collection ( max.3 bags per person)\",\n                        \"Escort to the transportation pick-up point\",\n                        \"One time free Resheduling\"\n                    ],\n                    \"adult_amount\": 2680,\n                    \"adult_markup_amount\": 134,\n                    \"adult_gst_amount\": 507,\n                    \"price_adult\": 3321,\n                    \"children_amount\": 2680,\n                    \"children_markup_amount\": 134,\n                    \"children_gst_amount\": 507,\n                    \"price_children\": 3321,\n                    \"additional_adult_amount\": 2680,\n                    \"additional_adult_markup_amount\": 134,\n                    \"additional_adult_gst_amount\": 507,\n                    \"additional_price_adult\": 3321,\n                    \"additional_children_amount\": 2680,\n                    \"additional_children_markup_amount\": 134,\n                    \"additional_children_gst_amount\": 507,\n                    \"additional_price_children\": 3321,\n                    \"reschedule_policy\": \"To reschedule your booking, kindly reach out to AirportZo Support Centre (+91 861-072-5198 / support@airportzo.com) at least 48 hours prior to your service.\\n\\n\\nNote: Rescheduling charges will be applicable as per the package selected and the time of the request.\",\n                    \"cancellation_policy_detail\": [\n                        {\n                            \"cancellation_hours_before\": 72,\n                            \"cancellation_fee_percentage\": 3\n                        },\n                        {\n                            \"cancellation_hours_before\": 48,\n                            \"cancellation_fee_percentage\": 10\n                        },\n                        {\n                            \"cancellation_hours_before\": 24,\n                            \"cancellation_fee_percentage\": 50\n                        }\n                    ]\n                },\n                {\n                    \"service__location_token\": \"70ESM3WBCH\",\n                    \"package_type\": \"Individual\",\n                    \"service_provider_name\": \"Skycap\",\n                    \"service_provider_logo\": \"https://d25t7bbtlnltob.cloudfront.net/service_provider_company/documents/1669371029141.jpg\",\n                    \"service_token\": \"RKITGJQHCN\",\n                    \"service_name\": \"Domestic-Arrival-Porter\",\n                    \"gst_percentage\": \"18%\",\n                    \"links\": {\n                        \"terms_conditions\": \"https://airportzo.com/docs/terms.php?a=H4DQ5WXJGB&c=1990421137\",\n                        \"privacy_policy\": \"https://airportzo.com/docs/privacy.php?a=H4DQ5WXJGB&c=1990421137\",\n                        \"cancellation_policy\": \"https://airportzo.com/docs/cancellation.php?a=H4DQ5WXJGB&c=1990421137\"\n                    },\n                    \"business_names\": [\n                        \"Porter\"\n                    ],\n                    \"service_features\": [\n                        \"Assistance from Baggage belt area\",\n                        \"Porter Assistance( max.3 bags per person)\",\n                        \"Coordination with Receiving Party\",\n                        \"Assistance up to Car parking\"\n                    ],\n                    \"adult_amount\": 635,\n                    \"adult_markup_amount\": 31,\n                    \"adult_gst_amount\": 120,\n                    \"price_adult\": 786,\n                    \"children_amount\": 635,\n                    \"children_markup_amount\": 31,\n                    \"children_gst_amount\": 120,\n                    \"price_children\": 786,\n                    \"additional_adult_amount\": 635,\n                    \"additional_adult_markup_amount\": 31,\n                    \"additional_adult_gst_amount\": 120,\n                    \"additional_price_adult\": 786,\n                    \"additional_children_amount\": 635,\n                    \"additional_children_markup_amount\": 31,\n                    \"additional_children_gst_amount\": 120,\n                    \"additional_price_children\": 786,\n                    \"reschedule_policy\": \"To reschedule your booking, kindly reach out to AirportZo Support Centre (+91 861-072-5198 / support@airportzo.com) at least 48 hours prior to your service.\\nNote: Rescheduling charges will be applicable as per the package selected and the time of the request.\",\n                    \"cancellation_policy_detail\": [\n                        {\n                            \"cancellation_hours_before\": 72,\n                            \"cancellation_fee_percentage\": 3\n                        },\n                        {\n                            \"cancellation_hours_before\": 48,\n                            \"cancellation_fee_percentage\": 10\n                        },\n                        {\n                            \"cancellation_hours_before\": 24,\n                            \"cancellation_fee_percentage\": 50\n                        }\n                    ]\n                }\n            ]\n        }\n    ]\n}"
+						},
+						{
+							"name": "Failure 401",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"journey_array\": [\n        {\n            \"departure_airport\": \"CJB\",\n            \"departure_terminal\": \"Terminal 1\",\n            \"departure_datetime\": \"2022-11-13 09:30:00\",\n            \"arrival_airport\": \"BLR\",\n            \"arrival_terminal\": \"Terminal 1\",\n            \"arrival_datetime\": \"2022-11-14 09:30:00\",\n            \"flight_number\": \"CB1232\"\n        }\n    ]\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "{{baseUrl}}/services/pull-services.php"
+							},
+							"status": "Unauthorized",
+							"code": 401,
+							"_postman_previewlanguage": "html",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Mon, 07 Nov 2022 07:23:13 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "text/html; charset=UTF-8"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "CF-Cache-Status",
+									"value": "DYNAMIC"
+								},
+								{
+									"key": "Report-To",
+									"value": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=UN2Qo1isDCo1nbwTWIsWMa2PJGAsV3WHQBLM6J3exA4sDWLvwOnCPIc16LOjQPhPKVepuIa0xO9UbVyERR2%2BV74jgH4ZT74FgIt8cJaTkXlcx%2FFNSwyVYbAgl2KdpICNTLOEEA%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}"
+								},
+								{
+									"key": "NEL",
+									"value": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}"
+								},
+								{
+									"key": "Strict-Transport-Security",
+									"value": "max-age=31536000; includeSubDomains; preload"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "Server",
+									"value": "cloudflare"
+								},
+								{
+									"key": "CF-RAY",
+									"value": "7664528049354aba-SIN"
+								},
+								{
+									"key": "alt-svc",
+									"value": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400"
+								}
+							],
+							"cookie": [],
+							"body": ""
+						},
+						{
+							"name": "Failure 400",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"journey_token\": \"6160934183\",\n    \"service_collection\": [\n        {\n            \"airport_code\": \"CJB\",\n            \"category_name\": \"Departure\",\n            \"services\": [\n                \"6767676761\"\n            ]\n        },\n        {\n            \"airport_code\": \"BLR\",\n            \"category_name\": \"Transit\",\n            \"services\": [\n                \"9876543210\"\n            ]\n        },\n        {\n            \"airport_code\": \"IXM\",\n            \"category_name\": \"Arrival\",\n            \"services\": [\n                \"6767676767\"\n            ]\n        }\n    ]\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "{{baseUrl}}/services/pull-services.php"
+							},
+							"status": "Bad Request",
+							"code": 400,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Mon, 07 Nov 2022 07:59:16 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=UTF-8"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Access-Control-Allow-Methods",
+									"value": "POST"
+								},
+								{
+									"key": "Access-Control-Max-Age",
+									"value": "3600"
+								},
+								{
+									"key": "Access-Control-Allow-Headers",
+									"value": "Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With"
+								},
+								{
+									"key": "CF-Cache-Status",
+									"value": "DYNAMIC"
+								},
+								{
+									"key": "Report-To",
+									"value": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=RIp%2BcbUt7PXWD%2BypvbkFL9m3Zj8ymtN8225CdDNQJ%2BsHWo%2FeRwezVTTPkSYLRAcCIacmGG4l4b16Ok4LbpRrZ0BPh9CeqASSnLdEYN5cwC0R0XJznekCXsY4hjc9jtaRdD0Dzg%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}"
+								},
+								{
+									"key": "NEL",
+									"value": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}"
+								},
+								{
+									"key": "Strict-Transport-Security",
+									"value": "max-age=31536000; includeSubDomains; preload"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "Server",
+									"value": "cloudflare"
+								},
+								{
+									"key": "CF-RAY",
+									"value": "76648751bf586efe-BOM"
+								},
+								{
+									"key": "alt-svc",
+									"value": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400"
+								}
+							],
+							"cookie": [],
+							"body": ""
+						},
+						{
+							"name": "Failure 204",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"journey_token\": \"6160934183\",\n    \"currency\": \"INR\",\n    \"service_collection\": [\n        {\n            \"airport_code\": \"CJB\",\n            \"category_name\": \"Departure\",\n            \"services\": [\n                \"676767676\"\n            ]\n        },\n        {\n            \"airport_code\": \"BLR\",\n            \"category_name\": \"Transit\",\n            \"services\": [\n                \"987654321\"\n            ]\n        },\n        {\n            \"airport_code\": \"IXM\",\n            \"category_name\": \"Arrival\",\n            \"services\": [\n                \"676767677\"\n            ]\n        }\n    ]\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "{{baseUrl}}/services/pull-services.php"
+							},
+							"status": "No Content",
+							"code": 204,
+							"_postman_previewlanguage": "plain",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Mon, 07 Nov 2022 08:02:33 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Access-Control-Allow-Methods",
+									"value": "POST"
+								},
+								{
+									"key": "Access-Control-Max-Age",
+									"value": "3600"
+								},
+								{
+									"key": "Access-Control-Allow-Headers",
+									"value": "Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With"
+								},
+								{
+									"key": "CF-Cache-Status",
+									"value": "DYNAMIC"
+								},
+								{
+									"key": "Report-To",
+									"value": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=%2FdyUUHXHJ%2BDZ8JjTCEQFzcLX%2F2xBiMY8wMZOxs4euTSQxZj9EHz5Ke2%2BlWpA%2BoEIXxhU6XPvYxeDwn4mYd1kb1k1V3uucmY1doH9gJRscLPGjTFQ%2B3Tz53UD0Cie9AdPEjYBGQ%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}"
+								},
+								{
+									"key": "NEL",
+									"value": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}"
+								},
+								{
+									"key": "Strict-Transport-Security",
+									"value": "max-age=31536000; includeSubDomains; preload"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "Server",
+									"value": "cloudflare"
+								},
+								{
+									"key": "CF-RAY",
+									"value": "76648c205a566efe-BOM"
+								},
+								{
+									"key": "alt-svc",
+									"value": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400"
+								}
+							],
+							"cookie": [],
+							"body": ""
+						},
+						{
+							"name": "Failure 428",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"journey_token\": \"6160934183\",\n    \"currency\": \"INR\",\n    \"service_collection\": [\n        {\n            \"airport_code\": \"CJB\",\n            \"category_name\": \"Departure\",\n            \"services\": [\n                \"676767676\"\n            ]\n        },\n        {\n            \"airport_code\": \"BLR\",\n            \"category_name\": \"Transit\",\n            \"services\": [\n                \"987654321\"\n            ]\n        },\n        {\n            \"airport_code\": \"IXM\",\n            \"category_name\": \"Arrival\",\n            \"services\": [\n                \"676767677\"\n            ]\n        }\n    ]\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "{{baseUrl}}/services/pull-services.php"
+							},
+							"status": "Precondition Required",
+							"code": 428,
+							"_postman_previewlanguage": "plain",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Mon, 07 Nov 2022 08:02:33 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Access-Control-Allow-Methods",
+									"value": "POST"
+								},
+								{
+									"key": "Access-Control-Max-Age",
+									"value": "3600"
+								},
+								{
+									"key": "Access-Control-Allow-Headers",
+									"value": "Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With"
+								},
+								{
+									"key": "CF-Cache-Status",
+									"value": "DYNAMIC"
+								},
+								{
+									"key": "Report-To",
+									"value": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=%2FdyUUHXHJ%2BDZ8JjTCEQFzcLX%2F2xBiMY8wMZOxs4euTSQxZj9EHz5Ke2%2BlWpA%2BoEIXxhU6XPvYxeDwn4mYd1kb1k1V3uucmY1doH9gJRscLPGjTFQ%2B3Tz53UD0Cie9AdPEjYBGQ%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}"
+								},
+								{
+									"key": "NEL",
+									"value": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}"
+								},
+								{
+									"key": "Strict-Transport-Security",
+									"value": "max-age=31536000; includeSubDomains; preload"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "Server",
+									"value": "cloudflare"
+								},
+								{
+									"key": "CF-RAY",
+									"value": "76648c205a566efe-BOM"
+								},
+								{
+									"key": "alt-svc",
+									"value": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400"
+								}
+							],
+							"cookie": [],
+							"body": ""
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Booking",
+			"item": [
+				{
+					"name": "Create Booking",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": {
+								"password": "",
+								"username": ""
+							}
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"journey_token\": \"6160934183\",\n    \"currency\": \"INR\",\n    \"paid_amount\": \"19688\",\n    \"e_ticket\": \"https://d1xqjehqvi7b4u.cloudfront.net/user/e_ticket/1667820706250.pdf\",\n    \"panNumber\": \"UBYRFHJKNSS\",\n    \"gst_name\": \"Macappstudio\",\n    \"gst_number\": \"YTFBUYSSSSSSSSS\",\n    \"passenger_list\": [\n        {\n            \"passenger_type\":\"Primary\",\n            \"title\": \"Mr\",\n            \"name\": \"Kumar\",\n            \"country_code\": \"+91\",\n            \"mobile_number\": \"9858225801\",\n            \"email_id\": \"premkumar@macappstudio.com\",\n            \"date_of_birth\": \"1993-09-16\"\n        },\n        {\n            \"passenger_type\":\"Others\",\n            \"title\": \"Null\",\n            \"name\": \"Kishan\",\n            \"country_code\": \"+91\",\n            \"mobile_number\": \"9423854835\",\n            \"email_id\": \"senthil@macappstudio.com\",\n            \"date_of_birth\": \"2012-09-16\"\n        },\n        {\n            \"passenger_type\":\"Others\",\n            \"title\": \"Ms\",\n            \"name\": \"Chandi\",\n            \"country_code\": \"+91\",\n            \"mobile_number\": \"8247568347\",\n            \"email_id\": \"praveen@macappstudio.com\",\n            \"date_of_birth\": \"2009-09-16\"\n        },\n        {\n            \"passenger_type\":\"Emergency\",\n            \"title\": \"Ms\",\n            \"name\": \"Kohshini\",\n            \"country_code\": \"+91\",\n            \"mobile_number\": \"9423854835\",\n            \"email_id\": \"kohshini@macappstudio.com\",\n            \"date_of_birth\": \"1998-09-16\"\n        }\n    ],\n    \"station_array\": [\n        {\n            \"airport_code\": \"CJB\",\n            \"category_name\": \"Departure\",\n            \"terminal_name\": \"Terminal 1\",\n            \"type_name\": \"Domestic\",\n            \"service_array\": [\n                {\n                    \"service_token\": \"5EGH8A2SL9\",\n                    \"adult_count\": 2,\n                    \"children_count\": 1,\n                    \"service_date_time\": \"2022-11-13 07:30:00\",\n                    \"notes\": \"Just to check notes at service 1\"\n                }\n            ]\n        },\n        {\n            \"airport_code\": \"BLR\",\n            \"category_name\": \"Transit\",\n            \"terminal_name\": \"Terminal 1\",\n            \"type_name\": \"Domestic-Domestic\",\n            \"service_array\": [\n                {\n                    \"service_token\": \"5Y7G8UNHZP\",\n                    \"adult_count\": 2,\n                    \"children_count\": 1,\n                    \"service_date_time\": \"2022-11-14 09:45:00\",\n                    \"notes\": \"Just to check notes at service 2\"\n                }\n            ]\n        }\n    ]\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{extServiceUrl}}/users-booking/create.php"
+					},
+					"response": [
+						{
+							"name": "Success",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"journey_token\": \"6160934183\",\n    \"currency\": \"INR\",\n    \"paid_amount\": \"19245\",\n    \"e_ticket\": \"https://d1xqjehqvi7b4u.cloudfront.net/user/e_ticket/1667820706250.pdf\",\n    \"passenger_list\": [\n        {\n            \"passenger_type\":\"Primary\",\n            \"title\": \"Mr\",\n            \"name\": \"Kumar\",\n            \"country_code\": \"+91\",\n            \"mobile_number\": \"9858225801\",\n            \"email_id\": \"aravind@macappstudio.com\",\n            \"date_of_birth\": \"1993-09-16\"\n        },\n        {\n            \"passenger_type\":\"Others\",\n            \"title\": \"Null\",\n            \"name\": \"Kishan\",\n            \"country_code\": \"+91\",\n            \"mobile_number\": \"9423854835\",\n            \"email_id\": \"kishan@macappstudio.com\",\n            \"date_of_birth\": \"2012-09-16\"\n        },\n        {\n            \"passenger_type\":\"Others\",\n            \"title\": \"Ms\",\n            \"name\": \"Chandi\",\n            \"country_code\": \"+91\",\n            \"mobile_number\": \"8247568347\",\n            \"email_id\": \"chandi@macappstudio.com\",\n            \"date_of_birth\": \"2009-09-16\"\n        },\n        {\n            \"passenger_type\":\"Emergency\",\n            \"title\": \"Ms\",\n            \"name\": \"Kohshini\",\n            \"country_code\": \"+91\",\n            \"mobile_number\": \"9423854835\",\n            \"email_id\": \"kohshini@macappstudio.com\",\n            \"date_of_birth\": \"1998-09-16\"\n        }\n    ],\n    \"station_array\": [\n        {\n            \"airport_code\": \"CJB\",\n            \"category_name\": \"Departure\",\n            \"terminal_name\": \"Terminal 1\",\n            \"type_name\": \"Domestic\",\n            \"service_array\": [\n                {\n                    \"service_token\": \"5EGH8A2SL9\",\n                    \"adult_count\": 2,\n                    \"children_count\": 1,\n                    \"service_date_time\": \"2022-11-13 07:30:00\",\n                    \"notes\": \"Just to check notes at service 1\"\n                }\n            ]\n        },\n        {\n            \"airport_code\": \"BLR\",\n            \"category_name\": \"Transit\",\n            \"terminal_name\": \"Terminal 1\",\n            \"type_name\": \"Domestic-Domestic\",\n            \"service_array\": [\n                {\n                    \"service_token\": \"5Y7G8UNHZP\",\n                    \"adult_count\": 2,\n                    \"children_count\": 1,\n                    \"service_date_time\": \"2022-11-14 09:45:00\",\n                    \"notes\": \"Just to check notes at service 2\"\n                }\n            ]\n        }\n    ]\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "{{baseUrl}}/users-booking/create.php"
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Mon, 07 Nov 2022 15:21:43 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=UTF-8"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Access-Control-Allow-Methods",
+									"value": "POST"
+								},
+								{
+									"key": "Access-Control-Max-Age",
+									"value": "3600"
+								},
+								{
+									"key": "Access-Control-Allow-Headers",
+									"value": "Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With"
+								},
+								{
+									"key": "CF-Cache-Status",
+									"value": "DYNAMIC"
+								},
+								{
+									"key": "Report-To",
+									"value": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=9EWKcoowfShGR%2BsFK17JPOh6cdQy%2FF4mMRBGGCvEnK89WxOaCJzGe8hbVWTmvefLIFFaNOWzE0TnTZv3WI8ldzy8t7lRFkm7fc%2BzK0Tcd%2FphIbqoB0H%2B2Y1L433i38XshLRRow%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}"
+								},
+								{
+									"key": "NEL",
+									"value": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}"
+								},
+								{
+									"key": "Strict-Transport-Security",
+									"value": "max-age=31536000; includeSubDomains; preload"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "Server",
+									"value": "cloudflare"
+								},
+								{
+									"key": "CF-RAY",
+									"value": "76670f5cbf398507-BOM"
+								},
+								{
+									"key": "alt-svc",
+									"value": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"journey\": \"CJB - BLR - IXM\",\n    \"booking_number\": 227595895815,\n    \"markup_type\": \"Flat\",\n    \"markup_amount\": \"90\",\n    \"station_array\": [\n        {\n            \"airport_category\": \"1122334456\",\n            \"airport_type\": \"Departure\",\n            \"airport_name\": \"Coimbatore International Airport\",\n            \"airport_code\": \"CJB\",\n            \"terminal_token\": \"9876543210\",\n            \"terminal_name\": \"Terminal 1\",\n            \"gmt_view\": \"+05:30\",\n            \"station_number\": 1,\n            \"service_array\": [\n                {\n                    \"user_token\": \"8380077516\",\n                    \"order_id\": \"2783430565\",\n                    \"service_date_time\": \"13 Nov, 2022 07:30\",\n                    \"service_name\": \"Domestic-Departure-Elite (With Lounge)\",\n                    \"service_type\": \"Bundle\",\n                    \"service_provider\": {\n                        \"name\": \"Encalm\",\n                        \"email\": \"siddharthsivaraj@gmail.com\",\n                        \"logo\": \"https://d1xqjehqvi7b4u.cloudfront.net/service_provider_company/documents/1664785888438.png\",\n                        \"image\": \"https://d1xqjehqvi7b4u.cloudfront.net/service_provider_company/documents/1664785907113.jpg\"\n                    },\n                    \"price_detail\": {\n                        \"adult_service_amount\": \"2965\",\n                        \"total_adult\": \"2\",\n                        \"children_service_amount\": \"2965\",\n                        \"total_children\": \"1\",\n                        \"net_amount\": \"8520\"\n                    },\n                    \"status\": \"Pending\",\n                    \"notes\": \"Just to check notes at service 1\",\n                    \"service_date_time_raw\": \"2022-11-13 07:30:00\",\n                    \"cancellation_policy_detail\": [\n                        {\n                            \"hours_before_cancelling\": \"72\",\n                            \"cancellation_fee_percentage\": \"100\"\n                        },\n                        {\n                            \"hours_before_cancelling\": \"48\",\n                            \"cancellation_fee_percentage\": \"50\"\n                        },\n                        {\n                            \"hours_before_cancelling\": \"24\",\n                            \"cancellation_fee_percentage\": \"50\"\n                        },\n                        {\n                            \"hours_before_cancelling\": \"12\",\n                            \"cancellation_fee_percentage\": \"40\"\n                        },\n                        {\n                            \"hours_before_cancelling\": \"1\",\n                            \"cancellation_fee_percentage\": \"10\"\n                        }\n                    ]\n                }\n            ]\n        },\n        {\n            \"airport_category\": \"1122334457\",\n            \"airport_type\": \"Transit\",\n            \"airport_name\": \"Kempegowda International Airport\",\n            \"airport_code\": \"BLR\",\n            \"terminal_token\": \"9876543210\",\n            \"terminal_name\": \"Terminal 1\",\n            \"gmt_view\": \"+05:30\",\n            \"station_number\": 2,\n            \"service_array\": [\n                {\n                    \"user_token\": \"8380077516\",\n                    \"order_id\": \"5672143885\",\n                    \"service_date_time\": \"14 Nov, 2022 09:45\",\n                    \"service_name\": \"Domestic-Domestic-Transit-Silver (Without Lounge)\",\n                    \"service_type\": \"Bundle\",\n                    \"service_provider\": {\n                        \"name\": \"Pravin Lounge\",\n                        \"email\": \"pravin@macappstudio.com\",\n                        \"logo\": \"https://d1xqjehqvi7b4u.cloudfront.net/service_provider_company/documents/1667560722257.jpg\",\n                        \"image\": \"https://d1xqjehqvi7b4u.cloudfront.net/service_provider_company/documents/1667560726588.jpg\"\n                    },\n                    \"price_detail\": {\n                        \"adult_service_amount\": \"3630\",\n                        \"total_adult\": \"2\",\n                        \"children_service_amount\": \"3630\",\n                        \"total_children\": \"1\",\n                        \"net_amount\": \"10650\"\n                    },\n                    \"status\": \"Pending\",\n                    \"notes\": \"Just to check notes at service 2\",\n                    \"service_date_time_raw\": \"2022-11-14 09:45:00\",\n                    \"cancellation_policy_detail\": [\n                        {\n                            \"hours_before_cancelling\": \"48\",\n                            \"cancellation_fee_percentage\": \"30\"\n                        }\n                    ]\n                }\n            ]\n        }\n    ]\n}"
+						},
+						{
+							"name": "Failure 401",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"journey_token\": \"6160934183\",\n    \"currency\": \"INR\",\n    \"service_collection\": [\n        {\n            \"airport_code\": \"CJB\",\n            \"category_name\": \"Departure\",\n            \"services\": [\n                \"676767676\"\n            ]\n        },\n        {\n            \"airport_code\": \"BLR\",\n            \"category_name\": \"Transit\",\n            \"services\": [\n                \"987654321\"\n            ]\n        },\n        {\n            \"airport_code\": \"IXM\",\n            \"category_name\": \"Arrival\",\n            \"services\": [\n                \"676767677\"\n            ]\n        }\n    ]\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "{{baseUrl}}/services/pull-services.php"
+							},
+							"status": "Unauthorized",
+							"code": 401,
+							"_postman_previewlanguage": "plain",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Mon, 07 Nov 2022 08:02:33 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Access-Control-Allow-Methods",
+									"value": "POST"
+								},
+								{
+									"key": "Access-Control-Max-Age",
+									"value": "3600"
+								},
+								{
+									"key": "Access-Control-Allow-Headers",
+									"value": "Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With"
+								},
+								{
+									"key": "CF-Cache-Status",
+									"value": "DYNAMIC"
+								},
+								{
+									"key": "Report-To",
+									"value": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=%2FdyUUHXHJ%2BDZ8JjTCEQFzcLX%2F2xBiMY8wMZOxs4euTSQxZj9EHz5Ke2%2BlWpA%2BoEIXxhU6XPvYxeDwn4mYd1kb1k1V3uucmY1doH9gJRscLPGjTFQ%2B3Tz53UD0Cie9AdPEjYBGQ%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}"
+								},
+								{
+									"key": "NEL",
+									"value": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}"
+								},
+								{
+									"key": "Strict-Transport-Security",
+									"value": "max-age=31536000; includeSubDomains; preload"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "Server",
+									"value": "cloudflare"
+								},
+								{
+									"key": "CF-RAY",
+									"value": "76648c205a566efe-BOM"
+								},
+								{
+									"key": "alt-svc",
+									"value": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400"
+								}
+							],
+							"cookie": [],
+							"body": ""
+						},
+						{
+							"name": "Failure 400",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"journey_token\": \"6160934183\",\n    \"service_collection\": [\n        {\n            \"airport_code\": \"CJB\",\n            \"category_name\": \"Departure\",\n            \"services\": [\n                \"6767676761\"\n            ]\n        },\n        {\n            \"airport_code\": \"BLR\",\n            \"category_name\": \"Transit\",\n            \"services\": [\n                \"9876543210\"\n            ]\n        },\n        {\n            \"airport_code\": \"IXM\",\n            \"category_name\": \"Arrival\",\n            \"services\": [\n                \"6767676767\"\n            ]\n        }\n    ]\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "{{baseUrl}}/services/pull-services.php"
+							},
+							"status": "Bad Request",
+							"code": 400,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Mon, 07 Nov 2022 07:59:16 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=UTF-8"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Access-Control-Allow-Methods",
+									"value": "POST"
+								},
+								{
+									"key": "Access-Control-Max-Age",
+									"value": "3600"
+								},
+								{
+									"key": "Access-Control-Allow-Headers",
+									"value": "Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With"
+								},
+								{
+									"key": "CF-Cache-Status",
+									"value": "DYNAMIC"
+								},
+								{
+									"key": "Report-To",
+									"value": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=RIp%2BcbUt7PXWD%2BypvbkFL9m3Zj8ymtN8225CdDNQJ%2BsHWo%2FeRwezVTTPkSYLRAcCIacmGG4l4b16Ok4LbpRrZ0BPh9CeqASSnLdEYN5cwC0R0XJznekCXsY4hjc9jtaRdD0Dzg%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}"
+								},
+								{
+									"key": "NEL",
+									"value": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}"
+								},
+								{
+									"key": "Strict-Transport-Security",
+									"value": "max-age=31536000; includeSubDomains; preload"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "Server",
+									"value": "cloudflare"
+								},
+								{
+									"key": "CF-RAY",
+									"value": "76648751bf586efe-BOM"
+								},
+								{
+									"key": "alt-svc",
+									"value": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400"
+								}
+							],
+							"cookie": [],
+							"body": ""
+						},
+						{
+							"name": "Failure 428",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"journey_token\": \"6160934183\",\n    \"currency\": \"INR\",\n    \"service_collection\": [\n        {\n            \"airport_code\": \"CJB\",\n            \"category_name\": \"Departure\",\n            \"services\": [\n                \"676767676\"\n            ]\n        },\n        {\n            \"airport_code\": \"BLR\",\n            \"category_name\": \"Transit\",\n            \"services\": [\n                \"987654321\"\n            ]\n        },\n        {\n            \"airport_code\": \"IXM\",\n            \"category_name\": \"Arrival\",\n            \"services\": [\n                \"676767677\"\n            ]\n        }\n    ]\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "{{baseUrl}}/services/pull-services.php"
+							},
+							"status": "Precondition Required",
+							"code": 428,
+							"_postman_previewlanguage": "plain",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Mon, 07 Nov 2022 08:02:33 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Access-Control-Allow-Methods",
+									"value": "POST"
+								},
+								{
+									"key": "Access-Control-Max-Age",
+									"value": "3600"
+								},
+								{
+									"key": "Access-Control-Allow-Headers",
+									"value": "Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With"
+								},
+								{
+									"key": "CF-Cache-Status",
+									"value": "DYNAMIC"
+								},
+								{
+									"key": "Report-To",
+									"value": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=%2FdyUUHXHJ%2BDZ8JjTCEQFzcLX%2F2xBiMY8wMZOxs4euTSQxZj9EHz5Ke2%2BlWpA%2BoEIXxhU6XPvYxeDwn4mYd1kb1k1V3uucmY1doH9gJRscLPGjTFQ%2B3Tz53UD0Cie9AdPEjYBGQ%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}"
+								},
+								{
+									"key": "NEL",
+									"value": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}"
+								},
+								{
+									"key": "Strict-Transport-Security",
+									"value": "max-age=31536000; includeSubDomains; preload"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "Server",
+									"value": "cloudflare"
+								},
+								{
+									"key": "CF-RAY",
+									"value": "76648c205a566efe-BOM"
+								},
+								{
+									"key": "alt-svc",
+									"value": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400"
+								}
+							],
+							"cookie": [],
+							"body": ""
+						},
+						{
+							"name": "Failure 417",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"journey_array\": [\n        {\n            \"departure_airport\": \"CJB\",\n            \"departure_terminal\": \"Terminal 1\",\n            \"departure_datetime\": \"2022-11-13 09:30:00\",\n            \"arrival_airport\": \"BLR\",\n            \"arrival_terminal\": \"Terminal 1\",\n            \"arrival_datetime\": \"2022-11-14 09:30:00\",\n            \"flight_number\": \"CB1232\"\n        }\n    ]\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "{{baseUrl}}/services/pull-services.php"
+							},
+							"status": "Expectation Failed",
+							"code": 417,
+							"_postman_previewlanguage": "html",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Mon, 07 Nov 2022 07:23:13 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "text/html; charset=UTF-8"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "CF-Cache-Status",
+									"value": "DYNAMIC"
+								},
+								{
+									"key": "Report-To",
+									"value": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=UN2Qo1isDCo1nbwTWIsWMa2PJGAsV3WHQBLM6J3exA4sDWLvwOnCPIc16LOjQPhPKVepuIa0xO9UbVyERR2%2BV74jgH4ZT74FgIt8cJaTkXlcx%2FFNSwyVYbAgl2KdpICNTLOEEA%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}"
+								},
+								{
+									"key": "NEL",
+									"value": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}"
+								},
+								{
+									"key": "Strict-Transport-Security",
+									"value": "max-age=31536000; includeSubDomains; preload"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "Server",
+									"value": "cloudflare"
+								},
+								{
+									"key": "CF-RAY",
+									"value": "7664528049354aba-SIN"
+								},
+								{
+									"key": "alt-svc",
+									"value": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400"
+								}
+							],
+							"cookie": [],
+							"body": ""
+						},
+						{
+							"name": "Failure 502",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"journey_token\": \"6160934183\",\n    \"service_collection\": [\n        {\n            \"airport_code\": \"CJB\",\n            \"category_name\": \"Departure\",\n            \"services\": [\n                \"6767676761\"\n            ]\n        },\n        {\n            \"airport_code\": \"BLR\",\n            \"category_name\": \"Transit\",\n            \"services\": [\n                \"9876543210\"\n            ]\n        },\n        {\n            \"airport_code\": \"IXM\",\n            \"category_name\": \"Arrival\",\n            \"services\": [\n                \"6767676767\"\n            ]\n        }\n    ]\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "{{baseUrl}}/services/pull-services.php"
+							},
+							"status": "Bad Gateway",
+							"code": 502,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Mon, 07 Nov 2022 07:59:16 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=UTF-8"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Access-Control-Allow-Methods",
+									"value": "POST"
+								},
+								{
+									"key": "Access-Control-Max-Age",
+									"value": "3600"
+								},
+								{
+									"key": "Access-Control-Allow-Headers",
+									"value": "Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With"
+								},
+								{
+									"key": "CF-Cache-Status",
+									"value": "DYNAMIC"
+								},
+								{
+									"key": "Report-To",
+									"value": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=RIp%2BcbUt7PXWD%2BypvbkFL9m3Zj8ymtN8225CdDNQJ%2BsHWo%2FeRwezVTTPkSYLRAcCIacmGG4l4b16Ok4LbpRrZ0BPh9CeqASSnLdEYN5cwC0R0XJznekCXsY4hjc9jtaRdD0Dzg%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}"
+								},
+								{
+									"key": "NEL",
+									"value": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}"
+								},
+								{
+									"key": "Strict-Transport-Security",
+									"value": "max-age=31536000; includeSubDomains; preload"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "Server",
+									"value": "cloudflare"
+								},
+								{
+									"key": "CF-RAY",
+									"value": "76648751bf586efe-BOM"
+								},
+								{
+									"key": "alt-svc",
+									"value": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400"
+								}
+							],
+							"cookie": [],
+							"body": ""
+						}
+					]
+				},
+				{
+					"name": "Get Booking Details",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": {
+								"password": "",
+								"username": ""
+							}
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "{{extServiceUrl}}/users-booking/get-detail.php?booking_number=894370059065",
+							"host": [
+								"{{extServiceUrl}}"
+							],
+							"path": [
+								"users-booking",
+								"get-detail.php"
+							],
+							"query": [
+								{
+									"key": "booking_number",
+									"value": "894370059065"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Success",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/users-booking/get-detail.php?booking_number=730446306777",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"users-booking",
+										"get-detail.php"
+									],
+									"query": [
+										{
+											"key": "booking_number",
+											"value": "730446306777"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Mon, 07 Nov 2022 14:29:15 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=UTF-8"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Access-Control-Allow-Methods",
+									"value": "POST"
+								},
+								{
+									"key": "Access-Control-Max-Age",
+									"value": "3600"
+								},
+								{
+									"key": "Access-Control-Allow-Headers",
+									"value": "Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With"
+								},
+								{
+									"key": "CF-Cache-Status",
+									"value": "DYNAMIC"
+								},
+								{
+									"key": "Report-To",
+									"value": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=HrO1pOE35kCo3aYxMP7CFZUxt7wAjQfhGtJlWVDt23IZJVLPY%2BAoq4zSXWPK%2ByKAsD5Gn%2FGz6fqtM5T%2FO5L7OKPqVGFSoRpOsblJ8yn7jUjzKoUGTaCJ%2BSBsgeqeze21SwOsuQ%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}"
+								},
+								{
+									"key": "NEL",
+									"value": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}"
+								},
+								{
+									"key": "Strict-Transport-Security",
+									"value": "max-age=31536000; includeSubDomains; preload"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "Server",
+									"value": "cloudflare"
+								},
+								{
+									"key": "CF-RAY",
+									"value": "7666c291b9aa3212-BOM"
+								},
+								{
+									"key": "Content-Encoding",
+									"value": "br"
+								},
+								{
+									"key": "alt-svc",
+									"value": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"id\": \"3939829938\",\n    \"booking_number\": \"670347113249\",\n    \"date_time\": \"09 Jan 2023\",\n    \"journey\": \"DEL - BOM - DXB\",\n    \"total_service\": \"4\",\n    \"price_detail\": {\n        \"service_amount\": \"20967\",\n        \"service_gst\": \"3773\",\n        \"convenience_fee\": \"0\",\n        \"convenience_fee_gst\": \"0\",\n        \"total_amount\": \"24740\"\n    },\n    \"status\": \"Confirmed\",\n    \"notes\": \"\",\n    \"markup_type\": \"Percentage\",\n    \"markup_value\": \"4\",\n    \"station_array\": [\n        {\n            \"airport_category\": \"1122334456\",\n            \"airport_type\": \"Departure\",\n            \"airport_name\": \"Indira Gandhi International Airport\",\n            \"airport_code\": \"DEL\",\n            \"terminal_token\": \"9876543211\",\n            \"terminal_name\": \"Terminal 2\",\n            \"gmt_view\": \"+05:30\",\n            \"service_array\": [\n                {\n                    \"order_id\": \"5806608547\",\n                    \"service_date_time\": \"26 Jan, 2023 14:15\",\n                    \"service_name\": \"Domestic-Departure-Silver (Without Lounge)\",\n                    \"service_type\": \"Bundle\",\n                    \"service_provider\": {\n                        \"name\": \"Encalm Hospitality\",\n                        \"email\": \"vetrikumar@airportzo.com\",\n                        \"logo\": \"https://d1kbhg7ykrtfl2.cloudfront.net/service_provider_company/company_logo/encalm.png\",\n                        \"image\": \"https://d1kbhg7ykrtfl2.cloudfront.net/service_provider_company/company_logo/Encalm_image.png\"\n                    },\n                    \"price_detail\": {\n                        \"adult_service_amount\": \"2000\",\n                        \"total_adult\": \"1\",\n                        \"children_service_amount\": \"2000\",\n                        \"total_children\": \"1\",\n                        \"net_amount\": \"4000\"\n                    },\n                    \"status\": \"Confirmed\",\n                    \"notes\": \"test\",\n                    \"cancellation_policy_detail\": []\n                },\n                {\n                    \"order_id\": \"3090463299\",\n                    \"service_date_time\": \"26 Jan, 2023 14:15\",\n                    \"service_name\": \"Domestic-Departure-Gold (With Lounge)\",\n                    \"service_type\": \"Bundle\",\n                    \"service_provider\": {\n                        \"name\": \"Encalm Hospitality\",\n                        \"email\": \"vetrikumar@airportzo.com\",\n                        \"logo\": \"https://d1kbhg7ykrtfl2.cloudfront.net/service_provider_company/company_logo/encalm.png\",\n                        \"image\": \"https://d1kbhg7ykrtfl2.cloudfront.net/service_provider_company/company_logo/Encalm_image.png\"\n                    },\n                    \"price_detail\": {\n                        \"adult_service_amount\": \"3000\",\n                        \"total_adult\": \"1\",\n                        \"children_service_amount\": \"3000\",\n                        \"total_children\": \"1\",\n                        \"net_amount\": \"6000\"\n                    },\n                    \"status\": \"Confirmed\",\n                    \"notes\": \"test\",\n                    \"cancellation_policy_detail\": []\n                }\n            ]\n        },\n        {\n            \"airport_category\": \"1122334455\",\n            \"airport_type\": \"Arrival\",\n            \"airport_name\": \"Dubai International Airport\",\n            \"airport_code\": \"DXB\",\n            \"terminal_token\": \"9876543210\",\n            \"terminal_name\": \"Terminal 1\",\n            \"gmt_view\": \"+04:00\",\n            \"service_array\": [\n                {\n                    \"order_id\": \"1928165505\",\n                    \"service_date_time\": \"26 Jan, 2023 14:15\",\n                    \"service_name\": \"International-Arrival-Premium Deluxe (Without\",\n                    \"service_type\": \"Bundle\",\n                    \"service_provider\": {\n                        \"name\": \"Ahlan\",\n                        \"email\": \"vetrikumar@airportzo.com\",\n                        \"logo\": \"https://d1kbhg7ykrtfl2.cloudfront.net/service_provider_company/company_logo/ahlan.jpg\",\n                        \"image\": \"https://d1kbhg7ykrtfl2.cloudfront.net/service_provider_company/company_logo/Ahlan_image.png\"\n                    },\n                    \"price_detail\": {\n                        \"adult_service_amount\": \"3640\",\n                        \"total_adult\": \"1\",\n                        \"children_service_amount\": \"3640\",\n                        \"total_children\": \"1\",\n                        \"net_amount\": \"7280\"\n                    },\n                    \"status\": \"Confirmed\",\n                    \"notes\": \"test\",\n                    \"cancellation_policy_detail\": [\n                        {\n                            \"hours_before_cancelling\": \"36\",\n                            \"cancellation_fee_percentage\": \"50\"\n                        },\n                        {\n                            \"hours_before_cancelling\": \"24\",\n                            \"cancellation_fee_percentage\": \"75\"\n                        },\n                        {\n                            \"hours_before_cancelling\": \"12\",\n                            \"cancellation_fee_percentage\": \"100\"\n                        }\n                    ]\n                },\n                {\n                    \"order_id\": \"4265112422\",\n                    \"service_date_time\": \"26 Jan, 2023 14:15\",\n                    \"service_name\": \"International-Arrival-Silver (Without Lounge)\",\n                    \"service_type\": \"Bundle\",\n                    \"service_provider\": {\n                        \"name\": \"Marhaba\",\n                        \"email\": \"vetrikumar@airportzo.com\",\n                        \"logo\": \"https://d1kbhg7ykrtfl2.cloudfront.net/service_provider_company/company_logo/Marhaba.jpg\",\n                        \"image\": \"https://d1kbhg7ykrtfl2.cloudfront.net/service_provider_company/company_logo/marhaba_image.png\"\n                    },\n                    \"price_detail\": {\n                        \"adult_service_amount\": \"3730\",\n                        \"total_adult\": \"1\",\n                        \"children_service_amount\": \"3730\",\n                        \"total_children\": \"1\",\n                        \"net_amount\": \"7460\"\n                    },\n                    \"status\": \"Confirmed\",\n                    \"notes\": \"test\",\n                    \"cancellation_policy_detail\": [\n                        {\n                            \"hours_before_cancelling\": \"1\",\n                            \"cancellation_fee_percentage\": \"1\"\n                        }\n                    ]\n                }\n            ]\n        }\n    ],\n    \"passenger_detail\": [\n        {\n            \"passenger_type\": \"Contact\",\n            \"passenger_array\": [\n                {\n                    \"id\": \"2211\",\n                    \"token\": \"6839537918\",\n                    \"booking_token\": \"3939829938\",\n                    \"passenger_type\": \"Contact\",\n                    \"user_passenger_token\": \"6181676879\",\n                    \"title\": \"Mr\",\n                    \"name\": \"Velmurugan\",\n                    \"name_view\": \"Mr. Velmurugan\",\n                    \"country_code\": \"u002B\",\n                    \"mobile_number\": \"9944100866\",\n                    \"mobile_view\": \"u002B9944100866\",\n                    \"email_id\": \"vel@dhanhind.com\",\n                    \"date_of_birth\": \"1988-10-10\",\n                    \"age\": \"34 yrs\"\n                }\n            ]\n        },\n        {\n            \"passenger_type\": \"Others\",\n            \"passenger_array\": [\n                {\n                    \"id\": \"2212\",\n                    \"token\": \"4241628777\",\n                    \"booking_token\": \"3939829938\",\n                    \"passenger_type\": \"Others\",\n                    \"user_passenger_token\": \"2235483484\",\n                    \"title\": \"Mr\",\n                    \"name\": \"Velchild\",\n                    \"name_view\": \"Mr. Velchild\",\n                    \"country_code\": \"u002B\",\n                    \"mobile_number\": \"9944100866\",\n                    \"mobile_view\": \"u002B9944100866\",\n                    \"email_id\": \"vel@dhanhind.com\",\n                    \"date_of_birth\": \"2015-12-01\",\n                    \"age\": \"7 yrs\"\n                }\n            ]\n        }\n    ],\n    \"journey_array\": [\n        {\n            \"id\": \"1590\",\n            \"token\": \"1663991412\",\n            \"booking_token\": \"3939829938\",\n            \"depart_ttr_token\": \"1590528235\",\n            \"depart_airport_code\": \"DEL\",\n            \"depart_airport\": \"Indira Gandhi International Airport\",\n            \"depart_terminal\": \"Terminal 2\",\n            \"arrival_airport_code\": \"BOM\",\n            \"arrival_airport\": \"Chattrapathi shivaji International Airport\",\n            \"arrival_terminal\": \"Terminal 2\",\n            \"arrival_ttr_token\": \"4026903582\",\n            \"depart_date\": \"26 Jan, 2023\",\n            \"flight_number\": \"2176\"\n        },\n        {\n            \"id\": \"1591\",\n            \"token\": \"3385600009\",\n            \"booking_token\": \"3939829938\",\n            \"depart_ttr_token\": \"2963455470\",\n            \"depart_airport_code\": \"BOM\",\n            \"depart_airport\": \"Chattrapathi shivaji International Airport\",\n            \"depart_terminal\": \"Terminal 2\",\n            \"arrival_airport_code\": \"DXB\",\n            \"arrival_airport\": \"Dubai International Airport\",\n            \"arrival_terminal\": \"Terminal 1\",\n            \"arrival_ttr_token\": \"3158913351\",\n            \"depart_date\": \"26 Jan, 2023\",\n            \"flight_number\": \"61\"\n        }\n    ]\n}"
+						},
+						{
+							"name": "Failure 401",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"journey_token\": \"6160934183\",\n    \"currency\": \"INR\",\n    \"service_collection\": [\n        {\n            \"airport_code\": \"CJB\",\n            \"category_name\": \"Departure\",\n            \"services\": [\n                \"676767676\"\n            ]\n        },\n        {\n            \"airport_code\": \"BLR\",\n            \"category_name\": \"Transit\",\n            \"services\": [\n                \"987654321\"\n            ]\n        },\n        {\n            \"airport_code\": \"IXM\",\n            \"category_name\": \"Arrival\",\n            \"services\": [\n                \"676767677\"\n            ]\n        }\n    ]\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "{{baseUrl}}/services/pull-services.php"
+							},
+							"status": "Unauthorized",
+							"code": 401,
+							"_postman_previewlanguage": "plain",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Mon, 07 Nov 2022 08:02:33 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Access-Control-Allow-Methods",
+									"value": "POST"
+								},
+								{
+									"key": "Access-Control-Max-Age",
+									"value": "3600"
+								},
+								{
+									"key": "Access-Control-Allow-Headers",
+									"value": "Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With"
+								},
+								{
+									"key": "CF-Cache-Status",
+									"value": "DYNAMIC"
+								},
+								{
+									"key": "Report-To",
+									"value": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=%2FdyUUHXHJ%2BDZ8JjTCEQFzcLX%2F2xBiMY8wMZOxs4euTSQxZj9EHz5Ke2%2BlWpA%2BoEIXxhU6XPvYxeDwn4mYd1kb1k1V3uucmY1doH9gJRscLPGjTFQ%2B3Tz53UD0Cie9AdPEjYBGQ%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}"
+								},
+								{
+									"key": "NEL",
+									"value": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}"
+								},
+								{
+									"key": "Strict-Transport-Security",
+									"value": "max-age=31536000; includeSubDomains; preload"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "Server",
+									"value": "cloudflare"
+								},
+								{
+									"key": "CF-RAY",
+									"value": "76648c205a566efe-BOM"
+								},
+								{
+									"key": "alt-svc",
+									"value": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400"
+								}
+							],
+							"cookie": [],
+							"body": ""
+						},
+						{
+							"name": "Failure 400",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"journey_token\": \"6160934183\",\n    \"service_collection\": [\n        {\n            \"airport_code\": \"CJB\",\n            \"category_name\": \"Departure\",\n            \"services\": [\n                \"6767676761\"\n            ]\n        },\n        {\n            \"airport_code\": \"BLR\",\n            \"category_name\": \"Transit\",\n            \"services\": [\n                \"9876543210\"\n            ]\n        },\n        {\n            \"airport_code\": \"IXM\",\n            \"category_name\": \"Arrival\",\n            \"services\": [\n                \"6767676767\"\n            ]\n        }\n    ]\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "{{baseUrl}}/services/pull-services.php"
+							},
+							"status": "Bad Request",
+							"code": 400,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Mon, 07 Nov 2022 07:59:16 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=UTF-8"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Access-Control-Allow-Methods",
+									"value": "POST"
+								},
+								{
+									"key": "Access-Control-Max-Age",
+									"value": "3600"
+								},
+								{
+									"key": "Access-Control-Allow-Headers",
+									"value": "Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With"
+								},
+								{
+									"key": "CF-Cache-Status",
+									"value": "DYNAMIC"
+								},
+								{
+									"key": "Report-To",
+									"value": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=RIp%2BcbUt7PXWD%2BypvbkFL9m3Zj8ymtN8225CdDNQJ%2BsHWo%2FeRwezVTTPkSYLRAcCIacmGG4l4b16Ok4LbpRrZ0BPh9CeqASSnLdEYN5cwC0R0XJznekCXsY4hjc9jtaRdD0Dzg%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}"
+								},
+								{
+									"key": "NEL",
+									"value": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}"
+								},
+								{
+									"key": "Strict-Transport-Security",
+									"value": "max-age=31536000; includeSubDomains; preload"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "Server",
+									"value": "cloudflare"
+								},
+								{
+									"key": "CF-RAY",
+									"value": "76648751bf586efe-BOM"
+								},
+								{
+									"key": "alt-svc",
+									"value": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400"
+								}
+							],
+							"cookie": [],
+							"body": ""
+						}
+					]
+				},
+				{
+					"name": "Cancel Booking",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": {
+								"password": "",
+								"username": ""
+							}
+						},
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"booking_number\": \"893906567171\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{extServiceUrl}}/users-booking/cancel-booking.php"
+					},
+					"response": [
+						{
+							"name": "Success",
+							"originalRequest": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"booking_number\": \"180788647337\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "{{baseUrl}}/users-booking/cancel-booking.php"
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Mon, 07 Nov 2022 15:34:56 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=UTF-8"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Access-Control-Allow-Methods",
+									"value": "POST"
+								},
+								{
+									"key": "Access-Control-Max-Age",
+									"value": "3600"
+								},
+								{
+									"key": "Access-Control-Allow-Headers",
+									"value": "Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With"
+								},
+								{
+									"key": "CF-Cache-Status",
+									"value": "DYNAMIC"
+								},
+								{
+									"key": "Report-To",
+									"value": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=A5WjTUpJjUPj0XUMtgWr7Pqx1XEc%2B6JuKDjbgG%2BtTBUOg9%2FBnpHBgQJ3UinV8d6ZC6OKqleA4RhXF6CQZD2T7XIbOGjcKo6xDPVklwWj03o%2F%2FfpesMoTOodDAU0JBZ%2Bj7rOYCg%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}"
+								},
+								{
+									"key": "NEL",
+									"value": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}"
+								},
+								{
+									"key": "Strict-Transport-Security",
+									"value": "max-age=31536000; includeSubDomains; preload"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "Server",
+									"value": "cloudflare"
+								},
+								{
+									"key": "CF-RAY",
+									"value": "766722cc1f3684da-BOM"
+								},
+								{
+									"key": "Content-Encoding",
+									"value": "br"
+								},
+								{
+									"key": "alt-svc",
+									"value": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"distributor_name\": \"External service\",\n    \"distributor_email\": \"adhi@macappstudio.com\",\n    \"header_logo\": \"https://d1kbhg7ykrtfl2.cloudfront.net/service_distributor/manage_brand/logo/sleepzo-logo.png\",\n    \"brand_colour\": \"#0EB3D4\",\n    \"id\": \"8887720877\",\n    \"booking_number\": \"180788647337\",\n    \"date_time\": \"07 Nov 2022\",\n    \"journey\": \"CJB - BLR - IXM\",\n    \"total_service\": \"2\",\n    \"price_detail\": {\n        \"service_amount\": \"16310\",\n        \"service_gst\": \"2935\",\n        \"convenience_fee\": \"0\",\n        \"convenience_fee_gst\": \"0\",\n        \"total_amount\": \"19245\"\n    },\n    \"status\": \"Cancelled\",\n    \"notes\": \"\",\n    \"station_array\": [\n        {\n            \"airport_category\": \"1122334456\",\n            \"airport_type\": \"Departure\",\n            \"airport_name\": \"Coimbatore International Airport\",\n            \"airport_code\": \"CJB\",\n            \"terminal_token\": \"9876543210\",\n            \"terminal_name\": \"Terminal 1\",\n            \"gmt_view\": \"+05.30\",\n            \"station_number\": 1,\n            \"service_array\": [\n                {\n                    \"user_token\": \"4745475572\",\n                    \"order_id\": \"9372139485\",\n                    \"service_date_time\": \"13 Nov, 2022 07:30\",\n                    \"service_name\": \"Domestic-Departure-Elite (With Lounge)\",\n                    \"service_type\": \"Bundle\",\n                    \"service_provider\": {\n                        \"name\": \"Encalm\",\n                        \"email\": \"siddharthsivaraj@gmail.com\",\n                        \"logo\": \"https://d1xqjehqvi7b4u.cloudfront.net/service_provider_company/documents/1664785888438.png\",\n                        \"image\": \"https://d1xqjehqvi7b4u.cloudfront.net/service_provider_company/documents/1664785907113.jpg\"\n                    },\n                    \"price_detail\": {\n                        \"adult_service_amount\": \"2875\",\n                        \"total_adult\": \"2\",\n                        \"children_service_amount\": \"2875\",\n                        \"total_children\": \"1\",\n                        \"net_amount\": \"8625\"\n                    },\n                    \"status\": \"Cancelled\",\n                    \"notes\": \"Just to check notes at service 1\",\n                    \"service_date_time_raw\": \"2022-11-13 07:30:00\",\n                    \"cancellation_policy_detail\": [\n                        {\n                            \"hours_before_cancelling\": \"72\",\n                            \"cancellation_fee_percentage\": \"100\"\n                        },\n                        {\n                            \"hours_before_cancelling\": \"48\",\n                            \"cancellation_fee_percentage\": \"50\"\n                        },\n                        {\n                            \"hours_before_cancelling\": \"24\",\n                            \"cancellation_fee_percentage\": \"50\"\n                        },\n                        {\n                            \"hours_before_cancelling\": \"12\",\n                            \"cancellation_fee_percentage\": \"40\"\n                        },\n                        {\n                            \"hours_before_cancelling\": \"1\",\n                            \"cancellation_fee_percentage\": \"10\"\n                        }\n                    ]\n                }\n            ]\n        },\n        {\n            \"airport_category\": \"1122334457\",\n            \"airport_type\": \"Transit\",\n            \"airport_name\": \"Kempegowda International Airport\",\n            \"airport_code\": \"BLR\",\n            \"terminal_token\": \"9876543210\",\n            \"terminal_name\": \"Terminal 1\",\n            \"gmt_view\": \"+05:30\",\n            \"station_number\": 2,\n            \"service_array\": [\n                {\n                    \"user_token\": \"4745475572\",\n                    \"order_id\": \"3067128366\",\n                    \"service_date_time\": \"14 Nov, 2022 09:45\",\n                    \"service_name\": \"Domestic-Domestic-Transit-Silver (Without Lounge)\",\n                    \"service_type\": \"Bundle\",\n                    \"service_provider\": {\n                        \"name\": \"Pravin Lounge\",\n                        \"email\": \"pravin@macappstudio.com\",\n                        \"logo\": \"https://d1xqjehqvi7b4u.cloudfront.net/service_provider_company/documents/1667560722257.jpg\",\n                        \"image\": \"https://d1xqjehqvi7b4u.cloudfront.net/service_provider_company/documents/1667560726588.jpg\"\n                    },\n                    \"price_detail\": {\n                        \"adult_service_amount\": \"3540\",\n                        \"total_adult\": \"2\",\n                        \"children_service_amount\": \"3540\",\n                        \"total_children\": \"1\",\n                        \"net_amount\": \"10620\"\n                    },\n                    \"status\": \"Cancelled\",\n                    \"notes\": \"Just to check notes at service 2\",\n                    \"service_date_time_raw\": \"2022-11-14 09:45:00\",\n                    \"cancellation_policy_detail\": [\n                        {\n                            \"hours_before_cancelling\": \"48\",\n                            \"cancellation_fee_percentage\": \"30\"\n                        }\n                    ]\n                }\n            ]\n        }\n    ],\n    \"passenger_detail\": [\n        {\n            \"passenger_type\": \"Contact\",\n            \"passenger_array\": [\n                {\n                    \"id\": \"1374\",\n                    \"token\": \"9813754328\",\n                    \"booking_token\": \"8887720877\",\n                    \"passenger_type\": \"Contact\",\n                    \"user_passenger_token\": \"6067610878\",\n                    \"title\": \"Mr\",\n                    \"name\": \"Kumar\",\n                    \"name_view\": \"Mr. Kumar\",\n                    \"country_code\": \"+91\",\n                    \"mobile_number\": \"9858225801\",\n                    \"mobile_view\": \"+919858225801\",\n                    \"email_id\": \"aravind@macappstudio.com\",\n                    \"date_of_birth\": \"1993-09-16\",\n                    \"age\": \"29 yrs\"\n                }\n            ]\n        },\n        {\n            \"passenger_type\": \"Others\",\n            \"passenger_array\": [\n                {\n                    \"id\": \"1375\",\n                    \"token\": \"3900011438\",\n                    \"booking_token\": \"8887720877\",\n                    \"passenger_type\": \"Others\",\n                    \"user_passenger_token\": \"6201202238\",\n                    \"title\": \"\",\n                    \"name\": \"Kishan\",\n                    \"name_view\": \"Kishan\",\n                    \"country_code\": \"+91\",\n                    \"mobile_number\": \"9423854835\",\n                    \"mobile_view\": \"+919423854835\",\n                    \"email_id\": \"kishan@macappstudio.com\",\n                    \"date_of_birth\": \"2012-09-16\",\n                    \"age\": \"10 yrs\"\n                },\n                {\n                    \"id\": \"1376\",\n                    \"token\": \"6793796447\",\n                    \"booking_token\": \"8887720877\",\n                    \"passenger_type\": \"Others\",\n                    \"user_passenger_token\": \"3231713556\",\n                    \"title\": \"Ms\",\n                    \"name\": \"Chandi\",\n                    \"name_view\": \"Ms. Chandi\",\n                    \"country_code\": \"+91\",\n                    \"mobile_number\": \"8247568347\",\n                    \"mobile_view\": \"+918247568347\",\n                    \"email_id\": \"chandi@macappstudio.com\",\n                    \"date_of_birth\": \"2009-09-16\",\n                    \"age\": \"13 yrs\"\n                }\n            ]\n        },\n        {\n            \"passenger_type\": \"Greeter\",\n            \"passenger_array\": [\n                {\n                    \"id\": \"1377\",\n                    \"token\": \"6999396779\",\n                    \"booking_token\": \"8887720877\",\n                    \"passenger_type\": \"Greeter\",\n                    \"user_passenger_token\": \"8609104597\",\n                    \"title\": \"Ms\",\n                    \"name\": \"Kohshini\",\n                    \"name_view\": \"Ms. Kohshini\",\n                    \"country_code\": \"+91\",\n                    \"mobile_number\": \"9423854835\",\n                    \"mobile_view\": \"+919423854835\",\n                    \"email_id\": \"kohshini@macappstudio.com\",\n                    \"date_of_birth\": \"1998-09-16\",\n                    \"age\": \"24 yrs\"\n                }\n            ]\n        }\n    ],\n    \"journey_array\": [\n        {\n            \"id\": \"1010\",\n            \"token\": \"4685561284\",\n            \"booking_token\": \"8887720877\",\n            \"depart_ttr_token\": \"KMILPWFY4G\",\n            \"depart_airport_code\": \"CJB\",\n            \"depart_airport\": \"Coimbatore International Airport\",\n            \"depart_terminal\": \"Terminal 1\",\n            \"arrival_airport_code\": \"BLR\",\n            \"arrival_airport\": \"Kempegowda International Airport\",\n            \"arrival_terminal\": \"Terminal 1\",\n            \"arrival_ttr_token\": \"N9V14YZPG6\",\n            \"depart_date\": \"13 Nov, 2022\",\n            \"flight_number\": \"CB1232\"\n        },\n        {\n            \"id\": \"1011\",\n            \"token\": \"8838217047\",\n            \"booking_token\": \"8887720877\",\n            \"depart_ttr_token\": \"N9V14YZPG6\",\n            \"depart_airport_code\": \"BLR\",\n            \"depart_airport\": \"Kempegowda International Airport\",\n            \"depart_terminal\": \"Terminal 1\",\n            \"arrival_airport_code\": \"IXM\",\n            \"arrival_airport\": \"Madurai international Airport\",\n            \"arrival_terminal\": \"Terminal 1\",\n            \"arrival_ttr_token\": \"8776979223\",\n            \"depart_date\": \"14 Nov, 2022\",\n            \"flight_number\": \"BI1232\"\n        }\n    ]\n}"
+						},
+						{
+							"name": "Failure 401",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"journey_token\": \"6160934183\",\n    \"currency\": \"INR\",\n    \"service_collection\": [\n        {\n            \"airport_code\": \"CJB\",\n            \"category_name\": \"Departure\",\n            \"services\": [\n                \"676767676\"\n            ]\n        },\n        {\n            \"airport_code\": \"BLR\",\n            \"category_name\": \"Transit\",\n            \"services\": [\n                \"987654321\"\n            ]\n        },\n        {\n            \"airport_code\": \"IXM\",\n            \"category_name\": \"Arrival\",\n            \"services\": [\n                \"676767677\"\n            ]\n        }\n    ]\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "{{baseUrl}}/services/pull-services.php"
+							},
+							"status": "Unauthorized",
+							"code": 401,
+							"_postman_previewlanguage": "plain",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Mon, 07 Nov 2022 08:02:33 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Access-Control-Allow-Methods",
+									"value": "POST"
+								},
+								{
+									"key": "Access-Control-Max-Age",
+									"value": "3600"
+								},
+								{
+									"key": "Access-Control-Allow-Headers",
+									"value": "Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With"
+								},
+								{
+									"key": "CF-Cache-Status",
+									"value": "DYNAMIC"
+								},
+								{
+									"key": "Report-To",
+									"value": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=%2FdyUUHXHJ%2BDZ8JjTCEQFzcLX%2F2xBiMY8wMZOxs4euTSQxZj9EHz5Ke2%2BlWpA%2BoEIXxhU6XPvYxeDwn4mYd1kb1k1V3uucmY1doH9gJRscLPGjTFQ%2B3Tz53UD0Cie9AdPEjYBGQ%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}"
+								},
+								{
+									"key": "NEL",
+									"value": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}"
+								},
+								{
+									"key": "Strict-Transport-Security",
+									"value": "max-age=31536000; includeSubDomains; preload"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "Server",
+									"value": "cloudflare"
+								},
+								{
+									"key": "CF-RAY",
+									"value": "76648c205a566efe-BOM"
+								},
+								{
+									"key": "alt-svc",
+									"value": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400"
+								}
+							],
+							"cookie": [],
+							"body": ""
+						},
+						{
+							"name": "Failure 400",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"journey_token\": \"6160934183\",\n    \"service_collection\": [\n        {\n            \"airport_code\": \"CJB\",\n            \"category_name\": \"Departure\",\n            \"services\": [\n                \"6767676761\"\n            ]\n        },\n        {\n            \"airport_code\": \"BLR\",\n            \"category_name\": \"Transit\",\n            \"services\": [\n                \"9876543210\"\n            ]\n        },\n        {\n            \"airport_code\": \"IXM\",\n            \"category_name\": \"Arrival\",\n            \"services\": [\n                \"6767676767\"\n            ]\n        }\n    ]\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "{{baseUrl}}/services/pull-services.php"
+							},
+							"status": "Bad Request",
+							"code": 400,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Mon, 07 Nov 2022 07:59:16 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=UTF-8"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Access-Control-Allow-Methods",
+									"value": "POST"
+								},
+								{
+									"key": "Access-Control-Max-Age",
+									"value": "3600"
+								},
+								{
+									"key": "Access-Control-Allow-Headers",
+									"value": "Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With"
+								},
+								{
+									"key": "CF-Cache-Status",
+									"value": "DYNAMIC"
+								},
+								{
+									"key": "Report-To",
+									"value": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=RIp%2BcbUt7PXWD%2BypvbkFL9m3Zj8ymtN8225CdDNQJ%2BsHWo%2FeRwezVTTPkSYLRAcCIacmGG4l4b16Ok4LbpRrZ0BPh9CeqASSnLdEYN5cwC0R0XJznekCXsY4hjc9jtaRdD0Dzg%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}"
+								},
+								{
+									"key": "NEL",
+									"value": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}"
+								},
+								{
+									"key": "Strict-Transport-Security",
+									"value": "max-age=31536000; includeSubDomains; preload"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "Server",
+									"value": "cloudflare"
+								},
+								{
+									"key": "CF-RAY",
+									"value": "76648751bf586efe-BOM"
+								},
+								{
+									"key": "alt-svc",
+									"value": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400"
+								}
+							],
+							"cookie": [],
+							"body": ""
+						},
+						{
+							"name": "Failure 417",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"journey_array\": [\n        {\n            \"departure_airport\": \"CJB\",\n            \"departure_terminal\": \"Terminal 1\",\n            \"departure_datetime\": \"2022-11-13 09:30:00\",\n            \"arrival_airport\": \"BLR\",\n            \"arrival_terminal\": \"Terminal 1\",\n            \"arrival_datetime\": \"2022-11-14 09:30:00\",\n            \"flight_number\": \"CB1232\"\n        }\n    ]\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "{{baseUrl}}/services/pull-services.php"
+							},
+							"status": "Expectation Failed",
+							"code": 417,
+							"_postman_previewlanguage": "html",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Mon, 07 Nov 2022 07:23:13 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "text/html; charset=UTF-8"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "CF-Cache-Status",
+									"value": "DYNAMIC"
+								},
+								{
+									"key": "Report-To",
+									"value": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=UN2Qo1isDCo1nbwTWIsWMa2PJGAsV3WHQBLM6J3exA4sDWLvwOnCPIc16LOjQPhPKVepuIa0xO9UbVyERR2%2BV74jgH4ZT74FgIt8cJaTkXlcx%2FFNSwyVYbAgl2KdpICNTLOEEA%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}"
+								},
+								{
+									"key": "NEL",
+									"value": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}"
+								},
+								{
+									"key": "Strict-Transport-Security",
+									"value": "max-age=31536000; includeSubDomains; preload"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "Server",
+									"value": "cloudflare"
+								},
+								{
+									"key": "CF-RAY",
+									"value": "7664528049354aba-SIN"
+								},
+								{
+									"key": "alt-svc",
+									"value": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400"
+								}
+							],
+							"cookie": [],
+							"body": ""
+						}
+					]
+				},
+				{
+					"name": "Cancel Order",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": {
+								"password": "",
+								"username": ""
+							}
+						},
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"booking_number\": \"893906567171\",\n    \"order_id\": \"1458526842\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{extServiceUrl}}/users-booking/cancel-order.php"
+					},
+					"response": [
+						{
+							"name": "Success",
+							"originalRequest": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"booking_number\": \"180788647337\",\n    \"order_id\": \"9372139485\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "{{baseUrl}}/users-booking/cancel-order.php"
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Mon, 07 Nov 2022 15:34:12 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=UTF-8"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Access-Control-Allow-Methods",
+									"value": "POST"
+								},
+								{
+									"key": "Access-Control-Max-Age",
+									"value": "3600"
+								},
+								{
+									"key": "Access-Control-Allow-Headers",
+									"value": "Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With"
+								},
+								{
+									"key": "CF-Cache-Status",
+									"value": "DYNAMIC"
+								},
+								{
+									"key": "Report-To",
+									"value": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=T1AUA7EqOJWPMIp2lNBrwGkvbHNhXUW%2Fo%2BYCNuR0i9uFOT24w09Xqt3OvxybWE5URGgB0EpcWvYv7fOtlK8Y2i%2FSrW%2FgNG%2BuzwBwt%2FsLHXoYsLC9BAXZp3WRFGrtLf4q0nyIhg%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}"
+								},
+								{
+									"key": "NEL",
+									"value": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}"
+								},
+								{
+									"key": "Strict-Transport-Security",
+									"value": "max-age=31536000; includeSubDomains; preload"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "Server",
+									"value": "cloudflare"
+								},
+								{
+									"key": "CF-RAY",
+									"value": "766721b95ffd84da-BOM"
+								},
+								{
+									"key": "Content-Encoding",
+									"value": "br"
+								},
+								{
+									"key": "alt-svc",
+									"value": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"distributor_name\": \"Godwin\",\n    \"distributor_email\": \"pravin@macappstudio.com\",\n    \"header_logo\": \"https://d1xqjehqvi7b4u.cloudfront.net/service_distributor/manage_brand/logo/1672288738697.png\",\n    \"brand_colour\": \"#0ce49c\",\n    \"id\": \"6391405483\",\n    \"booking_number\": \"394114916279\",\n    \"date_time\": \"27 Jan 2023\",\n    \"journey\": \"CJB - BLR - IXM\",\n    \"total_service\": \"2\",\n    \"price_detail\": {\n        \"service_amount\": \"16246\",\n        \"service_gst\": \"2924\",\n        \"convenience_fee\": \"0\",\n        \"convenience_fee_gst\": \"0\",\n        \"total_amount\": \"19170\"\n    },\n    \"status\": \"Cancelled\",\n    \"notes\": \"\",\n    \"markup_type\": \"Flat\",\n    \"markup_value\": \"90\",\n    \"station_array\": [\n        {\n            \"user_token\": \"8380077516\",\n            \"order_id\": \"3794344381\",\n            \"service_date_time\": \"14 Nov, 2022 09:45\",\n            \"service_name\": \"Domestic-Domestic-Transit-Silver (Without Lounge)\",\n            \"service_type\": \"Bundle\",\n            \"service_provider\": {\n                \"name\": \"Pravin Lounge\",\n                \"email\": \"pravin@macappstudio.com\",\n                \"logo\": \"https://d1xqjehqvi7b4u.cloudfront.net/service_provider_company/documents/1667560722257.jpg\",\n                \"image\": \"https://d1xqjehqvi7b4u.cloudfront.net/service_provider_company/documents/1667560726588.jpg\"\n            },\n            \"price_detail\": {\n                \"adult_service_amount\": \"3630\",\n                \"total_adult\": \"2\",\n                \"children_service_amount\": \"3630\",\n                \"total_children\": \"1\",\n                \"net_amount\": \"10650\"\n            },\n            \"status\": \"Cancelled\",\n            \"notes\": \"Just to check notes at service 2\",\n            \"service_date_time_raw\": \"2022-11-14 09:45:00\",\n            \"cancellation_policy_detail\": [\n                {\n                    \"hours_before_cancelling\": \"48\",\n                    \"cancellation_fee_percentage\": \"30\"\n                }\n            ]\n        }\n    ],\n    \"passenger_detail\": [\n        {\n            \"passenger_type\": \"Contact\",\n            \"passenger_array\": [\n                {\n                    \"id\": \"2894\",\n                    \"token\": \"5155880198\",\n                    \"booking_token\": \"6391405483\",\n                    \"passenger_type\": \"Contact\",\n                    \"user_passenger_token\": \"2960119424\",\n                    \"title\": \"Mr\",\n                    \"name\": \"Kumar\",\n                    \"name_view\": \"Mr. Kumar\",\n                    \"country_code\": \"+91\",\n                    \"mobile_number\": \"9858225801\",\n                    \"mobile_view\": \"+919858225801\",\n                    \"email_id\": \"premkumar@macappstudio.com\",\n                    \"date_of_birth\": \"1993-09-16\",\n                    \"age\": \"29 yrs\"\n                }\n            ]\n        },\n        {\n            \"passenger_type\": \"Others\",\n            \"passenger_array\": [\n                {\n                    \"id\": \"2895\",\n                    \"token\": \"8252741127\",\n                    \"booking_token\": \"6391405483\",\n                    \"passenger_type\": \"Others\",\n                    \"user_passenger_token\": \"5269904088\",\n                    \"title\": \"\",\n                    \"name\": \"Kishan\",\n                    \"name_view\": \"Kishan\",\n                    \"country_code\": \"+91\",\n                    \"mobile_number\": \"9423854835\",\n                    \"mobile_view\": \"+919423854835\",\n                    \"email_id\": \"senthil@macappstudio.com\",\n                    \"date_of_birth\": \"2012-09-16\",\n                    \"age\": \"10 yrs\"\n                },\n                {\n                    \"id\": \"2896\",\n                    \"token\": \"5736911547\",\n                    \"booking_token\": \"6391405483\",\n                    \"passenger_type\": \"Others\",\n                    \"user_passenger_token\": \"4824854726\",\n                    \"title\": \"Ms\",\n                    \"name\": \"Chandi\",\n                    \"name_view\": \"Ms. Chandi\",\n                    \"country_code\": \"+91\",\n                    \"mobile_number\": \"8247568347\",\n                    \"mobile_view\": \"+918247568347\",\n                    \"email_id\": \"praveen@macappstudio.com\",\n                    \"date_of_birth\": \"2009-09-16\",\n                    \"age\": \"13 yrs\"\n                }\n            ]\n        },\n        {\n            \"passenger_type\": \"Greeter\",\n            \"passenger_array\": [\n                {\n                    \"id\": \"2897\",\n                    \"token\": \"2064401640\",\n                    \"booking_token\": \"6391405483\",\n                    \"passenger_type\": \"Greeter\",\n                    \"user_passenger_token\": \"2580854960\",\n                    \"title\": \"Ms\",\n                    \"name\": \"Kohshini\",\n                    \"name_view\": \"Ms. Kohshini\",\n                    \"country_code\": \"+91\",\n                    \"mobile_number\": \"9423854835\",\n                    \"mobile_view\": \"+919423854835\",\n                    \"email_id\": \"kohshini@macappstudio.com\",\n                    \"date_of_birth\": \"1998-09-16\",\n                    \"age\": \"24 yrs\"\n                }\n            ]\n        }\n    ],\n    \"journey_array\": [\n        {\n            \"id\": \"1932\",\n            \"token\": \"5279919490\",\n            \"booking_token\": \"6391405483\",\n            \"depart_ttr_token\": \"KMILPWFY4G\",\n            \"depart_airport_code\": \"CJB\",\n            \"depart_airport\": \"Coimbatore International Airport\",\n            \"depart_terminal\": \"Terminal 1\",\n            \"arrival_airport_code\": \"BLR\",\n            \"arrival_airport\": \"Kempegowda International Airport\",\n            \"arrival_terminal\": \"Terminal 1\",\n            \"arrival_ttr_token\": \"N9V14YZPG6\",\n            \"depart_date\": \"13 Nov, 2022\",\n            \"flight_number\": \"CB1232\"\n        },\n        {\n            \"id\": \"1933\",\n            \"token\": \"9788979619\",\n            \"booking_token\": \"6391405483\",\n            \"depart_ttr_token\": \"N9V14YZPG6\",\n            \"depart_airport_code\": \"BLR\",\n            \"depart_airport\": \"Kempegowda International Airport\",\n            \"depart_terminal\": \"Terminal 1\",\n            \"arrival_airport_code\": \"IXM\",\n            \"arrival_airport\": \"Madurai international Airport\",\n            \"arrival_terminal\": \"Terminal 1\",\n            \"arrival_ttr_token\": \"8776979223\",\n            \"depart_date\": \"14 Nov, 2022\",\n            \"flight_number\": \"BI1232\"\n        }\n    ]\n}"
+						},
+						{
+							"name": "Failure 401",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"journey_token\": \"6160934183\",\n    \"currency\": \"INR\",\n    \"service_collection\": [\n        {\n            \"airport_code\": \"CJB\",\n            \"category_name\": \"Departure\",\n            \"services\": [\n                \"676767676\"\n            ]\n        },\n        {\n            \"airport_code\": \"BLR\",\n            \"category_name\": \"Transit\",\n            \"services\": [\n                \"987654321\"\n            ]\n        },\n        {\n            \"airport_code\": \"IXM\",\n            \"category_name\": \"Arrival\",\n            \"services\": [\n                \"676767677\"\n            ]\n        }\n    ]\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "{{baseUrl}}/services/pull-services.php"
+							},
+							"status": "Unauthorized",
+							"code": 401,
+							"_postman_previewlanguage": "plain",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Mon, 07 Nov 2022 08:02:33 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Access-Control-Allow-Methods",
+									"value": "POST"
+								},
+								{
+									"key": "Access-Control-Max-Age",
+									"value": "3600"
+								},
+								{
+									"key": "Access-Control-Allow-Headers",
+									"value": "Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With"
+								},
+								{
+									"key": "CF-Cache-Status",
+									"value": "DYNAMIC"
+								},
+								{
+									"key": "Report-To",
+									"value": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=%2FdyUUHXHJ%2BDZ8JjTCEQFzcLX%2F2xBiMY8wMZOxs4euTSQxZj9EHz5Ke2%2BlWpA%2BoEIXxhU6XPvYxeDwn4mYd1kb1k1V3uucmY1doH9gJRscLPGjTFQ%2B3Tz53UD0Cie9AdPEjYBGQ%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}"
+								},
+								{
+									"key": "NEL",
+									"value": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}"
+								},
+								{
+									"key": "Strict-Transport-Security",
+									"value": "max-age=31536000; includeSubDomains; preload"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "Server",
+									"value": "cloudflare"
+								},
+								{
+									"key": "CF-RAY",
+									"value": "76648c205a566efe-BOM"
+								},
+								{
+									"key": "alt-svc",
+									"value": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400"
+								}
+							],
+							"cookie": [],
+							"body": ""
+						},
+						{
+							"name": "Failure 400",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"journey_token\": \"6160934183\",\n    \"service_collection\": [\n        {\n            \"airport_code\": \"CJB\",\n            \"category_name\": \"Departure\",\n            \"services\": [\n                \"6767676761\"\n            ]\n        },\n        {\n            \"airport_code\": \"BLR\",\n            \"category_name\": \"Transit\",\n            \"services\": [\n                \"9876543210\"\n            ]\n        },\n        {\n            \"airport_code\": \"IXM\",\n            \"category_name\": \"Arrival\",\n            \"services\": [\n                \"6767676767\"\n            ]\n        }\n    ]\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "{{baseUrl}}/services/pull-services.php"
+							},
+							"status": "Bad Request",
+							"code": 400,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Mon, 07 Nov 2022 07:59:16 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=UTF-8"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "Access-Control-Allow-Methods",
+									"value": "POST"
+								},
+								{
+									"key": "Access-Control-Max-Age",
+									"value": "3600"
+								},
+								{
+									"key": "Access-Control-Allow-Headers",
+									"value": "Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With"
+								},
+								{
+									"key": "CF-Cache-Status",
+									"value": "DYNAMIC"
+								},
+								{
+									"key": "Report-To",
+									"value": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=RIp%2BcbUt7PXWD%2BypvbkFL9m3Zj8ymtN8225CdDNQJ%2BsHWo%2FeRwezVTTPkSYLRAcCIacmGG4l4b16Ok4LbpRrZ0BPh9CeqASSnLdEYN5cwC0R0XJznekCXsY4hjc9jtaRdD0Dzg%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}"
+								},
+								{
+									"key": "NEL",
+									"value": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}"
+								},
+								{
+									"key": "Strict-Transport-Security",
+									"value": "max-age=31536000; includeSubDomains; preload"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "Server",
+									"value": "cloudflare"
+								},
+								{
+									"key": "CF-RAY",
+									"value": "76648751bf586efe-BOM"
+								},
+								{
+									"key": "alt-svc",
+									"value": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400"
+								}
+							],
+							"cookie": [],
+							"body": ""
+						},
+						{
+							"name": "Failure 417",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"journey_array\": [\n        {\n            \"departure_airport\": \"CJB\",\n            \"departure_terminal\": \"Terminal 1\",\n            \"departure_datetime\": \"2022-11-13 09:30:00\",\n            \"arrival_airport\": \"BLR\",\n            \"arrival_terminal\": \"Terminal 1\",\n            \"arrival_datetime\": \"2022-11-14 09:30:00\",\n            \"flight_number\": \"CB1232\"\n        }\n    ]\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "{{baseUrl}}/services/pull-services.php"
+							},
+							"status": "Expectation Failed",
+							"code": 417,
+							"_postman_previewlanguage": "html",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Mon, 07 Nov 2022 07:23:13 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "text/html; charset=UTF-8"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "CF-Cache-Status",
+									"value": "DYNAMIC"
+								},
+								{
+									"key": "Report-To",
+									"value": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=UN2Qo1isDCo1nbwTWIsWMa2PJGAsV3WHQBLM6J3exA4sDWLvwOnCPIc16LOjQPhPKVepuIa0xO9UbVyERR2%2BV74jgH4ZT74FgIt8cJaTkXlcx%2FFNSwyVYbAgl2KdpICNTLOEEA%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}"
+								},
+								{
+									"key": "NEL",
+									"value": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}"
+								},
+								{
+									"key": "Strict-Transport-Security",
+									"value": "max-age=31536000; includeSubDomains; preload"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "Server",
+									"value": "cloudflare"
+								},
+								{
+									"key": "CF-RAY",
+									"value": "7664528049354aba-SIN"
+								},
+								{
+									"key": "alt-svc",
+									"value": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400"
+								}
+							],
+							"cookie": [],
+							"body": ""
+						}
+					]
+				}
+			]
+		}
+	],
+	"auth": {
+		"type": "basic",
+		"basic": {
+			"username": "airportzo",
+			"password": "airportzo@123"
+		}
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}

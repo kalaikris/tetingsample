@@ -1,0 +1,108 @@
+.error-mg-box{
+    background-color: #fff;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 4;
+    text-align: center;
+    position: fixed;
+}
+.error-mg-subbox{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.error-img{
+    width: 900px;
+    border-radius: 6px;
+    /* filter: blur(1px); */
+}
+img:hover{
+	filter: blur(0px);
+}
+.btn-box{
+	width: 100%;
+	text-align: center;
+}
+.error-mg-subbox button{
+    font-size: 3.4rem;
+    background-color: var(--primary-color);
+    padding: 2rem 6.8rem;
+    border-radius: 9px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s;
+    margin-top: 40px;
+}
+.error-mg-subbox button:hover{
+    outline: none;
+    box-shadow: 0 0 0 0.8rem rgb(210 65 32 / 43%);
+}
+.mobile{
+    display: none;
+}
+@media only screen and (max-width:950px){
+.error-img {
+    width: 700px;
+}
+}
+@media only screen and (max-width:750px){
+.error-img {
+    width: 600px;
+}
+}
+@media only screen and (max-width:600px){
+.error-img {
+    width: 500px;
+}
+}
+@media only screen and (max-width:550px){
+.error-img {
+    width: 500px;
+}
+}
+@media only screen and (max-width:500px){
+.error-img {
+    width: 360px;
+    margin: 0px auto;
+}
+.error-mg-subbox{
+	width: 100%;
+}
+.desktop{
+    display: none;
+}
+.mobile{
+    display: block;
+}
+}
+@media only screen and (max-width:500px){
+button {
+    margin-top: 20px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

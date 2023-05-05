@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Empty dasbord</title>
+        <link rel="shortcut icon" href="./asset/airportzo-icon.png" />
+        <!-- boostrap-Modal-popup-link-->
+
+        <link rel="stylesheet" href="./css/bootstrap.min.css" />
+        <link rel="stylesheet" href="./css/commen.css" />
+        <link rel="stylesheet" href="./css/fonts.css" />
+        <link rel="stylesheet" href="./css/header-sidemenu.css" />
+        <link rel="stylesheet" href="./css/add-service-policies.css" />
+        <!-- font -->
+    </head>
+
+    <body id="page">
+         <div id="loading"></div>
+
+         
+        <header id="header"></header>
+        <main>
+            <div class="flex-main-set">
+                <div class="slider-set" id="sidebar"></div>
+                <div class="slider-desc-set">
+                    <div class="add-polices-common-set">
+                        <div class="common-all">
+                            <div class="add-upload-set">
+                                <img src="./asset/hand.png" alt="" />
+                            </div>
+                            <div class="add-service-set">
+                                <h1>Add services and policies</h1>
+                                <p>you haven't added any services or policies.please add those to recive bookings</p>
+                            </div>
+
+                            <div class="add-btn">
+                                <a href="dashboard.html"><button type="button" class="cust-btn cust-btn-lg cust-btn-primary">Let's add services and policies</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js'></script>
+        <script src="./js/jquery-3.6.0.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+        <script src="./js/heder-sidebar.js"></script>
+        <script>
+            $(document).ready(() => {
+                setTimeout(() => {
+                    window.location = "under-construction.html";
+                    
+                }, 400);
+                $("#dashboard").addClass("actives");
+            });
+        </script>
+    </body>
+</html>

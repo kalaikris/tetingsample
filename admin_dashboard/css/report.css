@@ -1,0 +1,126 @@
+.underline-dev{
+    border-bottom: 1px solid #eee;
+    margin: 20px auto;
+}
+.header-section{
+    display: block;
+    width: 100%;
+}
+.rep-filter-set{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 98%;
+    margin: auto;
+}
+.filter-left{
+    width: 25%;
+}
+.filter-left p{
+
+}
+.input-form{
+
+}
+.filter-right{
+    width: 75%;
+    display: flex;
+    align-items: flex-end;
+    gap: 20px;
+}
+.date-box{
+
+}
+.input-form-set{
+
+}
+.input-form{
+    width: 95%;
+    max-width: 280px;
+    height: 45px;
+    border: 1px solid #e9e9e9;
+    padding: 5px 10px;
+    margin: 0px;
+}
+.date-box{
+
+}
+.input-form-set{
+
+}
+.cust-btn{
+    width: 150px;
+    height: 45px;
+    background-color: #01a8ff;
+    color: #fff;
+    border: 1px solid #01a8ff;
+}
+.btn-dropdown{
+    width: 150px;
+    height: 45px;
+    background-color: #fff;
+    color: #01a8ff;
+    border: 1px solid #01a8ff;
+}
+.down-arrow{
+    width: 11px;
+}
+.dashboard-card-set{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 98%;
+    margin: 40px auto;
+}
+.card-set{
+    width: 19%;
+    height: 130px;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 6px;
+    align-items: center;
+}
+.order-bg{
+    background: url(../assets/icons/my_orders.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.total-item-bg{
+    background: url(../assets/icons/total_items.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.total-amt-bg{
+    background: url(../assets/icons/total_outstanding.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.pake-date-bg{
+    background: url(../assets/icons/peak_date.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.avk-bg{
+    background: url(../assets/icons/top_distributor.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.avk-bg{
+
+}
+.card-h-count-set{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.card-h-count-set p{
+    margin:0px;
+    color:#fff;
+}
+.card-h-count-set h3{
+    margin:0px;
+    color:#fff;
+    font-weight: 600;
+}

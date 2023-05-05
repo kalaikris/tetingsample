@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="70px" height="71px" viewBox="0 0 70 71" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 47</title>
+    <defs>
+        <linearGradient x1="50%" y1="6.16297582e-31%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#63DEB8" offset="0%"></stop>
+            <stop stop-color="#38A783" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1-Home" transform="translate(-263.000000, -4311.000000)">
+            <g id="Group-67" transform="translate(263.000000, 4194.000000)">
+                <g id="Group-65" transform="translate(0.000000, 110.000000)">
+                    <g id="Group-47" transform="translate(0.000000, 7.500000)">
+                        <rect id="Rectangle" fill="url(#linearGradient-1)" x="0" y="0" width="70" height="70" rx="12"></rect>
+                        <g id="216284_location_icon" transform="translate(19.000000, 16.500000)" fill="#FFFFFF" fill-rule="nonzero">
+                            <path d="M27.3137071,4.60956065 C21.0653166,-1.53652022 10.9346834,-1.53652022 4.68629289,4.60956065 C-1.56209763,10.7576415 -1.56209763,20.7237727 4.68629289,26.8698536 L15.9989999,38 L27.3137071,26.8698536 C33.5620976,20.7237727 33.5620976,10.7576415 27.3137071,4.60956065 Z M15.9989999,20.9997763 C14.6629164,20.9997763 13.4088381,20.4797695 12.4627789,19.535757 C10.512657,17.5857314 10.512657,14.4136897 12.4627789,12.463664 C13.4068379,11.5196516 14.6629164,10.9996447 15.9989999,10.9996447 C17.3350834,10.9996447 18.5911619,11.5196516 19.535221,12.463664 C21.4853428,14.4136897 21.4853428,17.5877314 19.535221,19.535757 C18.5911619,20.4797695 17.3350834,20.9997763 15.9989999,20.9997763 Z" id="Shape"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

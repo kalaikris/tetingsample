@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="19px" height="22px" viewBox="0 0 19 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>Timer@1x</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Timer" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="iconfinder_stopwatch_5424407-copy" transform="translate(1.000000, 1.000000)" stroke="#2D99EB" stroke-width="1.3">
+            <circle id="Oval" cx="8.5" cy="11.5" r="8.5"></circle>
+            <path d="M14.54,9.09 L9.89,10.94" id="Path"></path>
+            <path d="M8.5,4.99998254 C10.5470406,4.99525139 12.4755746,5.95951839 13.7,7.6" id="Path"></path>
+            <path d="M6.5,1.5 L6.5,1 C6.5,0.44771525 6.94771525,0 7.5,0 L9.5,0 C10.0522847,0 10.5,0.44771525 10.5,1 L10.5,1.5" id="Path"></path>
+            <circle id="Oval" cx="8.5" cy="11.5" r="1.5"></circle>
+            <path d="M15,3 L17,5" id="Path"></path>
+        </g>
+    </g>
+</svg>

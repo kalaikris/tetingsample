@@ -1,0 +1,14 @@
+[23-Nov-2022 18:53:38 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE `airport`.`status`='1'
+            ORDER BY `airport`.`name`, `airport__te' at line 28 in /home/airportzostage/public_html/whitelabelling-webapp/php/objects/airport-ttr.php:48
+Stack trace:
+#0 /home/airportzostage/public_html/whitelabelling-webapp/php/objects/airport-ttr.php(48): PDOStatement->execute()
+#1 /home/airportzostage/public_html/whitelabelling-webapp/php/terminals/read.php(19): AirportTTR->readAllTerminals()
+#2 {main}
+  thrown in /home/airportzostage/public_html/whitelabelling-webapp/php/objects/airport-ttr.php on line 48
+[23-Nov-2022 18:54:05 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE `airport`.`status`='1'
+            ORDER BY `airport`.`name`, `airport__te' at line 28 in /home/airportzostage/public_html/whitelabelling-webapp/php/objects/airport-ttr.php:48
+Stack trace:
+#0 /home/airportzostage/public_html/whitelabelling-webapp/php/objects/airport-ttr.php(48): PDOStatement->execute()
+#1 /home/airportzostage/public_html/whitelabelling-webapp/php/terminals/read.php(19): AirportTTR->readAllTerminals()
+#2 {main}
+  thrown in /home/airportzostage/public_html/whitelabelling-webapp/php/objects/airport-ttr.php on line 48

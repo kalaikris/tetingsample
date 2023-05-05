@@ -1,0 +1,752 @@
+[05-Oct-2022 18:02:20 Asia/Kolkata] PHP Warning:  Attempt to read property "userToken" on null in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/assignments.php on line 8
+[05-Oct-2022 18:02:20 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/providerApp.php on line 66
+[05-Oct-2022 18:02:21 Asia/Kolkata] PHP Warning:  Attempt to read property "userToken" on null in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/assignments.php on line 8
+[05-Oct-2022 18:02:21 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/providerApp.php on line 66
+[05-Oct-2022 18:02:33 Asia/Kolkata] PHP Warning:  Attempt to read property "userToken" on null in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/assignments.php on line 8
+[05-Oct-2022 18:02:33 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/providerApp.php on line 66
+[05-Oct-2022 23:01:10 Asia/Kolkata] PHP Warning:  Attempt to read property "bookingToken" on null in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/singleBookingDetail.php on line 8
+[05-Oct-2022 23:01:10 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 96
+[05-Oct-2022 23:01:10 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 97
+[05-Oct-2022 23:01:10 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 100
+[05-Oct-2022 23:01:10 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 102
+[05-Oct-2022 23:01:10 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 103
+[05-Oct-2022 23:01:10 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 104
+[05-Oct-2022 23:01:10 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 105
+[05-Oct-2022 23:01:10 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 106
+[05-Oct-2022 23:01:10 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 107
+[05-Oct-2022 23:01:10 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 107
+[05-Oct-2022 23:01:10 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 108
+[05-Oct-2022 23:01:10 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 108
+[05-Oct-2022 23:01:10 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 109
+[05-Oct-2022 23:01:10 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 111
+[05-Oct-2022 23:01:10 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 112
+[05-Oct-2022 23:01:10 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 113
+[05-Oct-2022 23:01:10 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 120
+[05-Oct-2022 23:01:10 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 121
+[05-Oct-2022 23:01:10 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 122
+[05-Oct-2022 23:01:11 Asia/Kolkata] PHP Warning:  Attempt to read property "bookingToken" on null in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/singleBookingDetail.php on line 8
+[05-Oct-2022 23:01:11 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 96
+[05-Oct-2022 23:01:11 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 97
+[05-Oct-2022 23:01:11 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 100
+[05-Oct-2022 23:01:11 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 102
+[05-Oct-2022 23:01:11 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 103
+[05-Oct-2022 23:01:11 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 104
+[05-Oct-2022 23:01:11 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 105
+[05-Oct-2022 23:01:11 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 106
+[05-Oct-2022 23:01:11 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 107
+[05-Oct-2022 23:01:11 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 107
+[05-Oct-2022 23:01:11 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 108
+[05-Oct-2022 23:01:11 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 108
+[05-Oct-2022 23:01:11 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 109
+[05-Oct-2022 23:01:11 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 111
+[05-Oct-2022 23:01:11 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 112
+[05-Oct-2022 23:01:11 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 113
+[05-Oct-2022 23:01:11 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 120
+[05-Oct-2022 23:01:11 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 121
+[05-Oct-2022 23:01:11 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 122
+[06-Oct-2022 12:37:21 Asia/Kolkata] PHP Warning:  Attempt to read property "bookingToken" on null in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/singleBookingDetail.php on line 8
+[06-Oct-2022 12:37:21 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 96
+[06-Oct-2022 12:37:21 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 97
+[06-Oct-2022 12:37:21 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 100
+[06-Oct-2022 12:37:21 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 102
+[06-Oct-2022 12:37:21 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 103
+[06-Oct-2022 12:37:21 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 104
+[06-Oct-2022 12:37:21 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 105
+[06-Oct-2022 12:37:21 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 106
+[06-Oct-2022 12:37:21 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 107
+[06-Oct-2022 12:37:21 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 107
+[06-Oct-2022 12:37:21 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 108
+[06-Oct-2022 12:37:21 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 108
+[06-Oct-2022 12:37:21 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 109
+[06-Oct-2022 12:37:21 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 111
+[06-Oct-2022 12:37:21 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 112
+[06-Oct-2022 12:37:21 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 113
+[06-Oct-2022 12:37:21 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 120
+[06-Oct-2022 12:37:21 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 121
+[06-Oct-2022 12:37:21 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 122
+[06-Oct-2022 20:49:36 Asia/Kolkata] PHP Warning:  Attempt to read property "userToken" on null in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completedAssignments.php on line 8
+[06-Oct-2022 20:51:24 Asia/Kolkata] PHP Warning:  Attempt to read property "bookingToken" on null in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/singleBookingDetail.php on line 8
+[06-Oct-2022 20:51:24 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 96
+[06-Oct-2022 20:51:24 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 97
+[06-Oct-2022 20:51:24 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 100
+[06-Oct-2022 20:51:24 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 102
+[06-Oct-2022 20:51:24 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 103
+[06-Oct-2022 20:51:24 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 104
+[06-Oct-2022 20:51:24 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 105
+[06-Oct-2022 20:51:24 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 106
+[06-Oct-2022 20:51:24 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 107
+[06-Oct-2022 20:51:24 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 107
+[06-Oct-2022 20:51:24 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 108
+[06-Oct-2022 20:51:24 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 108
+[06-Oct-2022 20:51:24 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 109
+[06-Oct-2022 20:51:24 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 111
+[06-Oct-2022 20:51:24 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 112
+[06-Oct-2022 20:51:24 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 113
+[06-Oct-2022 20:51:24 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 120
+[06-Oct-2022 20:51:24 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 121
+[06-Oct-2022 20:51:24 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 122
+[06-Oct-2022 20:51:25 Asia/Kolkata] PHP Warning:  Attempt to read property "bookingToken" on null in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/singleBookingDetail.php on line 8
+[06-Oct-2022 20:51:25 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 96
+[06-Oct-2022 20:51:25 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 97
+[06-Oct-2022 20:51:25 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 100
+[06-Oct-2022 20:51:25 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 102
+[06-Oct-2022 20:51:25 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 103
+[06-Oct-2022 20:51:25 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 104
+[06-Oct-2022 20:51:25 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 105
+[06-Oct-2022 20:51:25 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 106
+[06-Oct-2022 20:51:25 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 107
+[06-Oct-2022 20:51:25 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 107
+[06-Oct-2022 20:51:25 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 108
+[06-Oct-2022 20:51:25 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 108
+[06-Oct-2022 20:51:25 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 109
+[06-Oct-2022 20:51:25 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 111
+[06-Oct-2022 20:51:25 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 112
+[06-Oct-2022 20:51:25 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 113
+[06-Oct-2022 20:51:25 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 120
+[06-Oct-2022 20:51:25 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 121
+[06-Oct-2022 20:51:25 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 122
+[06-Oct-2022 21:23:59 Asia/Kolkata] PHP Warning:  Attempt to read property "userToken" on null in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completedAssignments.php on line 8
+[06-Oct-2022 21:24:13 Asia/Kolkata] PHP Warning:  Attempt to read property "bookingToken" on null in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/singleBookingDetail.php on line 8
+[06-Oct-2022 21:24:13 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 124
+[06-Oct-2022 21:24:13 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 125
+[06-Oct-2022 21:24:13 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 128
+[06-Oct-2022 21:24:13 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 130
+[06-Oct-2022 21:24:13 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 131
+[06-Oct-2022 21:24:13 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 132
+[06-Oct-2022 21:24:13 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 133
+[06-Oct-2022 21:24:13 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 134
+[06-Oct-2022 21:24:13 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 135
+[06-Oct-2022 21:24:13 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 135
+[06-Oct-2022 21:24:13 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 136
+[06-Oct-2022 21:24:13 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 136
+[06-Oct-2022 21:24:13 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 137
+[06-Oct-2022 21:24:13 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 139
+[06-Oct-2022 21:24:13 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 140
+[06-Oct-2022 21:24:13 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 141
+[06-Oct-2022 21:24:13 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 148
+[06-Oct-2022 21:24:13 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 149
+[06-Oct-2022 21:24:13 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 150
+[07-Oct-2022 10:59:20 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: strtotime(): Argument #2 ($baseTimestamp) must be of type ?int, string given in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php:152
+Stack trace:
+#0 /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php(152): strtotime('+30 minutes', '2022-10-07 05:2...')
+#1 /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/singleBookingDetail.php(11): bookingApp->singleBookingHistory('2022-10-07')
+#2 {main}
+  thrown in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 152
+[07-Oct-2022 11:00:06 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: strtotime(): Argument #2 ($baseTimestamp) must be of type ?int, string given in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php:152
+Stack trace:
+#0 /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php(152): strtotime('+30 minutes', '2022-10-07 05:3...')
+#1 /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/singleBookingDetail.php(11): bookingApp->singleBookingHistory('2022-10-07')
+#2 {main}
+  thrown in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 152
+[07-Oct-2022 11:32:38 Asia/Kolkata] PHP Warning:  Attempt to read property "userToken" on null in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/assignments.php on line 8
+[07-Oct-2022 11:32:38 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/providerApp.php on line 66
+[07-Oct-2022 11:32:40 Asia/Kolkata] PHP Warning:  Attempt to read property "userToken" on null in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/assignments.php on line 8
+[07-Oct-2022 11:32:40 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/providerApp.php on line 66
+[07-Oct-2022 11:32:40 Asia/Kolkata] PHP Warning:  Attempt to read property "userToken" on null in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/assignments.php on line 8
+[07-Oct-2022 11:32:40 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/providerApp.php on line 66
+[07-Oct-2022 11:32:41 Asia/Kolkata] PHP Warning:  Attempt to read property "userToken" on null in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/assignments.php on line 8
+[07-Oct-2022 11:32:41 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/providerApp.php on line 66
+[07-Oct-2022 11:32:41 Asia/Kolkata] PHP Warning:  Attempt to read property "userToken" on null in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/assignments.php on line 8
+[07-Oct-2022 11:32:41 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/providerApp.php on line 66
+[07-Oct-2022 11:32:41 Asia/Kolkata] PHP Warning:  Attempt to read property "userToken" on null in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/assignments.php on line 8
+[07-Oct-2022 11:32:41 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/providerApp.php on line 66
+[07-Oct-2022 11:32:41 Asia/Kolkata] PHP Warning:  Attempt to read property "userToken" on null in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/assignments.php on line 8
+[07-Oct-2022 11:32:41 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/providerApp.php on line 66
+[07-Oct-2022 11:32:42 Asia/Kolkata] PHP Warning:  Attempt to read property "userToken" on null in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/assignments.php on line 8
+[07-Oct-2022 11:32:42 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/providerApp.php on line 66
+[07-Oct-2022 11:32:42 Asia/Kolkata] PHP Warning:  Attempt to read property "userToken" on null in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/assignments.php on line 8
+[07-Oct-2022 11:32:42 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/providerApp.php on line 66
+[07-Oct-2022 11:32:42 Asia/Kolkata] PHP Warning:  Attempt to read property "userToken" on null in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/assignments.php on line 8
+[07-Oct-2022 11:32:42 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/providerApp.php on line 66
+[07-Oct-2022 11:32:42 Asia/Kolkata] PHP Warning:  Attempt to read property "userToken" on null in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/assignments.php on line 8
+[07-Oct-2022 11:32:42 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/providerApp.php on line 66
+[07-Oct-2022 11:32:42 Asia/Kolkata] PHP Warning:  Attempt to read property "userToken" on null in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/assignments.php on line 8
+[07-Oct-2022 11:32:42 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/providerApp.php on line 66
+[07-Oct-2022 11:32:42 Asia/Kolkata] PHP Warning:  Attempt to read property "userToken" on null in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/assignments.php on line 8
+[07-Oct-2022 11:32:42 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/providerApp.php on line 66
+[07-Oct-2022 11:32:43 Asia/Kolkata] PHP Warning:  Attempt to read property "userToken" on null in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/assignments.php on line 8
+[07-Oct-2022 11:32:43 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/providerApp.php on line 66
+[07-Oct-2022 11:32:43 Asia/Kolkata] PHP Warning:  Attempt to read property "userToken" on null in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/assignments.php on line 8
+[07-Oct-2022 11:32:43 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/providerApp.php on line 66
+[07-Oct-2022 11:32:43 Asia/Kolkata] PHP Warning:  Attempt to read property "userToken" on null in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/assignments.php on line 8
+[07-Oct-2022 11:32:43 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/providerApp.php on line 66
+[07-Oct-2022 11:32:43 Asia/Kolkata] PHP Warning:  Attempt to read property "userToken" on null in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/assignments.php on line 8
+[07-Oct-2022 11:32:43 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/providerApp.php on line 66
+[07-Oct-2022 11:32:43 Asia/Kolkata] PHP Warning:  Attempt to read property "userToken" on null in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/assignments.php on line 8
+[07-Oct-2022 11:32:43 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/providerApp.php on line 66
+[07-Oct-2022 15:38:20 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: strtotime(): Argument #2 ($baseTimestamp) must be of type ?int, string given in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php:151
+Stack trace:
+#0 /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php(151): strtotime('+30 minutes', 'now')
+#1 /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/singleBookingDetail.php(11): bookingApp->singleBookingHistory('2022-10-07')
+#2 {main}
+  thrown in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 151
+[07-Oct-2022 15:38:22 Asia/Kolkata] PHP Fatal error:  Uncaught TypeError: strtotime(): Argument #2 ($baseTimestamp) must be of type ?int, string given in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php:151
+Stack trace:
+#0 /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php(151): strtotime('+30 minutes', 'now')
+#1 /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/singleBookingDetail.php(11): bookingApp->singleBookingHistory('2022-10-07')
+#2 {main}
+  thrown in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 151
+[07-Oct-2022 19:35:47 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/providerApp.php on line 66
+[07-Oct-2022 19:35:49 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/providerApp.php on line 27
+[07-Oct-2022 19:35:49 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/providerApp.php on line 28
+[07-Oct-2022 19:35:49 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/providerApp.php on line 33
+[07-Oct-2022 19:35:49 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/providerApp.php on line 34
+[07-Oct-2022 19:35:49 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/providerApp.php on line 34
+[07-Oct-2022 19:35:49 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/providerApp.php on line 35
+[07-Oct-2022 19:35:49 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/providerApp.php on line 36
+[07-Oct-2022 19:35:57 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/providerApp.php on line 66
+[07-Oct-2022 19:36:00 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/providerApp.php on line 27
+[07-Oct-2022 19:36:00 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/providerApp.php on line 28
+[07-Oct-2022 19:36:00 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/providerApp.php on line 33
+[07-Oct-2022 19:36:00 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/providerApp.php on line 34
+[07-Oct-2022 19:36:00 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/providerApp.php on line 34
+[07-Oct-2022 19:36:00 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/providerApp.php on line 35
+[07-Oct-2022 19:36:00 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/providerApp.php on line 36
+[07-Oct-2022 19:36:04 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/providerApp.php on line 66
+[13-Oct-2022 13:25:18 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 261
+[13-Oct-2022 13:25:18 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 262
+[13-Oct-2022 13:25:18 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 263
+[13-Oct-2022 13:25:18 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 283
+[13-Oct-2022 13:25:18 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 300
+[13-Oct-2022 13:25:18 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 301
+[13-Oct-2022 13:25:18 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 302
+[13-Oct-2022 13:26:48 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 261
+[13-Oct-2022 13:26:48 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 262
+[13-Oct-2022 13:26:48 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 263
+[13-Oct-2022 13:26:48 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 283
+[13-Oct-2022 13:26:48 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 300
+[13-Oct-2022 13:26:48 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 301
+[13-Oct-2022 13:26:48 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 302
+[13-Oct-2022 13:26:48 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/bookingApp.php on line 206
+[13-Oct-2022 13:55:58 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/providerApp.php on line 66
+[13-Oct-2022 14:11:20 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/providerApp.php on line 66
+[13-Oct-2022 14:52:27 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/providerApp.php on line 66
+[13-Oct-2022 14:52:31 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/providerApp.php on line 27
+[13-Oct-2022 14:52:31 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/providerApp.php on line 28
+[13-Oct-2022 14:52:31 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/providerApp.php on line 33
+[13-Oct-2022 14:52:31 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/providerApp.php on line 34
+[13-Oct-2022 14:52:31 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/providerApp.php on line 34
+[13-Oct-2022 14:52:31 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/providerApp.php on line 35
+[13-Oct-2022 14:52:31 Asia/Kolkata] PHP Warning:  Trying to access array offset on value of type bool in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/providerApp.php on line 36
+[19-Oct-2022 18:59:46 Asia/Kolkata] PHP Warning:  Undefined array key 1 in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/booking.php on line 948
+[19-Oct-2022 18:59:46 Asia/Kolkata] PHP Warning:  Undefined variable $domainUrl in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php on line 56
+[19-Oct-2022 18:59:46 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function booking_status() in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php:57
+Stack trace:
+#0 {main}
+  thrown in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php on line 57
+[19-Oct-2022 18:59:52 Asia/Kolkata] PHP Warning:  Undefined array key 1 in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/booking.php on line 948
+[19-Oct-2022 18:59:52 Asia/Kolkata] PHP Warning:  Undefined variable $domainUrl in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php on line 56
+[19-Oct-2022 18:59:52 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function booking_status() in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php:57
+Stack trace:
+#0 {main}
+  thrown in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php on line 57
+[19-Oct-2022 18:59:56 Asia/Kolkata] PHP Warning:  Undefined array key 1 in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/booking.php on line 948
+[19-Oct-2022 18:59:56 Asia/Kolkata] PHP Warning:  Undefined variable $domainUrl in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php on line 56
+[19-Oct-2022 18:59:56 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function booking_status() in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php:57
+Stack trace:
+#0 {main}
+  thrown in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php on line 57
+[19-Oct-2022 19:03:26 Asia/Kolkata] PHP Warning:  Undefined array key 1 in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/booking.php on line 948
+[19-Oct-2022 19:12:16 Asia/Kolkata] PHP Warning:  Undefined array key 1 in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/booking.php on line 948
+[19-Oct-2022 19:18:18 Asia/Kolkata] PHP Warning:  Undefined array key 1 in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/booking.php on line 948
+[19-Oct-2022 19:18:28 Asia/Kolkata] PHP Warning:  Undefined array key 1 in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/booking.php on line 948
+[19-Oct-2022 20:39:31 Asia/Kolkata] PHP Warning:  Undefined array key 1 in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/booking.php on line 948
+[19-Oct-2022 21:40:44 Asia/Kolkata] PHP Warning:  Undefined array key 1 in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/booking.php on line 948
+[21-Oct-2022 12:15:55 Asia/Kolkata] PHP Warning:  Undefined array key 1 in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/booking.php on line 948
+[26-Oct-2022 14:54:29 Asia/Kolkata] PHP Warning:  Undefined array key 1 in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/booking.php on line 948
+[26-Oct-2022 15:26:12 Asia/Kolkata] PHP Warning:  Undefined array key 1 in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/booking.php on line 948
+[26-Oct-2022 15:28:39 Asia/Kolkata] PHP Warning:  Undefined array key 1 in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/booking.php on line 948
+[26-Oct-2022 15:29:42 Asia/Kolkata] PHP Warning:  Undefined array key 1 in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/booking.php on line 948
+[26-Oct-2022 15:29:56 Asia/Kolkata] PHP Warning:  Undefined array key 1 in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/booking.php on line 948
+[26-Oct-2022 15:30:08 Asia/Kolkata] PHP Warning:  Undefined array key 1 in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/booking.php on line 948
+[26-Oct-2022 15:31:06 Asia/Kolkata] PHP Warning:  Undefined array key 1 in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/booking.php on line 948
+[26-Oct-2022 17:11:18 Asia/Kolkata] PHP Warning:  Undefined array key 1 in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/booking.php on line 948
+[26-Oct-2022 17:12:06 Asia/Kolkata] PHP Warning:  Undefined array key 1 in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/booking.php on line 948
+[26-Oct-2022 17:12:26 Asia/Kolkata] PHP Warning:  Undefined array key 1 in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/booking.php on line 948
+[26-Oct-2022 17:12:45 Asia/Kolkata] PHP Warning:  Undefined array key 1 in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/booking.php on line 948
+[28-Oct-2022 14:49:46 Asia/Kolkata] PHP Warning:  Undefined array key 1 in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/booking.php on line 948
+[31-Oct-2022 12:07:51 Asia/Kolkata] PHP Warning:  Undefined array key 1 in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/booking.php on line 948
+[07-Nov-2022 15:05:55 Asia/Kolkata] PHP Warning:  Undefined array key 1 in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/booking.php on line 954
+[07-Nov-2022 17:52:25 Asia/Kolkata] PHP Warning:  Undefined array key 1 in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/booking.php on line 954
+[07-Nov-2022 17:52:58 Asia/Kolkata] PHP Warning:  Undefined array key 1 in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/booking.php on line 954
+[07-Nov-2022 17:53:17 Asia/Kolkata] PHP Warning:  Undefined array key 1 in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/booking.php on line 954
+[07-Nov-2022 17:53:36 Asia/Kolkata] PHP Warning:  Undefined array key 1 in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/booking.php on line 954
+[09-Nov-2022 16:48:58 Asia/Kolkata] PHP Warning:  Undefined array key 1 in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/booking.php on line 954
+[15-Nov-2022 10:17:01 Asia/Kolkata] PHP Warning:  Undefined array key 1 in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/booking.php on line 954
+[15-Nov-2022 10:17:18 Asia/Kolkata] PHP Warning:  Undefined array key 1 in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/booking.php on line 954
+[15-Nov-2022 10:17:34 Asia/Kolkata] PHP Warning:  Undefined array key 1 in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/booking.php on line 954
+[15-Nov-2022 10:17:54 Asia/Kolkata] PHP Warning:  Undefined array key 1 in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/booking.php on line 954
+[15-Nov-2022 10:18:12 Asia/Kolkata] PHP Warning:  Undefined array key 1 in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/booking.php on line 954
+[15-Nov-2022 10:18:38 Asia/Kolkata] PHP Warning:  Undefined array key 1 in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/booking.php on line 954
+[15-Nov-2022 10:19:13 Asia/Kolkata] PHP Warning:  Undefined array key 1 in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/booking.php on line 954
+[15-Nov-2022 10:20:06 Asia/Kolkata] PHP Warning:  Undefined array key 1 in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/booking.php on line 954
+[15-Nov-2022 10:20:24 Asia/Kolkata] PHP Warning:  Undefined array key 1 in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/booking.php on line 954
+[15-Nov-2022 10:20:40 Asia/Kolkata] PHP Warning:  Undefined array key 1 in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/booking.php on line 954
+[15-Nov-2022 10:22:12 Asia/Kolkata] PHP Warning:  Undefined array key 1 in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/booking.php on line 954
+[15-Nov-2022 10:22:30 Asia/Kolkata] PHP Warning:  Undefined array key 1 in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/booking.php on line 954
+[15-Nov-2022 10:22:46 Asia/Kolkata] PHP Warning:  Undefined array key 1 in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/booking.php on line 954
+[15-Nov-2022 10:23:05 Asia/Kolkata] PHP Warning:  Undefined array key 1 in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/booking.php on line 954
+[15-Nov-2022 10:23:58 Asia/Kolkata] PHP Warning:  Undefined array key 1 in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/booking.php on line 954
+[15-Nov-2022 10:24:17 Asia/Kolkata] PHP Warning:  Undefined array key 1 in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/booking.php on line 954
+[15-Nov-2022 10:26:48 Asia/Kolkata] PHP Warning:  Undefined array key 1 in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/booking.php on line 954
+[15-Nov-2022 10:27:04 Asia/Kolkata] PHP Warning:  Undefined array key 1 in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/booking.php on line 954
+[15-Nov-2022 10:27:30 Asia/Kolkata] PHP Warning:  Undefined array key 1 in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/booking.php on line 954
+[15-Nov-2022 10:28:05 Asia/Kolkata] PHP Warning:  Undefined array key 1 in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/booking.php on line 954
+[15-Nov-2022 10:28:21 Asia/Kolkata] PHP Warning:  Undefined array key 1 in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/booking.php on line 954
+[15-Nov-2022 10:28:39 Asia/Kolkata] PHP Warning:  Undefined array key 1 in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/booking.php on line 954
+[15-Nov-2022 10:28:56 Asia/Kolkata] PHP Warning:  Undefined array key 1 in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/booking.php on line 954
+[15-Nov-2022 10:30:41 Asia/Kolkata] PHP Warning:  Undefined array key 1 in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/booking.php on line 954
+[15-Nov-2022 10:30:57 Asia/Kolkata] PHP Warning:  Undefined array key 1 in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/booking.php on line 954
+[15-Nov-2022 10:31:14 Asia/Kolkata] PHP Warning:  Undefined array key 1 in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/booking.php on line 954
+[15-Nov-2022 10:31:32 Asia/Kolkata] PHP Warning:  Undefined array key 1 in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/booking.php on line 954
+[15-Nov-2022 10:31:50 Asia/Kolkata] PHP Warning:  Undefined array key 1 in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/booking.php on line 954
+[15-Nov-2022 10:33:01 Asia/Kolkata] PHP Warning:  Undefined array key 1 in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/booking.php on line 954
+[15-Nov-2022 10:33:17 Asia/Kolkata] PHP Warning:  Undefined array key 1 in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/booking.php on line 954
+[15-Nov-2022 10:33:37 Asia/Kolkata] PHP Warning:  Undefined array key 1 in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/booking.php on line 954
+[15-Nov-2022 10:33:54 Asia/Kolkata] PHP Warning:  Undefined array key 1 in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/booking.php on line 954
+[15-Nov-2022 16:54:04 Asia/Kolkata] PHP Warning:  Undefined array key 1 in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/objects/booking.php on line 954
+[17-Nov-2022 15:02:58 Asia/Kolkata] PHP Warning:  include(../../../config/mailer.php): Failed to open stream: No such file or directory in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php on line 51
+[17-Nov-2022 15:02:58 Asia/Kolkata] PHP Warning:  include(): Failed opening '../../../config/mailer.php' for inclusion (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php on line 51
+[17-Nov-2022 15:02:58 Asia/Kolkata] PHP Warning:  Attempt to read property "journey1" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1584
+[17-Nov-2022 15:02:58 Asia/Kolkata] PHP Warning:  Attempt to read property "depart_date" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1585
+[17-Nov-2022 15:02:58 Asia/Kolkata] PHP Warning:  Attempt to read property "booking_number" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1594
+[17-Nov-2022 15:02:58 Asia/Kolkata] PHP Warning:  Attempt to read property "date_time" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1598
+[17-Nov-2022 15:02:58 Asia/Kolkata] PHP Warning:  Attempt to read property "total_adult" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1602
+[17-Nov-2022 15:02:58 Asia/Kolkata] PHP Warning:  Attempt to read property "total_children" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1602
+[17-Nov-2022 15:02:58 Asia/Kolkata] PHP Warning:  Attempt to read property "total_service" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1606
+[17-Nov-2022 15:02:58 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function sendMail() in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php:61
+Stack trace:
+#0 {main}
+  thrown in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php on line 61
+[17-Nov-2022 15:03:05 Asia/Kolkata] PHP Warning:  include(../../../config/mailer.php): Failed to open stream: No such file or directory in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php on line 51
+[17-Nov-2022 15:03:05 Asia/Kolkata] PHP Warning:  include(): Failed opening '../../../config/mailer.php' for inclusion (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php on line 51
+[17-Nov-2022 15:03:05 Asia/Kolkata] PHP Warning:  Attempt to read property "journey1" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1584
+[17-Nov-2022 15:03:05 Asia/Kolkata] PHP Warning:  Attempt to read property "depart_date" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1585
+[17-Nov-2022 15:03:05 Asia/Kolkata] PHP Warning:  Attempt to read property "booking_number" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1594
+[17-Nov-2022 15:03:05 Asia/Kolkata] PHP Warning:  Attempt to read property "date_time" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1598
+[17-Nov-2022 15:03:05 Asia/Kolkata] PHP Warning:  Attempt to read property "total_adult" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1602
+[17-Nov-2022 15:03:05 Asia/Kolkata] PHP Warning:  Attempt to read property "total_children" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1602
+[17-Nov-2022 15:03:05 Asia/Kolkata] PHP Warning:  Attempt to read property "total_service" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1606
+[17-Nov-2022 15:03:05 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function sendMail() in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php:61
+Stack trace:
+#0 {main}
+  thrown in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php on line 61
+[17-Nov-2022 15:05:58 Asia/Kolkata] PHP Warning:  include(../../../config/mailer.php): Failed to open stream: No such file or directory in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php on line 51
+[17-Nov-2022 15:05:58 Asia/Kolkata] PHP Warning:  include(): Failed opening '../../../config/mailer.php' for inclusion (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php on line 51
+[17-Nov-2022 15:05:58 Asia/Kolkata] PHP Warning:  Attempt to read property "journey1" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1584
+[17-Nov-2022 15:05:58 Asia/Kolkata] PHP Warning:  Attempt to read property "depart_date" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1585
+[17-Nov-2022 15:05:58 Asia/Kolkata] PHP Warning:  Attempt to read property "booking_number" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1594
+[17-Nov-2022 15:05:58 Asia/Kolkata] PHP Warning:  Attempt to read property "date_time" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1598
+[17-Nov-2022 15:05:58 Asia/Kolkata] PHP Warning:  Attempt to read property "total_adult" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1602
+[17-Nov-2022 15:05:58 Asia/Kolkata] PHP Warning:  Attempt to read property "total_children" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1602
+[17-Nov-2022 15:05:58 Asia/Kolkata] PHP Warning:  Attempt to read property "total_service" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1606
+[17-Nov-2022 15:05:58 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function sendMail() in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php:61
+Stack trace:
+#0 {main}
+  thrown in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php on line 61
+[17-Nov-2022 15:06:07 Asia/Kolkata] PHP Warning:  include(../../../config/mailer.php): Failed to open stream: No such file or directory in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php on line 51
+[17-Nov-2022 15:06:07 Asia/Kolkata] PHP Warning:  include(): Failed opening '../../../config/mailer.php' for inclusion (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php on line 51
+[17-Nov-2022 15:06:07 Asia/Kolkata] PHP Warning:  Attempt to read property "journey1" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1584
+[17-Nov-2022 15:06:07 Asia/Kolkata] PHP Warning:  Attempt to read property "depart_date" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1585
+[17-Nov-2022 15:06:07 Asia/Kolkata] PHP Warning:  Attempt to read property "booking_number" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1594
+[17-Nov-2022 15:06:07 Asia/Kolkata] PHP Warning:  Attempt to read property "date_time" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1598
+[17-Nov-2022 15:06:07 Asia/Kolkata] PHP Warning:  Attempt to read property "total_adult" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1602
+[17-Nov-2022 15:06:07 Asia/Kolkata] PHP Warning:  Attempt to read property "total_children" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1602
+[17-Nov-2022 15:06:07 Asia/Kolkata] PHP Warning:  Attempt to read property "total_service" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1606
+[17-Nov-2022 15:06:07 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function sendMail() in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php:61
+Stack trace:
+#0 {main}
+  thrown in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php on line 61
+[17-Nov-2022 15:06:08 Asia/Kolkata] PHP Warning:  include(../../../config/mailer.php): Failed to open stream: No such file or directory in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php on line 51
+[17-Nov-2022 15:06:08 Asia/Kolkata] PHP Warning:  include(): Failed opening '../../../config/mailer.php' for inclusion (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php on line 51
+[17-Nov-2022 15:06:08 Asia/Kolkata] PHP Warning:  Attempt to read property "journey1" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1584
+[17-Nov-2022 15:06:08 Asia/Kolkata] PHP Warning:  Attempt to read property "depart_date" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1585
+[17-Nov-2022 15:06:08 Asia/Kolkata] PHP Warning:  Attempt to read property "booking_number" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1594
+[17-Nov-2022 15:06:08 Asia/Kolkata] PHP Warning:  Attempt to read property "date_time" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1598
+[17-Nov-2022 15:06:08 Asia/Kolkata] PHP Warning:  Attempt to read property "total_adult" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1602
+[17-Nov-2022 15:06:08 Asia/Kolkata] PHP Warning:  Attempt to read property "total_children" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1602
+[17-Nov-2022 15:06:08 Asia/Kolkata] PHP Warning:  Attempt to read property "total_service" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1606
+[17-Nov-2022 15:06:08 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function sendMail() in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php:61
+Stack trace:
+#0 {main}
+  thrown in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php on line 61
+[17-Nov-2022 15:06:08 Asia/Kolkata] PHP Warning:  include(../../../config/mailer.php): Failed to open stream: No such file or directory in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php on line 51
+[17-Nov-2022 15:06:08 Asia/Kolkata] PHP Warning:  include(): Failed opening '../../../config/mailer.php' for inclusion (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php on line 51
+[17-Nov-2022 15:06:08 Asia/Kolkata] PHP Warning:  Attempt to read property "journey1" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1584
+[17-Nov-2022 15:06:08 Asia/Kolkata] PHP Warning:  Attempt to read property "depart_date" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1585
+[17-Nov-2022 15:06:08 Asia/Kolkata] PHP Warning:  Attempt to read property "booking_number" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1594
+[17-Nov-2022 15:06:08 Asia/Kolkata] PHP Warning:  Attempt to read property "date_time" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1598
+[17-Nov-2022 15:06:08 Asia/Kolkata] PHP Warning:  Attempt to read property "total_adult" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1602
+[17-Nov-2022 15:06:08 Asia/Kolkata] PHP Warning:  Attempt to read property "total_children" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1602
+[17-Nov-2022 15:06:08 Asia/Kolkata] PHP Warning:  Attempt to read property "total_service" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1606
+[17-Nov-2022 15:06:08 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function sendMail() in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php:61
+Stack trace:
+#0 {main}
+  thrown in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php on line 61
+[17-Nov-2022 15:06:08 Asia/Kolkata] PHP Warning:  include(../../../config/mailer.php): Failed to open stream: No such file or directory in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php on line 51
+[17-Nov-2022 15:06:08 Asia/Kolkata] PHP Warning:  include(): Failed opening '../../../config/mailer.php' for inclusion (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php on line 51
+[17-Nov-2022 15:06:08 Asia/Kolkata] PHP Warning:  Attempt to read property "journey1" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1584
+[17-Nov-2022 15:06:08 Asia/Kolkata] PHP Warning:  Attempt to read property "depart_date" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1585
+[17-Nov-2022 15:06:08 Asia/Kolkata] PHP Warning:  Attempt to read property "booking_number" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1594
+[17-Nov-2022 15:06:08 Asia/Kolkata] PHP Warning:  Attempt to read property "date_time" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1598
+[17-Nov-2022 15:06:08 Asia/Kolkata] PHP Warning:  Attempt to read property "total_adult" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1602
+[17-Nov-2022 15:06:08 Asia/Kolkata] PHP Warning:  Attempt to read property "total_children" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1602
+[17-Nov-2022 15:06:08 Asia/Kolkata] PHP Warning:  Attempt to read property "total_service" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1606
+[17-Nov-2022 15:06:08 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function sendMail() in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php:61
+Stack trace:
+#0 {main}
+  thrown in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php on line 61
+[17-Nov-2022 15:06:11 Asia/Kolkata] PHP Warning:  include(../../../config/mailer.php): Failed to open stream: No such file or directory in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php on line 51
+[17-Nov-2022 15:06:11 Asia/Kolkata] PHP Warning:  include(): Failed opening '../../../config/mailer.php' for inclusion (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php on line 51
+[17-Nov-2022 15:06:11 Asia/Kolkata] PHP Warning:  Attempt to read property "journey1" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1584
+[17-Nov-2022 15:06:11 Asia/Kolkata] PHP Warning:  Attempt to read property "depart_date" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1585
+[17-Nov-2022 15:06:11 Asia/Kolkata] PHP Warning:  Attempt to read property "booking_number" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1594
+[17-Nov-2022 15:06:11 Asia/Kolkata] PHP Warning:  Attempt to read property "date_time" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1598
+[17-Nov-2022 15:06:11 Asia/Kolkata] PHP Warning:  Attempt to read property "total_adult" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1602
+[17-Nov-2022 15:06:11 Asia/Kolkata] PHP Warning:  Attempt to read property "total_children" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1602
+[17-Nov-2022 15:06:11 Asia/Kolkata] PHP Warning:  Attempt to read property "total_service" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1606
+[17-Nov-2022 15:06:11 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function sendMail() in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php:61
+Stack trace:
+#0 {main}
+  thrown in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php on line 61
+[17-Nov-2022 15:06:12 Asia/Kolkata] PHP Warning:  include(../../../config/mailer.php): Failed to open stream: No such file or directory in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php on line 51
+[17-Nov-2022 15:06:12 Asia/Kolkata] PHP Warning:  include(): Failed opening '../../../config/mailer.php' for inclusion (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php on line 51
+[17-Nov-2022 15:06:12 Asia/Kolkata] PHP Warning:  Attempt to read property "journey1" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1584
+[17-Nov-2022 15:06:12 Asia/Kolkata] PHP Warning:  Attempt to read property "depart_date" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1585
+[17-Nov-2022 15:06:12 Asia/Kolkata] PHP Warning:  Attempt to read property "booking_number" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1594
+[17-Nov-2022 15:06:12 Asia/Kolkata] PHP Warning:  Attempt to read property "date_time" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1598
+[17-Nov-2022 15:06:12 Asia/Kolkata] PHP Warning:  Attempt to read property "total_adult" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1602
+[17-Nov-2022 15:06:12 Asia/Kolkata] PHP Warning:  Attempt to read property "total_children" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1602
+[17-Nov-2022 15:06:12 Asia/Kolkata] PHP Warning:  Attempt to read property "total_service" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1606
+[17-Nov-2022 15:06:12 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function sendMail() in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php:61
+Stack trace:
+#0 {main}
+  thrown in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php on line 61
+[17-Nov-2022 15:06:12 Asia/Kolkata] PHP Warning:  include(../../../config/mailer.php): Failed to open stream: No such file or directory in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php on line 51
+[17-Nov-2022 15:06:12 Asia/Kolkata] PHP Warning:  include(): Failed opening '../../../config/mailer.php' for inclusion (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php on line 51
+[17-Nov-2022 15:06:12 Asia/Kolkata] PHP Warning:  Attempt to read property "journey1" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1584
+[17-Nov-2022 15:06:12 Asia/Kolkata] PHP Warning:  Attempt to read property "depart_date" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1585
+[17-Nov-2022 15:06:12 Asia/Kolkata] PHP Warning:  Attempt to read property "booking_number" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1594
+[17-Nov-2022 15:06:12 Asia/Kolkata] PHP Warning:  Attempt to read property "date_time" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1598
+[17-Nov-2022 15:06:12 Asia/Kolkata] PHP Warning:  Attempt to read property "total_adult" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1602
+[17-Nov-2022 15:06:12 Asia/Kolkata] PHP Warning:  Attempt to read property "total_children" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1602
+[17-Nov-2022 15:06:12 Asia/Kolkata] PHP Warning:  Attempt to read property "total_service" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1606
+[17-Nov-2022 15:06:12 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function sendMail() in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php:61
+Stack trace:
+#0 {main}
+  thrown in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php on line 61
+[17-Nov-2022 15:06:14 Asia/Kolkata] PHP Warning:  include(../../../config/mailer.php): Failed to open stream: No such file or directory in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php on line 51
+[17-Nov-2022 15:06:14 Asia/Kolkata] PHP Warning:  include(): Failed opening '../../../config/mailer.php' for inclusion (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php on line 51
+[17-Nov-2022 15:06:14 Asia/Kolkata] PHP Warning:  Attempt to read property "journey1" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1584
+[17-Nov-2022 15:06:14 Asia/Kolkata] PHP Warning:  Attempt to read property "depart_date" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1585
+[17-Nov-2022 15:06:14 Asia/Kolkata] PHP Warning:  Attempt to read property "booking_number" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1594
+[17-Nov-2022 15:06:14 Asia/Kolkata] PHP Warning:  Attempt to read property "date_time" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1598
+[17-Nov-2022 15:06:14 Asia/Kolkata] PHP Warning:  Attempt to read property "total_adult" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1602
+[17-Nov-2022 15:06:14 Asia/Kolkata] PHP Warning:  Attempt to read property "total_children" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1602
+[17-Nov-2022 15:06:14 Asia/Kolkata] PHP Warning:  Attempt to read property "total_service" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1606
+[17-Nov-2022 15:06:14 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function sendMail() in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php:61
+Stack trace:
+#0 {main}
+  thrown in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php on line 61
+[17-Nov-2022 15:06:14 Asia/Kolkata] PHP Warning:  include(../../../config/mailer.php): Failed to open stream: No such file or directory in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php on line 51
+[17-Nov-2022 15:06:14 Asia/Kolkata] PHP Warning:  include(): Failed opening '../../../config/mailer.php' for inclusion (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php on line 51
+[17-Nov-2022 15:06:14 Asia/Kolkata] PHP Warning:  Attempt to read property "journey1" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1584
+[17-Nov-2022 15:06:14 Asia/Kolkata] PHP Warning:  Attempt to read property "depart_date" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1585
+[17-Nov-2022 15:06:14 Asia/Kolkata] PHP Warning:  Attempt to read property "booking_number" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1594
+[17-Nov-2022 15:06:14 Asia/Kolkata] PHP Warning:  Attempt to read property "date_time" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1598
+[17-Nov-2022 15:06:14 Asia/Kolkata] PHP Warning:  Attempt to read property "total_adult" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1602
+[17-Nov-2022 15:06:14 Asia/Kolkata] PHP Warning:  Attempt to read property "total_children" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1602
+[17-Nov-2022 15:06:14 Asia/Kolkata] PHP Warning:  Attempt to read property "total_service" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1606
+[17-Nov-2022 15:06:14 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function sendMail() in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php:61
+Stack trace:
+#0 {main}
+  thrown in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php on line 61
+[17-Nov-2022 15:06:15 Asia/Kolkata] PHP Warning:  include(../../../config/mailer.php): Failed to open stream: No such file or directory in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php on line 51
+[17-Nov-2022 15:06:15 Asia/Kolkata] PHP Warning:  include(): Failed opening '../../../config/mailer.php' for inclusion (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php on line 51
+[17-Nov-2022 15:06:15 Asia/Kolkata] PHP Warning:  Attempt to read property "journey1" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1584
+[17-Nov-2022 15:06:15 Asia/Kolkata] PHP Warning:  Attempt to read property "depart_date" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1585
+[17-Nov-2022 15:06:15 Asia/Kolkata] PHP Warning:  Attempt to read property "booking_number" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1594
+[17-Nov-2022 15:06:15 Asia/Kolkata] PHP Warning:  Attempt to read property "date_time" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1598
+[17-Nov-2022 15:06:15 Asia/Kolkata] PHP Warning:  Attempt to read property "total_adult" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1602
+[17-Nov-2022 15:06:15 Asia/Kolkata] PHP Warning:  Attempt to read property "total_children" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1602
+[17-Nov-2022 15:06:15 Asia/Kolkata] PHP Warning:  Attempt to read property "total_service" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1606
+[17-Nov-2022 15:06:15 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function sendMail() in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php:61
+Stack trace:
+#0 {main}
+  thrown in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php on line 61
+[17-Nov-2022 15:06:15 Asia/Kolkata] PHP Warning:  include(../../../config/mailer.php): Failed to open stream: No such file or directory in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php on line 51
+[17-Nov-2022 15:06:15 Asia/Kolkata] PHP Warning:  include(): Failed opening '../../../config/mailer.php' for inclusion (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php on line 51
+[17-Nov-2022 15:06:15 Asia/Kolkata] PHP Warning:  Attempt to read property "journey1" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1584
+[17-Nov-2022 15:06:15 Asia/Kolkata] PHP Warning:  Attempt to read property "depart_date" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1585
+[17-Nov-2022 15:06:15 Asia/Kolkata] PHP Warning:  Attempt to read property "booking_number" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1594
+[17-Nov-2022 15:06:15 Asia/Kolkata] PHP Warning:  Attempt to read property "date_time" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1598
+[17-Nov-2022 15:06:15 Asia/Kolkata] PHP Warning:  Attempt to read property "total_adult" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1602
+[17-Nov-2022 15:06:15 Asia/Kolkata] PHP Warning:  Attempt to read property "total_children" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1602
+[17-Nov-2022 15:06:15 Asia/Kolkata] PHP Warning:  Attempt to read property "total_service" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1606
+[17-Nov-2022 15:06:15 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function sendMail() in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php:61
+Stack trace:
+#0 {main}
+  thrown in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php on line 61
+[17-Nov-2022 15:06:15 Asia/Kolkata] PHP Warning:  include(../../../config/mailer.php): Failed to open stream: No such file or directory in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php on line 51
+[17-Nov-2022 15:06:15 Asia/Kolkata] PHP Warning:  include(): Failed opening '../../../config/mailer.php' for inclusion (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php on line 51
+[17-Nov-2022 15:06:15 Asia/Kolkata] PHP Warning:  Attempt to read property "journey1" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1584
+[17-Nov-2022 15:06:15 Asia/Kolkata] PHP Warning:  Attempt to read property "depart_date" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1585
+[17-Nov-2022 15:06:15 Asia/Kolkata] PHP Warning:  Attempt to read property "booking_number" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1594
+[17-Nov-2022 15:06:15 Asia/Kolkata] PHP Warning:  Attempt to read property "date_time" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1598
+[17-Nov-2022 15:06:15 Asia/Kolkata] PHP Warning:  Attempt to read property "total_adult" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1602
+[17-Nov-2022 15:06:15 Asia/Kolkata] PHP Warning:  Attempt to read property "total_children" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1602
+[17-Nov-2022 15:06:15 Asia/Kolkata] PHP Warning:  Attempt to read property "total_service" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1606
+[17-Nov-2022 15:06:15 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function sendMail() in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php:61
+Stack trace:
+#0 {main}
+  thrown in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php on line 61
+[17-Nov-2022 15:06:15 Asia/Kolkata] PHP Warning:  include(../../../config/mailer.php): Failed to open stream: No such file or directory in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php on line 51
+[17-Nov-2022 15:06:15 Asia/Kolkata] PHP Warning:  include(): Failed opening '../../../config/mailer.php' for inclusion (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php on line 51
+[17-Nov-2022 15:06:15 Asia/Kolkata] PHP Warning:  Attempt to read property "journey1" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1584
+[17-Nov-2022 15:06:15 Asia/Kolkata] PHP Warning:  Attempt to read property "depart_date" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1585
+[17-Nov-2022 15:06:15 Asia/Kolkata] PHP Warning:  Attempt to read property "booking_number" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1594
+[17-Nov-2022 15:06:15 Asia/Kolkata] PHP Warning:  Attempt to read property "date_time" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1598
+[17-Nov-2022 15:06:15 Asia/Kolkata] PHP Warning:  Attempt to read property "total_adult" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1602
+[17-Nov-2022 15:06:15 Asia/Kolkata] PHP Warning:  Attempt to read property "total_children" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1602
+[17-Nov-2022 15:06:15 Asia/Kolkata] PHP Warning:  Attempt to read property "total_service" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1606
+[17-Nov-2022 15:06:15 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function sendMail() in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php:61
+Stack trace:
+#0 {main}
+  thrown in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php on line 61
+[17-Nov-2022 15:06:15 Asia/Kolkata] PHP Warning:  include(../../../config/mailer.php): Failed to open stream: No such file or directory in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php on line 51
+[17-Nov-2022 15:06:15 Asia/Kolkata] PHP Warning:  include(): Failed opening '../../../config/mailer.php' for inclusion (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php on line 51
+[17-Nov-2022 15:06:15 Asia/Kolkata] PHP Warning:  Attempt to read property "journey1" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1584
+[17-Nov-2022 15:06:15 Asia/Kolkata] PHP Warning:  Attempt to read property "depart_date" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1585
+[17-Nov-2022 15:06:15 Asia/Kolkata] PHP Warning:  Attempt to read property "booking_number" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1594
+[17-Nov-2022 15:06:15 Asia/Kolkata] PHP Warning:  Attempt to read property "date_time" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1598
+[17-Nov-2022 15:06:15 Asia/Kolkata] PHP Warning:  Attempt to read property "total_adult" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1602
+[17-Nov-2022 15:06:15 Asia/Kolkata] PHP Warning:  Attempt to read property "total_children" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1602
+[17-Nov-2022 15:06:15 Asia/Kolkata] PHP Warning:  Attempt to read property "total_service" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1606
+[17-Nov-2022 15:06:15 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function sendMail() in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php:61
+Stack trace:
+#0 {main}
+  thrown in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php on line 61
+[17-Nov-2022 15:06:15 Asia/Kolkata] PHP Warning:  include(../../../config/mailer.php): Failed to open stream: No such file or directory in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php on line 51
+[17-Nov-2022 15:06:15 Asia/Kolkata] PHP Warning:  include(): Failed opening '../../../config/mailer.php' for inclusion (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php on line 51
+[17-Nov-2022 15:06:15 Asia/Kolkata] PHP Warning:  Attempt to read property "journey1" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1584
+[17-Nov-2022 15:06:15 Asia/Kolkata] PHP Warning:  Attempt to read property "depart_date" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1585
+[17-Nov-2022 15:06:15 Asia/Kolkata] PHP Warning:  Attempt to read property "booking_number" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1594
+[17-Nov-2022 15:06:15 Asia/Kolkata] PHP Warning:  Attempt to read property "date_time" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1598
+[17-Nov-2022 15:06:15 Asia/Kolkata] PHP Warning:  Attempt to read property "total_adult" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1602
+[17-Nov-2022 15:06:15 Asia/Kolkata] PHP Warning:  Attempt to read property "total_children" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1602
+[17-Nov-2022 15:06:15 Asia/Kolkata] PHP Warning:  Attempt to read property "total_service" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1606
+[17-Nov-2022 15:06:15 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function sendMail() in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php:61
+Stack trace:
+#0 {main}
+  thrown in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php on line 61
+[17-Nov-2022 15:06:16 Asia/Kolkata] PHP Warning:  include(../../../config/mailer.php): Failed to open stream: No such file or directory in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php on line 51
+[17-Nov-2022 15:06:16 Asia/Kolkata] PHP Warning:  include(): Failed opening '../../../config/mailer.php' for inclusion (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php on line 51
+[17-Nov-2022 15:06:16 Asia/Kolkata] PHP Warning:  Attempt to read property "journey1" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1584
+[17-Nov-2022 15:06:16 Asia/Kolkata] PHP Warning:  Attempt to read property "depart_date" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1585
+[17-Nov-2022 15:06:16 Asia/Kolkata] PHP Warning:  Attempt to read property "booking_number" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1594
+[17-Nov-2022 15:06:16 Asia/Kolkata] PHP Warning:  Attempt to read property "date_time" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1598
+[17-Nov-2022 15:06:16 Asia/Kolkata] PHP Warning:  Attempt to read property "total_adult" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1602
+[17-Nov-2022 15:06:16 Asia/Kolkata] PHP Warning:  Attempt to read property "total_children" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1602
+[17-Nov-2022 15:06:16 Asia/Kolkata] PHP Warning:  Attempt to read property "total_service" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1606
+[17-Nov-2022 15:06:16 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function sendMail() in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php:61
+Stack trace:
+#0 {main}
+  thrown in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php on line 61
+[17-Nov-2022 15:06:16 Asia/Kolkata] PHP Warning:  include(../../../config/mailer.php): Failed to open stream: No such file or directory in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php on line 51
+[17-Nov-2022 15:06:16 Asia/Kolkata] PHP Warning:  include(): Failed opening '../../../config/mailer.php' for inclusion (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php on line 51
+[17-Nov-2022 15:06:16 Asia/Kolkata] PHP Warning:  Attempt to read property "journey1" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1584
+[17-Nov-2022 15:06:16 Asia/Kolkata] PHP Warning:  Attempt to read property "depart_date" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1585
+[17-Nov-2022 15:06:16 Asia/Kolkata] PHP Warning:  Attempt to read property "booking_number" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1594
+[17-Nov-2022 15:06:16 Asia/Kolkata] PHP Warning:  Attempt to read property "date_time" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1598
+[17-Nov-2022 15:06:16 Asia/Kolkata] PHP Warning:  Attempt to read property "total_adult" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1602
+[17-Nov-2022 15:06:16 Asia/Kolkata] PHP Warning:  Attempt to read property "total_children" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1602
+[17-Nov-2022 15:06:16 Asia/Kolkata] PHP Warning:  Attempt to read property "total_service" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1606
+[17-Nov-2022 15:06:16 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function sendMail() in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php:61
+Stack trace:
+#0 {main}
+  thrown in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php on line 61
+[17-Nov-2022 15:06:16 Asia/Kolkata] PHP Warning:  include(../../../config/mailer.php): Failed to open stream: No such file or directory in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php on line 51
+[17-Nov-2022 15:06:16 Asia/Kolkata] PHP Warning:  include(): Failed opening '../../../config/mailer.php' for inclusion (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php on line 51
+[17-Nov-2022 15:06:16 Asia/Kolkata] PHP Warning:  Attempt to read property "journey1" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1584
+[17-Nov-2022 15:06:16 Asia/Kolkata] PHP Warning:  Attempt to read property "depart_date" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1585
+[17-Nov-2022 15:06:16 Asia/Kolkata] PHP Warning:  Attempt to read property "booking_number" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1594
+[17-Nov-2022 15:06:16 Asia/Kolkata] PHP Warning:  Attempt to read property "date_time" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1598
+[17-Nov-2022 15:06:16 Asia/Kolkata] PHP Warning:  Attempt to read property "total_adult" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1602
+[17-Nov-2022 15:06:16 Asia/Kolkata] PHP Warning:  Attempt to read property "total_children" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1602
+[17-Nov-2022 15:06:16 Asia/Kolkata] PHP Warning:  Attempt to read property "total_service" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1606
+[17-Nov-2022 15:06:16 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function sendMail() in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php:61
+Stack trace:
+#0 {main}
+  thrown in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php on line 61
+[17-Nov-2022 15:06:16 Asia/Kolkata] PHP Warning:  include(../../../config/mailer.php): Failed to open stream: No such file or directory in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php on line 51
+[17-Nov-2022 15:06:16 Asia/Kolkata] PHP Warning:  include(): Failed opening '../../../config/mailer.php' for inclusion (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php on line 51
+[17-Nov-2022 15:06:16 Asia/Kolkata] PHP Warning:  Attempt to read property "journey1" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1584
+[17-Nov-2022 15:06:16 Asia/Kolkata] PHP Warning:  Attempt to read property "depart_date" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1585
+[17-Nov-2022 15:06:16 Asia/Kolkata] PHP Warning:  Attempt to read property "booking_number" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1594
+[17-Nov-2022 15:06:16 Asia/Kolkata] PHP Warning:  Attempt to read property "date_time" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1598
+[17-Nov-2022 15:06:16 Asia/Kolkata] PHP Warning:  Attempt to read property "total_adult" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1602
+[17-Nov-2022 15:06:16 Asia/Kolkata] PHP Warning:  Attempt to read property "total_children" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1602
+[17-Nov-2022 15:06:16 Asia/Kolkata] PHP Warning:  Attempt to read property "total_service" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1606
+[17-Nov-2022 15:06:16 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function sendMail() in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php:61
+Stack trace:
+#0 {main}
+  thrown in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php on line 61
+[17-Nov-2022 15:07:25 Asia/Kolkata] PHP Warning:  include(../../../config/mailer.php): Failed to open stream: No such file or directory in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php on line 51
+[17-Nov-2022 15:07:25 Asia/Kolkata] PHP Warning:  include(): Failed opening '../../../config/mailer.php' for inclusion (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php on line 51
+[17-Nov-2022 15:07:25 Asia/Kolkata] PHP Warning:  Attempt to read property "journey1" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1584
+[17-Nov-2022 15:07:25 Asia/Kolkata] PHP Warning:  Attempt to read property "depart_date" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1585
+[17-Nov-2022 15:07:25 Asia/Kolkata] PHP Warning:  Attempt to read property "booking_number" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1594
+[17-Nov-2022 15:07:25 Asia/Kolkata] PHP Warning:  Attempt to read property "date_time" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1598
+[17-Nov-2022 15:07:25 Asia/Kolkata] PHP Warning:  Attempt to read property "total_adult" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1602
+[17-Nov-2022 15:07:25 Asia/Kolkata] PHP Warning:  Attempt to read property "total_children" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1602
+[17-Nov-2022 15:07:25 Asia/Kolkata] PHP Warning:  Attempt to read property "total_service" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1606
+[17-Nov-2022 15:07:25 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function sendMail() in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php:61
+Stack trace:
+#0 {main}
+  thrown in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php on line 61
+[17-Nov-2022 15:09:16 Asia/Kolkata] PHP Warning:  include(../../../config/mailer.php): Failed to open stream: No such file or directory in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php on line 51
+[17-Nov-2022 15:09:16 Asia/Kolkata] PHP Warning:  include(): Failed opening '../../../config/mailer.php' for inclusion (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php on line 51
+[17-Nov-2022 15:09:16 Asia/Kolkata] PHP Warning:  Attempt to read property "journey1" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1584
+[17-Nov-2022 15:09:16 Asia/Kolkata] PHP Warning:  Attempt to read property "depart_date" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1585
+[17-Nov-2022 15:09:16 Asia/Kolkata] PHP Warning:  Attempt to read property "booking_number" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1594
+[17-Nov-2022 15:09:16 Asia/Kolkata] PHP Warning:  Attempt to read property "date_time" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1598
+[17-Nov-2022 15:09:16 Asia/Kolkata] PHP Warning:  Attempt to read property "total_adult" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1602
+[17-Nov-2022 15:09:16 Asia/Kolkata] PHP Warning:  Attempt to read property "total_children" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1602
+[17-Nov-2022 15:09:16 Asia/Kolkata] PHP Warning:  Attempt to read property "total_service" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1606
+[17-Nov-2022 15:09:16 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function sendMail() in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php:61
+Stack trace:
+#0 {main}
+  thrown in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php on line 61
+[17-Nov-2022 15:09:18 Asia/Kolkata] PHP Warning:  include(../../../config/mailer.php): Failed to open stream: No such file or directory in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php on line 51
+[17-Nov-2022 15:09:18 Asia/Kolkata] PHP Warning:  include(): Failed opening '../../../config/mailer.php' for inclusion (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php on line 51
+[17-Nov-2022 15:09:18 Asia/Kolkata] PHP Warning:  Attempt to read property "journey1" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1584
+[17-Nov-2022 15:09:18 Asia/Kolkata] PHP Warning:  Attempt to read property "depart_date" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1585
+[17-Nov-2022 15:09:18 Asia/Kolkata] PHP Warning:  Attempt to read property "booking_number" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1594
+[17-Nov-2022 15:09:18 Asia/Kolkata] PHP Warning:  Attempt to read property "date_time" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1598
+[17-Nov-2022 15:09:18 Asia/Kolkata] PHP Warning:  Attempt to read property "total_adult" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1602
+[17-Nov-2022 15:09:18 Asia/Kolkata] PHP Warning:  Attempt to read property "total_children" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1602
+[17-Nov-2022 15:09:18 Asia/Kolkata] PHP Warning:  Attempt to read property "total_service" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1606
+[17-Nov-2022 15:09:18 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function sendMail() in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php:61
+Stack trace:
+#0 {main}
+  thrown in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php on line 61
+[17-Nov-2022 15:28:11 Asia/Kolkata] PHP Warning:  include(../../../config/mailer.php): Failed to open stream: No such file or directory in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php on line 51
+[17-Nov-2022 15:28:11 Asia/Kolkata] PHP Warning:  include(): Failed opening '../../../config/mailer.php' for inclusion (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php on line 51
+[17-Nov-2022 15:28:11 Asia/Kolkata] PHP Warning:  Attempt to read property "journey1" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1586
+[17-Nov-2022 15:28:11 Asia/Kolkata] PHP Warning:  Attempt to read property "depart_date" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1587
+[17-Nov-2022 15:28:11 Asia/Kolkata] PHP Warning:  Attempt to read property "booking_number" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1596
+[17-Nov-2022 15:28:11 Asia/Kolkata] PHP Warning:  Attempt to read property "date_time" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1600
+[17-Nov-2022 15:28:11 Asia/Kolkata] PHP Warning:  Attempt to read property "total_adult" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1604
+[17-Nov-2022 15:28:11 Asia/Kolkata] PHP Warning:  Attempt to read property "total_children" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1604
+[17-Nov-2022 15:28:11 Asia/Kolkata] PHP Warning:  Attempt to read property "total_service" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1608
+[17-Nov-2022 15:28:11 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function sendMail() in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php:61
+Stack trace:
+#0 {main}
+  thrown in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php on line 61
+[17-Nov-2022 15:28:50 Asia/Kolkata] PHP Warning:  include(../../../config/mailer.php): Failed to open stream: No such file or directory in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php on line 51
+[17-Nov-2022 15:28:50 Asia/Kolkata] PHP Warning:  include(): Failed opening '../../../config/mailer.php' for inclusion (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php on line 51
+[17-Nov-2022 15:28:50 Asia/Kolkata] PHP Warning:  Attempt to read property "journey1" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1586
+[17-Nov-2022 15:28:50 Asia/Kolkata] PHP Warning:  Attempt to read property "depart_date" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1587
+[17-Nov-2022 15:28:50 Asia/Kolkata] PHP Warning:  Attempt to read property "booking_number" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1596
+[17-Nov-2022 15:28:50 Asia/Kolkata] PHP Warning:  Attempt to read property "date_time" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1600
+[17-Nov-2022 15:28:50 Asia/Kolkata] PHP Warning:  Attempt to read property "total_adult" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1604
+[17-Nov-2022 15:28:50 Asia/Kolkata] PHP Warning:  Attempt to read property "total_children" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1604
+[17-Nov-2022 15:28:50 Asia/Kolkata] PHP Warning:  Attempt to read property "total_service" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1608
+[17-Nov-2022 15:28:50 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function sendMail() in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php:61
+Stack trace:
+#0 {main}
+  thrown in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php on line 61
+[17-Nov-2022 15:32:46 Asia/Kolkata] PHP Warning:  include(../../../config/mailer.php): Failed to open stream: No such file or directory in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php on line 54
+[17-Nov-2022 15:32:46 Asia/Kolkata] PHP Warning:  include(): Failed opening '../../../config/mailer.php' for inclusion (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php on line 54
+[17-Nov-2022 15:32:46 Asia/Kolkata] PHP Warning:  Attempt to read property "journey1" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1586
+[17-Nov-2022 15:32:46 Asia/Kolkata] PHP Warning:  Attempt to read property "depart_date" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1587
+[17-Nov-2022 15:32:46 Asia/Kolkata] PHP Warning:  Attempt to read property "booking_number" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1596
+[17-Nov-2022 15:32:46 Asia/Kolkata] PHP Warning:  Attempt to read property "date_time" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1600
+[17-Nov-2022 15:32:46 Asia/Kolkata] PHP Warning:  Attempt to read property "total_adult" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1604
+[17-Nov-2022 15:32:46 Asia/Kolkata] PHP Warning:  Attempt to read property "total_children" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1604
+[17-Nov-2022 15:32:46 Asia/Kolkata] PHP Warning:  Attempt to read property "total_service" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1608
+[17-Nov-2022 15:32:46 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function sendMail() in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php:64
+Stack trace:
+#0 {main}
+  thrown in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php on line 64
+[17-Nov-2022 15:34:29 Asia/Kolkata] PHP Warning:  Attempt to read property "journey1" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1586
+[17-Nov-2022 15:34:29 Asia/Kolkata] PHP Warning:  Attempt to read property "depart_date" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1587
+[17-Nov-2022 15:34:29 Asia/Kolkata] PHP Warning:  Attempt to read property "booking_number" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1596
+[17-Nov-2022 15:34:29 Asia/Kolkata] PHP Warning:  Attempt to read property "date_time" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1600
+[17-Nov-2022 15:34:29 Asia/Kolkata] PHP Warning:  Attempt to read property "total_adult" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1604
+[17-Nov-2022 15:34:29 Asia/Kolkata] PHP Warning:  Attempt to read property "total_children" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1604
+[17-Nov-2022 15:34:29 Asia/Kolkata] PHP Warning:  Attempt to read property "total_service" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1608
+[17-Nov-2022 15:34:29 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Attempt to assign property "need_footer" on null in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php:71
+Stack trace:
+#0 {main}
+  thrown in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php on line 71
+[17-Nov-2022 15:35:02 Asia/Kolkata] PHP Warning:  Attempt to read property "journey1" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1586
+[17-Nov-2022 15:35:02 Asia/Kolkata] PHP Warning:  Attempt to read property "depart_date" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1587
+[17-Nov-2022 15:35:02 Asia/Kolkata] PHP Warning:  Attempt to read property "booking_number" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1596
+[17-Nov-2022 15:35:02 Asia/Kolkata] PHP Warning:  Attempt to read property "date_time" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1600
+[17-Nov-2022 15:35:02 Asia/Kolkata] PHP Warning:  Attempt to read property "total_adult" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1604
+[17-Nov-2022 15:35:02 Asia/Kolkata] PHP Warning:  Attempt to read property "total_children" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1604
+[17-Nov-2022 15:35:02 Asia/Kolkata] PHP Warning:  Attempt to read property "total_service" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1608
+[17-Nov-2022 15:35:02 Asia/Kolkata] PHP Warning:  Attempt to read property "journey1" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1586
+[17-Nov-2022 15:35:02 Asia/Kolkata] PHP Warning:  Attempt to read property "depart_date" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1587
+[17-Nov-2022 15:35:02 Asia/Kolkata] PHP Warning:  Attempt to read property "booking_number" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1596
+[17-Nov-2022 15:35:02 Asia/Kolkata] PHP Warning:  Attempt to read property "date_time" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1600
+[17-Nov-2022 15:35:02 Asia/Kolkata] PHP Warning:  Attempt to read property "total_adult" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1604
+[17-Nov-2022 15:35:02 Asia/Kolkata] PHP Warning:  Attempt to read property "total_children" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1604
+[17-Nov-2022 15:35:02 Asia/Kolkata] PHP Warning:  Attempt to read property "total_service" on array in /home/airportzostage/public_html/config/mailer-template.php on line 1608
+[17-Nov-2022 15:45:16 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Attempt to assign property "need_footer" on null in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php:71
+Stack trace:
+#0 {main}
+  thrown in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php on line 71
+[17-Nov-2022 15:45:35 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Attempt to assign property "need_footer" on null in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php:71
+Stack trace:
+#0 {main}
+  thrown in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php on line 71
+[17-Nov-2022 15:50:53 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Attempt to assign property "need_footer" on null in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php:72
+Stack trace:
+#0 {main}
+  thrown in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/completeWorkStatusUpdate.php on line 72
+[20-Dec-2022 17:00:39 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined method bookingApp::updateCommisionDetails() in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/workStatusUpdate.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/workStatusUpdate.php on line 35
+[20-Dec-2022 17:00:42 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined method bookingApp::updateCommisionDetails() in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/workStatusUpdate.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/workStatusUpdate.php on line 35
+[20-Dec-2022 17:00:48 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined method bookingApp::updateCommisionDetails() in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/workStatusUpdate.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/workStatusUpdate.php on line 35
+[20-Dec-2022 17:00:49 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined method bookingApp::updateCommisionDetails() in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/workStatusUpdate.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/workStatusUpdate.php on line 35
+[20-Dec-2022 17:00:49 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined method bookingApp::updateCommisionDetails() in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/workStatusUpdate.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/workStatusUpdate.php on line 35
+[20-Dec-2022 17:00:50 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined method bookingApp::updateCommisionDetails() in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/workStatusUpdate.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/workStatusUpdate.php on line 35
+[20-Dec-2022 17:00:51 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined method bookingApp::updateCommisionDetails() in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/workStatusUpdate.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/workStatusUpdate.php on line 35
+[30-Dec-2022 12:04:56 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined method bookingApp::updateCommisionDetails() in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/workStatusUpdate.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/workStatusUpdate.php on line 35
+[30-Dec-2022 12:06:08 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined method bookingApp::updateCommisionDetails() in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/workStatusUpdate.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/workStatusUpdate.php on line 35
+[30-Dec-2022 12:06:11 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined method bookingApp::updateCommisionDetails() in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/workStatusUpdate.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/workStatusUpdate.php on line 35
+[30-Dec-2022 12:25:25 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined method bookingApp::updateCommisionDetails() in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/workStatusUpdate.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/airportzostage/public_html/service-provider-dashboard/API/Version1.0/providerApp/workStatusUpdate.php on line 35

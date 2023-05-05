@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airportzo | Checkout Process</title>
+    <link rel="shortcut icon" href="asset/fav-icon.png">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css"/>
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/checkout-process.css">
+</head>
+<body>
+    <div class="main">
+        <div id="loading"></div> <!--LOADER-->
+        <header></header> <!-- HEADER -->
+        <nav></nav>  <!-- NAV MENU -->
+        <section class="checkou-step-sec">
+            <div class="container">
+                <div class="page-header-set">
+                    <h2>Checkout</h2>
+                </div>
+                <div class="stepwizard">
+                    <div class="stepwizard-row setup-panel">
+                        <div class="stepwizard-step">
+                            <a href="#step-1" type="button" class="btn step-btn btn-primary btn-circle"></a>
+                            <p>Passenger details</p>
+                        </div>
+                        <div class="stepwizard-step">
+                            <a href="#step-2" type="button" class="btn step-btn btn-circle" disabled></a>
+                            <p>Flight details</p>
+                        </div>
+                        <div class="stepwizard-step">
+                            <a href="#step-3" type="button" class="btn step-btn btn-circle" disabled></a>
+                            <p>Placard details</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-form">
+                    <div class="setup-content active" id="step-1">
+                        <div class="step-form-header">
+                            <h3>Contact Passenger Details</h3>
+                            <p>All calls and message will be delivered to this passenger</p>
+                        </div>
+                        <div class="input-form-group">
+                            <div class="input-form-group-item">
+                                <div class="select-group">
+                                    <select class="select-box">
+                                        <option value="0">Mr.</option>
+                                        <option value="0">Ms.</option>
+                                    </select>
+                                </div>
+                                <div class="input-box-set border-right">
+                                    <p>Contact Passenger Name</p>
+                                    <input type="text" class="input-box" id="" placeholder="Enter...">
+                                </div>
+                            </div>
+                            <div class="input-form-group-item">
+                                <div class="input-box-set">
+                                    <p>Contact Number</p>
+                                    <input type="text" class="input-box" id="" placeholder="Enter...">
+                                </div>
+                            </div>
+                        </div> 
+                        <div class="step-form-header cust-mb">
+                            <h3>Other Passenger Detailss</h3>
+                        </div>
+                        <div class="input-form-group">
+                            <div class="input-form-group-item">
+                                <div class="select-group">
+                                    <select class="select-box">
+                                        <option value="0">Mr.</option>
+                                        <option value="0">Ms.</option>
+                                    </select>
+                                </div>
+                                <div class="input-box-set border-right">
+                                    <p>Passenger 1</p>
+                                    <input type="text" class="input-box" id="" placeholder="Enter...">
+                                </div>
+                            </div>
+                            <div class="input-form-group-item">
+                                <div class="select-group">
+                                    <select class="select-box">
+                                        <option value="0">Mr.</option>
+                                        <option value="0">Ms.</option>
+                                    </select>
+                                </div>
+                                <div class="input-box-set border-right">
+                                    <p>Passenger 2</p>
+                                    <input type="text" class="input-box" id="" placeholder="Enter...">
+                                </div>
+                            </div>
+                            <div class="input-form-group-item">
+                                <div class="select-group">
+                                    <select class="select-box">
+                                        <option value="0">Mr.</option>
+                                        <option value="0">Ms.</option>
+                                    </select>
+                                </div>
+                                <div class="input-box-set border-right">
+                                    <p>Passenger 3</p>
+                                    <input type="text" class="input-box" id="" placeholder="Enter...">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-divider"></div>
+                        <div class="step-form-header">
+                            <h3>Emergency Contact Details</h3>
+                            <p>Help us reach your dear ones in case of an emergency!</p>
+                        </div>
+                        <div class="input-form-group">
+                            <div class="input-form-group-item">
+                                <div class="select-group">
+                                    <select class="select-box">
+                                        <option value="0">Mr.</option>
+                                        <option value="0">Ms.</option>
+                                    </select>
+                                </div>
+                                <div class="input-box-set border-right">
+                                    <p>Contact Person Name</p>
+                                    <input type="text" class="input-box" id="" placeholder="Enter...">
+                                </div>
+                            </div>
+                            <div class="input-form-group-item">
+                                <div class="input-box-set">
+                                    <p>Contact Number</p>
+                                    <input type="text" class="input-box" id="" placeholder="Enter...">
+                                </div>
+                            </div>
+                        </div> 
+                        <div class="note-set">
+                            <p href="javascript:void(0)"><img src="asset/checkout/ex-icon.png" alt="" class="ex-symbal"> Emergency contact should not be in your passenger list</p>
+                        </div>
+                        <a class="nex-arrow-set" data-current="#step-1" data-next="#step-2">
+                            <img src="asset/choose-service/next-arrow.svg" class="next-arrow" alt="nex arrow">
+                        </a>
+                    </div>
+                    <div class="setup-content" id="step-2">
+                        <div class="step-form-header">
+                            <h3>Flight Details</h3>
+                            <p>help our service provider locate you easily</p>
+                        </div>
+                        <div class="input-form-group">
+                            <div class="input-form-group-item">
+                                <div class="input-box-set">
+                                    <p>MAA Flight Number</p>
+                                    <input type="text" class="input-box" id="" placeholder="Enter...">
+                                </div>
+                            </div>
+                            <div class="input-form-group-item">
+                                <div class="input-box-set">
+                                    <p>DXB Flight Number</p>
+                                    <input type="text" class="input-box" id="" placeholder="Enter...">
+                                </div>
+                            </div>
+                            <div class="input-form-group-item">
+                                <div class="input-box-set">
+                                    <p>FRA Flight Number</p>
+                                    <input type="text" class="input-box" id="" placeholder="Enter...">
+                                </div>
+                            </div>
+                        </div> 
+                        <div class="form-divider"></div>
+                        <div class="step-form-header">
+                            <h3>GSTIN for this booking <span>(Optional)</span></h3>
+                            <p>Add GST number to avail its benefits</p>
+                        </div>
+                        <div class="input-form-group">
+                            <input type="checkbox" class="gst-checkbox" id="gst_no1" checked>
+                            <label for="" class="input-form-group-item">
+                                <div class="input-box-set">
+                                    <p>Accenture</p>
+                                    <input type="text" class="input-box" id="" placeholder="Enter...">
+                                </div>
+                            </label>
+                            <input type="checkbox" class="gst-checkbox" id="gst_no2">
+                            <label for="gst_no2" class="input-form-group-item">
+                                <div class="input-box-set">
+                                    <p>MacAppStudio</p>
+                                    <input type="text" class="input-box" id="" placeholder="Enter...">
+                                </div>
+                            </label>
+                        </div> 
+                        <a href="javascript:void(0)" class="add-gst-link">Add new GST</a>
+
+                        <a class="nex-arrow-set" data-current="#step-2" data-next="#step-3">
+                            <img src="asset/choose-service/next-arrow.svg" class="next-arrow" alt="nex arrow">
+                        </a>
+                    </div>
+                    <div class="setup-content" id="step-3">
+                        <div class="step-form-header">
+                            <h3>Meet and greet Placard details <span>(Optional)</span></h3>
+                            <p>Welcome your guests in the way you want</p>
+                        </div>
+                        <div class="input-form-group">
+                            <div class="input-form-group-item col-12">
+                                <div class="input-box-set">
+                                    <!-- <p>MAA Flight Number</p> -->
+                                    <textarea type="text" class="input-box" id="" placeholder="Your message..." rows="8"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="step-form-header">
+                            <h3>Flower and Bouquet details <span>(Optional)</span></h3>
+                            <p>Send a personalized note for your loved ones</p>
+                        </div>
+                        <div class="input-form-group">
+                            <div class="input-form-group-item col-12">
+                                <div class="input-box-set">
+                                    <!-- <p>MAA Flight Number</p> -->
+                                    <textarea type="text" class="input-box" id="" placeholder="Your message..." rows="8"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="payment-btn-set">
+                            <button class="payment-btn" data-current="#step-submit" data-next="#end">Proceed to Pay</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div id="login_modal" class="modal fade" role="dialog"></div><!-- LOGIN MODAL -->
+    <!-- Success Modal -->
+    <div id="success_modal" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <button type="button" class="close success-modal-close" data-dismiss="modal">&times;</button>
+                <div class="success-content-set">
+                    <img src="asset/checkout/success.svg" class="tick-img" alt="">
+                    <div class="confite-text">
+                        <h2>Congratulations, Andrews !</h2>
+                        <img src="asset/checkout/confetti.svg" class="confite-icon" alt="confite">
+                    </div>
+                    <div class="booking-info-set">
+                        <p>You have successfully booked the services at <span>MAA - DXB - FRA</span> on <br>
+                            <span>25 Jul, 2022 (6:30 PM)</span> till <span>05 Aug, 2022 (11:00 AM)</span> </p>
+                    </div>
+                    <div class="success-popup-division"></div>
+                    <div class="store-set">
+                        <img src="asset/checkout/phone-icon.svg" class="phone-icon" alt="icon">
+                        <div class="store-info-set">
+                            <p>As a part of your next step we request you to download and install <span>Airportzo Mobile App</span> to contact your service providers and 
+                                experience awesome features.</p>
+                            <div class="app-play-store-set">
+                                <h4>Download Airportzo App from :</h4>
+                                <div class="store-link-set">
+                                    <img src="asset/appstore.svg" class="store-icon cust-rm" alt="app store">
+                                    <img src="asset/playstore.svg" class="store-icon" alt="app store">
+                                </div>
+                            </div>
+                            <ul class="note-info-set">
+                                <li>
+                                    <img src="asset/checkout/info.svg" class="info-icon" alt="">
+                                </li>
+                                <li>
+                                    <p><span>Use the same mobile number</span> which you used to book the 
+                                        service, to login into the Airportzo mobile App.</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- SCRIPT -->
+    <script src='js/jquery.min.js'></script>
+    <script src="js/bootstrap.min.3.3.5.js"></script>
+    <script src='js/owl.carousel.min.js'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/custom.js"></script>
+    <script>
+        // Click next btn
+        $('.nex-arrow-set').on('click',function(){
+            let __step_current = $(this).attr('data-current');
+            let __step_next = $(this).attr('data-next');
+            console.log(__step_current, __step_next,`a[href='${__step_next}}]`);
+            $('.setup-content').removeClass('active');
+            $(`${__step_next}`).addClass('active');
+            $(`a[href='${__step_next}']`).addClass('btn-primary');
+            $(`a[href='${__step_current}']`).addClass('btn-primary-complete');
+            $(`a[href='${__step_next}']`).attr('disabled', false);
+            //Click step button
+            $('.btn-primary, .btn-primary-complete').on('click',function(e){
+                // e.preventDefault();
+                let get_current_step = $(this).attr('href');
+                $('.setup-content').removeClass('active');
+                $(`${get_current_step}`).addClass('active');
+                
+            });
+        });
+        // submite info
+        $('.payment-btn').on('click',function(){
+            $('#success_modal').modal('show');
+        });
+    </script>
+</body>
+</html>

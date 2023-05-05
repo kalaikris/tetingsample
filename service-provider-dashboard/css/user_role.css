@@ -1,0 +1,236 @@
+:root {
+    --font-rgular: "Rubik-Regular";
+    --font-medium: "Rubik-Medium";
+    --font-bold: "Rubik-Bold";
+    --font-semi-bold: "Rubik-SemiBold";
+    --font-light: "Rubik-Light";
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.create-common-btn {
+    padding: 17px 1px;
+}
+
+button.user-button {
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+    border: none;
+    background-color: #0fb4d4;
+    outline: none;
+    padding: 12px 20px;
+    border-radius: 10px;
+    color: white;
+}
+button.user-button img{
+    width: 18px;
+}
+
+table.dataTable tbody td {
+    padding: 15px 7px;
+}
+
+.dataTables_wrapper .dataTables_filter input {
+    padding: 11px 4px 11px 39px;
+}
+
+.inner-user h1 {
+    font-size: 30px;
+    color: #242424;
+    font-family: var(--font-bold);
+}
+
+ul.user-edit {
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+    margin-bottom: 0px;
+}
+
+#example thead tr th {
+    color: #000000;
+    font-family: var(--font-rgular);
+}
+
+#example tbody tr td {
+    color: #252525;
+    font-family: var(--font-rgular);
+}
+
+#example tbody tr td p {
+    color: #909090;
+    font-size: 13px;
+}
+
+/* modal-popup-css */
+
+.modal-dialog.another-two-two {
+    /* padding-top: 10%; */
+}
+
+.another-two-two {
+    max-width: 800px;
+    max-height: 800px;
+}
+
+.another-two-one {
+    width: 700px;
+   /* height: 700px;*/
+    border-radius: 30px;
+}
+#moduleListId li label
+{
+
+    display: flex;
+    gap: 10px;
+}
+.modal-header {
+    width: 60%;
+    margin: auto;
+    justify-content: center;
+}
+
+h5#exampleModalLongTitle {
+    font-size: 30px;
+    margin: auto;
+    font-family: var(--font-bold);
+}
+
+.modal-header .close {
+    font-size: 45px;
+}
+
+button.close {
+    position: absolute;
+    top: 16px;
+    right: 28px;
+    outline: none;
+}
+
+.modal-body {
+    padding: 38px 15px;
+}
+.user-access-list{
+    width: 54%;
+    margin: 24px auto;
+}
+
+.input-form-group-item.user-role-input{
+    width: 55%;
+    margin: 0 auto;
+}
+.input-form-group-item.user-role-input input{
+    width: 100%;
+}
+.role {
+    margin: auto;
+    width: 54%;
+    height: 68px;
+    border: 1px solid #eaeaea;
+    border-radius: 15px;
+    padding: 7px 14px;
+    margin-bottom: 24px;
+}
+
+.role p {
+    font-size: 15px;
+    font-family: var(--font-rgular);
+}
+
+input#firstname {
+    font-size: 15px;
+    font-family: var(--font-medium);
+    border: none;
+    outline: none;
+}
+
+.check_box {
+    padding-bottom: 30px;
+    width: 54%;
+    margin: auto;
+}
+
+.check-box-header p {
+    font-size: 20px;
+    color: #000000;
+    font-family: var(--font-rgular);
+}
+
+.check-box-inner {
+    display: flex;
+    padding: 5px 0px;
+    gap: 15px;
+    align-items: baseline;
+}
+
+.check-box-inner label {
+    font-size: 16px;
+    font-family: var(--font-rgular);
+}
+
+.edit_userRole{
+    margin-right: 10px;
+}
+
+.modal-inner-body{
+    width: 52%;
+    margin: 0 auto;
+}
+#moduleListIdEdit li label{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 16px;
+}
+.modal-content{
+    max-width: 700px;
+    border-radius: 30px;
+    margin: 0 auto;
+}
+
+input[type="checkbox"] {
+    accent-color: #84bc41;
+}
+
+.input-form-group-item{
+    width: 100%;
+}
+
+.role-button {
+    text-align: center;
+}
+
+button.role-btn {
+    width: 54%;
+    padding: 20px 20px;
+    margin: auto;
+    color: #fff;
+    border-radius: 10px;
+    background: #84bc41;
+    text-align: center;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-family: var(--font-rgular);
+}
+.dataTables_filter label img{
+position: absolute;
+    left: 14px;
+    top: 19px;
+    right: 0px;
+    width: 20px;
+}
+
+.choose-dash-app{
+    display: flex;
+    width: 55%;
+    gap:12px;
+    margin: 16px auto;
+}
+
+
+/* modal-popup-css */

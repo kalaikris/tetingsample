@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>delete</title>
+    <g id="delete" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="4115238_delete_trash_icon" transform="translate(5.000000, 4.000000)" stroke="#8F8F8F" stroke-width="1.2">
+            <rect id="Rectangle" x="2.30769231" y="2.54716981" width="10.3846154" height="12.4528302"></rect>
+            <line x1="0" y1="2.54716981" x2="15" y2="2.54716981" id="Path"></line>
+            <line x1="5.76923077" y1="0.283018868" x2="9.23076923" y2="0.283018868" id="Path"></line>
+            <line x1="5.76923077" y1="5.37735849" x2="5.76923077" y2="11.0377358" id="Path"></line>
+            <line x1="9.23076923" y1="5.37735849" x2="9.23076923" y2="11.0377358" id="Path"></line>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>booking</title>
+    <g id="booking" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="5038519_document_file_list_todo_checklist_icon" transform="translate(6.000000, 6.000000)" stroke="#07B3D2" stroke-width="1.2">
+            <line x1="5.12121212" y1="1.2" x2="13" y2="1.2" id="Path-Copy"></line>
+            <line x1="5.12121212" y1="6" x2="13" y2="6" id="Path-Copy-2"></line>
+            <line x1="5.12121212" y1="10.8" x2="13" y2="10.8" id="Path-Copy-3"></line>
+            <ellipse id="Oval-Copy-4" cx="1.18181818" cy="1.2" rx="1.18181818" ry="1.2"></ellipse>
+            <ellipse id="Oval-Copy-5" cx="1.18181818" cy="6" rx="1.18181818" ry="1.2"></ellipse>
+            <ellipse id="Oval-Copy-6" cx="1.18181818" cy="10.8" rx="1.18181818" ry="1.2"></ellipse>
+        </g>
+    </g>
+</svg>

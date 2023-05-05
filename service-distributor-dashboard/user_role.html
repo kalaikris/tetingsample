@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>user_role</title>
+    <link rel="icon" type="image/png" href="./asset/img/airportzo-icon.png">
+    <!-- boostrap-popup-link-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
+    <!-- boostrap-popup-link-->
+    <link rel="stylesheet" href="./js/data-table-css/jquery.dataTables.min.css" />
+    <link rel="stylesheet" href="./js/data-table-css/searchBuilder.dataTables.min.css" />
+    <link rel="stylesheet" href="./js/data-table-css/dataTables.dateTime.min.css" />
+    <link rel="stylesheet" href="./css/header-sidemenu.css" />
+    <link rel="stylesheet" href="./css/custom.css" />
+    <link rel="stylesheet" href="./css/user_role.css">
+    <link rel="stylesheet" href="./css/fonts.css">
+    <!-- font -->
+</head>
+
+<body id="page">
+      <div id="loading"></div>
+    <header id="header">
+    </header>
+    <main>
+        <div class="flex-main-set">
+            <div class="slider-set" id="sidebar">
+            </div>
+            <div class="slider-desc-set">
+                <!-- <div class="underline"></div> -->
+                <div class="header-user-common">
+                    <div class="inner-user">
+                        <h1>User roles and access</h1>
+                    </div>
+                    <div class="create-common-btn">
+                        <button tybe="button" class="user-button" data-toggle="modal" data-target="#exampleModalCenter">
+                            <img src="./asset/home_icon.svg" alt=""> Create Role </button>
+                    </div>
+                </div>
+                <table id="example" class="" style="width: 100%;">
+                    <thead>
+                        <tr>
+                            <th>Role Name</th>
+                            <th>Access Permision</th>
+                            <th>Created on</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Admin</td>
+                            <td>All modules</td>
+
+                            <td>
+                                01 Jul,2022<br />
+                                <p>12:52PM</p>
+                            </td>
+                            <td>
+                                <ul class="user-edit">
+                                    <li><img src="./asset/edit.png" alt=""></li>
+                                    <li><img src="./asset/delete.png" alt=""></li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Inventory Manager</td>
+                            <td>Inventory Module</td>
+
+                            <td>
+                                28 Jun,2022<br />
+                                <p>10:26 AM</p>
+                            </td>
+                            <td>
+                                <ul class="user-edit">
+                                    <li><img src="./asset/edit.png" alt=""></li>
+                                    <li><img src="./asset/delete.png" alt=""></li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Finance Planner</td>
+                            <td>Finance Module</td>
+
+                            <td>
+                                27 Jun,2022<br />
+                                <p>05:48 AM</p>
+                            </td>
+                            <td>
+                                <ul class="user-edit">
+                                    <li><img src="./asset/edit.png" alt=""></li>
+                                    <li><img src="./asset/delete.png" alt=""></li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Manager</td>
+                            <td>Booking Orders,Dashborad</td>
+
+                            <td>
+                                16 Jun,2022<br />
+                                <p>10:26 AM</p>
+                            </td>
+                            <td>
+                                <ul class="user-edit">
+                                    <li><img src="./asset/edit.png" alt=""></li>
+                                    <li><img src="./asset/delete.png" alt=""></li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Manager</td>
+                            <td>Booking Orders,Dashborad</td>
+                            <td>
+                                16 Jun,2022<br />
+                                <p>10:26 AM</p>
+                            </td>
+                            <td>
+                                <ul class="user-edit">
+                                    <li><img src="./asset/edit.png" alt=""></li>
+                                    <li><img src="./asset/delete.png" alt=""></li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Manager</td>
+                            <td>Booking Orders,Dashborad</td>
+                            <td>
+                                16 Jun,2022<br />
+                                <p>10:26 AM</p>
+                            </td>
+                            <td>
+                                <ul class="user-edit">
+                                    <li><img src="./asset/edit.png" alt=""></li>
+                                    <li><img src="./asset/delete.png" alt=""></li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Manager</td>
+                            <td>Booking Orders,Dashborad</td>
+                            <td>
+                                16 Jun,2022<br />
+                                <p>10:26 AM</p>
+                            </td>
+                            <td>
+                                <ul class="user-edit">
+                                    <li><img src="./asset/edit.png" alt=""></li>
+                                    <li><img src="./asset/delete.png" alt=""></li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Manager</td>
+                            <td>Booking Orders,Dashborad</td>
+                            <td>
+                                16 Jun,2022<br />
+                                <p>10:26 AM</p>
+                            </td>
+                            <td>
+                                <ul class="user-edit">
+                                    <li><img src="./asset/edit.png" alt=""></li>
+                                    <li><img src="./asset/delete.png" alt=""></li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Manager</td>
+                            <td>Booking Orders,Dashborad</td>
+                            <td>
+                                16 Jun,2022<br />
+                                <p>10:26 AM</p>
+                            </td>
+                            <td>
+                                <ul class="user-edit">
+                                    <li><img src="./asset/edit.png" alt=""></li>
+                                    <li><img src="./asset/delete.png" alt=""></li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Manager</td>
+                            <td>Booking Orders,Dashborad</td>
+                            <td>
+                                16 Jun,2022<br />
+                                <p>10:26 AM</p>
+                            </td>
+                            <td>
+                                <ul class="user-edit">
+                                    <li><img src="./asset/edit.png" alt=""></li>
+                                    <li><img src="./asset/delete.png" alt=""></li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Manager</td>
+                            <td>Booking Orders,Dashborad</td>
+                            <td>
+                                16 Jun,2022<br />
+                                <p>10:26 AM</p>
+                            </td>
+                            <td>
+                                <ul class="user-edit">
+                                    <li><img src="./asset/edit.png" alt=""></li>
+                                    <li><img src="./asset/delete.png" alt=""></li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+                aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered another-two-two" role="document">
+                    <div class="modal-content another-two-one">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLongTitle">Create Role</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="role">
+                                <p>Role Name</p>
+                                <input type="text" name="firstname" id="firstname" placeholder="Admin">
+                            </div>
+
+
+
+                            <div class="check_box">
+                                <form action="#">
+                                    <div class="check-box-header">
+                                        <p>Choose access permission for the role</p>
+                                    </div>
+                                    <div class="check-box-inner">
+                                        <input class="checkbox-Access" type="checkbox" id="Access" name="Access"
+                                            value="Access">
+                                        <label class="checkbox-label" for="Access">Access to all</label><br>
+                                    </div>
+                                    <div class="check-box-inner">
+                                        <input class="checkbox-Access" type="checkbox" id="Dashboard" name="Dashboard"
+                                            value="Dashboard">
+                                        <label class="checkbox-label" for="Dashboard"> Dashboard</label><br>
+                                    </div>
+                                    <div class="check-box-inner">
+                                        <input class="checkbox-Access" type="checkbox" id="Booking" name="Booking"
+                                            value="Booking">
+                                        <label class="checkbox-label" for="Booking"> Booking Orders</label><br>
+                                    </div>
+                                    <div class="check-box-inner">
+                                        <input class="checkbox-Access" type="checkbox" id="Staffs" name="Staffs"
+                                            value="Staffs">
+                                        <label class="checkbox-label" for="Staffs">My Staffs</label><br>
+                                    </div>
+                                    <div class="check-box-inner">
+                                        <input class="checkbox-Access" type="checkbox" id="Manage" name="Manage"
+                                            value="Manage">
+                                        <label class="checkbox-label" for="Manage">Manage Inventory</label><br>
+                                    </div>
+                                    <div class="check-box-inner">
+                                        <input class="checkbox-Access" type="checkbox" id="Reports" name="Reports"
+                                            value="Reports">
+                                        <label class="checkbox-label" for="Reports"> Reports and Analutics</label><br>
+                                    </div>
+                                </form>
+                            </div>
+
+
+
+
+                            <div class="role-button">
+                                <button type="button" class="role-btn">Create role</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        </div>
+        </div>
+    </main>
+    <!-- boostrap-popup-link -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"></script>
+    <!-- boostrap-popup-link -->
+    <script src="./js/jquery-3.6.0.js"></script>
+    <script src="./js/data-table-js/jquery.dataTables.min.js"></script>
+    <script src="./js/data-table-js/dataTables.searchBuilder.min.js"></script>
+    <script src="./js/data-table-js/dataTables.dateTime.min.js"></script>
+    <!-- sidebar-heder -->
+    <script src="./js/heder-sidebar.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#example").DataTable({
+                "searching": false,
+                language: {
+                    search: '<img class="b_img" src="./asset/svg/search@2x.png">',
+                    searchPlaceholder: "Search...",
+                },
+                buttons: [
+                    {
+                        extend: "searchBuilder",
+                        config: {
+                            depthLimit: 2,
+                        },
+                    },
+                ],
+                dom: "Bfrtip",
+                columnDefs: [
+                    {
+                        type: "unknownType",
+                        targets: [3],
+                    },
+                ],
+            });
+        });
+
+
+
+
+    </script>
+    <script>
+        $(document).ready(() => {
+            $('#user-access').addClass('actives');
+
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="466px" height="955px" viewBox="0 0 466 955" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>stripe@1x</title>
+    <defs>
+        <linearGradient x1="55.8477603%" y1="100%" x2="41.8093101%" y2="20.7936545%" id="linearGradient-1">
+            <stop stop-color="#07B3D2" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#36EEC6" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="57.52263%" y1="98.8519212%" x2="39.0835371%" y2="20.7936545%" id="linearGradient-2">
+            <stop stop-color="#07C7D2" stop-opacity="0.352322238" offset="0%"></stop>
+            <stop stop-color="#14E0ED" stop-opacity="0.751447771" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="stripe" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <polygon id="Path-2" fill="url(#linearGradient-1)" opacity="0.69694" points="-3 333.258324 176.61525 744 327 671.366697 2.76399956 0"></polygon>
+        <polyline id="Path-3" fill="url(#linearGradient-2)" opacity="0.622939337" points="109.582 408.430202 246.895523 265 462.483538 720.469531 405.682634 954.178653 112.654708 416.314359"></polyline>
+    </g>
+</svg>

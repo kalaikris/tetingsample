@@ -1,0 +1,6 @@
+[07-Oct-2022 13:10:05 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'editstatus.status' in 'where clause' in /home/airportzostage/public_html/admin_dashboard_new/API/Version1.0/objects/userRole.php:139
+Stack trace:
+#0 /home/airportzostage/public_html/admin_dashboard_new/API/Version1.0/objects/userRole.php(139): PDOStatement->execute()
+#1 /home/airportzostage/public_html/admin_dashboard_new/API/Version1.0/roles/userRoleList.php(14): userRole->userRoleList()
+#2 {main}
+  thrown in /home/airportzostage/public_html/admin_dashboard_new/API/Version1.0/objects/userRole.php on line 139

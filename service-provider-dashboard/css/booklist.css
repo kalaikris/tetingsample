@@ -1,0 +1,241 @@
+:root {
+  --font-rgular: "Rubik-Regular";
+  --font-medium: "Rubik-Medium";
+  --font-bold: "Rubik-Bold";
+  --font-semi-bold: "Rubik-SemiBold";
+}
+
+ul.tabs {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+small {
+  color: #888888;
+  font-size: 0.9rem;
+}
+td.td-bule.sorting_1 > a {
+    text-decoration: none;
+    color: #06b2d1;
+    cursor: pointer;
+}
+ul.tabs li {
+  background: none;
+  color: #222;
+  display: inline-block;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  position: relative;
+  z-index: 4;
+}
+
+ul.tabs li.current {
+  border-bottom: 2px solid var(--clr-neutral-900);
+  color: #222;
+  font-weight: 700;
+  font-size: 16px;
+}
+h1.booking2-text {
+  font-size: 29px;
+  font-family: "Rubik-SemiBold";
+}
+.tab-content {
+  display: none;
+  padding: 15px;
+  background-color: var(--clr-bg-200);
+}
+
+.tab-content.current {
+  display: inherit;
+}
+.underline {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  width: 87%;
+}
+.td-bule {
+  color: var(--clr-neutral-900);
+}
+
+.btn-bgc,
+.btn-nurmal-clor {
+  width: 75px;
+  height: 35px;
+  outline: none;
+  border: none;
+  margin-right: 2px;
+  border-radius: 5px;
+  font-family: var();
+}
+.btn-bgc {
+  background: var(--clr-neutral-900);
+  color: var(--clr-neutral-100);
+}
+.btn-nurmal-clor {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+/* text style */
+div#tab-1 {
+  position: relative;
+  top: 1rem;
+}
+h1.booking-text {
+  font-size: 1.8rem;
+  font-family: "Rubik-SemiBold";
+}
+/* text style end */
+
+/* --------------------------------------------second table stylee----------------------------------------------- */
+div#tab-2 {
+  position: relative;
+}
+
+.three-box-set {
+  display: flex;
+  gap: 30px;
+    flex-wrap: wrap;
+  /*justify-content: space-between;*/
+  /*min-width: 39rem;
+  width: 46%;*/
+  z-index: 10;
+  margin-bottom: 30px;
+}
+
+.box-1 {
+  background-color: rgb(247 234 216);
+  width: 200px;
+  height: 100px;
+  border-radius: 12px;
+}
+.box-2 {
+  background-color: rgb(175, 230, 240);
+  width: 200px;
+  height: 100px;
+  border-radius: 12px;
+}
+.box-3 {
+  background-color: rgb(232, 212, 243);
+  width: 200px;
+  height: 100px;
+  border-radius: 12px;
+}
+.box-4 {
+  background-color: #e7fad4;
+  width: 200px;
+  height: 100px;
+  border-radius: 12px;
+}
+h3.card-number {
+  font-size: 2.5rem;
+  margin-inline: auto;
+}
+p.card-cont {
+  font-size: 1rem;
+  color: rgb(34, 34, 34);
+  font-weight: 500;
+}
+.cont-set {
+  width: 82%;
+  margin-inline: auto;
+  margin-top: 0.5em;
+  position: relative;
+}
+img.inner-img {
+  display: block;
+  position: absolute;
+  right: 0;
+}
+/* table data style */
+select#Assigned-option {
+  outline: none;
+  border: none;
+  width: 100%;
+}
+table.dataTable thead > tr > th.sorting,
+table.dataTable thead > tr > th.sorting_asc {
+  font-size: 0.9rem;
+}
+
+/* pagnation */
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+  box-sizing: border-box;
+  display: inline-block;
+  min-width: 1.5em;
+  padding: 0 !important;
+  margin-left: 2px;
+  text-align: center;
+  text-decoration: none !important;
+  cursor: pointer;
+  color: #333 !important;
+  border: none !important;
+  border-radius: 2px;
+}
+/* datepicker style */
+.arriving-input-set {
+  position: relative;
+}
+.bg-date-book {
+  background-image: url(../asset/img/calendar.svg);
+  background-repeat: no-repeat;
+  background-size: 24px;
+  background-position: 9px;
+  padding: 0px;
+  background-color: #f9fafc;
+  border: none;
+  border-right: 1px solid #cec9c9;
+  cursor: pointer;
+  width: 46px;
+  text-align: center;
+  z-index: 1;
+  height: 34px;
+  margin: auto;
+}
+.arriving-input-set label {
+  font: 12px/14px var(--font-default);
+  color: rgba(0, 0, 0, 0.3);
+  letter-spacing: -0.38px;
+  white-space: nowrap;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+.date-con {
+  width: 145px;
+}
+.b-input-book {
+  letter-spacing: -0.47px;
+  color: rgba(0, 0, 0, 0.85);
+  font: 14px var(--font-rgular);
+  width: 100%;
+  border: none;
+  border-radius: 0px;
+  padding: 0px;
+  background-color: transparent;
+  outline: none;
+  appearance: none;
+  -webkit-appearance: none;
+}
+.arriving-input-set:nth-child(3) {
+  width: 12%;
+}
+.input-group-book {
+  position: relative;
+  display: flex;
+  width: 200px !important;
+  border: 1px solid #b3b0b0;
+  border-radius: 7px;
+}
+.comn-align {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+
+@media screen and (max-width: 15510px) {
+.btn-bgc {
+    margin-bottom: 5px;
+}
+}
